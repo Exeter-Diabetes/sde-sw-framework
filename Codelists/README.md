@@ -1,3 +1,6 @@
+
+
+
 ## Folders:
 
 # Conditions (inc menopause and pregnancy, frailty)
@@ -9,3 +12,6 @@
 # Other interventions like mental health/education
 # Investigations (clinical observation, biomarkers/lab, genetics, imaging/photos, questionnaires)
 # Administration/activities
+
+
+## Could you automate a list of all the codelists - so when you add a new one it gets added in automatically
