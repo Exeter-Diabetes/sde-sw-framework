@@ -8,4 +8,4 @@
 # Procedures
 # Other interventions like mental health/education
 # Investigations (clinical observation, biomarkers/lab, genetics, imaging/photos, questionnaires)
-# Administration
+# Administration/activities
