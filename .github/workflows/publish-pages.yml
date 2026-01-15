@@ -1,0 +1,50 @@
+name: Publish data specification
+
+on:
+  workflow_dispatch: {}
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    name: Build site and publish to gh-pages (manual only)
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Install pandoc
+        run: |
+          sudo apt-get update && sudo apt-get install -y pandoc
+
+      - name: Generate conditions site
+        run: |
+          bash scripts/generate-site.sh
+
+      - name: Build site directory
+        run: |
+          mkdir -p site/data site/assets site/scripts
+          # Copy generated condition pages
+          cp -R site/* site/ 2>/dev/null || true
+          # Generate HTML and reference the stylesheet at `assets/style.css` (relative path on the published site)
+          pandoc data-specification.md -o site/data-specification.html --standalone --metadata title="Data specification" --css=assets/style.css 2>/dev/null || true
+          pandoc processing_workflow.md -o site/processing_workflow.html --standalone --metadata title="Processing workflow" --css=assets/style.css 2>/dev/null || true
+          # Copy source markdown files so raw `.md` files are downloadable at the site root
+          cp data-specification.md site/data-specification.md 2>/dev/null || true
+          cp processing_workflow.md site/processing_workflow.md 2>/dev/null || true
+          cp -R data/* site/data/ 2>/dev/null || true
+          cp -R assets/* site/assets/ 2>/dev/null || true
+          # Copy scripts (including requirements) so they are downloadable from the published site
+          cp -R scripts/* site/scripts/
+
+      - name: Publish to gh-pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          # Use a Personal Access Token stored as a repository secret named GH_PAGES_PAT.
+          # This avoids permission/403 errors when the repository or branch protection
+          # prevents the default GITHUB_TOKEN from pushing to the target branch.
+          personal_token: ${{ secrets.GH_PAGES_PAT }}
+          publish_dir: ./site
+          publish_branch: gh-pages
+
+      - name: Output published URL
+        run: |
+          echo "Published to branch: gh-pages"
