@@ -14,8 +14,12 @@ This is a list of codes for a heart attack / myocardial infarction.
 
 * If multiple values recorded on the same day for a patient, we take the mean.
 
+# Scripts
+
+No scripts available.
+
 # Origins
 
-* The origin of the ICD10 codelist was Andy (McGovern) and it was reviewed by him in 2022.
+* The origin of the ICD10 codelist was Andy McG and it was reviewed by him in 2022.
 
-* The origin of the SNOMED codelist was source codelists from Caliber and OpenSAFELY (i.e. we used codelists from other groups - we have copies of these which could be added to the repo?) and reviewed by Andy McG in 2021.
+* The origin of the SNOMED codelist was source codelists from Caliber and OpenSAFELY and reviewed by Andy McG in 2021.
