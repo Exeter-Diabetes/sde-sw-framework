@@ -19,7 +19,7 @@
         }
         
         header {
-            background: #000;
+            background: #556B7D;
             color: white;
             padding: 2rem;
             box-shadow: 0 2px 4px rgba(0,0,0,0.1);
@@ -122,8 +122,8 @@
 the data source and patient DOB and death dates.</p></li>
 <li><p>We use earliest recorded code instance as date of
 diagnosis.</p></li>
-<li><p>We remove values {{CONDITION_CONTENT}}lt;15 and {{CONDITION_CONTENT}}gt;100 kg/m2 as these are
-implausible for adults.</p></li>
+<li><p>We remove values less than 15 and greater than 100 kg per square
+meter as these are implausible for adults.</p></li>
 <li><p>We apply additional cleaning rules based on unit codes where
 available.</p></li>
 <li><p>If multiple values recorded on the same day for a patient, we
