@@ -58,7 +58,7 @@ Quick start:
 2. From the repository root run:
 
 ```bash
-bash html/generate-site.sh
+python3 html/generate-site.py
 ```
 
 3. Open `site/index.html` in your browser to preview

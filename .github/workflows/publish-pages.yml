@@ -17,7 +17,7 @@ jobs:
 
       - name: Generate conditions site
         run: |
-          bash html/generate-site.sh
+          python3 html/generate-site.py
 
       - name: Publish to gh-pages
         uses: peaceiris/actions-gh-pages@v3

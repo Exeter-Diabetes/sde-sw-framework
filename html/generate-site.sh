@@ -114,14 +114,30 @@ generate_condition_pages() {
             code_lists_section+="</div>"
         fi
         
-        # Create condition page from template
+        # Create condition page from template using Python for safe substitution
         local output_file="$OUTPUT_DIR/${condition_name}.html"
-        local condition_page=$(cat "$TEMPLATES_DIR/condition.html")
-        condition_page="${condition_page//\{\{CONDITION_NAME\}\}/$condition_name}"
-        condition_page="${condition_page//\{\{CONDITION_CONTENT\}\}/$(cat "$temp_html" | sed 's/[&/\]/\\&/g')}"
-        condition_page="${condition_page//\{\{CODE_LISTS_SECTION\}\}/$code_lists_section}"
         
-        echo "$condition_page" > "$output_file"
+        python3 << PYTHON_EOF
+import sys
+
+# Read template
+with open('$TEMPLATES_DIR/condition.html', 'r') as f:
+    template = f.read()
+
+# Read condition content
+with open('$temp_html', 'r') as f:
+    condition_content = f.read()
+
+# Replace placeholders
+template = template.replace('{{CONDITION_NAME}}', '$condition_name')
+template = template.replace('{{CONDITION_CONTENT}}', condition_content)
+template = template.replace('{{CODE_LISTS_SECTION}}', '''$code_lists_section''')
+
+# Write output
+with open('$output_file', 'w') as f:
+    f.write(template)
+PYTHON_EOF
+        
         log_success "Generated: $output_file"
         
         # Get preview text for the card

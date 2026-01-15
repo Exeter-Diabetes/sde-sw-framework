@@ -7,12 +7,12 @@ This folder contains tools for building and deploying the data specification web
 The data specification website is automatically generated from:
 - **Condition descriptions**: Markdown files in `conditions/*/description.md`
 - **HTML templates**: Template files in `templates/`
-- **Build script**: `generate-site.sh` orchestrates the build process
+- **Build script**: `generate-site.py` orchestrates the build process
 
 ### How It Works
 
 #### Automatic Detection
-The `generate-site.sh` script automatically discovers all conditions by:
+The `generate-site.py` script automatically discovers all conditions by:
 - Scanning the `conditions/` directory
 - Finding subdirectories that contain a `description.md` file
 - No manual registration needed - new conditions are picked up automatically
@@ -43,7 +43,7 @@ sudo apt-get install pandoc
 
 #### Local Build
 ```bash
-bash html/generate-site.sh
+python3 html/generate-site.py
 ```
 
 This generates the website in the `site/` directory with:
@@ -85,7 +85,7 @@ Simply delete the condition directory - the build script automatically excludes 
 
 - `templates/index.html` - Main landing page template
 - `templates/condition.html` - Individual condition page template
-- `generate-site.sh` - Build script
+- `generate-site.py` - Build script (Python)
 - `../site/` - Generated output directory (created at build time)
 
 ### Template Variables
@@ -96,6 +96,7 @@ Simply delete the condition directory - the build script automatically excludes 
 #### condition.html
 - `{{CONDITION_NAME}}` - Replaced with condition name
 - `{{CONDITION_CONTENT}}` - Replaced with converted markdown HTML
+- `{{CODE_LISTS_SECTION}}` - Replaced with code lists section (if code_lists directory exists)
 
 ### Styling
 
