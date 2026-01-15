@@ -40,6 +40,8 @@ PR checklist (suggested)
 - [ ] There is a linked issue if the change is non-trivial.
 - [ ] `data-specification.md` has been updated for any schema/field changes.
 - [ ] CSV changes are synthetic (this repo contains only synthetic/demo data) and include a note explaining why values changed.
+- [ ] For new conditions: a `conditions/{condition-name}/` directory with `description.md` file has been added.
+- [ ] Condition descriptions follow the format: headings for Description, Rules, Scripts, and Origins sections.
 - [ ] Workflow changes documented and tested (e.g., local test or documented steps to run on Actions).
 - [ ] New or changed functionality is covered by unit tests (pytest) and tests pass locally.
 - [ ] If you add new Python modules under `scripts/`, ensure the package is importable (add an `__init__.py` if needed) and update `scripts/requirements.txt` when new test/runtime deps are required.
@@ -53,31 +55,68 @@ PR checklist (suggested)
 
 ## How to build and preview locally
 
-You can generate the site locally with `pandoc` (the same tool used in CI/workflow):
+You can generate the site locally using the build script:
 
-1. Install pandoc (macOS: `brew install pandoc`).
-2. From the repository root run:
+### Prerequisites
+- Install pandoc (macOS: `brew install pandoc`, Linux: `sudo apt-get install pandoc`)
+- Python 3.6+ (for template processing)
+
+### Build steps
+
+1. From the repository root, run the site generation script:
 
 ```bash
-cd data_spec_demo
-pandoc data-specification.md -o site/index.html --standalone --metadata title="Data specification" --css=assets/style.css
-mkdir -p site/data site/assets
-cp -R data/* site/data/
-cp -R assets/* site/assets/
+bash scripts/generate-site.sh
+```
+
+This script automatically:
+- Discovers all conditions in `conditions/*/` directories
+- Converts each `description.md` to an HTML page
+- Generates an `index.html` with cards linking to all conditions
+- Creates the `site/` directory with all output files
+
+2. To preview the generated site:
+
+```bash
 open site/index.html
 ```
 
-This opens a local preview of the generated site; check the CSV links under `data/` and the styling.
+Check that:
+- The main index page displays all condition cards with previews
+- Clicking "View Details" on a card opens the full condition page
+- The condition pages render the markdown content correctly
+- Links to CSV files in code_lists/ directories are accessible
 
 ## Publishing and workflows
 
 - This repository uses a manual GitHub Actions workflow (`.github/workflows/publish-pages.yml`) to build the site and publish to the `gh-pages` branch.
+- The workflow runs the `scripts/generate-site.sh` script to generate condition pages from markdown files in `conditions/`.
 - The workflow is intentionally `workflow_dispatch` (manual) only. To run the workflow:
   - Go to the repository on GitHub → Actions → "Publish data specification" → Run workflow.
+  - The workflow will build the site and deploy it to GitHub Pages.
 
 Permissions notes
 
-- If the workflow fails with a 403 ("Permission to ... denied to github-actions[bot]"), follow the README guidance to add a Personal Access Token (PAT) as a repository secret named `GH_PAGES_PAT`, or enable "Read and write" workflow permissions in the repository settings. Document any organizational constraints in the issue or PR so reviewers can check them.
+- The workflow uses the default `GITHUB_TOKEN` to deploy to the `gh-pages` branch.
+- Ensure GitHub Pages is enabled in repository settings with the source set to the `gh-pages` branch.
+- If you have branch protection rules, they may need to be configured to allow the workflow to push to `gh-pages`.
+
+## Adding or modifying conditions
+
+The site automatically generates pages for all conditions found in the `conditions/` directory. To add a new condition:
+
+1. Create a new directory: `conditions/{condition-name}/`
+2. Add a `description.md` file with the following sections:
+   - `# Description` - Brief overview of the condition
+   - `# Rules` - Validation and processing rules (use bullet points)
+   - `# Scripts` - Any scripts used to generate code lists
+   - `# Origins` - Data sources and provenance
+3. Optionally add a `code_lists/` subdirectory with CSV files containing the code lists
+4. Commit and push - the site will automatically be regenerated on the next workflow run
+
+### Removing conditions
+
+Simply delete the condition directory and commit. The site will no longer include that condition on the next rebuild.
 
 ## CSV and data change rules
 

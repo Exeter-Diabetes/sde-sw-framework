@@ -14,8 +14,6 @@ This is a list of codes for measured BMI values.
 
 * If multiple values recorded on the same day for a patient, we take the mean.
 
-* Relevant scripts: None.
-
 # Scripts
 
 No scripts available.

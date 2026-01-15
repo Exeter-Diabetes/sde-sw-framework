@@ -17,7 +17,7 @@ jobs:
 
       - name: Generate conditions site
         run: |
-          bash scripts/generate-site.sh
+          bash html/generate-site.sh
 
       - name: Build site directory
         run: |

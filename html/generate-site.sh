@@ -9,7 +9,7 @@ set -e
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 PROJECT_ROOT="$(dirname "$SCRIPT_DIR")"
 CONDITIONS_DIR="$PROJECT_ROOT/conditions"
-TEMPLATES_DIR="$PROJECT_ROOT/templates"
+TEMPLATES_DIR="$PROJECT_ROOT/html/templates"
 OUTPUT_DIR="$PROJECT_ROOT/site"
 TEMP_DIR=$(mktemp -d)
 
