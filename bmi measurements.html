@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bmi measurements - Data Specification</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f9f9f9;
+        }
+        
+        header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 2rem;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        
+        header a.back-link {
+            color: rgba(255,255,255,0.9);
+            text-decoration: none;
+            font-size: 0.95rem;
+            display: inline-block;
+            margin-bottom: 0.5rem;
+        }
+        
+        header a.back-link:hover {
+            text-decoration: underline;
+        }
+        
+        header h1 {
+            font-size: 2rem;
+        }
+        
+        main {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+        
+        .content {
+            background: white;
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+        }
+        
+        .content h2 {
+            color: #667eea;
+            margin-top: 1.5rem;
+            margin-bottom: 1rem;
+            border-bottom: 2px solid #667eea;
+            padding-bottom: 0.5rem;
+        }
+        
+        .content h2:first-child {
+            margin-top: 0;
+        }
+        
+        .content h3 {
+            color: #764ba2;
+            margin-top: 1rem;
+            margin-bottom: 0.5rem;
+        }
+        
+        .content p {
+            margin-bottom: 1rem;
+            line-height: 1.8;
+        }
+        
+        .content ul, .content ol {
+            margin-left: 1.5rem;
+            margin-bottom: 1rem;
+        }
+        
+        .content li {
+            margin-bottom: 0.5rem;
+        }
+        
+        .content code {
+            background: #f5f5f5;
+            padding: 0.2rem 0.4rem;
+            border-radius: 3px;
+            font-family: 'Monaco', 'Courier New', monospace;
+        }
+        
+        .content a {
+            color: #667eea;
+            text-decoration: none;
+        }
+        
+        .content a:hover {
+            text-decoration: underline;
+        }
+        
+        footer {
+            background: #f0f0f0;
+            padding: 2rem;
+            text-align: center;
+            color: #666;
+            border-top: 1px solid #ddd;
+            margin-top: 3rem;
+        }
+        
+        footer p {
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <a href="index.html" class="back-link">← Back to all conditions</a>
+        <h1>bmi measurements</h1>
+    </header>
+    
+    <main>
+        <div class="content">
+            <h1 id="description">Description</h1>
+<p>This is a list of codes for measured BMI values.</p>
+<h1 id="rules">Rules</h1>
+<ul>
+<li><p>We check to make sure the date is within the range expected given
+the data source and patient DOB and death dates.</p></li>
+<li><p>We use earliest recorded code instance as date of
+diagnosis.</p></li>
+<li><p>We remove values {{CONDITION_CONTENT}}lt;15 and {{CONDITION_CONTENT}}gt;100 kg/m2 as these are
+implausible for adults.</p></li>
+<li><p>We apply additional cleaning rules based on unit codes where
+available.</p></li>
+<li><p>If multiple values recorded on the same day for a patient, we
+take the mean.</p></li>
+<li><p>Relevant scripts: None.</p></li>
+</ul>
+<h1 id="scripts">Scripts</h1>
+<p>No scripts available.</p>
+<h1 id="origins">Origins</h1>
+<ul>
+<li>The origin of the SNOMED codelist was source codelists from Andy
+McG/the BHF/RCGP and reviewed by Andy McG in 2021.</li>
+</ul>
+        </div>
+    </main>
+    
+    <footer>
+        <p>Generated from the Data Specification Framework</p>
+    </footer>
+</body>
+</html>
