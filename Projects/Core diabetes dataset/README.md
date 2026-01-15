@@ -13,9 +13,9 @@ This page details the steps to produce the tables which comprise the core diabet
 * A table of all instances of measured HbA1c (patient identifier, date of result, value of result, units of value where possible) and a table of all instances of diabetes medication prescriptions (patient identifier, date of prescription, and any information relating to drug sustance, quantity and dose) are required for later steps.
 * These need to be cleaned as above for diabetes codes
 * HbA1c values require additional cleaning steps:
-** HbA1c values can be recorded in mmol/mol or %, and need to be converted to mmol/mol. Where units are not available, we have assumed values <=20 are in %.
-** Implausibly high or low values need to be removed: we only include values >=20 and <=195 mmol/mol
-** Where there are multiple values meeting the above criteria on the same day, we take the mean
+  * HbA1c values can be recorded in mmol/mol or %, and need to be converted to mmol/mol. Where units are not available, we have assumed values <=20 are in %.
+  * Implausibly high or low values need to be removed: we only include values >=20 and <=195 mmol/mol
+  * Where there are multiple values meeting the above criteria on the same day, we take the mean
 * Depending on whether historical prescriptions and biomarker results are available, patients may have an earliest high HbA1c or earliest prescription for diabetes medication before their earliest diabetes code - if so then this should be used as their diagnosis date. It is useful to assess how many patients are affected by this and by how many days to check data quality.
 
 ## 3. Define patient diabetes type based on insulin use counts of type-specific diabetes codes
