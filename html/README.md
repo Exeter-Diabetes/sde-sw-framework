@@ -43,7 +43,7 @@ sudo apt-get install pandoc
 
 #### Local Build
 ```bash
-./scripts/generate-site.sh
+bash html/generate-site.sh
 ```
 
 This generates the website in the `site/` directory with:
@@ -85,8 +85,8 @@ Simply delete the condition directory - the build script automatically excludes 
 
 - `templates/index.html` - Main landing page template
 - `templates/condition.html` - Individual condition page template
-- `scripts/generate-site.sh` - Build script
-- `site/` - Generated output directory (created at build time)
+- `generate-site.sh` - Build script
+- `../site/` - Generated output directory (created at build time)
 
 ### Template Variables
 
@@ -100,10 +100,10 @@ Simply delete the condition directory - the build script automatically excludes 
 ### Styling
 
 Both templates include inline CSS for consistent styling with a modern, professional appearance featuring:
-- Purple gradient header
+- Steel grey header
 - Responsive card grid layout
 - Hover effects
-- Professional typography
+- Professional typography with black, grey, and white colors
 
 ### Troubleshooting
 
