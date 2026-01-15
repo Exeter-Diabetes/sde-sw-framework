@@ -7,11 +7,11 @@ This page details the steps to produce the tables which comprise the core diabet
 
 ## 2a. Define patient diabetes diagnosis dates as earliest valid diabetes code for each patient
 * Definition of valid will depend on dataset, availability of patient DOB and death dates, and prior data cleaning. Codes before patient DOB, after patient death, after patient deregistration and after data collection should be removed where possible.
-* In some GP datasets, 'backdated' diabetes codes from before patient registration are available (with an input/enter date within registration, but an ealrier observation date).
+* In some GP datasets, 'backdated' diabetes codes from before patient registration are available (with an input/enter date within registration, but an earlier observation date).
 
 ## 2b. Explore whether adding earliest HbA1c>=48 mmol/mol and earliest diabetes medication impacts diabetes diagnosis date
 * A table of all instances of measured HbA1c (patient identifier, date of result, value of result, units of value where possible) and a table of all instances of diabetes medication prescriptions (patient identifier, date of prescription, and any information relating to drug sustance, quantity and dose) are required for later steps.
-* These need to be cleaned as above for diabetes codes
+* These need to be 'valid' as above for diabetes codes
 * HbA1c values require additional cleaning steps:
   * HbA1c values can be recorded in mmol/mol or %, and need to be converted to mmol/mol. Where units are not available, we have assumed values <=20 are in %.
   * Implausibly high or low values need to be removed: we only include values >=20 and <=195 mmol/mol
