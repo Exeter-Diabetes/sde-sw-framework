@@ -90,16 +90,15 @@ generate_condition_pages() {
         local temp_html="$TEMP_DIR/${condition_name}.html"
         markdown_to_html "$description_file" "$temp_html"
         
-        # Read the generated HTML and escape special characters for sed substitution
-        local condition_content=$(cat "$temp_html" | sed 's/[&/\]/\\&/g')
-        local escaped_name=$(echo "$condition_name" | sed 's/[&/\]/\\&/g')
+        # Read the generated HTML
+        local condition_content=$(cat "$temp_html")
         
-        # Create condition page from template using sed for safe substitution
-        local template=$(cat "$TEMPLATES_DIR/condition.html")
-        local condition_page=$(echo "$template" | sed "s/{{CONDITION_NAME}}/$escaped_name/g" | sed "s/{{CONDITION_CONTENT}}/$condition_content/g")
-        
-        # Write to output file
+        # Create condition page from template
         local output_file="$OUTPUT_DIR/${condition_name}.html"
+        local condition_page=$(cat "$TEMPLATES_DIR/condition.html")
+        condition_page="${condition_page//\{\{CONDITION_NAME\}\}/$condition_name}"
+        condition_page="${condition_page//\{\{CONDITION_CONTENT\}\}/$condition_content}"
+        
         echo "$condition_page" > "$output_file"
         log_success "Generated: $output_file"
         
