@@ -38,10 +38,7 @@ jobs:
       - name: Publish to gh-pages
         uses: peaceiris/actions-gh-pages@v3
         with:
-          # Use a Personal Access Token stored as a repository secret named GH_PAGES_PAT.
-          # This avoids permission/403 errors when the repository or branch protection
-          # prevents the default GITHUB_TOKEN from pushing to the target branch.
-          personal_token: ${{ secrets.GH_PAGES_PAT }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./site
           publish_branch: gh-pages
 
