@@ -8,7 +8,7 @@ This is a list of codes for measured BMI values.
 
 * We use earliest recorded code instance as date of diagnosis.
 
-* We remove values <15 and >100 kg/m2 as these are implausible for adults.
+* We remove values less than 15 and greater than 100 kg per square meter as these are implausible for adults.
 
 * We apply additional cleaning rules based on unit codes where available.
 
