@@ -109,7 +109,7 @@ def generate_dataset_pages(category_dir, category_name, templates_dir, output_di
             
             for csv_file in sorted(csv_files):
                 filename = csv_file.name
-                code_lists_section += f'<li><a href="code_lists/{category_name}/{dataset_name}/{filename}">{filename}</a></li>\n'
+                code_lists_section += f'<li><a href="../code_lists/{category_name}/{dataset_name}/{filename}">{filename}</a></li>\n'
             
             code_lists_section += '</ul>\n'
             code_lists_section += '</div>'
