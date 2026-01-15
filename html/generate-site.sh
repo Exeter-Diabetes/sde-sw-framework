@@ -90,14 +90,36 @@ generate_condition_pages() {
         local temp_html="$TEMP_DIR/${condition_name}.html"
         markdown_to_html "$description_file" "$temp_html"
         
-        # Read the generated HTML
-        local condition_content=$(cat "$temp_html")
+        # Check for code_lists directory and generate links
+        local code_lists_section=""
+        local code_lists_dir="$condition_dir/code_lists"
+        if [ -d "$code_lists_dir" ]; then
+            # Copy code_lists to site
+            mkdir -p "$OUTPUT_DIR/code_lists/$condition_name"
+            cp "$code_lists_dir"/* "$OUTPUT_DIR/code_lists/$condition_name/" 2>/dev/null || true
+            
+            # Generate code lists section with links
+            code_lists_section="<div class=\"code-lists\">"
+            code_lists_section+="<h2>Code Lists</h2>"
+            code_lists_section+="<ul>"
+            
+            for csv_file in "$code_lists_dir"/*.csv; do
+                if [ -f "$csv_file" ]; then
+                    local filename=$(basename "$csv_file")
+                    code_lists_section+="<li><a href=\"code_lists/$condition_name/$filename\">$filename</a></li>"
+                fi
+            done
+            
+            code_lists_section+="</ul>"
+            code_lists_section+="</div>"
+        fi
         
         # Create condition page from template
         local output_file="$OUTPUT_DIR/${condition_name}.html"
         local condition_page=$(cat "$TEMPLATES_DIR/condition.html")
         condition_page="${condition_page//\{\{CONDITION_NAME\}\}/$condition_name}"
-        condition_page="${condition_page//\{\{CONDITION_CONTENT\}\}/$condition_content}"
+        condition_page="${condition_page//\{\{CONDITION_CONTENT\}\}/$(cat "$temp_html" | sed 's/[&/\]/\\&/g')}"
+        condition_page="${condition_page//\{\{CODE_LISTS_SECTION\}\}/$code_lists_section}"
         
         echo "$condition_page" > "$output_file"
         log_success "Generated: $output_file"
