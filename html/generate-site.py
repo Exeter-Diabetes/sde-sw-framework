@@ -153,39 +153,19 @@ def generate_index_page(templates_dir, output_dir, categories_data):
     with open(templates_dir / "index.html", 'r') as f:
         index_template = f.read()
     
-    # Build sections for each category
-    all_cards = []
+    # Build category sections
+    category_sections = []
     for category_name, dataset_cards in categories_data:
-        section = index_template.replace('{{CATEGORY_NAME}}', category_name)
-        section = section.replace('<!-- DATASET_CARDS_PLACEHOLDER -->', dataset_cards)
-        all_cards.append(section)
+        capitalized_name = category_name[0].upper() + category_name[1:] if category_name else category_name
+        category_section = f'        <h2 class="section-title">{capitalized_name}</h2>\n'
+        category_section += '        <div class="datasets">\n'
+        category_section += dataset_cards
+        category_section += '        </div>\n\n'
+        category_sections.append(category_section)
     
-    # If multiple categories, combine them; otherwise use single template
-    if len(all_cards) == 1:
-        final_html = all_cards[0]
-    else:
-        # Take header and footer from first template, combine all category sections
-        with open(templates_dir / "index.html", 'r') as f:
-            template = f.read()
-        
-        # Extract header (up to first category section)
-        header_end = template.find('<h2 class="section-title">')
-        header = template[:header_end]
-        
-        # Extract footer (after datasets div closes)
-        footer_start = template.rfind('</div>\n    </main>')
-        footer = template[footer_start:]
-        
-        # Build category sections
-        category_sections = []
-        for category_name, dataset_cards in categories_data:
-            category_section = f'        <h2 class="section-title">{category_name}</h2>\n'
-            category_section += '        <div class="datasets">\n'
-            category_section += dataset_cards
-            category_section += '        </div>\n\n'
-            category_sections.append(category_section)
-        
-        final_html = header + '\n'.join(category_sections) + footer
+    # Replace placeholder with all category sections
+    categories_html = ''.join(category_sections)
+    final_html = index_template.replace('<!-- CATEGORIES_PLACEHOLDER -->', categories_html)
     
     output_file = output_dir / "index.html"
     with open(output_file, 'w') as f:
