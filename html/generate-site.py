@@ -3,8 +3,8 @@
 """
 Build Data Specification Website
 
-This script generates HTML pages from markdown documentation for conditions.
-It automatically detects all conditions in the conditions/ directory.
+This script generates HTML pages from markdown documentation for datasets.
+It automatically detects all datasets organized by category in the code_lists/ directory.
 """
 
 import sys
@@ -64,42 +64,42 @@ def get_preview_text(md_file, max_chars=150):
         return ""
     return ""
 
-def generate_condition_pages(conditions_dir, templates_dir, output_dir, temp_dir):
-    """Generate individual condition pages"""
-    log_info("Generating condition pages...")
+def generate_dataset_pages(category_dir, category_name, templates_dir, output_dir, temp_dir):
+    """Generate individual dataset pages for a category"""
+    log_info(f"Generating dataset pages for category: {category_name}")
     
-    condition_cards = []
+    dataset_cards = []
     
-    # Find all condition directories
-    conditions = sorted([d for d in conditions_dir.iterdir() if d.is_dir()])
+    # Find all dataset directories (subdirectories with info.md)
+    datasets = sorted([d for d in category_dir.iterdir() if d.is_dir()])
     
-    for condition_dir in conditions:
-        condition_name = condition_dir.name
-        description_file = condition_dir / "description.md"
+    for dataset_dir in datasets:
+        dataset_name = dataset_dir.name
+        info_file = dataset_dir / "info.md"
         
-        if not description_file.exists():
-            log_error(f"Missing description.md in {condition_dir}")
+        if not info_file.exists():
+            log_error(f"Missing info.md in {dataset_dir}")
             continue
         
-        log_info(f"Processing condition: {condition_name}")
+        log_info(f"Processing dataset: {dataset_name} ({category_name})")
         
         # Convert markdown to HTML
-        temp_html = temp_dir / f"{condition_name}.html"
-        markdown_to_html(str(description_file), str(temp_html))
+        temp_html = temp_dir / f"{category_name}_{dataset_name}.html"
+        markdown_to_html(str(info_file), str(temp_html))
         
         # Read the generated HTML
         with open(temp_html, 'r') as f:
-            condition_content = f.read()
+            dataset_content = f.read()
         
-        # Check for code_lists directory
+        # Check for CSV files
         code_lists_section = ""
-        code_lists_dir = condition_dir / "code_lists"
-        if code_lists_dir.exists():
-            # Copy code_lists to site
-            site_code_lists = output_dir / "code_lists" / condition_name
+        csv_files = list(dataset_dir.glob("*.csv"))
+        if csv_files:
+            # Copy CSV files to site
+            site_code_lists = output_dir / "code_lists" / category_name / dataset_name
             site_code_lists.mkdir(parents=True, exist_ok=True)
             
-            for csv_file in code_lists_dir.glob("*.csv"):
+            for csv_file in csv_files:
                 shutil.copy(csv_file, site_code_lists / csv_file.name)
             
             # Generate code lists section with links
@@ -107,53 +107,89 @@ def generate_condition_pages(conditions_dir, templates_dir, output_dir, temp_dir
             code_lists_section += '<h2>Code Lists</h2>\n'
             code_lists_section += '<ul>\n'
             
-            for csv_file in sorted(code_lists_dir.glob("*.csv")):
+            for csv_file in sorted(csv_files):
                 filename = csv_file.name
-                code_lists_section += f'<li><a href="code_lists/{condition_name}/{filename}">{filename}</a></li>\n'
+                code_lists_section += f'<li><a href="code_lists/{category_name}/{dataset_name}/{filename}">{filename}</a></li>\n'
             
             code_lists_section += '</ul>\n'
             code_lists_section += '</div>'
         
-        # Create condition page from template
-        with open(templates_dir / "condition.html", 'r') as f:
-            condition_page = f.read()
+        # Create dataset page from template
+        with open(templates_dir / "dataset.html", 'r') as f:
+            dataset_page = f.read()
         
-        condition_page = condition_page.replace('{{CONDITION_NAME}}', condition_name)
-        condition_page = condition_page.replace('{{CONDITION_CONTENT}}', condition_content)
-        condition_page = condition_page.replace('{{CODE_LISTS_SECTION}}', code_lists_section)
+        dataset_page = dataset_page.replace('{{DATASET_NAME}}', dataset_name)
+        dataset_page = dataset_page.replace('{{DATASET_CONTENT}}', dataset_content)
+        dataset_page = dataset_page.replace('{{CODE_LISTS_SECTION}}', code_lists_section)
         
-        output_file = output_dir / f"{condition_name}.html"
+        # Create category subdirectory in site
+        category_output_dir = output_dir / category_name
+        category_output_dir.mkdir(parents=True, exist_ok=True)
+        
+        output_file = category_output_dir / f"{dataset_name}.html"
         with open(output_file, 'w') as f:
-            f.write(condition_page)
+            f.write(dataset_page)
         
         log_success(f"Generated: {output_file}")
         
         # Get preview text for the card
-        preview = get_preview_text(str(description_file))
+        preview = get_preview_text(str(info_file))
         
         # Create card HTML
-        card = f'<a href="{condition_name}.html" class="condition-card">\n'
-        card += f'<h3>{condition_name}</h3>\n'
+        card = f'<a href="{category_name}/{dataset_name}.html" class="dataset-card">\n'
+        card += f'<h3>{dataset_name}</h3>\n'
         card += f'<p>{preview}</p>\n'
         card += '<span class="arrow">View Details →</span>\n'
         card += '</a>\n'
         
-        condition_cards.append(card)
+        dataset_cards.append(card)
     
-    return '\n'.join(condition_cards)
+    return '\n'.join(dataset_cards)
 
-def generate_index_page(templates_dir, output_dir, condition_cards):
-    """Generate main index page"""
+def generate_index_page(templates_dir, output_dir, categories_data):
+    """Generate main index page with all categories"""
     log_info("Generating main index page...")
     
     with open(templates_dir / "index.html", 'r') as f:
         index_template = f.read()
     
-    index_template = index_template.replace('<!-- CONDITION_CARDS_PLACEHOLDER -->', condition_cards)
+    # Build sections for each category
+    all_cards = []
+    for category_name, dataset_cards in categories_data:
+        section = index_template.replace('{{CATEGORY_NAME}}', category_name)
+        section = section.replace('<!-- DATASET_CARDS_PLACEHOLDER -->', dataset_cards)
+        all_cards.append(section)
+    
+    # If multiple categories, combine them; otherwise use single template
+    if len(all_cards) == 1:
+        final_html = all_cards[0]
+    else:
+        # Take header and footer from first template, combine all category sections
+        with open(templates_dir / "index.html", 'r') as f:
+            template = f.read()
+        
+        # Extract header (up to first category section)
+        header_end = template.find('<h2 class="section-title">')
+        header = template[:header_end]
+        
+        # Extract footer (after datasets div closes)
+        footer_start = template.rfind('</div>\n    </main>')
+        footer = template[footer_start:]
+        
+        # Build category sections
+        category_sections = []
+        for category_name, dataset_cards in categories_data:
+            category_section = f'        <h2 class="section-title">{category_name}</h2>\n'
+            category_section += '        <div class="datasets">\n'
+            category_section += dataset_cards
+            category_section += '        </div>\n\n'
+            category_sections.append(category_section)
+        
+        final_html = header + '\n'.join(category_sections) + footer
     
     output_file = output_dir / "index.html"
     with open(output_file, 'w') as f:
-        f.write(index_template)
+        f.write(final_html)
     
     log_success(f"Generated: {output_file}")
 
@@ -167,9 +203,14 @@ def main():
     # Set up paths
     script_dir = Path(__file__).parent
     project_root = script_dir.parent
-    conditions_dir = project_root / "conditions"
+    code_lists_dir = project_root / "code_lists"
     templates_dir = script_dir / "templates"
     output_dir = project_root / "site"
+    
+    # Check if code_lists directory exists
+    if not code_lists_dir.exists():
+        log_error(f"code_lists directory not found at {code_lists_dir}")
+        sys.exit(1)
     
     # Create temporary directory
     with tempfile.TemporaryDirectory() as temp_dir:
@@ -182,17 +223,30 @@ def main():
             output_dir.mkdir(exist_ok=True)
             log_success(f"Output directory ready: {output_dir}")
             
-            # Generate condition pages
-            condition_cards = generate_condition_pages(
-                conditions_dir, templates_dir, output_dir, temp_dir
-            )
+            # Find all categories
+            categories = sorted([d for d in code_lists_dir.iterdir() if d.is_dir()])
             
-            if not condition_cards.strip():
-                log_error("No conditions found with description.md files")
+            if not categories:
+                log_error("No categories found in code_lists directory")
+                sys.exit(1)
+            
+            # Generate dataset pages for each category
+            categories_data = []
+            for category_dir in categories:
+                category_name = category_dir.name
+                dataset_cards = generate_dataset_pages(
+                    category_dir, category_name, templates_dir, output_dir, temp_dir
+                )
+                
+                if dataset_cards.strip():
+                    categories_data.append((category_name, dataset_cards))
+            
+            if not categories_data:
+                log_error("No datasets found with info.md files")
                 sys.exit(1)
             
             # Generate index page
-            generate_index_page(templates_dir, output_dir, condition_cards)
+            generate_index_page(templates_dir, output_dir, categories_data)
             
             print()
             log_success("Build complete!")
@@ -200,6 +254,8 @@ def main():
             
         except Exception as e:
             log_error(f"Build failed: {e}")
+            import traceback
+            traceback.print_exc()
             sys.exit(1)
 
 if __name__ == "__main__":

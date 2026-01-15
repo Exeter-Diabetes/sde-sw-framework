@@ -14,10 +14,6 @@ This is a list of codes for a heart attack / myocardial infarction.
 
 * If multiple values recorded on the same day for a patient, we take the mean.
 
-# Scripts
-
-No scripts available.
-
 # Origins
 
 * The origin of the ICD10 codelist was Andy McG and it was reviewed by him in 2022.

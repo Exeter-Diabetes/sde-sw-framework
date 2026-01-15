@@ -14,10 +14,6 @@ This is a list of codes for measured BMI values.
 
 * If multiple values recorded on the same day for a patient, we take the mean.
 
-# Scripts
-
-No scripts available.
-
 # Origins
 
 * The origin of the SNOMED codelist was source codelists from Andy McG/the BHF/RCGP and reviewed by Andy McG in 2021.

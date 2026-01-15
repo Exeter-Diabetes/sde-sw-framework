@@ -57,14 +57,14 @@
             font-size: 1.5rem;
         }
         
-        .conditions {
+        .datasets {
             display: grid;
             grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
             gap: 2rem;
             margin-top: 2rem;
         }
         
-        .condition-card {
+        .dataset-card {
             background: white;
             border-radius: 8px;
             padding: 1.5rem;
@@ -76,20 +76,20 @@
             flex-direction: column;
         }
         
-        .condition-card:hover {
+        .dataset-card:hover {
             transform: translateY(-4px);
             box-shadow: 0 4px 16px rgba(0,0,0,0.15);
             background: #f8f8ff;
         }
         
-        .condition-card h3 {
+        .dataset-card h3 {
             color: #000;
             margin-bottom: 1rem;
             font-size: 1.25rem;
             word-break: break-word;
         }
         
-        .condition-card p {
+        .dataset-card p {
             color: #666;
             font-size: 0.95rem;
             line-height: 1.6;
@@ -97,7 +97,7 @@
             margin-bottom: 1rem;
         }
         
-        .condition-card .arrow {
+        .dataset-card .arrow {
             color: #666;
             font-weight: bold;
             margin-top: auto;
@@ -126,9 +126,9 @@
             <p>The code lists are provided in multiple coding systems (SNOMED CT, ICD-10, etc.) where applicable to support diverse healthcare data sources and analytical requirements.</p>
         </div>
         
-        <h2 class="section-title">Conditions</h2>
-        <div class="conditions">
-            <!-- CONDITION_CARDS_PLACEHOLDER -->
+        <h2 class="section-title">{{CATEGORY_NAME}}</h2>
+        <div class="datasets">
+            <!-- DATASET_CARDS_PLACEHOLDER -->
         </div>
     </main>
 </body>
