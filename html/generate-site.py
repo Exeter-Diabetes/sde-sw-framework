@@ -7,7 +7,6 @@ This script generates HTML pages from markdown documentation for conditions.
 It automatically detects all conditions in the conditions/ directory.
 """
 
-import os
 import sys
 import subprocess
 import shutil
