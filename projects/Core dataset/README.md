@@ -6,6 +6,7 @@ This page details the steps to produce the tables which comprise the core diabet
 
 * Create a table of all instances of any diabetes SNOMED code (link). Patient identifier, date of diabetes observation, and type of diabetes code (type 1, type 2, unspecified diabetes type) are required for later steps.
 
+&nbsp;
 
 ## 2a. Define patient diabetes diagnosis dates as earliest valid diabetes code for each patient
 
@@ -13,6 +14,7 @@ This page details the steps to produce the tables which comprise the core diabet
 
 * In some GP datasets, 'backdated' diabetes codes from before patient registration are available (with an input/enter date within registration, but an earlier observation date).
 
+&nbsp;
 
 ## 2b. Explore whether adding earliest HbA1c>=48 mmol/mol and earliest diabetes medication impacts diabetes diagnosis date
 
@@ -27,6 +29,7 @@ This page details the steps to produce the tables which comprise the core diabet
 
 * Depending on whether historical prescriptions and biomarker results are available, patients may have an earliest high HbA1c or earliest prescription for diabetes medication before their earliest diabetes code - if so then this should be used as their diagnosis date. It is useful to assess how many patients are affected by this and by how many days to check data quality.
 
+&nbsp;
 
 ## 3. Define patient diabetes type based on insulin use and counts of type-specific diabetes codes
 
@@ -38,6 +41,7 @@ This page details the steps to produce the tables which comprise the core diabet
     * Mix of Type 1 and Type 2 codes: if number of Type 1 medcodes >=2 x number of Type 2 medcodes, Type 1, otherwise Type 2
     * No Type 1 or Type 2 codes: leave as 'unspecified'
 
+&nbsp;
 
 ## 4. Pull all instances of sociodemographic/lifestyle codes, clinical measurements, biomarkers, procedures and diabetes complications and medication prescriptions as defined in the core dataset specification
 
