@@ -31,51 +31,50 @@ This page details the steps to produce the tables which comprise the core diabet
 ## 3. Define patient diabetes type based on insulin use and counts of type-specific diabetes codes
 
 * We use insulin use and the relative numbers of type 1 and type 2 diabetes codes to define whether a patient has type 1 or type 2 diabetes, as follows:
-
-* No insulin prescriptions: Type 2
-* With at least one insulin prescription:
-  * At least one Type 1 and no Type 2 codes: Type 1
-  * At least one Type 2 and no Type 1 codes: Type 2
-  * Mix of Type 1 and Type 2 codes: if number of Type 1 medcodes >=2 x number of Type 2 medcodes, Type 1, otherwise Type 2
-  * No Type 1 or Type 2 codes: leave as 'unspecified'
+  * No insulin prescriptions: Type 2
+  * With at least one insulin prescription:
+    * At least one Type 1 and no Type 2 codes: Type 1
+    * At least one Type 2 and no Type 1 codes: Type 2
+    * Mix of Type 1 and Type 2 codes: if number of Type 1 medcodes >=2 x number of Type 2 medcodes, Type 1, otherwise Type 2
+    * No Type 1 or Type 2 codes: leave as 'unspecified'
 
 
 ## 4. Pull all instances of sociodemographic/lifestyle codes, clinical measurements, biomarkers, procedures and diabetes complications and medication prescriptions as defined in the core dataset specification
 
 This includes (in addition to HbA1c and non-insulin/insulin diabetes medications as above):
-Ethnicity
-BMI
-Weight
-Height
-SBP
-DBP
-Total cholesterol
-HDL
-Triglycerides
-ALT
-eGFR
-Urine ACR
-Urine albumin
-Urine creatinine
-Retinopathy
-Foot ulcer, infection, loss of sensation/pulse
-Minor/major amputation
-Myocardial infarction
-Heart failure
-Stroke
-Angina
-Peripheral arterial disease
-Peripheral arterial revascularisation
-Transient ischaemic attack
-Hypertension
-Atrial fibrillation
-Ischaemic heart disease
-Coronary revascularisation
-Chronic kidney disease stage 5
-Diabetic ketoacidosis/hyperosmolar hyperglycaemic state
-Alcohol
-Smoking
-CGM
-Lipid lowering medication
-Blood-pressure lowering medication
-Anti-platelet therapy
+* Ethnicity
+* BMI
+* Weight
+* Height
+* SBP
+* DBP
+* Total cholesterol
+* HDL
+* Triglycerides
+* ALT
+* eGFR
+* Urine ACR
+* Urine albumin
+* Urine creatinine
+* Retinopathy
+* Foot ulcer, infection, loss of sensation/pulse
+* Minor/major amputation
+* Myocardial infarction
+* Heart failure
+* Stroke
+* Angina
+* Peripheral arterial disease
+* Peripheral arterial revascularisation
+* Transient ischaemic attack
+* Hypertension
+* Atrial fibrillation
+* Ischaemic heart disease
+* Coronary revascularisation
+* Chronic kidney disease stage 5
+* Diabetic ketoacidosis/hyperosmolar hyperglycaemic state
+* Alcohol
+* Smoking
+* CGM
+* Lipid lowering medication
+* Blood-pressure lowering medication
+* Anti-platelet therapy
