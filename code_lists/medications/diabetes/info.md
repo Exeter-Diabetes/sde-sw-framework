@@ -1,10 +1,14 @@
 # Description
 
-These are lists of dm+d codes for non-insulin glucose lowering medication and insulin.
+These are lists of dm+d codes for non-insulin glucose-lowering medication and insulin.
 
 # Rules
 
 * We check to make sure the date is within the range expected given the data source and patient DOB and death dates.
+
+* In patients with diabetes, the earliest prescription for a glucose-lowering medication/insulin is used in the algorithm to define diagnosis date - see conditions/diabetes.
+ 
+* In patients with diabetes, being prescribed insulin is used in the algorithm to define diabetes type - see conditions/diabetes.
 
 # Origins
 
