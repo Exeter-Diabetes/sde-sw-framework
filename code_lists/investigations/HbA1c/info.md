@@ -16,5 +16,4 @@ This is a list of codes for measured HbA1c values.
 
 # Origins
 
-* The origin of the SNOMED codelist was the PBCL.
-
+* The origin of the SNOMED codelist was the Pathology Bounded Code List (PBCL).
