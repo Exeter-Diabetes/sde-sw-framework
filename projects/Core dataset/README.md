@@ -1,8 +1,20 @@
 # Core diabetes dataset
 
-This page details the steps to produce the tables which comprise the core diabetes dataset. These tables can then be combined to create different diabetes cohorts.
+This page details the steps to produce the tables which comprise the core diabetes dataset in GP data. These tables can then be combined to create different diabetes cohorts.
+
+| Step | Description | Output | Summary statistics for quality checking |
+| ---- | ---- | ---- | ---- |
+| 1 | Create a table of all instances of all diabetes SNOMED codes | Table with multiple rows per patient, with each instance of a diabetes SNOMED code including patient identifier, date of diabetes code observation, and type of diabetes code (type 1, type 2, unspecified diabetes type) | Number of unique patients with code |
+
+
+
+
+
+
 
 ## 1. Pull out all instances of diabetes codes
+
+| 
 
 * Create a table of all instances of any diabetes SNOMED code (link). Patient identifier, date of diabetes observation, and type of diabetes code (type 1, type 2, unspecified diabetes type) are required for later steps.
 
