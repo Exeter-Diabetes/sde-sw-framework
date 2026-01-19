@@ -124,7 +124,7 @@ conceptId,term,category
 122131000000109,Informed consent for diabetes national audit,unspecified
 122151000000102,Informed dissent for diabetes national audit,unspecified
 122481000000101,Fibrocalculous pancreatic diabetes,unspecified
-122541000000108,Pineal hyperplasia, insulin-resistant diabetes mellitus and somatic abnormalities,unspecified
+122541000000108,Pineal hyperplasia insulin-resistant diabetes mellitus and somatic abnormalities,unspecified
 1231625008,Tractional retinal detachment due to proliferative diabetic retinopathy (disorder),unspecified
 1231650006,Combined rhegmatogenous and tractional retinal detachment due to proliferative diabetic retinopathy (disorder),unspecified
 1231691008,Vitreous hemorrhage due to proliferative diabetic retinopathy (disorder),unspecified
@@ -292,7 +292,7 @@ conceptId,term,category
 151709009,Admit diabetic emergency,unspecified
 151742005,Non-urgent diabetic admission,unspecified
 151766004,Referral to diabetologist,unspecified
-151821003,Refer, diabetic liaison nurse,unspecified
+151821003,Refer diabetic liaison nurse,unspecified
 151850005,Referral to diabetes nurse,unspecified
 151952003,Diabetology domiciliary visit requested,unspecified
 151981002,Diabetology D.V. done,unspecified
@@ -339,7 +339,7 @@ conceptId,term,category
 155114008,Advanced diabetic retinal disease,unspecified
 155129005,(Secondary cataract) or (diabetic cataract),unspecified
 1561000119105,Diabetic peripheral neuropathy associated with type I diabetes mellitus,type 1
-156138000,Diabetes mellitus during pregnancy, childbirth and the puerperium,unspecified
+156138000,Diabetes mellitus during pregnancy childbirth and the puerperium,unspecified
 1571000119104,Mixed hyperlipidemia associated with type 1 diabetes mellitus (disorder),type 1
 157141000119108,Proteinuria due to type 2 diabetes mellitus,type 2
 157143001,Perinatal endocrine &/or metabolic problem (& [diabetes]),unspecified
@@ -462,7 +462,7 @@ conceptId,term,category
 183472000,Admit diabetic emergency,unspecified
 183506001,Non-urgent diabetic admission,unspecified
 183530004,Referral to diabetologist,unspecified
-183585000,Refer, diabetic liaison nurse,unspecified
+183585000,Refer diabetic liaison nurse,unspecified
 183615002,Referral to diabetes nurse,unspecified
 183722003,Diabetology D.V. requested,unspecified
 183751004,Diabetology D.V. done,unspecified
@@ -495,42 +495,42 @@ conceptId,term,category
 188701000000107,Seen in community diabetic specialist nurse clinic,unspecified
 188931000000103,Diabetic patient unsuitable for digital retinal photography,unspecified
 190321005,Diabetes mellitus with no mention of complication,unspecified
-190322003,Diabetes mellitus: [juvenile type, with no mention of complication] or [insulin dependent],type 1
+190322003,Diabetes mellitus: [juvenile type with no mention of complication] or [insulin dependent],type 1
 190323008,Non-insulin dependent diabetes mellitus,type 1
 190324002,Diabetes mellitus NOS with no mention of complication,unspecified
-190325001,Diabetes mellitus, juvenile type, with ketoacidosis,type 1
-190326000,Diabetes mellitus, adult onset, with ketoacidosis,type 2
+190325001,Diabetes mellitus juvenile type with ketoacidosis,type 1
+190326000,Diabetes mellitus adult onset with ketoacidosis,type 2
 190327009,Other specified diabetes mellitus with ketoacidosis,unspecified
 190328004,Diabetes mellitus NOS with ketoacidosis,unspecified
 190329007,Diabetes mellitus with hyperosmolar coma,unspecified
-190330002,Diabetes mellitus, juvenile type, with hyperosmolar coma,type 1
-190331003,Diabetes mellitus, adult onset, with hyperosmolar coma,type 2
+190330002,Diabetes mellitus juvenile type with hyperosmolar coma,type 1
+190331003,Diabetes mellitus adult onset with hyperosmolar coma,type 2
 190332005,Diabetes mellitus NOS with hyperosmolar coma,unspecified
 190333000,Diabetes mellitus with ketoacidotic coma,unspecified
-190334006,Diabetes mellitus, juvenile type, with ketoacidotic coma,type 1
-190335007,Diabetes mellitus, adult onset, with ketoacidotic coma,type 2
+190334006,Diabetes mellitus juvenile type with ketoacidotic coma,type 1
+190335007,Diabetes mellitus adult onset with ketoacidotic coma,type 2
 190336008,Other specified diabetes mellitus with coma,unspecified
 190337004,Diabetes mellitus NOS with ketoacidotic coma,unspecified
 190338009,Diabetes mellitus: [with renal manifestation] or [nephropathy],unspecified
-190339001,Diabetes mellitus, juvenile type, with renal manifestation,type 1
-190340004,Diabetes mellitus, adult onset, with renal manifestation,type 2
+190339001,Diabetes mellitus juvenile type with renal manifestation,type 1
+190340004,Diabetes mellitus adult onset with renal manifestation,type 2
 190341000,Other specified diabetes mellitus with renal complications,unspecified
 190341000000105,O/E - sight threatening diabetic retinopathy,unspecified
 190342007,Diabetes mellitis with nephropathy NOS,unspecified
 190343002,Diabetes mellitus with ophthalmic manifestation,unspecified
-190345009,Diabetes mellitus, juvenile type, with ophthalmic manifestation,type 1
-190346005,Diabetes mellitus, adult onset, with ophthalmic manifestation,type 2
+190345009,Diabetes mellitus juvenile type with ophthalmic manifestation,type 1
+190346005,Diabetes mellitus adult onset with ophthalmic manifestation,type 2
 190347001,Other specified diabetes mellitus with ophthalmic complications,unspecified
 190348006,Diabetes mellitus NOS with ophthalmic manifestation,unspecified
 190349003,Diabetes mellitus with neurological manifestation: (& [amyotrophy] or [neuropathy] or [polyneuropathy]),unspecified
-190350003,Diabetes mellitus, juvenile type, with neurological manifestation,type 1
-190351004,Diabetes mellitus, adult onset, with neurological manifestation,type 2
+190350003,Diabetes mellitus juvenile type with neurological manifestation,type 1
+190351004,Diabetes mellitus adult onset with neurological manifestation,type 2
 190352006,Other specified diabetes mellitus with neurological complications,unspecified
 190353001,Diabetes mellitus NOS with neurological manifestation,unspecified
 190354007,Diabetes mellitus with: [gangrene] or [peripheral circulatory disorder],unspecified
-190355008,Diabetes mellitus, juvenile type, with peripheral circulatory disorder,type 1
-190356009,Diabetes mellitus, adult onset, with peripheral circulatory disorder,type 2
-190357000,Diabetes mellitus, adult with gangrene,unspecified
+190355008,Diabetes mellitus juvenile type with peripheral circulatory disorder,type 1
+190356009,Diabetes mellitus adult onset with peripheral circulatory disorder,type 2
+190357000,Diabetes mellitus adult with gangrene,unspecified
 190358005,IDDM with peripheral circulatory disorder,type 1
 190359002,NIDDM with peripheral circulatory disorder,type 2
 190360007,Other specified diabetes mellitus with peripheral circulatory complications,unspecified
@@ -576,13 +576,13 @@ conceptId,term,category
 190402003,Type II diabetes mellitus with arthropathy,type 2
 190403008,Type II diabetes mellitus with neuropathic arthropathy,type 2
 190417004,Diabetes mellitus with other specified manifestation,unspecified
-190418009,Diabetes mellitus, juvenile type, with other specified manifestation,type 1
-190419001,Diabetes mellitus, adult onset, with other specified manifestation,type 2
+190418009,Diabetes mellitus juvenile type with other specified manifestation,type 1
+190419001,Diabetes mellitus adult onset with other specified manifestation,type 2
 190420007,Other specified diabetes mellitus with other specified complications,unspecified
 190421006,Diabetes mellitus NOS with other specified manifestation,unspecified
 190422004,Diabetes mellitus with unspecified complication,unspecified
-190423009,Diabetes mellitus, juvenile type, with unspecified complication,type 1
-190424003,Diabetes mellitus, adult onset, with unspecified complication,type 2
+190423009,Diabetes mellitus juvenile type with unspecified complication,type 1
+190424003,Diabetes mellitus adult onset with unspecified complication,type 2
 190425002,Other specified diabetes mellitus with unspecified complications,unspecified
 190426001,Diabetes mellitus NOS with unspecified complication,unspecified
 191044006,Diabetes mellitus,unspecified
@@ -621,20 +621,20 @@ conceptId,term,category
 198671000000109,Type 2 diabetes mellitus with gastroparesis (disorder),type 2
 198831000000108,Referral to multidisciplinary diabetic clinic (procedure),unspecified
 198841000000104,Seen in multidisciplinary diabetic clinic (finding),unspecified
-199223000,Diabetes mellitus during pregnancy, childbirth and the puerperium,unspecified
+199223000,Diabetes mellitus during pregnancy childbirth and the puerperium,unspecified
 199224006,Diabetes mellitus - unspecified whether during pregnancy or the puerperium,unspecified
 199225007,Diabetes mellitus during pregnancy - baby delivered,unspecified
 199226008,Diabetes mellitus in the puerperium - baby delivered during current episode of care,unspecified
 199227004,Diabetes mellitus during pregnancy - baby not yet delivered,unspecified
 199228009,Diabetes mellitus in the pueperium - baby delivered during previous episode of care,unspecified
-199229001,Pre-existing diabetes mellitus, insulin-dependent,type 1
-199230006,Pre-existing diabetes mellitus, non-insulin-dependent,type 2
-199233008,[X]Pre-existing diabetes mellitus, unspecified,unspecified
-199234002,Diabetes mellitus during pregnancy, childbirth or the puerperium NOS,unspecified
+199229001,Pre-existing diabetes mellitus insulin-dependent,type 1
+199230006,Pre-existing diabetes mellitus non-insulin-dependent,type 2
+199233008,[X]Pre-existing diabetes mellitus unspecified,unspecified
+199234002,Diabetes mellitus during pregnancy childbirth or the puerperium NOS,unspecified
 199301000000100,Did not attend diabetic retinopathy clinic (finding),unspecified
 199481000000100,Diabetic monitoring - lower risk albumin excretion (finding),unspecified
 199491000000103,Diabetic monitoring - higher risk albumin excretion (finding),unspecified
-200505002,[X]Pre-existing diabetes mellitus, unspecified,unspecified
+200505002,[X]Pre-existing diabetes mellitus unspecified,unspecified
 200687002,Cellulitis in diabetic foot,unspecified
 201000119106,Disorder associated with well controlled type 2 diabetes mellitus,type 2
 201141000000103,No diabetic retinopathy (context-dependent category),unspecified
@@ -701,8 +701,8 @@ conceptId,term,category
 236499007,Microalbuminuric diabetic nephropathy,unspecified
 236500003,Clinical diabetic nephropathy,unspecified
 237599002,Insulin-treated non-insulin-dependent diabetes mellitus,type 2
-237608006,Lipodystrophy, partial, with Reiger anomaly, short stature, and insulinopenic diabetes mellitus,unspecified
-237616002,Hypogonadism, diabetes mellitus, alopecia ,mental retardation and electrocardiographic abnormalities,unspecified
+237608006,Lipodystrophy partial with Reiger anomaly short stature and insulinopenic diabetes mellitus,unspecified
+237616002,Hypogonadism diabetes mellitus alopecia mental retardation and electrocardiographic abnormalities,unspecified
 237618001,Insulin-dependent diabetes mellitus secretory diarrhoea syndrome,type 1
 237620003,Abnormal metabolic state in diabetes mellitus,unspecified
 237621004,Diabetic severe hyperglycemia,unspecified
@@ -736,8 +736,8 @@ conceptId,term,category
 26298008,Diabetic coma with ketoacidosis,unspecified
 264517001,Diffuse diabetic glomerulosclerosis,unspecified
 264553004,Nodular diabetic glomerulosclerosis,unspecified
-267379000,Diabetes mellitus, juvenile type, with no mention of complication,type 1
-267380002,Diabetes mellitus, adult onset, with no mention of complication,type 2
+267379000,Diabetes mellitus juvenile type with no mention of complication,type 1
+267380002,Diabetes mellitus adult onset with no mention of complication,type 2
 267381003,Diabetes mellitus with renal manifestation,unspecified
 267382005,Diabetes mellitus with neurological manifestation,unspecified
 267383000,Diabetes mellitus with peripheral circulatory disorder,unspecified
@@ -1165,7 +1165,7 @@ conceptId,term,category
 413122001,Diabetic retinopathy screening refused (context-dependent category),unspecified
 413180006,Pan retinal photocoagulation for diabetes (procedure),unspecified
 413597006,Attended diabetes structured education programme (finding),unspecified
-414601000000106,[X]Pre-existing diabetes mellitus, unspecified (disorder),unspecified
+414601000000106,[X]Pre-existing diabetes mellitus unspecified (disorder),unspecified
 414890007,O/E - left chronic diabetic foot ulcer (context-dependent category),unspecified
 414894003,O/E - left eye stable treated proliferative diabetic retinopathy (context-dependent category),unspecified
 414906009,O/E - right chronic diabetic foot ulcer (context-dependent category),unspecified
@@ -1312,7 +1312,7 @@ conceptId,term,category
 445260006,Posttransplant diabetes mellitus (disorder),unspecified
 445353002,Brittle type II diabetes mellitus (finding),type 2
 44661000000105,Diabetic foot examination (regime/therapy),unspecified
-449851000000103,[X]Pre-existing diabetes mellitus, unspecified (disorder),unspecified
+449851000000103,[X]Pre-existing diabetes mellitus unspecified (disorder),unspecified
 453171000000101,Diabetes Type II (non-insulin-dependent) associated with renal failure - European Dialysis and Transplant Association (disorder),type 2
 4551000175107,Diabetic foot exam not done,unspecified
 4581000175103,Diabetic retinal eye exam not done (situation),unspecified
@@ -1367,8 +1367,8 @@ conceptId,term,category
 527701000000107,Diabetic on subcutaneous treatment ,unspecified
 528451000000103,Diabetes mellitus with no mention of complication,unspecified
 530558861000132104,Atypical diabetes mellitus (disorder),unspecified
-532401000000104,Diabetes mellitus, juvenile type, with no mention of complication,type 1
-532411000000102,Diabetes mellitus, adult onset, with no mention of complication (disorder),type 2
+532401000000104,Diabetes mellitus juvenile type with no mention of complication,type 1
+532411000000102,Diabetes mellitus adult onset with no mention of complication (disorder),type 2
 5368009,Drug-induced diabetes mellitus,unspecified
 54059007,Xanthoma diabeticorum,unspecified
 54181000,Diabetes-nephrosis syndrome,unspecified
@@ -1414,13 +1414,13 @@ conceptId,term,category
 63510008,Nodular type diabetic glomerulosclerosis,unspecified
 658001000000101,Other specified diabetes mellitus with multiple complications,unspecified
 658011000000104,Diabetes mellitus with other specified manifestation,unspecified
-658021000000105,Diabetes mellitus, juvenile type, with other specified manifestation,type 1
-658031000000107,Diabetes mellitus, adult onset, with other specified manifestation,type 2
+658021000000105,Diabetes mellitus juvenile type with other specified manifestation,type 1
+658031000000107,Diabetes mellitus adult onset with other specified manifestation,type 2
 658051000000100,Other specified diabetes mellitus with other specified complications,unspecified
 658061000000102,Diabetes mellitus NOS with other specified manifestation (disorder),unspecified
 658071000000109,Diabetes mellitus with unspecified complication (disorder),unspecified
-658081000000106,Diabetes mellitus, juvenile type, with unspecified complication (disorder),type 1
-658091000000108,Diabetes mellitus, adult onset, with unspecified complication,type 2
+658081000000106,Diabetes mellitus juvenile type with unspecified complication (disorder),type 1
+658091000000108,Diabetes mellitus adult onset with unspecified complication,type 2
 658101000000100,Other specified diabetes mellitus with unspecified complications (disorder),unspecified
 658111000000103,Diabetes mellitus NOS with unspecified complication,unspecified
 659291000000108,Diabetes with other complications (disorder),unspecified
@@ -1431,7 +1431,7 @@ conceptId,term,category
 698360004,Diabetes self management plan,unspecified
 698610002,Education about self management of diabetes (procedure),unspecified
 698961000000108,Diabetes mellitus - unspecified whether during pregnancy or the puerperium (disorder),unspecified
-698971000000101,Diabetes mellitus during pregnancy, childbirth or the puerperium NOS (disorder),unspecified
+698971000000101,Diabetes mellitus during pregnancy childbirth or the puerperium NOS (disorder),unspecified
 700414001,Education about diabetes and driving,unspecified
 700924001,Therapeutic diabetic sock,unspecified
 701000119103,Mixed hyperlipidaemia associated with type II diabetes mellitus,type 2
