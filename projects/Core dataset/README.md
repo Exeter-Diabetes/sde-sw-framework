@@ -2,9 +2,13 @@
 
 This page details the steps to produce the tables which comprise the core diabetes dataset in GP data. These tables can then be combined to create different diabetes cohorts.
 
-Valid in the below...
+Prerequisites:
+* Date of birth (at least year of birth; month and year is preferable) available for all patients; those without should be excluded
+* Sex/gender available for all patients (male/female/indeterminate or other)
+* Additional data cleaning steps depend on data source: CPRD additional exclude those without valid registration date or aged >115 years, or from practices with anomalous mortality rates
 
-Earliest code may be stored in 'problem' or 'observation' table depending on system 
+Additional considerations:
+* Earliest codes for conditions such as diabetes may be stored in 'problem' or 'observation' table depending on data source. 
 
 Add sex to prerequisites
 
