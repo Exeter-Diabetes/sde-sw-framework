@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HbA1c - Data Specification</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f9f9f9;
+        }
+        
+        header {
+            background: #556B7D;
+            color: white;
+            padding: 2rem;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        
+        header a.back-link {
+            color: rgba(255,255,255,0.9);
+            text-decoration: none;
+            font-size: 0.95rem;
+            display: inline-block;
+            margin-bottom: 0.5rem;
+        }
+        
+        header a.back-link:hover {
+            text-decoration: underline;
+        }
+        
+        header h1 {
+            font-size: 2rem;
+        }
+        
+        main {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+        
+        .content {
+            background: white;
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+        }
+        
+        .content h2 {
+            color: #000;
+            margin-top: 1.5rem;
+            margin-bottom: 1rem;
+            border-bottom: 2px solid #333;
+            padding-bottom: 0.5rem;
+        }
+        
+        .content h2:first-child {
+            margin-top: 0;
+        }
+        
+        .content h3 {
+            color: #333;
+            margin-top: 1rem;
+            margin-bottom: 0.5rem;
+        }
+        
+        .content p {
+            margin-bottom: 1rem;
+            line-height: 1.8;
+        }
+        
+        .content ul, .content ol {
+            margin-left: 1.5rem;
+            margin-bottom: 1rem;
+        }
+        
+        .content li {
+            margin-bottom: 0.5rem;
+        }
+        
+        .content code {
+            background: #f5f5f5;
+            padding: 0.2rem 0.4rem;
+            border-radius: 3px;
+            font-family: 'Monaco', 'Courier New', monospace;
+        }
+        
+        .content a {
+            color: #333;
+            text-decoration: none;
+            border-bottom: 1px solid #333;
+        }
+        
+        .content a:hover {
+            text-decoration: underline;
+        }
+        
+        .code-lists {
+            margin-top: 2rem;
+            padding: 1.5rem;
+            background: #f9f9f9;
+            border-left: 4px solid #333;
+            border-radius: 4px;
+        }
+        
+        .code-lists h2 {
+            margin-top: 0;
+            color: #000;
+            font-size: 1.3rem;
+            border: none;
+            padding: 0;
+            margin-bottom: 1rem;
+        }
+        
+        .code-lists ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        
+        .code-lists li {
+            margin-bottom: 0.75rem;
+        }
+        
+        .code-lists a {
+            color: #333;
+            text-decoration: none;
+            border-bottom: 1px solid #333;
+            font-family: 'Monaco', 'Courier New', monospace;
+            font-size: 0.95rem;
+        }
+        
+        .code-lists a:hover {
+            text-decoration: underline;
+            background-color: #fff;
+        }
+        
+
+    </style>
+</head>
+<body>
+    <header>
+        <a href="../index.html" class="back-link">← Back to all data sets</a>
+        <h1>HbA1c</h1>
+    </header>
+    
+    <main>
+        <div class="content">
+            <h1 id="description">Description</h1>
+<p>This is a list of codes for measured HbA1c values.</p>
+<h1 id="rules">Rules</h1>
+<ul>
+<li><p>We check to make sure the date is within the range expected given
+the data source and patient DOB and death dates.</p></li>
+<li><p>We convert all values to mmol/mol; where unit codes are not
+available we assume values &lt;=20 are in % and require
+conversion.</p></li>
+<li><p>We remove mmol/mol values less than 20 and greater than 195
+mmol/mol as these are implausible.</p></li>
+<li><p>We apply additional cleaning rules based on unit codes where
+available.</p></li>
+<li><p>If multiple values recorded on the same day for a patient, we
+take the mean.</p></li>
+<li><p>In patients with diabetes, the earliest HbA1c&gt;=48 mmol/mol is
+used in the algorithm to define diagnosis date - see
+conditions/diabetes.</p></li>
+</ul>
+<h1 id="origins">Origins</h1>
+<ul>
+<li>The origin of the SNOMED codelist was the Pathology Bounded Code
+List (PBCL).</li>
+</ul>
+
+        </div>
+        <div class="code-lists">
+<h2>Code Lists</h2>
+<ul>
+<li><a href="../code_lists/investigations/HbA1c/hba1c_snomed.csv">hba1c_snomed.csv</a></li>
+</ul>
+</div>
+    </main>
+
+</body>
+</html>

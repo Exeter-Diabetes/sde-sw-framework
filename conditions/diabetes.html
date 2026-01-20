@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>bmi measurements - Data Specification</title>
+    <title>diabetes - Data Specification</title>
     <style>
         * {
             margin: 0;
@@ -149,37 +149,77 @@
 <body>
     <header>
         <a href="../index.html" class="back-link">← Back to all data sets</a>
-        <h1>bmi measurements</h1>
+        <h1>diabetes</h1>
     </header>
     
     <main>
         <div class="content">
             <h1 id="description">Description</h1>
-<p>This is a list of codes for measured BMI values.</p>
+<p>This is a list of codes for diabetes: type 1, type 2 and unspecified
+type. It does not include codes for other types of diabetes
+e.g. gestational, secondary, monogenic, syndromic.</p>
 <h1 id="rules">Rules</h1>
 <ul>
 <li><p>We check to make sure the date is within the range expected given
 the data source and patient DOB and death dates.</p></li>
-<li><p>We use earliest recorded code instance as date of
-diagnosis.</p></li>
-<li><p>We remove values less than 15 and greater than 100 kg per square
-meter as these are implausible for adults.</p></li>
-<li><p>We apply additional cleaning rules based on unit codes where
-available.</p></li>
-<li><p>If multiple values recorded on the same day for a patient, we
-take the mean.</p></li>
+<li><p>Presence of one of these codes may not be sufficient to define
+diabetes cases. In primary care data, the presence of a diabetes Quality
+and Outcome Framework (QOF) code is more specific for true diabetes
+cases. In addition, specificity can be increased by removing patients
+with codes for other types of diabetes mellitus (gestational, secondary
+etc.) or diabetes insipidus, who may erroneously have diabetes mellitus
+codes in their records.</p></li>
+<li><p>Our algorithm for defining diabetes diagnosis date: the earliest
+of a code for diabetes, an HbA1c&gt;=48 mmol/mol (see
+investigation/HbA1c) or a prescription for a glucose-lowering medication
+(including insulin; see medications/diabetes). It may not be possible to
+determine diagnosis dates in some datasets if historical data is not
+available. For those with type 2 diabetes, diabetes codes within the
+year of birth are ignored. It may be possible to ignore other diabetes
+codes which clearly do not relate to diagnosis in some datasets e.g. in
+CPRD ignore diabetes codes with obstype=4 as these represent family
+history.</p></li>
+<li><p>Our algorithm for distinguishing between type 1 and type 2
+diabetes:</p>
+<ul>
+<li>No insulin prescriptions: Type 2</li>
+<li>With at least one insulin prescription:
+<ul>
+<li>At least one Type 1 and no Type 2 codes: Type 1</li>
+<li>At least one Type 2 and no Type 1 codes: Type 2</li>
+<li>Mix of Type 1 and Type 2 codes: if number of Type 1 medcodes &gt;=2
+x number of Type 2 medcodes, Type 1, otherwise Type 2</li>
+<li>No Type 1 or Type 2 codes: leave as ‘unclassified’. If required, a
+probable diabetes type can be assigned as follows: where time to insulin
+from diagnosis available: if diagnosed &lt;35 years of age and on
+insulin within 1 year of diagnosis, Type 1, otherwise Type 2; if time to
+insulin not available: if diagnosed &lt;35 years and not currently
+taking a non-insulin glucose-lowering medication (no prescription for a
+non-insulin glucose-lowering medication within 6 months, Type 1,
+otherwise Type 2.</li>
+</ul></li>
+</ul></li>
+<li><p>Since diabetes type is used to inform whether diabetes codes in
+year of birth should be excluded or not, this can create a circular
+problem in those with no type 1 or type 2-specific codes, where someone
+is classified as type 1 if diabetes codes in year of birth are included,
+and type 2 if diabetes medcodes in year of birth are excluded (or vice
+versa, if time to insulin from diagnosis is affected). These people are
+classed as ‘unclassified’, and need further investigation to establish
+diabetes type and date/age of diagnosis.</p></li>
 </ul>
 <h1 id="origins">Origins</h1>
 <ul>
-<li>The origin of the SNOMED codelist was source codelists from Andy
-McG/the BHF/RCGP and reviewed by Andy McG in 2021.</li>
+<li>The origin of the SNOMED codelist was searching for diabetes and
+related codes in the SNOMED CT UK edition release 41.2.0 from NHS
+TRUD.</li>
 </ul>
 
         </div>
         <div class="code-lists">
 <h2>Code Lists</h2>
 <ul>
-<li><a href="../code_lists/investigations/bmi measurements/bmi_snomed.csv">bmi_snomed.csv</a></li>
+<li><a href="../code_lists/conditions/diabetes/all_diabetes_snomed.csv">all_diabetes_snomed.csv</a></li>
 </ul>
 </div>
     </main>

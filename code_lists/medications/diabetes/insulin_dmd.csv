@@ -1,0 +1,1588 @@
+dmd_code,term,drug_substance
+10093211000001106,Insulin glulisine 100units/ml solution for injection 3ml pre-filled disposable devices 5 pre-filled disposable injection (product),Bolus insulin
+10093311000001103,Apidra 100units/ml solution for injection 3ml pre-filled OptiSet pens (Sanofi),Bolus insulin
+10093411000001105,Apidra 100units/ml solution for injection 3ml pre-filled OptiSet pens (Sanofi) 5 pre-filled disposable injection,Bolus insulin
+10097211000001102,Insulin glulisine 100 unit/ml solution for injection 3 ml pre-filled disposable injection,Bolus insulin
+10250211000001101,Lantus OptiClik 100units/ml solution for injection 3ml cartridges (sanofi-aventis) (product),Basal insulin
+10250311000001109,Lantus OptiClik 100units/ml solution for injection 3ml cartridges (sanofi-aventis) 5 cartridge (product),Basal insulin
+10344811000001103,Insulin lispro biphasic 50/50 100units/ml suspension for injection 3ml cartridges 5 cartridge (product),Mix insulin
+10344911000001108,Humalog Mix50 100units/ml suspension for injection 3ml cartridges (Eli Lilly & Co Ltd) (product),Bolus insulin
+10345011000001108,Humalog Mix50 100units/ml suspension for injection 3ml cartridges (Eli Lilly & Co Ltd) 5 cartridge (product),Bolus insulin
+10352711000001104,Insulin lispro (as insulin lispro protamine) 50 unit/ml and insulin lispro 50 unit/ml suspension for injection 3 ml cartridge,Bolus insulin
+10534811000001104,NovoRapid 100units/ml solution for injection 10ml vials (PI) (Waymade Ltd) (product),Bolus insulin
+10534911000001109,NovoRapid 100units/ml solution for injection 10ml vials (PI) (Waymade Ltd) 1 vial (product),Bolus insulin
+10542211000001105,Humalog Pen 100units/ml solution for injection 3ml pre-filled pens (Waymade Healthcare Plc),Bolus insulin
+10542311000001102,Humalog Pen 100units/ml solution for injection 3ml pre-filled pens (Waymade Healthcare Plc) 5 pre-filled disposable injection,Bolus insulin
+10542811000001106,Humalog 100units/ml solution for injection 10ml vials (PI) (Waymade Ltd) (product),Bolus insulin
+10542911000001101,NovoMix 30 Penfill 100units/ml suspension for injection 3ml cartridges (PI) (Waymade Ltd) (product),Mix insulin
+10543011000001109,Humalog 100units/ml solution for injection 10ml vials (PI) (Waymade Ltd) 1 vial (product),Bolus insulin
+10543111000001105,NovoMix 30 Penfill 100units/ml suspension for injection 3ml cartridges (PI) (Waymade Ltd) 5 cartridge (product),Mix insulin
+10543211000001104,NovoRapid FlexPen 100units/ml solution for injection 3ml pre-filled pens (Waymade Healthcare Plc),Bolus insulin
+10548211000001107,Lantus 100units/ml solution for injection 10ml vials (PI) (Waymade Ltd) (product),Basal insulin
+10548311000001104,Lantus 100units/ml solution for injection 10ml vials (PI) (Waymade Ltd) 1 vial (product),Basal insulin
+10548611000001109,Lantus 100units/ml solution for injection 3ml pre-filled OptiSet pens (Waymade Healthcare Plc),Basal insulin
+10548811000001108,Lantus 100units/ml solution for injection 3ml pre-filled OptiSet pens (Waymade Healthcare Plc) 5 pre-filled disposable injection,Basal insulin
+10549011000001107,Lantus 100units/ml solution for injection 3ml cartridges (PI) (Waymade Ltd) (product),Basal insulin
+10549211000001102,Lantus 100units/ml solution for injection 3ml cartridges (PI) (Waymade Ltd) 5 cartridge (product),Basal insulin
+10550911000001103,NovoRapid FlexPen 100units/ml solution for injection 3ml pre-filled pens (Waymade Healthcare Plc) 5 pre-filled disposable injection,Bolus insulin
+1055241000,Insulin isophane biphasic porcine,Mix insulin
+10659811000001107,Exubera kit (Pfizer Ltd) (physical object),Bolus insulin
+10660011000001100,Exubera insulin release unit (Pfizer Ltd) (physical object),Bolus insulin
+10660111000001104,Exubera insulin release unit (Pfizer Ltd) 6 device (physical object),Bolus insulin
+10660211000001105,Exubera chamber (Pfizer Ltd) (physical object),Bolus insulin
+10660311000001102,Exubera chamber (Pfizer Ltd) 1 device (physical object),Bolus insulin
+10660511000001108,Exubera kit (Pfizer Ltd) 1 kit (physical object),Bolus insulin
+10690411000001106,Insulin human 1mg inhalation powder blisters 90 blister (product),NA
+10690511000001105,Exubera 1mg inhalation powder blisters (Pfizer Ltd) (product),Bolus insulin
+10690611000001109,Exubera 1mg inhalation powder blisters (Pfizer Ltd) 90 blister 3 x (5 card (6 blisters)) (product),Bolus insulin
+10690711000001100,Insulin human 3mg inhalation powder blisters 90 blister (product),NA
+10690811000001108,Exubera 3mg inhalation powder blisters (Pfizer Ltd) (product),Bolus insulin
+10690911000001103,Exubera 3mg inhalation powder blisters (Pfizer Ltd) 90 blister 3 x (5 card (6 blisters)) (product),Bolus insulin
+10702911000001109,Insulin human (product),NA
+10703011000001101,Insulin human 1 mg inhalation powder 1 actuation actuation,NA
+10703111000001100,Insulin human 3 mg inhalation powder 1 actuation actuation,NA
+10707801000001103,Humulin I KwikPen,Intermediate insulin
+10707901000001109,Humulin M3 KwikPen,Mix insulin
+1071301000001104,Human Actrapid 100iu/mL injection 10mL,Bolus insulin
+1071401000001107,Human Actrapid 100iu/mL Penfill cartridge 1.5mL,Bolus insulin
+1071501000001106,Human Insulatard 100iu/mL preloaded injection pen 3mL,Intermediate insulin
+10898411000001103,Apidra 100units/ml solution for injection 3ml OptiClik cartridges (sanofi-aventis) (product),Bolus insulin
+10898511000001104,Apidra 100units/ml solution for injection 3ml OptiClik cartridges (sanofi-aventis) 5 cartridge (product),Bolus insulin
+11013401000001101,INSUMAN COMB 25 SOLOSTAR 100iu/mL prefilled pen 3mL,Mix insulin
+11031301000001100,HUMULIN I KWIKPEN 100iu/mL prefilled pen 3mL,Intermediate insulin
+11032501000001103,HUMALOG KWIKPEN 100iu/mL prefilled pen 3mL,Bolus insulin
+11049301000001100,HUMULIN M3 KWIKPEN 100iu/mL prefilled pen 3mL,Mix insulin
+11077001000001107,NovoRapid FlexTouch,Bolus insulin
+1108101000001109,Human Mixtard 10 prefilled pen,Mix insulin
+1108201000001102,Human Mixtard 20 prefilled pen,Mix insulin
+1108301000001106,Human Mixtard 40 prefilled pen,Mix insulin
+1108401000001103,Human Mixtard 50 prefilled pen,Mix insulin
+11105301000001100,NOVORAPID FLEXTOUCH 100units/mL soln for injection pen 3mL,Bolus insulin
+11105401000001108,INSUMAN BASAL SOLOSTAR 100iu/mL prefilled pen 3mL,Intermediate insulin
+11113611000001107,Pork Actrapid 100units/ml solution for injection 10ml vials (Waymade Ltd) (product),Bolus insulin
+11113811000001106,Pork Actrapid 100units/ml solution for injection 10ml vials (Waymade Ltd) 1 vial (product),Bolus insulin
+11114411000001107,Pork Insulatard 100units/ml suspension for injection 10ml vials (Waymade Ltd) (product),Intermediate insulin
+11114611000001105,Levemir Penfill 100units/ml solution for injection 3ml cartridges (Waymade Ltd) (product),Basal insulin
+11114811000001109,Pork Insulatard 100units/ml suspension for injection 10ml vials (Waymade Ltd) 1 vial (product),Intermediate insulin
+11114911000001104,Levemir Penfill 100units/ml solution for injection 3ml cartridges (Waymade Ltd) 5 cartridge (product),Basal insulin
+11115011000001104,Levemir FlexPen 100units/ml solution for injection 3ml pre-filled pens (Waymade Healthcare Plc),Basal insulin
+11115211000001109,Levemir FlexPen 100units/ml solution for injection 3ml pre-filled pens (Waymade Healthcare Plc) 5 pre-filled disposable injection,Basal insulin
+11116211000001103,Pork Mixtard 30 100units/ml suspension for injection 10ml vials (Waymade Ltd) (product),Mix insulin
+11116311000001106,Pork Mixtard 30 100units/ml suspension for injection 10ml vials (Waymade Ltd) 1 vial (product),Mix insulin
+11116811000001102,Hypurin Porcine Neutral 100units/ml solution for injection 10ml vials (Waymade Ltd) (product),Bolus insulin
+11116911000001107,Hypurin Porcine Neutral 100units/ml solution for injection 10ml vials (Waymade Ltd) 1 vial (product),Bolus insulin
+11117211000001101,Hypurin Porcine Neutral 100units/ml solution for injection 1.5ml cartridges (Waymade Ltd) (product),Bolus insulin
+11117511000001103,Hypurin Porcine Neutral 100units/ml solution for injection 1.5ml cartridges (Waymade Ltd) 5 cartridge (product),Bolus insulin
+11118411000001103,Hypurin Porcine Isophane 100units/ml suspension for injection 10ml vials (Waymade Ltd) (product),Intermediate insulin
+11118611000001100,Hypurin Porcine Isophane 100units/ml suspension for injection 10ml vials (Waymade Ltd) 1 vial (product),Intermediate insulin
+11118911000001106,Hypurin Bovine Neutral 100units/ml solution for injection 10ml vials (Waymade Ltd) (product),Bolus insulin
+11119211000001107,Hypurin Bovine Neutral 100units/ml solution for injection 10ml vials (Waymade Ltd) 1 vial (product),Bolus insulin
+11119311000001104,Hypurin Bovine Lente 100units/ml suspension for injection 10ml vials (Waymade Ltd) (product),Basal insulin
+11119411000001106,Hypurin Bovine Lente 100units/ml suspension for injection 10ml vials (Waymade Ltd) 1 vial (product),Basal insulin
+11119511000001105,Hypurin Bovine Isophane 100units/ml suspension for injection 10ml vials (Waymade Ltd) (product),Intermediate insulin
+11119611000001109,Hypurin Bovine Isophane 100units/ml suspension for injection 10ml vials (Waymade Ltd) 1 vial (product),Intermediate insulin
+11119811000001108,Hypurin Bovine Isophane 100units/ml suspension for injection 1.5ml cartridges (Waymade Ltd) (product),Intermediate insulin
+11120011000001101,Hypurin Bovine Isophane 100units/ml suspension for injection 1.5ml cartridges (Waymade Ltd) 5 cartridge (product),Intermediate insulin
+11121911000001109,Velosulin 100units/ml solution for injection 10ml vials (Waymade Ltd) (product),Bolus insulin
+11122211000001107,Velosulin 100units/ml solution for injection 10ml vials (Waymade Ltd) 1 vial (product),Bolus insulin
+11122611000001109,Mixtard 50 Penfill 100units/ml suspension for injection 3ml cartridges (Waymade Ltd) (product),Mix insulin
+11122711000001100,Mixtard 50 Penfill 100units/ml suspension for injection 3ml cartridges (Waymade Ltd) 5 cartridge (product),Mix insulin
+11123011000001106,Human Mixtard 50 Penfill 100units/ml suspension for injection 1.5ml cartridges (Waymade Ltd) (product),Mix insulin
+11123211000001101,Human Mixtard 50 Penfill 100units/ml suspension for injection 1.5ml cartridges (Waymade Ltd) 5 cartridge (product),Mix insulin
+11123311000001109,Mixtard 40 Penfill 100units/ml suspension for injection 3ml cartridges (Waymade Ltd) (product),Mix insulin
+11123411000001102,Mixtard 40 Penfill 100units/ml suspension for injection 3ml cartridges (Waymade Ltd) 5 cartridge (product),Mix insulin
+11123611000001104,Human Mixtard 40 Penfill 100units/ml suspension for injection 1.5ml cartridges (Waymade Ltd) (product),Mix insulin
+11123711000001108,Human Mixtard 40 Penfill 100units/ml suspension for injection 1.5ml cartridges (Waymade Ltd) 5 cartridge (product),Mix insulin
+11124011000001108,Mixtard 30 100units/ml suspension for injection 10ml vials (Waymade Ltd) (product),Mix insulin
+11124111000001109,Mixtard 30 100units/ml suspension for injection 10ml vials (Waymade Ltd) 1 vial (product),Mix insulin
+11124211000001103,Mixtard 30 Penfill 100units/ml suspension for injection 3ml cartridges (Waymade Ltd) (product),Mix insulin
+11124311000001106,Mixtard 30 Penfill 100units/ml suspension for injection 3ml cartridges (Waymade Ltd) 5 cartridge (product),Mix insulin
+11124411000001104,Mixtard 30 InnoLet 100units/ml suspension for injection 3ml pre-filled pens (Waymade Healthcare Plc),Mix insulin
+11124511000001100,Mixtard 30 InnoLet 100units/ml suspension for injection 3ml pre-filled pens (Waymade Healthcare Plc) 5 pre-filled disposable injection,Mix insulin
+11124611000001101,Mixtard 20 Penfill 100units/ml suspension for injection 3ml cartridges (Waymade Ltd) (product),Mix insulin
+11124911000001107,Mixtard 20 Penfill 100units/ml suspension for injection 3ml cartridges (Waymade Ltd) 5 cartridge (product),Mix insulin
+11132611000001106,Actrapid 100units/ml solution for injection 10ml vials (Waymade Ltd) (product),Bolus insulin
+11132811000001105,Actrapid 100units/ml solution for injection 10ml vials (Waymade Ltd) 1 vial (product),Bolus insulin
+11133811000001102,Insulatard InnoLet 100units/ml suspension for injection 3ml pre-filled pens (Waymade Healthcare Plc),Intermediate insulin
+11133911000001107,Insulatard InnoLet 100units/ml suspension for injection 3ml pre-filled pens (Waymade Healthcare Plc) 5 pre-filled disposable injection,Intermediate insulin
+11134011000001105,Insulatard Penfill 100units/ml suspension for injection 3ml cartridges (Waymade Ltd) (product),Intermediate insulin
+11134111000001106,Insulatard Penfill 100units/ml suspension for injection 3ml cartridges (Waymade Ltd) 5 cartridge (product),Intermediate insulin
+11134711000001107,Insulatard 100units/ml suspension for injection 10ml vials (Waymade Ltd) (product),Intermediate insulin
+11134911000001109,Insulatard 100units/ml suspension for injection 10ml vials (Waymade Ltd) 1 vial (product),Intermediate insulin
+11135211000001104,Human Mixtard 10 Penfill 100units/ml suspension for injection 1.5ml cartridges (Waymade Ltd) (product),Mix insulin
+11135311000001107,Human Mixtard 10 Penfill 100units/ml suspension for injection 1.5ml cartridges (Waymade Ltd) 5 cartridge (product),Mix insulin
+11135411000001100,Human Mixtard 20 Penfill 100units/ml suspension for injection 1.5ml cartridges (Waymade Ltd) (product),Mix insulin
+11135511000001101,Human Mixtard 20 Penfill 100units/ml suspension for injection 1.5ml cartridges (Waymade Ltd) 5 cartridge (product),Mix insulin
+11135611000001102,Mixtard 10 Penfill 100units/ml suspension for injection 3ml cartridges (Waymade Ltd) (product),Mix insulin
+11135711000001106,Mixtard 10 Penfill 100units/ml suspension for injection 3ml cartridges (Waymade Ltd) 5 cartridge (product),Mix insulin
+11148111000001101,Levemir InnoLet 100units/ml solution for injection 3ml pre-filled pens (Novo Nordisk Ltd),Basal insulin
+11148211000001107,Levemir InnoLet 100units/ml solution for injection 3ml pre-filled pens (Novo Nordisk Ltd) 5 pre-filled disposable injection,Basal insulin
+11706601000001106,Tresiba FlexTouch,Basal insulin
+11706701000001101,Tresiba Penfill,Basal insulin
+11706801000001105,Tresiba,Basal insulin
+11737701000001109,INSULIN DEGLUDEC,Basal insulin
+11737801000001100,TRESIBA FLEXTOUCH 100iu/mL prefilled pen 3mL,Basal insulin
+11737901000001106,INSULIN DEGLUDEC 100iu/mL prefilled pen,Basal insulin
+11738001000001108,TRESIBA FLEXTOUCH 200iu/mL prefilled pen 3mL,Basal insulin
+11738101000001109,INSULIN DEGLUDEC 200iu/mL prefilled pen,Basal insulin
+11738201000001102,TRESIBA PENFILL 100iu/mL injection cartridges,Basal insulin
+11738301000001106,INSULIN DEGLUDEC 100iu/mL injection cartridges,Basal insulin
+11933011000001106,Lantus 100units/ml solution for injection 3ml pre-filled SoloStar pens (Sanofi),Basal insulin
+11933111000001107,Lantus 100units/ml solution for injection 3ml pre-filled SoloStar pens (Sanofi) 5 pre-filled disposable injection,Basal insulin
+120701000001102,Human Mixtard 30 prefilled pen,Mix insulin
+12144611000001100,Apidra 100units/ml solution for injection 3ml pre-filled SoloStar pens (Sanofi),Bolus insulin
+12144711000001109,Apidra 100units/ml solution for injection 3ml pre-filled SoloStar pens (Sanofi) 5 pre-filled disposable injection,Bolus insulin
+121901000001108,Biphasic insulin 100units/mL injection vial,Mix insulin
+12218801000001101,NovoRapid PumpCart,Bolus insulin
+12228101000001103,Xultophy,Basal insulin
+12471501000001100,Toujeo,Basal insulin
+12536501000001100,HUMALOG KWIKPEN 200iu/mL prefilled pen 3mL,Bolus insulin
+12536601000001101,INSULIN LISPRO 200iu/mL prefilled pen,Bolus insulin
+12536701000001106,NOVORAPID PUMPCART 100units/mL soln for inj cartridges 1.6mL,Bolus insulin
+12536801000001102,INSULIN DEGLUDEC + LIRAGLUTIDE,Basal insulin
+12536901000001108,XULTOPHY 100iu/mL/3.6mg/mL soln for inj prefilled pen 3mL,Basal insulin
+12537001000001107,INSULIN DEGLUDEC+LIRAGLUTIDE 100iu/mL/3.6mg/mL soln inj pen,Basal insulin
+12608001000001107,Abasaglar KwikPen,Basal insulin
+12608101000001108,Abasaglar,Basal insulin
+12608201000001101,Abasaglar,Basal insulin
+126210001,Insulin human,NA
+126211002,Recombinant human insulin analogue preparation,NA
+126212009,Insulin glargine,Basal insulin
+126214005,Intermediate acting insulin product,Intermediate insulin
+126215006,Long acting insulin,Basal insulin
+126221005,Prompt zinc insulin preparation,NA
+12665601000001105,INSUMAN INFUSAT 100iu/mL soln for inj cartridges 3.15mL,Bolus insulin
+12665701000001100,INSUMAN INFUSAT 100iu/mL solution for injection vials 10mL,Bolus insulin
+12665801000001109,TOUJEO 300iu/mL SoloStar prefilled pen 1.5mL,Basal insulin
+12665901000001103,INSULIN GLARGINE 300iu/mL prefilled pen,Basal insulin
+12666001000001107,ABASAGLAR 100iu/mL solution for injection cartridges 3mL,Basal insulin
+12666101000001108,ABASAGLAR KWIKPEN 100iu/mL soln for inj prefilled pen 3mL,Basal insulin
+12758001000001105,Humalog Mix25 Pen,Bolus insulin
+12758101000001106,Humalog Mix50 Pen,Bolus insulin
+12758201000001104,Humulin I Pen,Intermediate insulin
+12758301000001108,Humulin M3 Pen,Mix insulin
+12758401000001100,Insuman Basal OptiSet,Intermediate insulin
+12758501000001101,Insuman Basal SoloStar,Intermediate insulin
+12758601000001102,Insuman Comb 15 OptiSet,Mix insulin
+12758701000001107,Insuman Comb 25 OptiSet,Mix insulin
+12758801000001103,Insuman Comb 25 SoloStar,Mix insulin
+12758901000001109,Insuman Comb 50 OptiSet,Mix insulin
+12759001000001104,Insuman Rapid OptiSet,Bolus insulin
+12759101000001103,Lantus OptiSet,Basal insulin
+12759201000001105,Lantus,Basal insulin
+12759701000001102,Lantus SoloStar,Basal insulin
+12759801000001106,Lantus OptiClik,Basal insulin
+13017101000001106,Fiasp FlexTouch,Bolus insulin
+13017201000001104,Fiasp Penfill,Bolus insulin
+13017301000001108,Fiasp,Bolus insulin
+13017401000001100,Fiasp,Bolus insulin
+13113601000001104,Humalog Junior KwikPen,Bolus insulin
+13180011000001101,NovoMix 30 FlexPen 100units/ml suspension for injection 3ml pre-filled pens (Dowelhurst Ltd),Mix insulin
+13180111000001100,NovoMix 30 FlexPen 100units/ml suspension for injection 3ml pre-filled pens (Dowelhurst Ltd) 5 pre-filled disposable injection,Mix insulin
+13180611000001108,NovoMix 30 Penfill 100units/ml suspension for injection 3ml cartridges (Dowelhurst Ltd) (product),Mix insulin
+13180711000001104,NovoMix 30 Penfill 100units/ml suspension for injection 3ml cartridges (Dowelhurst Ltd) 5 cartridge (product),Mix insulin
+13181211000001100,NovoRapid FlexPen 100units/ml solution for injection 3ml pre-filled pens (Dowelhurst Ltd),Bolus insulin
+13181311000001108,NovoRapid FlexPen 100units/ml solution for injection 3ml pre-filled pens (Dowelhurst Ltd) 5 pre-filled disposable injection,Bolus insulin
+13182011000001102,NovoRapid Penfill 100units/ml solution for injection 3ml cartridges (Dowelhurst Ltd) (product),Bolus insulin
+13182211000001107,NovoRapid Penfill 100units/ml solution for injection 3ml cartridges (Dowelhurst Ltd) 5 cartridge (product),Bolus insulin
+13198101000001104,Insulin soluble human 100units/ml solution for injection 3ml cartridges (product),NA
+13198201000001106,Insulin soluble human 100units/ml solution for injection 10ml vials (product),NA
+13198301000001102,Insulin lispro 100units/ml solution for injection 10ml vials (product),Bolus insulin
+13198401000001105,Insulin lispro 100units/ml solution for injection 3ml cartridges (product),Bolus insulin
+13198501000001109,Insulin lispro 100units/ml solution for injection 3ml pre-filled disposable devices (product),Bolus insulin
+13198601000001108,Insulin aspart 100units/ml solution for injection 10ml vials (product),Bolus insulin
+13198701000001103,Insulin zinc crystalline human 100units/ml suspension for injection 10ml vials (product),Basal insulin
+13198801000001107,Insulin isophane human 100units/ml suspension for injection 3ml cartridges (product),Intermediate insulin
+13198901000001101,Insulin protamine zinc bovine 100units/ml suspension for injection 10ml vials (product),Basal insulin
+13248401000001103,Insulin soluble human 100units/ml solution for injection 3ml pre-filled disposable devices (product),NA
+13248501000001104,Insulin isophane human 100units/ml suspension for injection 3ml pre-filled disposable devices (product),Intermediate insulin
+13250001000001108,Insulin soluble bovine 100units/ml solution for injection 10ml vials (product),NA
+13250101000001109,Insulin soluble bovine 100units/ml solution for injection 1.5ml cartridges (product),NA
+13250201000001102,Insulin soluble porcine 100units/ml solution for injection 10ml vials (product),NA
+13250301000001106,Insulin soluble human 100units/ml solution for injection 5ml vials (product),NA
+13250401000001103,Insulin soluble human 100units/ml solution for injection 1.5ml cartridges (product),NA
+13250501000001104,Insulin lispro 100units/ml solution for injection 1.5ml cartridges (product),Bolus insulin
+13256601000001103,Insulin glargine 100units/ml solution for injection 3ml cartridges (product),Basal insulin
+13256801000001104,Insulin zinc mixed human 100units/ml suspension for injection 10ml vials (product),Mix insulin
+13256901000001105,Insulin glargine 100units/ml solution for injection 10ml vials (product),Basal insulin
+13257201000001103,Insulin glargine 100units/ml solution for injection 3ml pre-filled disposable devices (product),Basal insulin
+13265301000001108,Insulin glulisine 100units/ml solution for injection 10ml vials (product),Bolus insulin
+13277401000001101,Semglee,Basal insulin
+13286701000001101,Suliqua,Basal insulin
+13291501000001101,Toujeo DoubleStar,Basal insulin
+13291601000001102,Toujeo,Basal insulin
+135601000001100,Humulin M3 30/70 (prb) 100units/mL injection cartridge,Mix insulin
+13772811000001105,Humulin I 100units/ml suspension for injection 3ml cartridges (Waymade Healthcare Plc) (product),Intermediate insulin
+13772911000001100,Humulin I 100units/ml suspension for injection 3ml cartridges (Waymade Healthcare Plc) 5 cartridge (product),Intermediate insulin
+13773011000001108,Humulin S 100units/ml solution for injection 3ml cartridges (Waymade Healthcare Plc) (product),Bolus insulin
+13773111000001109,Humulin S 100units/ml solution for injection 3ml cartridges (Waymade Healthcare Plc) 5 cartridge (product),Bolus insulin
+138001000001104,Isophane insulin 100iu/mL injection vial - product,Intermediate insulin
+13850411000001106,Insulin human 100units/ml solution for injection 10ml vials 1 vial (product),NA
+13850511000001105,Humulin R 100units/ml solution for injection 10ml vials (Imported (United States)) (product),Bolus insulin
+13850611000001109,Humulin R 100units/ml solution for injection 10ml vials (Imported (United States)) 1 vial (product),Bolus insulin
+13859411000001101,Insulin human 100 unit/ml solution for injection 10 ml vial,NA
+13877811000001105,Humalog KwikPen 100units/ml solution for injection 3ml pre-filled pens (Eli Lilly and Company Ltd),Bolus insulin
+13878111000001102,Humalog KwikPen 100units/ml solution for injection 3ml pre-filled pens (Eli Lilly and Company Ltd) 5 pre-filled disposable injection,Bolus insulin
+13884711000001104,Humalog Mix25 KwikPen 100units/ml suspension for injection 3ml pre-filled pens (Eli Lilly and Company Ltd),Bolus insulin
+13884811000001107,Humalog Mix25 KwikPen 100units/ml suspension for injection 3ml pre-filled pens (Eli Lilly and Company Ltd) 5 pre-filled disposable injection,Bolus insulin
+13884911000001102,Humalog Mix50 KwikPen 100units/ml suspension for injection 3ml pre-filled pens (Eli Lilly and Company Ltd),Bolus insulin
+13885011000001102,Humalog Mix50 KwikPen 100units/ml suspension for injection 3ml pre-filled pens (Eli Lilly and Company Ltd) 5 pre-filled disposable injection,Bolus insulin
+14190111000001102,Humulin S 100units/ml solution for injection 10ml vials (Waymade Healthcare Plc) (product),Bolus insulin
+14190211000001108,Humulin S 100units/ml solution for injection 10ml vials (Waymade Healthcare Plc) 1 vial (product),Bolus insulin
+14190311000001100,Humulin M3 100units/ml suspension for injection 3ml cartridges (Waymade Healthcare Plc) (product),Mix insulin
+14190411000001107,Humulin M3 100units/ml suspension for injection 3ml cartridges (Waymade Healthcare Plc) 5 cartridge (product),Mix insulin
+14247811000001101,Humalog 100units/ml solution for injection 3ml cartridges (Sigma Pharmaceuticals Plc) (product),Bolus insulin
+14247911000001106,Humalog 100units/ml solution for injection 3ml cartridges (Sigma Pharmaceuticals Plc) 5 cartridge (product),Bolus insulin
+14248011000001108,Humalog Mix25 100units/ml suspension for injection 3ml cartridges (Sigma Pharmaceuticals Plc) (product),Bolus insulin
+14248111000001109,Humalog Mix25 100units/ml suspension for injection 3ml cartridges (Sigma Pharmaceuticals Plc) 5 cartridge (product),Bolus insulin
+14248411000001104,Humalog Mix50 100units/ml suspension for injection 3ml cartridges (Sigma Pharmaceuticals Plc) (product),Bolus insulin
+14248511000001100,Humalog Mix50 100units/ml suspension for injection 3ml cartridges (Sigma Pharmaceuticals Plc) 5 cartridge (product),Bolus insulin
+14248611000001101,Humalog Mix25 Pen 100units/ml suspension for injection 3ml pre-filled pens (Sigma Pharmaceuticals Plc),Bolus insulin
+14248711000001105,Humalog Mix25 Pen 100units/ml suspension for injection 3ml pre-filled pens (Sigma Pharmaceuticals Plc) 5 pre-filled disposable injection,Bolus insulin
+14248811000001102,Humalog Mix50 Pen 100units/ml suspension for injection 3ml pre-filled pens (Sigma Pharmaceuticals Plc),Bolus insulin
+14248911000001107,Humalog Mix50 Pen 100units/ml suspension for injection 3ml pre-filled pens (Sigma Pharmaceuticals Plc) 5 pre-filled disposable injection,Bolus insulin
+14249011000001103,Humalog Pen 100units/ml solution for injection 3ml pre-filled pens (Sigma Pharmaceuticals Plc),Bolus insulin
+14249111000001102,Humalog Pen 100units/ml solution for injection 3ml pre-filled pens (Sigma Pharmaceuticals Plc) 5 pre-filled disposable injection,Bolus insulin
+14249211000001108,Humalog 100units/ml solution for injection 10ml vials (Sigma Pharmaceuticals Plc) (product),Bolus insulin
+14249311000001100,Humalog 100units/ml solution for injection 10ml vials (Sigma Pharmaceuticals Plc) 1 vial (product),Bolus insulin
+14380511000001100,NovoMix 30 FlexPen 100units/ml suspension for injection 3ml pre-filled pens (Sigma Pharmaceuticals Plc),Mix insulin
+14381311000001101,NovoMix 30 FlexPen 100units/ml suspension for injection 3ml pre-filled pens (Sigma Pharmaceuticals Plc) 5 pre-filled disposable injection,Mix insulin
+14386011000001106,NovoMix 30 Penfill 100units/ml suspension for injection 3ml cartridges (Sigma Pharmaceuticals Plc) (product),Mix insulin
+14386511000001103,NovoMix 30 Penfill 100units/ml suspension for injection 3ml cartridges (Sigma Pharmaceuticals Plc) 5 cartridge (product),Mix insulin
+14389911000001101,NovoRapid FlexPen 100units/ml solution for injection 3ml pre-filled pens (Sigma Pharmaceuticals Plc),Bolus insulin
+14390111000001105,NovoRapid FlexPen 100units/ml solution for injection 3ml pre-filled pens (Sigma Pharmaceuticals Plc) 5 pre-filled disposable injection,Bolus insulin
+14592411000001101,Humulin I 100units/ml suspension for injection 10ml vials (Waymade Healthcare Plc) (product),Intermediate insulin
+14592611000001103,Humulin I 100units/ml suspension for injection 10ml vials (Waymade Healthcare Plc) 1 vial (product),Intermediate insulin
+14664711000001106,NovoRapid Penfill 100units/ml solution for injection 3ml cartridges (Sigma Pharmaceuticals Plc) (product),Bolus insulin
+14665111000001109,NovoRapid Penfill 100units/ml solution for injection 3ml cartridges (Sigma Pharmaceuticals Plc) 5 cartridge (product),Bolus insulin
+14665711000001105,NovoRapid 100units/ml solution for injection 10ml vials (Sigma Pharmaceuticals Plc) (product),Bolus insulin
+14665911000001107,NovoRapid 100units/ml solution for injection 10ml vials (Sigma Pharmaceuticals Plc) 1 vial (product),Bolus insulin
+14712111000001106,Mixtard 30 Penfill 100units/ml suspension for injection 3ml cartridges (Sigma Pharmaceuticals Plc) (product),Mix insulin
+14712311000001108,Mixtard 30 Penfill 100units/ml suspension for injection 3ml cartridges (Sigma Pharmaceuticals Plc) 5 cartridge (product),Mix insulin
+14759411000001102,Lantus 100units/ml solution for injection 3ml cartridges (Sigma Pharmaceuticals Plc) (product),Basal insulin
+14759511000001103,Lantus 100units/ml solution for injection 3ml cartridges (Sigma Pharmaceuticals Plc) 5 cartridge (product),Basal insulin
+14760811000001101,Lantus 100units/ml solution for injection 3ml OptiClik cartridges (Sigma Pharmaceuticals Plc) (product),Basal insulin
+14760911000001106,Lantus 100units/ml solution for injection 3ml OptiClik cartridges (Sigma Pharmaceuticals Plc) 5 cartridge (product),Basal insulin
+14762411000001102,Lantus 100units/ml solution for injection 10ml vials (Sigma Pharmaceuticals Plc) (product),Basal insulin
+14762711000001108,Lantus 100units/ml solution for injection 10ml vials (Sigma Pharmaceuticals Plc) 1 vial (product),Basal insulin
+14763111000001101,Lantus 100units/ml solution for injection 3ml pre-filled OptiSet pens (Sigma Pharmaceuticals Plc),Basal insulin
+14763311000001104,Lantus 100units/ml solution for injection 3ml pre-filled OptiSet pens (Sigma Pharmaceuticals Plc) 5 pre-filled disposable injection,Basal insulin
+155181000001100,Admelog (product),Bolus insulin
+15603011000001100,Insulin human 500units/ml solution for injection 20ml vials 1 vial (product),NA
+15603111000001104,Humulin R 500units/ml solution for injection 20ml vials (Imported (United States)) (product),Bolus insulin
+15603211000001105,Humulin R 500units/ml solution for injection 20ml vials (Imported (United States)) 1 vial (product),Bolus insulin
+15611411000001108,Insulin human 500 unit/ml solution for injection 20 ml vial,NA
+15871011000001104,Insulin human 100units/ml solution for injection 10ml vials (Special Order) (product),NA
+15871311000001101,Insulin human 100units/ml solution for injection 10ml vials (Special Order) 1 vial (product),NA
+1628631000001100,Humalog (Insulin lispro),Bolus insulin
+16516311000001101,Humalog 100units/ml solution for injection 3ml cartridges (Mawdsley-Brooks & Company Ltd) (product),Bolus insulin
+16516611000001106,Humalog 100units/ml solution for injection 3ml cartridges (Mawdsley-Brooks & Company Ltd) 5 cartridge (product),Bolus insulin
+16517211000001106,Humalog Pen 100units/ml solution for injection 3ml pre-filled pens (Mawdsley-Brooks & Company Ltd),Bolus insulin
+16517311000001103,Humalog Pen 100units/ml solution for injection 3ml pre-filled pens (Mawdsley-Brooks & Company Ltd) 5 pre-filled disposable injection,Bolus insulin
+16517711000001104,Humalog Mix25 100units/ml suspension for injection 3ml cartridges (Mawdsley-Brooks & Company Ltd) (product),Bolus insulin
+16517911000001102,Humalog Mix25 100units/ml suspension for injection 3ml cartridges (Mawdsley-Brooks & Company Ltd) 5 cartridge (product),Bolus insulin
+16518411000001109,Humalog Mix25 Pen 100units/ml suspension for injection 3ml pre-filled pens (Mawdsley-Brooks & Company Ltd),Bolus insulin
+16518511000001108,Humalog Mix25 Pen 100units/ml suspension for injection 3ml pre-filled pens (Mawdsley-Brooks & Company Ltd) 5 pre-filled disposable injection,Bolus insulin
+16518911000001101,Humalog Mix50 100units/ml suspension for injection 3ml cartridges (Mawdsley-Brooks & Company Ltd) (product),Bolus insulin
+16519111000001106,Humalog Mix50 100units/ml suspension for injection 3ml cartridges (Mawdsley-Brooks & Company Ltd) 5 cartridge (product),Bolus insulin
+16519611000001103,Humalog Mix50 Pen 100units/ml suspension for injection 3ml pre-filled pens (Mawdsley-Brooks & Company Ltd),Bolus insulin
+16519711000001107,Humalog Mix50 Pen 100units/ml suspension for injection 3ml pre-filled pens (Mawdsley-Brooks & Company Ltd) 5 pre-filled disposable injection,Bolus insulin
+16519811000001104,Mixtard 30 Penfill 100units/ml suspension for injection 3ml cartridges (Mawdsley-Brooks & Company Ltd) (product),Mix insulin
+16519911000001109,Mixtard 30 Penfill 100units/ml suspension for injection 3ml cartridges (Mawdsley-Brooks & Company Ltd) 5 cartridge (product),Mix insulin
+16520011000001106,Humulin I 100units/ml suspension for injection 3ml cartridges (Mawdsley-Brooks & Company Ltd) (product),Intermediate insulin
+16520111000001107,Humulin I 100units/ml suspension for injection 3ml cartridges (Mawdsley-Brooks & Company Ltd) 5 cartridge (product),Intermediate insulin
+16520211000001101,Humulin I 100units/ml suspension for injection 10ml vials (Mawdsley-Brooks & Company Ltd) (product),Intermediate insulin
+16520311000001109,Humulin I 100units/ml suspension for injection 10ml vials (Mawdsley-Brooks & Company Ltd) 1 vial (product),Intermediate insulin
+16520511000001103,Humulin M3 100units/ml suspension for injection 10ml vials (Mawdsley-Brooks & Company Ltd) (product),Mix insulin
+16520711000001108,Humulin M3 100units/ml suspension for injection 10ml vials (Mawdsley-Brooks & Company Ltd) 1 vial (product),Mix insulin
+16521011000001102,Humulin M3 100units/ml suspension for injection 3ml cartridges (Mawdsley-Brooks & Company Ltd) (product),Mix insulin
+16521111000001101,Humulin M3 100units/ml suspension for injection 3ml cartridges (Mawdsley-Brooks & Company Ltd) 5 cartridge (product),Mix insulin
+16521311000001104,Humulin S 100units/ml solution for injection 3ml cartridges (Mawdsley-Brooks & Company Ltd) (product),Bolus insulin
+16521411000001106,Humulin S 100units/ml solution for injection 3ml cartridges (Mawdsley-Brooks & Company Ltd) 5 cartridge (product),Bolus insulin
+16521911000001103,Humulin S 100units/ml solution for injection 10ml vials (Mawdsley-Brooks & Company Ltd) (product),Bolus insulin
+16522111000001106,Humulin S 100units/ml solution for injection 10ml vials (Mawdsley-Brooks & Company Ltd) 1 vial (product),Bolus insulin
+16522311000001108,NovoRapid FlexPen 100units/ml solution for injection 3ml pre-filled pens (Mawdsley-Brooks & Company Ltd),Bolus insulin
+16522511000001102,NovoRapid FlexPen 100units/ml solution for injection 3ml pre-filled pens (Mawdsley-Brooks & Company Ltd) 5 pre-filled disposable injection,Bolus insulin
+16522711000001107,NovoRapid Penfill 100units/ml solution for injection 3ml cartridges (Mawdsley-Brooks & Company Ltd) (product),Bolus insulin
+16522911000001109,NovoRapid Penfill 100units/ml solution for injection 3ml cartridges (Mawdsley-Brooks & Company Ltd) 5 cartridge (product),Bolus insulin
+16523211000001106,NovoMix 30 FlexPen 100units/ml suspension for injection 3ml pre-filled pens (Mawdsley-Brooks & Company Ltd),Mix insulin
+16523511000001109,NovoMix 30 FlexPen 100units/ml suspension for injection 3ml pre-filled pens (Mawdsley-Brooks & Company Ltd) 5 pre-filled disposable injection,Mix insulin
+16523811000001107,NovoMix 30 Penfill 100units/ml suspension for injection 3ml cartridges (Mawdsley-Brooks & Company Ltd) (product),Mix insulin
+16523911000001102,NovoMix 30 Penfill 100units/ml suspension for injection 3ml cartridges (Mawdsley-Brooks & Company Ltd) 5 cartridge (product),Mix insulin
+16530211000001104,Insulin lispro biphasic 25/75 100units/ml suspension for injection 10ml vials 1 vial (product),Mix insulin
+16530311000001107,Humalog Mix25 100units/ml suspension for injection 10ml vials (Eli Lilly and Company Ltd) (product),Bolus insulin
+16530411000001100,Humalog Mix25 100units/ml suspension for injection 10ml vials (Eli Lilly and Company Ltd) 1 vial (product),Bolus insulin
+16548811000001104,Insulin lispro (as insulin lispro protamine) 75 unit/ml and insulin lispro 25 unit/ml suspension for injection 10 ml vial,Bolus insulin
+16727911000001107,Levemir InnoLet 100units/ml solution for injection 3ml pre-filled pens (Waymade Healthcare Plc),Basal insulin
+16728011000001109,Levemir InnoLet 100units/ml solution for injection 3ml pre-filled pens (Waymade Healthcare Plc) 5 pre-filled disposable injection,Basal insulin
+17509911000001108,Apidra 100units/ml solution for injection 3ml cartridges (Mawdsley-Brooks & Company Ltd) (product),Bolus insulin
+17510011000001103,Apidra 100units/ml solution for injection 3ml cartridges (Mawdsley-Brooks & Company Ltd) 5 cartridge (product),Bolus insulin
+17510111000001102,Humalog 100units/ml solution for injection 10ml vials (Mawdsley-Brooks & Company Ltd) (product),Bolus insulin
+17510211000001108,Humalog 100units/ml solution for injection 10ml vials (Mawdsley-Brooks & Company Ltd) 1 vial (product),Bolus insulin
+17510311000001100,Insulatard InnoLet 100units/ml suspension for injection 3ml pre-filled pens (Mawdsley-Brooks & Company Ltd),Intermediate insulin
+17510411000001107,Insulatard InnoLet 100units/ml suspension for injection 3ml pre-filled pens (Mawdsley-Brooks & Company Ltd) 5 pre-filled disposable injection,Intermediate insulin
+17510511000001106,Lantus 100units/ml solution for injection 3ml cartridges (Mawdsley-Brooks & Company Ltd) (product),Basal insulin
+17510611000001105,Lantus 100units/ml solution for injection 3ml cartridges (Mawdsley-Brooks & Company Ltd) 5 cartridge (product),Basal insulin
+17510711000001101,Lantus 100units/ml solution for injection 3ml OptiClik cartridges (Mawdsley-Brooks & Company Ltd) (product),Basal insulin
+17510811000001109,Lantus 100units/ml solution for injection 3ml OptiClik cartridges (Mawdsley-Brooks & Company Ltd) 5 cartridge (product),Basal insulin
+17510911000001104,Levemir Penfill 100units/ml solution for injection 3ml cartridges (Mawdsley-Brooks & Company Ltd) (product),Basal insulin
+17511011000001107,Levemir Penfill 100units/ml solution for injection 3ml cartridges (Mawdsley-Brooks & Company Ltd) 5 cartridge (product),Basal insulin
+17511111000001108,Levemir FlexPen 100units/ml solution for injection 3ml pre-filled pens (Mawdsley-Brooks & Company Ltd),Basal insulin
+17511211000001102,Levemir FlexPen 100units/ml solution for injection 3ml pre-filled pens (Mawdsley-Brooks & Company Ltd) 5 pre-filled disposable injection,Basal insulin
+17559111000001102,Humulin I 100units/ml suspension for injection 3ml cartridges (Sigma Pharmaceuticals Plc) (product),Intermediate insulin
+17559211000001108,Humulin I 100units/ml suspension for injection 3ml cartridges (Sigma Pharmaceuticals Plc) 5 cartridge (product),Intermediate insulin
+17559311000001100,Humulin I 100units/ml suspension for injection 10ml vials (Sigma Pharmaceuticals Plc) (product),Intermediate insulin
+17559411000001107,Humulin I 100units/ml suspension for injection 10ml vials (Sigma Pharmaceuticals Plc) 1 vial (product),Intermediate insulin
+17601411000001109,NovoMix 30 FlexPen 100units/ml suspension for injection 3ml pre-filled pens (Necessity Supplies Ltd),Mix insulin
+17601511000001108,NovoMix 30 FlexPen 100units/ml suspension for injection 3ml pre-filled pens (Necessity Supplies Ltd) 5 pre-filled disposable injection,Mix insulin
+17601611000001107,NovoMix 30 Penfill 100units/ml suspension for injection 3ml cartridges (Necessity Supplies Ltd) (product),Mix insulin
+17601711000001103,NovoMix 30 Penfill 100units/ml suspension for injection 3ml cartridges (Necessity Supplies Ltd) 5 cartridge (product),Mix insulin
+17601911000001101,NovoRapid FlexPen 100units/ml solution for injection 3ml pre-filled pens (Necessity Supplies Ltd),Bolus insulin
+17602011000001108,NovoRapid FlexPen 100units/ml solution for injection 3ml pre-filled pens (Necessity Supplies Ltd) 5 pre-filled disposable injection,Bolus insulin
+17602211000001103,NovoRapid Penfill 100units/ml solution for injection 3ml cartridges (Necessity Supplies Ltd) (product),Bolus insulin
+17602311000001106,NovoRapid Penfill 100units/ml solution for injection 3ml cartridges (Necessity Supplies Ltd) 5 cartridge (product),Bolus insulin
+17608511000001103,Humulin I KwikPen 100units/ml suspension for injection 3ml pre-filled pens (Eli Lilly and Company Ltd),Intermediate insulin
+17608711000001108,Humulin I KwikPen 100units/ml suspension for injection 3ml pre-filled pens (Eli Lilly and Company Ltd) 5 pre-filled disposable injection,Intermediate insulin
+17609511000001109,Humulin M3 KwikPen 100units/ml suspension for injection 3ml pre-filled pens (Eli Lilly and Company Ltd),Mix insulin
+17609711000001104,Humulin M3 KwikPen 100units/ml suspension for injection 3ml pre-filled pens (Eli Lilly and Company Ltd) 5 pre-filled disposable injection,Mix insulin
+17899911000001105,Humulin M3 100units/ml suspension for injection 3ml cartridges (Sigma Pharmaceuticals Plc) (product),Mix insulin
+17900011000001108,Humulin M3 100units/ml suspension for injection 3ml cartridges (Sigma Pharmaceuticals Plc) 5 cartridge (product),Mix insulin
+18030311000001100,Insuman Infusat 100units/ml solution for injection 10ml vials (Imported (Germany)) (product),Bolus insulin
+18030411000001107,Insuman Infusat 100units/ml solution for injection 10ml vials (Imported (Germany)) 1 vial (product),Bolus insulin
+18046211000001106,Insulin human 100units/ml solution for injection 3.15ml cartridges 5 cartridge (product),NA
+18046311000001103,Insuman Infusat 100units/ml solution for injection 3.15ml cartridges (Imported (Germany)) (product),Bolus insulin
+18046411000001105,Insuman Infusat 100units/ml solution for injection 3.15ml cartridges (Imported (Germany)) 5 cartridge (product),Bolus insulin
+18048711000001100,Humalog Mix25 KwikPen 100units/ml suspension for injection 3ml pre-filled pens (Sigma Pharmaceuticals Plc),Bolus insulin
+18048811000001108,Humalog Mix25 KwikPen 100units/ml suspension for injection 3ml pre-filled pens (Sigma Pharmaceuticals Plc) 5 pre-filled disposable injection,Bolus insulin
+18048911000001103,Humulin M3 100units/ml suspension for injection 10ml vials (Sigma Pharmaceuticals Plc) (product),Mix insulin
+18049011000001107,Humulin M3 100units/ml suspension for injection 10ml vials (Sigma Pharmaceuticals Plc) 1 vial (product),Mix insulin
+18083911000001104,Insulin human 100 unit/ml solution for injection 3.15 ml cartridge,NA
+18150311000001109,Insuman Comb 25 100units/ml suspension for injection 3ml pre-filled SoloStar pens (Sanofi),Mix insulin
+18150411000001102,Insuman Comb 25 100units/ml suspension for injection 3ml pre-filled SoloStar pens (Sanofi) 5 pre-filled disposable injection,Mix insulin
+18212011000001102,Lantus 100units/ml solution for injection 10ml vials (Mawdsley-Brooks & Company Ltd) (product),Basal insulin
+18212111000001101,Lantus 100units/ml solution for injection 10ml vials (Mawdsley-Brooks & Company Ltd) 1 vial (product),Basal insulin
+18266611000001109,Humalog 100units/ml solution for injection 3ml cartridges (Necessity Supplies Ltd) (product),Bolus insulin
+18266711000001100,Humalog 100units/ml solution for injection 3ml cartridges (Necessity Supplies Ltd) 5 cartridge (product),Bolus insulin
+18266811000001108,Humalog 100units/ml solution for injection 10ml vials (Necessity Supplies Ltd) (product),Bolus insulin
+18266911000001103,Humalog 100units/ml solution for injection 10ml vials (Necessity Supplies Ltd) 1 vial (product),Bolus insulin
+18286111000001104,Humalog Mix50 100units/ml suspension for injection 3ml cartridges (Waymade Healthcare Plc) (product),Bolus insulin
+18286211000001105,Humalog Mix50 100units/ml suspension for injection 3ml cartridges (Waymade Healthcare Plc) 5 cartridge (product),Bolus insulin
+18490511000001106,Lantus 100units/ml solution for injection 3ml cartridges (Necessity Supplies Ltd) (product),Basal insulin
+18490611000001105,Lantus 100units/ml solution for injection 3ml cartridges (Necessity Supplies Ltd) 5 cartridge (product),Basal insulin
+18490711000001101,Lantus 100units/ml solution for injection 3ml OptiClik cartridges (Necessity Supplies Ltd) (product),Basal insulin
+18490811000001109,Lantus 100units/ml solution for injection 3ml OptiClik cartridges (Necessity Supplies Ltd) 5 cartridge (product),Basal insulin
+18490911000001104,Lantus 100units/ml solution for injection 3ml pre-filled OptiSet pens (Necessity Supplies Ltd),Basal insulin
+18491011000001107,Lantus 100units/ml solution for injection 3ml pre-filled OptiSet pens (Necessity Supplies Ltd) 5 pre-filled disposable injection,Basal insulin
+18491611000001100,Lantus 100units/ml solution for injection 3ml pre-filled SoloStar pens (Necessity Supplies Ltd),Basal insulin
+18491711000001109,Lantus 100units/ml solution for injection 3ml pre-filled SoloStar pens (Necessity Supplies Ltd) 5 pre-filled disposable injection,Basal insulin
+18491811000001101,Lantus 100units/ml solution for injection 10ml vials (Necessity Supplies Ltd) (product),Basal insulin
+18491911000001106,Lantus 100units/ml solution for injection 10ml vials (Necessity Supplies Ltd) 1 vial (product),Basal insulin
+18553711000001107,Humalog KwikPen 100units/ml solution for injection 3ml pre-filled pens (Waymade Healthcare Plc),Bolus insulin
+18553811000001104,Humalog KwikPen 100units/ml solution for injection 3ml pre-filled pens (Waymade Healthcare Plc) 5 pre-filled disposable injection,Bolus insulin
+18553911000001109,Humalog Mix25 KwikPen 100units/ml suspension for injection 3ml pre-filled pens (Waymade Healthcare Plc),Bolus insulin
+18554011000001107,Humalog Mix25 KwikPen 100units/ml suspension for injection 3ml pre-filled pens (Waymade Healthcare Plc) 5 pre-filled disposable injection,Bolus insulin
+18554111000001108,Humalog Mix50 KwikPen 100units/ml suspension for injection 3ml pre-filled pens (Waymade Healthcare Plc),Bolus insulin
+18554211000001102,Humalog Mix50 KwikPen 100units/ml suspension for injection 3ml pre-filled pens (Waymade Healthcare Plc) 5 pre-filled disposable injection,Bolus insulin
+18630911000001105,Lantus 100units/ml solution for injection 3ml pre-filled OptiSet pens (Mawdsley-Brooks & Company Ltd),Basal insulin
+18631011000001102,Lantus 100units/ml solution for injection 3ml pre-filled OptiSet pens (Mawdsley-Brooks & Company Ltd) 5 pre-filled disposable injection,Basal insulin
+18745311000001105,Humalog KwikPen 100units/ml solution for injection 3ml pre-filled pens (Sigma Pharmaceuticals Plc),Bolus insulin
+18745411000001103,Humalog KwikPen 100units/ml solution for injection 3ml pre-filled pens (Sigma Pharmaceuticals Plc) 5 pre-filled disposable injection,Bolus insulin
+18745511000001104,Humalog Mix50 KwikPen 100units/ml suspension for injection 3ml pre-filled pens (Sigma Pharmaceuticals Plc),Bolus insulin
+18745611000001100,Humalog Mix50 KwikPen 100units/ml suspension for injection 3ml pre-filled pens (Sigma Pharmaceuticals Plc) 5 pre-filled disposable injection,Bolus insulin
+19354411000001104,Insuman Basal 100units/ml suspension for injection 3ml pre-filled SoloStar pens (Sanofi),Intermediate insulin
+19354511000001100,Insuman Basal 100units/ml suspension for injection 3ml pre-filled SoloStar pens (Sanofi) 5 pre-filled disposable injection,Intermediate insulin
+19570211000001106,NovoRapid FlexTouch 100units/ml solution for injection 3ml pre-filled pens (Novo Nordisk Ltd),Bolus insulin
+19570311000001103,NovoRapid FlexTouch 100units/ml solution for injection 3ml pre-filled pens (Novo Nordisk Ltd) 5 pre-filled disposable injection,Bolus insulin
+19613111000001108,Humalog KwikPen 100units/ml solution for injection 3ml pre-filled pens (DE Pharmaceuticals),Bolus insulin
+19613211000001102,Humalog KwikPen 100units/ml solution for injection 3ml pre-filled pens (DE Pharmaceuticals) 5 pre-filled disposable injection,Bolus insulin
+19613311000001105,Humalog Mix25 KwikPen 100units/ml suspension for injection 3ml pre-filled pens (DE Pharmaceuticals),Bolus insulin
+19613411000001103,Humalog Mix25 KwikPen 100units/ml suspension for injection 3ml pre-filled pens (DE Pharmaceuticals) 5 pre-filled disposable injection,Bolus insulin
+19613511000001104,Humalog Mix50 KwikPen 100units/ml suspension for injection 3ml pre-filled pens (DE Pharmaceuticals),Bolus insulin
+19613611000001100,Humalog Mix50 KwikPen 100units/ml suspension for injection 3ml pre-filled pens (DE Pharmaceuticals) 5 pre-filled disposable injection,Bolus insulin
+19613711000001109,Humalog Mix25 100units/ml suspension for injection 3ml cartridges (Doncaster Pharmaceuticals Ltd) (product),Bolus insulin
+19613811000001101,Humalog Mix25 100units/ml suspension for injection 3ml cartridges (Doncaster Pharmaceuticals Ltd) 5 cartridge (product),Bolus insulin
+19613911000001106,Humalog Mix50 100units/ml suspension for injection 3ml cartridges (Doncaster Pharmaceuticals Ltd) (product),Bolus insulin
+19614011000001109,Humalog Mix50 100units/ml suspension for injection 3ml cartridges (Doncaster Pharmaceuticals Ltd) 5 cartridge (product),Bolus insulin
+19614111000001105,Humalog 100units/ml solution for injection 10ml vials (Doncaster Pharmaceuticals Ltd) (product),Bolus insulin
+19614211000001104,Humalog 100units/ml solution for injection 10ml vials (Doncaster Pharmaceuticals Ltd) 1 vial (product),Bolus insulin
+19614311000001107,Humulin I 100units/ml suspension for injection 10ml vials (Doncaster Pharmaceuticals Ltd) (product),Intermediate insulin
+19614411000001100,Humulin I 100units/ml suspension for injection 10ml vials (Doncaster Pharmaceuticals Ltd) 1 vial (product),Intermediate insulin
+1982901000001108,Neusulin 100iu/mL injection vial,Bolus insulin
+1983001000001104,Quicksol 100iu/mL injection vial,Bolus insulin
+1983101000001103,Neulente 100iu/mL injection,Basal insulin
+1983201000001105,Tempulin 100iu/mL injection,Basal insulin
+1983301000001101,Neuphane 100iu/mL injection,Intermediate insulin
+19902111000001101,Insulin zinc mixed human,Mix insulin
+20163311000001106,NovoMix 30 Penfill 100units/ml suspension for injection 3ml cartridges (Doncaster Pharmaceuticals Ltd) (product),Mix insulin
+20163511000001100,NovoMix 30 Penfill 100units/ml suspension for injection 3ml cartridges (Doncaster Pharmaceuticals Ltd) 5 cartridge (product),Mix insulin
+20163611000001101,NovoRapid Penfill 100units/ml solution for injection 3ml cartridges (Doncaster Pharmaceuticals Ltd) (product),Bolus insulin
+20163711000001105,NovoRapid Penfill 100units/ml solution for injection 3ml cartridges (Doncaster Pharmaceuticals Ltd) 5 cartridge (product),Bolus insulin
+2103401000001106,Neutral insulin 100iu/mL injection 10mL,Bolus insulin
+2103501000001105,Velosulin cartridge 100iu/mL injection 5.7mL,Bolus insulin
+2103601000001109,Human Actrapid 100iu/mL preloaded injection pen 3mL,Bolus insulin
+2103801000001108,Semitard MC 100iu/mL injection 10mL,Intermediate insulin
+2104001000001104,Humulin M3 injection 10mL,Mix insulin
+2104101000001103,Pur-In Isophane 100iu/mL cartridges 3mL,Intermediate insulin
+2104201000001105,Human Mixtard 30 Penfill 1.5mL,Mix insulin
+2104401000001109,Humulin M1 10/90 vials 10mL,Mix insulin
+2104501000001108,Humulin M3 30/70 vials 10mL,Mix insulin
+2104601000001107,Human Mixtard 30 ge 100units/mL injection 10mL,Mix insulin
+2104701000001102,Human Mixtard 20 Penfill 1.5mL,Mix insulin
+211801000001108,Human Insulatard ge 100units/mL injection vial,Intermediate insulin
+21203911000001104,Lantus 100units/ml solution for injection 3ml pre-filled SoloStar pens (Waymade Healthcare Plc),Basal insulin
+21204011000001101,Lantus 100units/ml solution for injection 3ml pre-filled SoloStar pens (Waymade Healthcare Plc) 5 pre-filled disposable injection,Basal insulin
+212101000001106,Humulin M4 40/60 (prb) 100units/mL injection vial,Mix insulin
+214101000001102,Human isophane insulin 100units/mL injection cartridge - product,Intermediate insulin
+21928411000001105,Insulin degludec 100units/ml solution for injection 3ml cartridges 5 cartridge (product),Basal insulin
+21928511000001109,Tresiba Penfill 100units/ml solution for injection 3ml cartridges (Novo Nordisk Ltd) (product),Basal insulin
+21928611000001108,Tresiba Penfill 100units/ml solution for injection 3ml cartridges (Novo Nordisk Ltd) 5 cartridge (product),Basal insulin
+21929711000001108,Insulin degludec 100units/ml solution for injection 3ml pre-filled disposable devices 5 pre-filled disposable injection (product),Basal insulin
+21930011000001100,Tresiba FlexTouch 100units/ml solution for injection 3ml pre-filled pens (Novo Nordisk Ltd),Basal insulin
+21930211000001105,Tresiba FlexTouch 100units/ml solution for injection 3ml pre-filled pens (Novo Nordisk Ltd) 5 pre-filled disposable injection,Basal insulin
+21931711000001106,Insulin degludec 200units/ml solution for injection 3ml pre-filled disposable devices 3 pre-filled disposable injection (product),Basal insulin
+21931911000001108,Tresiba FlexTouch 200units/ml solution for injection 3ml pre-filled pens (Novo Nordisk Ltd),Basal insulin
+21932011000001101,Tresiba FlexTouch 200units/ml solution for injection 3ml pre-filled pens (Novo Nordisk Ltd) 3 pre-filled disposable injection,Basal insulin
+21938911000001104,Insulin degludec (product),Basal insulin
+21939511000001100,Insulin degludec 100 unit/ml solution for injection 3 ml cartridge,Basal insulin
+21939611000001101,Insulin degludec 100 unit/ml solution for injection 3 ml pre-filled disposable injection,Basal insulin
+21939711000001105,Insulin degludec 200 unit/ml solution for injection 3 ml pre-filled disposable injection,Basal insulin
+21940211000001106,Insulin degludec (substance),Basal insulin
+22643511000001100,Lantus 100units/ml solution for injection 3ml OptiClik cartridges (Waymade Healthcare Plc) (product),Basal insulin
+22643611000001101,Lantus 100units/ml solution for injection 3ml OptiClik cartridges (Waymade Healthcare Plc) 5 cartridge (product),Basal insulin
+227391000001107,Lyumjev,Bolus insulin
+227881000001104,Lyumjev KwikPen (product),Bolus insulin
+227891000001102,Lyumjev Junior KwikPen,Bolus insulin
+227931000001105,Lyumjev,Bolus insulin
+2307801000001105,Humulin M2 20/80 cartridges 1.5mL,Mix insulin
+230881000001102,Insulin isophane biphasic porcine,Mix insulin
+2317401000001105,Velosulin 100iu/mL injection cartridge,Bolus insulin
+2329101000001101,Humulin M5 50/50 (prb) 100units/mL injection vial,Mix insulin
+2329201000001108,Humulin M5 50/50 injection vial 10mL,Mix insulin
+2424601000001101,Human insulin 100units/mL prefilled pen - product,NA
+2424701000001106,Human isophane insulin 100units/mL prefilled pen - product,Intermediate insulin
+2428601000001107,Humulin M5 50/50 (prb) 100units/mL injection cartridge,Mix insulin
+2428701000001102,Humulin M5 50/50 cartridge 1.5mL,Mix insulin
+2484401000001106,Humaject M3 100iu/mL prefilled pen,Mix insulin
+2484801000001108,Humaject S 100iu/mL prefilled pen,Bolus insulin
+2521801000001106,Humulin M1 10/90 cartridges 3mL,Mix insulin
+2521901000001100,Humulin M2 20/80 cartridges 3mL,Mix insulin
+2522001000001108,Humulin M3 30/70 cartridges 3mL,Mix insulin
+2522101000001109,Humulin M4 40/60 cartridges 3mL,Mix insulin
+2522201000001102,Humulin M5 50/50 cartridges 3mL,Mix insulin
+2522301000001106,Humulin S 100iu/mL cartridges 3mL,Bolus insulin
+2522401000001103,Humulin I 100iu/mL cartridges 3mL,Intermediate insulin
+26209511000001105,Insulin aspart 100units/ml solution for injection 1.6ml cartridges 5 cartridge (product),Bolus insulin
+26209611000001109,NovoRapid PumpCart 100units/ml solution for injection 1.6ml cartridges (Novo Nordisk Ltd) (product),Bolus insulin
+26209711000001100,NovoRapid PumpCart 100units/ml solution for injection 1.6ml cartridges (Novo Nordisk Ltd) 5 cartridge (product),Bolus insulin
+2646901000001100,Humaject M3,Mix insulin
+2647201000001107,Humaject S,Bolus insulin
+2647301000001103,Human Mixtard,Mix insulin
+26655811000001102,Insulin aspart 100 unit/ml solution for injection 1.6 ml cartridge,Bolus insulin
+2759601000001108,Pork Mixtard 30 100units/mL injection,Mix insulin
+2760001000001104,Pork Mixtard 30 injection 10mL,Mix insulin
+2760101000001103,Pork Insulatard 100units/mL injection,Intermediate insulin
+2760201000001105,Pork Insulatard 100units/mL injection 10mL,Intermediate insulin
+2760301000001101,Pork Velosulin injection 10mL,Bolus insulin
+2769901000001107,Pork Insulatard,Intermediate insulin
+2770101000001107,Pork Mixtard,Mix insulin
+2770701000001108,Human Actrapid,Bolus insulin
+2770801000001104,Human Ultratard,Basal insulin
+2771201000001107,Human Insulatard,Intermediate insulin
+2771401000001106,Human Monotard,Basal insulin
+2798001000001104,Insulin lispro 100iu/mL injection vial - product,Bolus insulin
+2798101000001103,Humalog 100iu/mL injection vial,Bolus insulin
+2798201000001105,Humalog 100iu/mL injection 10mL,Bolus insulin
+2798301000001101,Insulin lispro 100iu/mL injection cartridge - product,Bolus insulin
+2798401000001109,Humalog 100iu/mL injection cartridge,Bolus insulin
+2798501000001108,Humalog 100iu/mL cartridges 1.5mL,Bolus insulin
+2798601000001107,Humalog,Bolus insulin
+28044911000001109,Insulin human 500units/ml solution for injection 20ml vials (Special Order) (product),NA
+28045111000001105,Insulin human 500units/ml solution for injection 20ml vials (Special Order) 1 vial (product),NA
+28054211000001103,Insulin degludec 100units/ml / Liraglutide 3.6mg/ml solution for injection 3ml pre-filled disposable devices 5 pre-filled disposable injection (product),Basal insulin
+28054311000001106,Xultophy 100units/ml / 3.6mg/ml solution for injection 3ml pre-filled pens (Novo Nordisk Ltd),Basal insulin
+28054411000001104,Xultophy 100units/ml / 3.6mg/ml solution for injection 3ml pre-filled pens (Novo Nordisk Ltd) 5 pre-filled disposable injection,Basal insulin
+282601000001100,Human Insulatard 100units/mL Penfill,Intermediate insulin
+28279611000001109,Insulin degludec 100 unit/ml and liraglutide 3.6 mg/ml solution for injection 3 ml pre-filled disposable injection,Basal insulin
+28279811000001108,Insulin degludec + Liraglutide (product),Basal insulin
+282901000001107,Humulin M4 40/60 (prb) 100units/mL injection cartridge,Mix insulin
+283801000001105,Hypurin Bovine Lente 100iu/mL injection vial,Basal insulin
+285001000001102,Human isophane insulin 100units/mL injection vial - product,Intermediate insulin
+285701000001100,Lentard MC (bovine+porcine) 100iu/mL injection vial,Basal insulin
+2890201000001105,Human Mixtard 50 injection vial,Mix insulin
+2890301000001101,Human Mixtard 50 vial 10mL,Mix insulin
+28926711000001108,Insulin lispro 200units/ml solution for injection 3ml pre-filled disposable devices 5 pre-filled disposable injection (product),Bolus insulin
+28926811000001100,Humalog KwikPen 200units/ml solution for injection 3ml pre-filled pens (Eli Lilly and Company Ltd),Bolus insulin
+28926911000001105,Humalog KwikPen 200units/ml solution for injection 3ml pre-filled pens (Eli Lilly and Company Ltd) 5 pre-filled disposable injection,Bolus insulin
+28989711000001106,Insulin lispro 200 unit/ml solution for injection 3 ml pre-filled disposable injection,Bolus insulin
+2958501000001106,Neutral insulin 100iu/mL injection cartridge - product,Bolus insulin
+2958601000001105,Hypurin Bovine Neutral 100iu/mL injection cartridge,Bolus insulin
+2958701000001100,Hypurin Bovine Neutral 100iu/mL injection cartridge 1.5mL,Bolus insulin
+2958801000001109,Isophane insulin 100iu/mL injection cartridge - product,Intermediate insulin
+2958901000001103,Hypurin Bovine Isophane 100iu/mL injection cartridge,Intermediate insulin
+2959001000001108,Hypurin Bovine Isophane 100iu/mL injection cartridge 1.5mL,Intermediate insulin
+2959101000001109,Hypurin Porcine Neutral 100iu/mL injection cartridge,Bolus insulin
+2959201000001102,Hypurin Porcine Neutral 100iu/mL injection cartridge 1.5mL,Bolus insulin
+2959301000001106,Hypurin Porcine Isophane 100iu/mL injection cartridge,Intermediate insulin
+2959401000001103,Hypurin Porcine Isophane 100iu/mL injection cartridge 1.5mL,Intermediate insulin
+2959601000001100,Hypurin Bovine Isophane 100iu/mL injection 10mL,Intermediate insulin
+2959701000001105,Hypurin Bovine Lente 100iu/mL injection 10mL,Basal insulin
+2959901000001107,Hypurin Bovine Neutral 100iu/mL injection 10mL,Bolus insulin
+2960101000001105,Hypurin Bovine Protamine Zinc 100iu/mL injection 10mL,Basal insulin
+2960201000001103,Hypurin Porcine Neutral 100iu/mL injection vial,Bolus insulin
+2960301000001107,Hypurin Porcine Neutral 100iu/mL injection 10mL,Bolus insulin
+2960401000001104,Hypurin Porcine Isophane 100iu/mL injection vial,Intermediate insulin
+2960501000001100,Hypurin Porcine Isophane 100iu/mL injection 10mL,Intermediate insulin
+2960601000001101,Hypurin Porcine 30/70 Mix injection vial,Mix insulin
+2960701000001106,Hypurin Porcine Biphasic Isophane 30/70 injection 10mL,Mix insulin
+2960801000001102,Hypurin Porcine 30/70 Mix injection cartridge,Mix insulin
+2960901000001108,Hypurin Porcine Biphasic Isophane 30/70 injection cartridge 1.5mL,Mix insulin
+2961201000001105,Mixtard 10 (human) Penfill cartridge 3mL,Mix insulin
+2961301000001101,Mixtard 20 (human) Penfill cartridge 3mL,Mix insulin
+2961401000001109,Mixtard 30 (human) Penfill cartridge 3mL,Mix insulin
+2961501000001108,Mixtard 40 (human) Penfill cartridge 3mL,Mix insulin
+2961601000001107,Mixtard 50 (human) Penfill cartridge 3mL,Mix insulin
+2961701000001102,Actrapid (human) Penfill 100iu/mL cartridge 3mL,Bolus insulin
+2961801000001106,Insulatard (human) Penfill cartridge 3mL,Intermediate insulin
+29866711000001107,Insulin glargine 300units/ml solution for injection 1.5ml pre-filled disposable devices 3 pre-filled disposable injection (product),Basal insulin
+29866811000001104,Toujeo 300units/ml solution for injection 1.5ml pre-filled SoloStar pens (Sanofi),Basal insulin
+29867011000001108,Toujeo 300units/ml solution for injection 1.5ml pre-filled SoloStar pens (Sanofi) 3 pre-filled disposable injection,Basal insulin
+29903611000001103,Insulin glargine 300 unit/ml solution for injection 1.5 ml pre-filled disposable injection,Basal insulin
+29960011000001101,Apidra 100units/ml solution for injection 3ml pre-filled SoloStar pens (Lexon (UK) Ltd),Bolus insulin
+29960111000001100,Apidra 100units/ml solution for injection 3ml pre-filled SoloStar pens (Lexon (UK) Ltd) 5 pre-filled disposable injection,Bolus insulin
+30171811000001105,Abasaglar KwikPen 100units/ml solution for injection 3ml pre-filled pens (Eli Lilly and Company Ltd),Basal insulin
+30172011000001107,Abasaglar KwikPen 100units/ml solution for injection 3ml pre-filled pens (Eli Lilly and Company Ltd) 5 pre-filled disposable injection,Basal insulin
+30172211000001102,Abasaglar 100units/ml solution for injection 3ml cartridges (Eli Lilly and Company Ltd) (product),Basal insulin
+30172411000001103,Abasaglar 100units/ml solution for injection 3ml cartridges (Eli Lilly and Company Ltd) 5 cartridge (product),Basal insulin
+30268411000001107,Apidra 100units/ml solution for injection 3ml pre-filled SoloStar pens (Waymade Healthcare Plc),Bolus insulin
+30268511000001106,Apidra 100units/ml solution for injection 3ml pre-filled SoloStar pens (Waymade Healthcare Plc) 5 pre-filled disposable injection,Bolus insulin
+30457511000001103,Insulin degludec 100units/ml / Liraglutide 3.6mg/ml solution for injection 3ml pre-filled disposable devices 3 pre-filled disposable injection (product),Basal insulin
+30458611000001100,Xultophy 100units/ml / 3.6mg/ml solution for injection 3ml pre-filled pens (Novo Nordisk Ltd) 3 pre-filled disposable injection,Basal insulin
+3054701000001106,Humulin Lente 100iu/mL injection 10mL,Basal insulin
+3054801000001102,Humulin M1 10/90 cartridges 1.5mL,Mix insulin
+3054901000001108,Human Mixtard 50 Penfill 1.5mL,Mix insulin
+307101000001101,Human Mixtard 30 ge 100units/mL injection vial,Mix insulin
+30795311000001102,Insulin human 100units/ml solution for injection 10ml vials 3 vial (product),NA
+30795411000001109,Insuman Infusat 100units/ml solution for injection 10ml vials (Sanofi) 3 vial 3 x 10ml vials (product),Bolus insulin
+30992711000001100,Insulin soluble human 1 unit/ml solution for infusion 50 ml pre-filled disposable injection,NA
+30992811000001108,Insulin soluble human 1unit/ml solution for injection 50ml pre-filled syringes 1 pre-filled disposable injection (product),NA
+30992911000001103,Insulin soluble human 1unit/ml solution for injection 50ml pre-filled syringes 10 pre-filled disposable injection (product),NA
+30993011000001106,Insulin soluble human 1unit/ml solution for injection 50ml pre-filled syringes (Special Order) (product),NA
+30993111000001107,Insulin soluble human 1unit/ml solution for injection 50ml pre-filled syringes (Special Order) 1 pre-filled disposable injection (product),NA
+30993211000001101,Insulin soluble human 1unit/ml solution for injection 50ml pre-filled syringes (Special Order) 10 pre-filled disposable injection (product),NA
+3192001000001104,Lentard MC,Basal insulin
+3200901000001104,Pork Mixtard 30,Mix insulin
+3201001000001108,Pork Velosulin,Bolus insulin
+3206701000001103,Semitard MC,Intermediate insulin
+3218301000001100,Rapitard MC,Intermediate insulin
+325013000,Short-acting insulin,Bolus insulin
+325063005,Insulin soluble human 100units/ml solution for injection 3ml cartridges,NA
+325064004,Insulin soluble human 100units/ml solution for injection 10ml vials,NA
+325065003,Insulin lispro 100units/ml solution for injection 10ml vials,Bolus insulin
+325067006,Insulin lispro 100units/ml solution for injection 3ml cartridges,Bolus insulin
+325070005,Insulin lispro 100units/ml solution for injection 3ml pre-filled disposable devices,Bolus insulin
+325076004,Insulin aspart 100units/ml solution for injection 10ml vials,Bolus insulin
+325100008,Insulin zinc crystalline human 100units/ml suspension for injection 10ml vials,Basal insulin
+325111000,Insulin isophane human 100units/ml suspension for injection 3ml cartridges,Intermediate insulin
+325143000,Insulin protamine zinc bovine 100units/ml suspension for injection 10ml vials,Basal insulin
+3255811000001106,Insulin isophane human 100units/ml suspension for injection 10ml vials 1 vial (product),Intermediate insulin
+3255911000001101,Humulin Isophane 100units/ml suspension for injection 10ml vials (Eli Lilly & Co Ltd) (product),Intermediate insulin
+3256011000001109,Humulin Isophane 100units/ml suspension for injection 10ml vials (Eli Lilly & Co Ltd) 1 vial (product),Intermediate insulin
+3256111000001105,Insulatard ge 100units/ml suspension for injection 10ml vials (Novo Nordisk Pharmaceuticals Ltd) (product),Intermediate insulin
+3256211000001104,Insulatard ge 100units/ml suspension for injection 10ml vials (Novo Nordisk Pharmaceuticals Ltd) 1 vial (product),Intermediate insulin
+3258311000001106,Insulin isophane human 100units/ml suspension for injection 5ml vials 1 vial (product),Intermediate insulin
+3258411000001104,Insuman Basal 100units/ml suspension for injection 5ml vials (Aventis Pharma) (product),Intermediate insulin
+3258611000001101,Insuman Basal 100units/ml suspension for injection 5ml vials (Aventis Pharma) 1 vial (product),Intermediate insulin
+3259211000001108,Insulin isophane human 100units/ml suspension for injection 1.5ml cartridges 5 cartridge (product),Intermediate insulin
+3259411000001107,Human Insulatard Penfill 100units/ml suspension for injection 1.5ml cartridges (Novo Nordisk Pharmaceuticals Ltd) (product),Intermediate insulin
+3259511000001106,Insulin isophane biphasic human 25/75 100units/ml suspension for injection 3ml pre-filled disposable devices 5 pre-filled disposable injection (product),Mix insulin
+3259611000001105,Human Insulatard Penfill 100units/ml suspension for injection 1.5ml cartridges (Novo Nordisk Pharmaceuticals Ltd) 5 cartridge (product),Intermediate insulin
+3259811000001109,Insuman Comb 25 100units/ml suspension for injection 3ml pre-filled OptiSet pens (Sanofi),Mix insulin
+3260411000001106,Insulin isophane human 100units/ml suspension for injection 3ml pre-filled disposable devices 5 pre-filled disposable injection (product),Intermediate insulin
+3260611000001109,Insuman Basal 100units/ml suspension for injection 3ml pre-filled OptiSet pens (Sanofi),Intermediate insulin
+3260711000001100,Insuman Basal 100units/ml suspension for injection 3ml pre-filled OptiSet pens (Sanofi) 5 pre-filled disposable injection,Intermediate insulin
+3260811000001108,Humulin I Pen 100units/ml suspension for injection 3ml pre-filled pens (Eli Lilly and Company Ltd),Intermediate insulin
+3260911000001103,Humulin I Pen 100units/ml suspension for injection 3ml pre-filled pens (Eli Lilly and Company Ltd) 5 pre-filled disposable injection,Intermediate insulin
+3261411000001102,Insulatard InnoLet 100units/ml suspension for injection 3ml pre-filled pens (Novo Nordisk Ltd),Intermediate insulin
+3261511000001103,Insuman Comb 25 100units/ml suspension for injection 3ml pre-filled OptiSet pens (Sanofi) 5 pre-filled disposable injection,Mix insulin
+3261611000001104,Insulatard InnoLet 100units/ml suspension for injection 3ml pre-filled pens (Novo Nordisk Ltd) 5 pre-filled disposable injection,Intermediate insulin
+3262011000001103,Insulatard FlexPen 100units/ml suspension for injection (Novo Nordisk Pharmaceuticals Ltd) (product),Intermediate insulin
+3262111000001102,Insulatard FlexPen 100units/ml suspension for injection (Novo Nordisk Pharmaceuticals Ltd) 5 pre-filled disposable injection (product),Intermediate insulin
+3262511000001106,Insulatard NovoLet 100units/ml suspension for injection (Novo Nordisk Pharmaceuticals Ltd) (product),Intermediate insulin
+3262611000001105,Insulin isophane biphasic human 25/75 100units/ml suspension for injection 5ml vials 1 vial (product),Mix insulin
+3262711000001101,Insulatard NovoLet 100units/ml suspension for injection (Novo Nordisk Pharmaceuticals Ltd) 5 pre-filled disposable injection (product),Intermediate insulin
+3263011000001107,Insuman Comb 25 100units/ml suspension for injection 5ml vials (Aventis Pharma) (product),Mix insulin
+3263211000001102,Insuman Comb 25 100units/ml suspension for injection 5ml vials (Aventis Pharma) 1 vial (product),Mix insulin
+3263411000001103,Insulin isophane biphasic human 20/80 100units/ml suspension for injection 3ml cartridges 5 cartridge (product),Mix insulin
+3263511000001104,Insulin isophane human 100units/ml suspension for injection 3ml cartridges 5 cartridge (product),Intermediate insulin
+3263611000001100,Humulin M2 100units/ml suspension for injection 3ml cartridges (Eli Lilly & Co Ltd) (product),Mix insulin
+3263711000001109,Insulatard Penfill 100units/ml suspension for injection 3ml cartridges (Novo Nordisk Pharmaceuticals Ltd) (product),Intermediate insulin
+3263811000001101,Humulin M2 100units/ml suspension for injection 3ml cartridges (Eli Lilly & Co Ltd) 5 cartridge (product),Mix insulin
+3263911000001106,Insulin isophane biphasic human 25/75 100units/ml suspension for injection 3ml cartridges 5 cartridge (product),Mix insulin
+3264011000001109,Insulatard Penfill 100units/ml suspension for injection 3ml cartridges (Novo Nordisk Pharmaceuticals Ltd) 5 cartridge (product),Intermediate insulin
+3264111000001105,Insuman Comb 25 100units/ml suspension for injection 3ml cartridges (Aventis Pharma) (product),Mix insulin
+3264211000001104,Humulin Isophane 100units/ml suspension for injection 3ml cartridges (Eli Lilly & Co Ltd) (product),Intermediate insulin
+3264311000001107,Humulin Isophane 100units/ml suspension for injection 3ml cartridges (Eli Lilly & Co Ltd) 5 cartridge (product),Intermediate insulin
+3264411000001100,Mixtard 20 Penfill 100units/ml suspension for injection 3ml cartridges (Novo Nordisk Pharmaceuticals Ltd) (product),Mix insulin
+3264511000001101,Insuman Comb 25 100units/ml suspension for injection 3ml cartridges (Aventis Pharma) 5 cartridge (product),Mix insulin
+3264611000001102,Insulin isophane biphasic human 10/90 100units/ml suspension for injection 3ml cartridges 5 cartridge (product),Mix insulin
+3264711000001106,Mixtard 10 Penfill 100units/ml suspension for injection 3ml cartridges (Novo Nordisk Pharmaceuticals Ltd) (product),Mix insulin
+3264811000001103,Mixtard 10 Penfill 100units/ml suspension for injection 3ml cartridges (Novo Nordisk Pharmaceuticals Ltd) 5 cartridge (product),Mix insulin
+3264911000001108,Mixtard 20 Penfill 100units/ml suspension for injection 3ml cartridges (Novo Nordisk Pharmaceuticals Ltd) 5 cartridge (product),Mix insulin
+3265011000001108,Insuman Basal 100units/ml suspension for injection 3ml cartridges (Aventis Pharma) (product),Intermediate insulin
+3265211000001103,Insuman Basal 100units/ml suspension for injection 3ml cartridges (Aventis Pharma) 5 cartridge (product),Intermediate insulin
+3265711000001105,Insulin isophane biphasic human 20/80 100units/ml suspension for injection 3ml pre-filled disposable devices 5 pre-filled disposable injection (product),Mix insulin
+3266011000001104,Insulin isophane biphasic porcine 30/70 100units/ml suspension for injection 10ml vials 1 vial (product),Mix insulin
+3266111000001103,Mixtard 20 NovoLet 100units/ml suspension for injection (Novo Nordisk Pharmaceuticals Ltd) (product),Mix insulin
+3266411000001108,Mixtard 20 NovoLet 100units/ml suspension for injection (Novo Nordisk Pharmaceuticals Ltd) 5 pre-filled disposable injection (product),Mix insulin
+3266811000001105,Hypurin Porcine 30/70 Mix 100units/ml suspension for injection 10ml vials (C P Pharmaceuticals Ltd),Mix insulin
+3267311000001103,Hypurin Porcine 30/70 Mix 100units/ml suspension for injection 10ml vials (C P Pharmaceuticals Ltd) 1 vial,Mix insulin
+3267411000001105,Insulin isophane biphasic human 20/80 100units/ml suspension for injection 1.5ml cartridges 5 cartridge (product),Mix insulin
+3267811000001107,Human Mixtard 20 Penfill 100units/ml suspension for injection 1.5ml cartridges (Novo Nordisk Pharmaceuticals Ltd) (product),Mix insulin
+3267911000001102,Pork Mixtard 30 100units/ml suspension for injection 10ml vials (Novo Nordisk Pharmaceuticals Ltd) (product),Mix insulin
+3268011000001100,Human Mixtard 20 Penfill 100units/ml suspension for injection 1.5ml cartridges (Novo Nordisk Pharmaceuticals Ltd) 5 cartridge (product),Mix insulin
+3268111000001104,Pork Mixtard 30 100units/ml suspension for injection 10ml vials (Novo Nordisk Pharmaceuticals Ltd) 1 vial (product),Mix insulin
+3268211000001105,Insulin isophane biphasic human 10/90 100units/ml suspension for injection 1.5ml cartridges 5 cartridge (product),Mix insulin
+3268711000001103,Human Mixtard 10 Penfill 100units/ml suspension for injection 1.5ml cartridges (Novo Nordisk Pharmaceuticals Ltd) (product),Mix insulin
+3269011000001105,Human Mixtard 10 Penfill 100units/ml suspension for injection 1.5ml cartridges (Novo Nordisk Pharmaceuticals Ltd) 5 cartridge (product),Mix insulin
+3269411000001101,Insulin protamine zinc bovine 100units/ml suspension for injection 10ml vials 1 vial (product),Basal insulin
+3269511000001102,Insulin isophane biphasic human 10/90 100units/ml suspension for injection 3ml pre-filled disposable devices 5 pre-filled disposable injection (product),Mix insulin
+3269611000001103,Insulin isophane biphasic human 15/85 100units/ml suspension for injection 3ml pre-filled disposable devices 5 pre-filled disposable injection (product),Mix insulin
+3269711000001107,Mixtard 10 NovoLet 100units/ml suspension for injection (Novo Nordisk Pharmaceuticals Ltd) (product),Mix insulin
+3269811000001104,Mixtard 10 NovoLet 100units/ml suspension for injection (Novo Nordisk Pharmaceuticals Ltd) 5 pre-filled disposable injection (product),Mix insulin
+3269911000001109,Hypurin Bovine Protamine Zinc 100units/ml suspension for injection 10ml vials (C P Pharmaceuticals Ltd) (product),Basal insulin
+3270011000001108,Insulin isophane biphasic human 50/50 100units/ml suspension for injection 10ml vials 1 vial (product),Mix insulin
+3270111000001109,Hypurin Bovine Protamine Zinc 100units/ml suspension for injection 10ml vials (C P Pharmaceuticals Ltd) 1 vial (product),Basal insulin
+3270211000001103,Insuman Comb 15 100units/ml suspension for injection 3ml pre-filled OptiSet pens (Sanofi),Mix insulin
+3270311000001106,Insuman Comb 15 100units/ml suspension for injection 3ml pre-filled OptiSet pens (Sanofi) 5 pre-filled disposable injection,Mix insulin
+3270411000001104,Insulin isophane biphasic human 30/70 100units/ml suspension for injection 3ml pre-filled disposable devices 5 pre-filled disposable injection (product),Mix insulin
+3270511000001100,Mixtard 30 NovoLet 100units/ml suspension for injection (Novo Nordisk Pharmaceuticals Ltd) (product),Mix insulin
+3270611000001101,Human Mixtard 50 100units/ml suspension for injection 10ml vials (Novo Nordisk Pharmaceuticals Ltd) (product),Mix insulin
+3270711000001105,Mixtard 30 NovoLet 100units/ml suspension for injection (Novo Nordisk Pharmaceuticals Ltd) 5 pre-filled disposable injection (product),Mix insulin
+3270811000001102,Human Mixtard 50 100units/ml suspension for injection 10ml vials (Novo Nordisk Pharmaceuticals Ltd) 1 vial (product),Mix insulin
+3270911000001107,Insulin soluble bovine 100units/ml solution for injection 10ml vials 1 vial (product),NA
+3271011000001104,Humulin M5 100units/ml suspension for injection 10ml vials (Eli Lilly & Co Ltd) (product),Mix insulin
+3271111000001103,Insulin isophane biphasic human 40/60 100units/ml suspension for injection 3ml pre-filled disposable devices 5 pre-filled disposable injection (product),Mix insulin
+3271211000001109,Humulin M5 100units/ml suspension for injection 10ml vials (Eli Lilly & Co Ltd) 1 vial (product),Mix insulin
+3271311000001101,Hypurin Bovine Neutral 100units/ml solution for injection 10ml vials (C P Pharmaceuticals Ltd) (product),Bolus insulin
+3271411000001108,Hypurin Bovine Neutral 100units/ml solution for injection 10ml vials (C P Pharmaceuticals Ltd) 1 vial (product),Bolus insulin
+3271511000001107,Insulin isophane biphasic human 15/85 100units/ml suspension for injection 5ml vials 1 vial (product),Mix insulin
+3271611000001106,Mixtard 30 InnoLet 100units/ml suspension for injection 3ml pre-filled pens (Novo Nordisk Ltd),Mix insulin
+3271711000001102,Insuman Comb 15 100units/ml suspension for injection 5ml vials (Aventis Pharma) (product),Mix insulin
+3271811000001105,Insulin isophane biphasic human 50/50 100units/ml suspension for injection 3ml cartridges 5 cartridge (product),Mix insulin
+3271911000001100,Mixtard 30 InnoLet 100units/ml suspension for injection 3ml pre-filled pens (Novo Nordisk Ltd) 5 pre-filled disposable injection,Mix insulin
+3272011000001107,Mixtard 40 NovoLet 100units/ml suspension for injection (Novo Nordisk Pharmaceuticals Ltd) (product),Mix insulin
+3272111000001108,Insuman Comb 15 100units/ml suspension for injection 5ml vials (Aventis Pharma) 1 vial (product),Mix insulin
+3272211000001102,Humaject M3 Pen 100units/ml suspension for injection (Eli Lilly & Co Ltd) (product),Mix insulin
+3272311000001105,Mixtard 40 NovoLet 100units/ml suspension for injection (Novo Nordisk Pharmaceuticals Ltd) 5 pre-filled disposable injection (product),Mix insulin
+3272411000001103,Insuman Comb 50 100units/ml suspension for injection 3ml cartridges (Aventis Pharma) (product),Mix insulin
+3272511000001104,Humaject M3 Pen 100units/ml suspension for injection (Eli Lilly & Co Ltd) 5 pre-filled disposable injection (product),Mix insulin
+3272611000001100,Insulin soluble bovine 100units/ml solution for injection 1.5ml cartridges 5 cartridge (product),NA
+3272711000001109,Insuman Comb 50 100units/ml suspension for injection 3ml cartridges (Aventis Pharma) 5 cartridge (product),Mix insulin
+3272811000001101,Mixtard 50 Penfill 100units/ml suspension for injection 3ml cartridges (Novo Nordisk Pharmaceuticals Ltd) (product),Mix insulin
+3272911000001106,Mixtard 50 Penfill 100units/ml suspension for injection 3ml cartridges (Novo Nordisk Pharmaceuticals Ltd) 5 cartridge (product),Mix insulin
+3273011000001103,Insulin isophane biphasic human 30/70 100units/ml suspension for injection 3ml cartridges 5 cartridge (product),Mix insulin
+3273111000001102,Mixtard 30 Penfill 100units/ml suspension for injection 3ml cartridges (Novo Nordisk Pharmaceuticals Ltd) (product),Mix insulin
+3273211000001108,Insulin isophane biphasic human 50/50 100units/ml suspension for injection 1.5ml cartridges 5 cartridge (product),Mix insulin
+3273311000001100,Mixtard 30 Penfill 100units/ml suspension for injection 3ml cartridges (Novo Nordisk Pharmaceuticals Ltd) 5 cartridge (product),Mix insulin
+3273411000001107,Human Mixtard 50 Penfill 100units/ml suspension for injection 1.5ml cartridges (Novo Nordisk Pharmaceuticals Ltd) (product),Mix insulin
+3273511000001106,Insulin isophane biphasic human 15/85 100units/ml suspension for injection 3ml cartridges 5 cartridge (product),Mix insulin
+3273611000001105,Humulin M3 100units/ml suspension for injection 3ml cartridges (Eli Lilly & Co Ltd) (product),Mix insulin
+3273711000001101,Human Mixtard 50 Penfill 100units/ml suspension for injection 1.5ml cartridges (Novo Nordisk Pharmaceuticals Ltd) 5 cartridge (product),Mix insulin
+3273811000001109,Humulin M3 100units/ml suspension for injection 3ml cartridges (Eli Lilly & Co Ltd) 5 cartridge (product),Mix insulin
+3273911000001104,Insuman Comb 15 100units/ml suspension for injection 3ml cartridges (Aventis Pharma) (product),Mix insulin
+3274011000001101,Hypurin Bovine Neutral 100units/ml solution for injection 1.5ml cartridges (C P Pharmaceuticals Ltd) (product),Bolus insulin
+3274111000001100,Insuman Comb 15 100units/ml suspension for injection 3ml cartridges (Aventis Pharma) 5 cartridge (product),Mix insulin
+3274211000001106,Insulin isophane biphasic human 50/50 100units/ml suspension for injection 5ml vials 1 vial (product),Mix insulin
+3274311000001103,Hypurin Bovine Neutral 100units/ml solution for injection 1.5ml cartridges (C P Pharmaceuticals Ltd) 5 cartridge (product),Bolus insulin
+3274411000001105,Insulin isophane biphasic human 40/60 100units/ml suspension for injection 3ml cartridges 5 cartridge (product),Mix insulin
+3274511000001109,Insuman Comb 50 100units/ml suspension for injection 5ml vials (Aventis Pharma) (product),Mix insulin
+3274611000001108,Insuman Comb 50 100units/ml suspension for injection 5ml vials (Aventis Pharma) 1 vial (product),Mix insulin
+3274711000001104,Insulin isophane biphasic human 30/70 100units/ml suspension for injection 10ml vials 1 vial (product),Mix insulin
+3274811000001107,Humulin M3 100units/ml suspension for injection 10ml vials (Eli Lilly & Co Ltd) (product),Mix insulin
+3274911000001102,Humulin M3 100units/ml suspension for injection 10ml vials (Eli Lilly & Co Ltd) 1 vial (product),Mix insulin
+3275011000001102,Mixtard 30 ge 100units/ml suspension for injection 10ml vials (Novo Nordisk Pharmaceuticals Ltd) (product),Mix insulin
+3275111000001101,Mixtard 30 ge 100units/ml suspension for injection 10ml vials (Novo Nordisk Pharmaceuticals Ltd) 1 vial (product),Mix insulin
+3275211000001107,Insulin isophane biphasic human 30/70 100units/ml suspension for injection 1.5ml cartridges 5 cartridge (product),Mix insulin
+3275311000001104,Human Mixtard 30 Penfill 100units/ml suspension for injection 1.5ml cartridges (Novo Nordisk Pharmaceuticals Ltd) (product),Mix insulin
+3275411000001106,Human Mixtard 30 Penfill 100units/ml suspension for injection 1.5ml cartridges (Novo Nordisk Pharmaceuticals Ltd) 5 cartridge (product),Mix insulin
+3275611000001109,Insulin lispro biphasic 25/75 100units/ml suspension for injection 3ml cartridges 5 cartridge (product),Mix insulin
+3275711000001100,Humalog Mix25 100units/ml suspension for injection 3ml cartridges (Eli Lilly & Co Ltd) (product),Bolus insulin
+3275811000001108,Humalog Mix25 100units/ml suspension for injection 3ml cartridges (Eli Lilly & Co Ltd) 5 cartridge (product),Bolus insulin
+3275911000001103,Insulin lispro biphasic 25/75 100units/ml suspension for injection 3ml pre-filled disposable devices 5 pre-filled disposable injection (product),Mix insulin
+3276011000001106,Humalog Mix25 Pen 100units/ml suspension for injection 3ml pre-filled pens (Eli Lilly and Company Ltd),Bolus insulin
+3276211000001101,Humalog Mix25 Pen 100units/ml suspension for injection 3ml pre-filled pens (Eli Lilly and Company Ltd) 5 pre-filled disposable injection,Bolus insulin
+3276811000001100,Insulin lispro biphasic 50/50 100units/ml suspension for injection 3ml pre-filled disposable devices 5 pre-filled disposable injection (product),Mix insulin
+3276911000001105,Humalog Mix50 Pen 100units/ml suspension for injection 3ml pre-filled pens (Eli Lilly and Company Ltd),Bolus insulin
+3277011000001109,Humalog Mix50 Pen 100units/ml suspension for injection 3ml pre-filled pens (Eli Lilly and Company Ltd) 5 pre-filled disposable injection,Bolus insulin
+3277111000001105,Insulin aspart biphasic 30/70 100units/ml suspension for injection 3ml pre-filled disposable devices 5 pre-filled disposable injection (product),Mix insulin
+3277211000001104,NovoMix 30 FlexPen 100units/ml suspension for injection 3ml pre-filled pens (Novo Nordisk Ltd),Mix insulin
+3277311000001107,NovoMix 30 FlexPen 100units/ml suspension for injection 3ml pre-filled pens (Novo Nordisk Ltd) 5 pre-filled disposable injection,Mix insulin
+3277411000001100,Insulin isophane biphasic porcine 30/70 100units/ml suspension for injection 1.5ml cartridges 5 cartridge (product),Mix insulin
+3277511000001101,Insulin aspart biphasic 30/70 100units/ml suspension for injection 3ml cartridges 5 cartridge (product),Mix insulin
+3277711000001106,Hypurin Porcine 30/70 Mix 100units/ml suspension for injection 1.5ml cartridges (C P Pharmaceuticals Ltd) (product),Mix insulin
+3277811000001103,NovoMix 30 Penfill 100units/ml suspension for injection 3ml cartridges (Novo Nordisk Pharmaceuticals Ltd) (product),Mix insulin
+3277911000001108,Hypurin Porcine 30/70 Mix 100units/ml suspension for injection 1.5ml cartridges (C P Pharmaceuticals Ltd) 5 cartridge (product),Mix insulin
+3278011000001105,Insulin isophane biphasic human 50/50 100units/ml suspension for injection 3ml pre-filled disposable devices 5 pre-filled disposable injection (product),Mix insulin
+3278111000001106,NovoMix 30 Penfill 100units/ml suspension for injection 3ml cartridges (Novo Nordisk Pharmaceuticals Ltd) 5 cartridge (product),Mix insulin
+3278211000001100,Insulin lispro 100units/ml solution for injection 3ml pre-filled disposable devices 5 pre-filled disposable injection (product),Bolus insulin
+3278311000001108,Mixtard 50 NovoLet 100units/ml suspension for injection (Novo Nordisk Pharmaceuticals Ltd) (product),Mix insulin
+3278411000001101,Mixtard 50 NovoLet 100units/ml suspension for injection (Novo Nordisk Pharmaceuticals Ltd) 5 pre-filled disposable injection (product),Mix insulin
+3278511000001102,Humalog Pen 100units/ml solution for injection 3ml pre-filled pens (Eli Lilly and Company Ltd),Bolus insulin
+3278611000001103,Insuman Comb 50 100units/ml suspension for injection 3ml pre-filled OptiSet pens (Sanofi),Mix insulin
+3278811000001104,Insulin isophane bovine 100units/ml suspension for injection 1.5ml cartridges 5 cartridge (product),Intermediate insulin
+3278911000001109,Insuman Comb 50 100units/ml suspension for injection 3ml pre-filled OptiSet pens (Sanofi) 5 pre-filled disposable injection,Mix insulin
+3279011000001100,Insulin aspart 100units/ml solution for injection 3ml cartridges 5 cartridge (product),Bolus insulin
+3279111000001104,Humalog Pen 100units/ml solution for injection 3ml pre-filled pens (Eli Lilly and Company Ltd) 5 pre-filled disposable injection,Bolus insulin
+3279211000001105,NovoRapid Penfill 100units/ml solution for injection 3ml cartridges (Novo Nordisk Pharmaceuticals Ltd) (product),Bolus insulin
+3279311000001102,Hypurin Bovine Isophane 100units/ml suspension for injection 1.5ml cartridges (C P Pharmaceuticals Ltd) (product),Intermediate insulin
+3279411000001109,NovoRapid Penfill 100units/ml solution for injection 3ml cartridges (Novo Nordisk Pharmaceuticals Ltd) 5 cartridge (product),Bolus insulin
+3279511000001108,Hypurin Bovine Isophane 100units/ml suspension for injection 1.5ml cartridges (C P Pharmaceuticals Ltd) 5 cartridge (product),Intermediate insulin
+3279811000001106,Insulin lispro 100units/ml solution for injection 10ml vials 1 vial (product),Bolus insulin
+3279911000001101,Insulin isophane bovine 100units/ml suspension for injection 10ml vials 1 vial (product),Intermediate insulin
+3280011000001100,Hypurin Bovine Isophane 100units/ml suspension for injection 10ml vials (C P Pharmaceuticals Ltd) (product),Intermediate insulin
+3280111000001104,Humalog 100units/ml solution for injection 10ml vials (Eli Lilly & Co Ltd) (product),Bolus insulin
+3280311000001102,Insulin aspart 100units/ml solution for injection 10ml vials 1 vial (product),Bolus insulin
+3280411000001109,Humalog 100units/ml solution for injection 10ml vials (Eli Lilly & Co Ltd) 1 vial (product),Bolus insulin
+3280511000001108,Hypurin Bovine Isophane 100units/ml suspension for injection 10ml vials (C P Pharmaceuticals Ltd) 1 vial (product),Intermediate insulin
+3280611000001107,Hypurin Bovine Lente 100units/ml suspension for injection 10ml vials (C P Pharmaceuticals Ltd) (product),Basal insulin
+3280711000001103,NovoRapid 100units/ml solution for injection 10ml vials (Novo Nordisk Pharmaceuticals Ltd) (product),Bolus insulin
+3280811000001106,NovoRapid 100units/ml solution for injection 10ml vials (Novo Nordisk Pharmaceuticals Ltd) 1 vial (product),Bolus insulin
+3280911000001101,Hypurin Bovine Lente 100units/ml suspension for injection 10ml vials (C P Pharmaceuticals Ltd) 1 vial (product),Basal insulin
+3281111000001105,Insulin aspart 100units/ml solution for injection 3ml pre-filled disposable devices 5 pre-filled disposable injection (product),Bolus insulin
+3281211000001104,Mixtard 40 Penfill 100units/ml suspension for injection 3ml cartridges (Novo Nordisk Pharmaceuticals Ltd) (product),Mix insulin
+3281311000001107,Insulin lispro 100units/ml solution for injection 1.5ml cartridges 5 cartridge (product),Bolus insulin
+3281411000001100,Insulin zinc crystalline human 100units/ml suspension for injection 10ml vials 1 vial (product),Basal insulin
+3281611000001102,NovoRapid Novolet 100units/ml solution for injection (Novo Nordisk Pharmaceuticals Ltd) (product),Bolus insulin
+3281711000001106,Insulin isophane porcine 100units/ml suspension for injection 1.5ml cartridges 5 cartridge (product),Intermediate insulin
+3281811000001103,Humulin Zn 100units/ml suspension for injection 10ml vials (Eli Lilly & Co Ltd) (product),Basal insulin
+3281911000001108,NovoRapid Novolet 100units/ml solution for injection (Novo Nordisk Pharmaceuticals Ltd) 5 pre-filled disposable injection (product),Bolus insulin
+3282011000001101,Mixtard 40 Penfill 100units/ml suspension for injection 3ml cartridges (Novo Nordisk Pharmaceuticals Ltd) 5 cartridge (product),Mix insulin
+3282111000001100,Humulin Zn 100units/ml suspension for injection 10ml vials (Eli Lilly & Co Ltd) 1 vial (product),Basal insulin
+3282211000001106,NovoRapid FlexPen 100units/ml solution for injection 3ml pre-filled pens (Novo Nordisk Ltd),Bolus insulin
+3282311000001103,Ultratard 100units/ml suspension for injection 10ml vials (Novo Nordisk Pharmaceuticals Ltd) (product),Basal insulin
+3282411000001105,NovoRapid FlexPen 100units/ml solution for injection 3ml pre-filled pens (Novo Nordisk Ltd) 5 pre-filled disposable injection,Bolus insulin
+3282511000001109,Ultratard 100units/ml suspension for injection 10ml vials (Novo Nordisk Pharmaceuticals Ltd) 1 vial (product),Basal insulin
+3282611000001108,Hypurin Porcine Isophane 100units/ml suspension for injection 1.5ml cartridges (C P Pharmaceuticals Ltd) (product),Intermediate insulin
+3282711000001104,Humalog 100units/ml solution for injection 1.5ml cartridges (Eli Lilly & Co Ltd) (product),Bolus insulin
+3282811000001107,Hypurin Porcine Isophane 100units/ml suspension for injection 1.5ml cartridges (C P Pharmaceuticals Ltd) 5 cartridge (product),Intermediate insulin
+3282911000001102,Humalog 100units/ml solution for injection 1.5ml cartridges (Eli Lilly & Co Ltd) 5 cartridge (product),Bolus insulin
+3283011000001105,Insulin soluble porcine 100units/ml suspension for injection 1.5ml cartridges 5 cartridge (product),NA
+3283111000001106,Insulin glargine 100units/ml solution for injection 3ml pre-filled disposable devices 5 pre-filled disposable injection (product),Basal insulin
+3283211000001100,Lantus 100units/ml solution for injection 3ml pre-filled OptiSet pens (Sanofi),Basal insulin
+3283311000001108,Insulin zinc mixed human 100units/ml suspension for injection 10ml vials 1 vial (product),Mix insulin
+3283411000001101,Hypurin Porcine Neutral 100units/ml suspension for injection 1.5ml cartridges (C P Pharmaceuticals Ltd) (product),Bolus insulin
+3283511000001102,Insulin isophane porcine 100units/ml suspension for injection 10ml vials 1 vial (product),Intermediate insulin
+3283611000001103,Lantus 100units/ml solution for injection 3ml pre-filled OptiSet pens (Sanofi) 5 pre-filled disposable injection,Basal insulin
+3283711000001107,Hypurin Porcine Neutral 100units/ml suspension for injection 1.5ml cartridges (C P Pharmaceuticals Ltd) 5 cartridge (product),Bolus insulin
+3283811000001104,Insulin lispro 100units/ml solution for injection 3ml cartridges 5 cartridge (product),Bolus insulin
+3283911000001109,Insulin glargine 100units/ml solution for injection 3ml cartridges 5 cartridge (product),Basal insulin
+3284011000001107,Hypurin Porcine Isophane 100units/ml suspension for injection 10ml vials (C P Pharmaceuticals Ltd),Intermediate insulin
+3284111000001108,Monotard 100units/ml suspension for injection 10ml vials (Novo Nordisk Pharmaceuticals Ltd) (product),Basal insulin
+3284211000001102,Lantus 100units/ml solution for injection 3ml cartridges (Aventis Pharma) (product),Basal insulin
+3284311000001105,Humalog 100units/ml solution for injection 3ml cartridges (Eli Lilly & Co Ltd) (product),Bolus insulin
+3284411000001103,Monotard 100units/ml suspension for injection 10ml vials (Novo Nordisk Pharmaceuticals Ltd) 1 vial (product),Basal insulin
+3284511000001104,Lantus 100units/ml solution for injection 3ml cartridges (Aventis Pharma) 5 cartridge (product),Basal insulin
+3284611000001100,Hypurin Porcine Isophane 100units/ml suspension for injection 10ml vials (C P Pharmaceuticals Ltd) 1 vial,Intermediate insulin
+3284711000001109,Insulin soluble porcine 100units/ml solution for injection 10ml vials 1 vial (product),NA
+3284811000001101,Humalog 100units/ml solution for injection 3ml cartridges (Eli Lilly & Co Ltd) 5 cartridge (product),Bolus insulin
+3284911000001106,Humulin Lente 100units/ml suspension for injection 10ml vials (Eli Lilly & Co Ltd) (product),Basal insulin
+3285011000001106,Hypurin Porcine Neutral 100units/ml solution for injection 10ml vials (C P Pharmaceuticals Ltd),Bolus insulin
+3285111000001107,Humulin Lente 100units/ml suspension for injection 10ml vials (Eli Lilly & Co Ltd) 1 vial (product),Basal insulin
+3285211000001101,Insulin isophane biphasic human 40/60 100units/ml suspension for injection 1.5ml cartridges 5 cartridge (product),Mix insulin
+3285311000001109,Hypurin Porcine Neutral 100units/ml solution for injection 10ml vials (C P Pharmaceuticals Ltd) 1 vial,Bolus insulin
+3285511000001103,Human Mixtard 40 Penfill 100units/ml suspension for injection 1.5ml cartridges (Novo Nordisk Pharmaceuticals Ltd) (product),Mix insulin
+3285611000001104,Pork Actrapid 100units/ml solution for injection 10ml vials (Novo Nordisk Pharmaceuticals Ltd) (product),Bolus insulin
+3285711000001108,Pork Actrapid 100units/ml solution for injection 10ml vials (Novo Nordisk Pharmaceuticals Ltd) 1 vial (product),Bolus insulin
+3285811000001100,Human Mixtard 40 Penfill 100units/ml suspension for injection 1.5ml cartridges (Novo Nordisk Pharmaceuticals Ltd) 5 cartridge (product),Mix insulin
+3287011000001104,Insulin soluble human 100units/ml solution for injection 3ml pre-filled disposable devices 5 pre-filled disposable injection (product),NA
+3287611000001106,Insulin glargine 100units/ml solution for injection 10ml vials 1 vial (product),Basal insulin
+3287911000001100,Lantus 100units/ml solution for injection 10ml vials (Aventis Pharma) (product),Basal insulin
+3288211000001108,Lantus 100units/ml solution for injection 10ml vials (Aventis Pharma) 1 vial (product),Basal insulin
+3288511000001106,Actrapid NovoLet 100units/ml solution for injection (Novo Nordisk Pharmaceuticals Ltd) (product),Bolus insulin
+3289411000001104,Actrapid NovoLet 100units/ml solution for injection (Novo Nordisk Pharmaceuticals Ltd) 5 pre-filled disposable injection (product),Bolus insulin
+3289601000001103,Human Actrapid Penfill,Bolus insulin
+3289701000001108,Human Insulatard ge,Intermediate insulin
+3289801000001104,Human Mixtard 10,Mix insulin
+3289901000001105,Human Mixtard 20,Mix insulin
+3290001000001101,Human Mixtard 30,Mix insulin
+3290101000001100,Human Mixtard 30 ge,Mix insulin
+3290201000001107,Human Mixtard 40,Mix insulin
+3290301000001103,Human Mixtard 50,Mix insulin
+3290401000001106,Human Velosulin,Bolus insulin
+3290411000001108,HumaJect S Pen 100units/ml solution for injection (Eli Lilly & Co Ltd) (product),Bolus insulin
+3290601000001109,Humulin I,Intermediate insulin
+3290701000001104,Humulin Lente,Basal insulin
+3290801000001108,Humulin M1 10/90,Mix insulin
+3290811000001105,HumaJect S Pen 100units/ml solution for injection (Eli Lilly & Co Ltd) 5 pre-filled disposable injection (product),Bolus insulin
+3290901000001102,Humulin M2 20/80,Mix insulin
+3291001000001106,Humulin M3 30/70,Mix insulin
+3291101000001107,Humulin M4 40/60,Mix insulin
+3291201000001100,Humulin M5,Mix insulin
+3291301000001109,Humulin S,Bolus insulin
+3291401000001101,Humulin Zn,Basal insulin
+3291711000001105,Insuman Rapid 100units/ml solution for injection 3ml pre-filled OptiSet pens (Sanofi),Bolus insulin
+3292701000001100,Hypurin Bovine Isophane,Intermediate insulin
+3292801000001109,Hypurin Bovine Lente,Basal insulin
+3292901000001103,Hypurin Bovine Neutral,Bolus insulin
+3292911000001101,Insuman Rapid 100units/ml solution for injection 3ml pre-filled OptiSet pens (Sanofi) 5 pre-filled disposable injection,Bolus insulin
+3293001000001107,Hypurin Bovine Protamine Zinc,Basal insulin
+3293101000001108,Hypurin Porcine Biphasic Isophane,Mix insulin
+3294511000001103,Insulin soluble human 100units/ml solution for injection 5ml vials 1 vial (product),NA
+3294911000001105,Insuman Rapid 100units/ml solution for injection 5ml vials (Aventis Pharma) (product),Bolus insulin
+3295011000001105,Insuman Rapid 100units/ml solution for injection 5ml vials (Aventis Pharma) 1 vial (product),Bolus insulin
+3307811000001100,Insulin soluble human 100units/ml solution for injection 1.5ml cartridges 5 cartridge (product),NA
+3309511000001105,Human Actrapid Penfill 100units/ml solution for injection 1.5ml cartridges (Novo Nordisk Pharmaceuticals Ltd) (product),Bolus insulin
+3309711000001100,Human Actrapid Penfill 100units/ml solution for injection 1.5ml cartridges (Novo Nordisk Pharmaceuticals Ltd) 5 cartridge (product),Bolus insulin
+3310411000001104,Insulin soluble human 100units/ml solution for injection 3ml cartridges 5 cartridge (product),NA
+3310711000001105,Actrapid Penfill 100units/ml solution for injection 3ml cartridges (Novo Nordisk Pharmaceuticals Ltd) (product),Bolus insulin
+3310911000001107,Actrapid Penfill 100units/ml solution for injection 3ml cartridges (Novo Nordisk Pharmaceuticals Ltd) 5 cartridge (product),Bolus insulin
+3311311000001101,Humulin S 100units/ml solution for injection 3ml cartridges (Eli Lilly & Co Ltd) (product),Bolus insulin
+3311411000001108,Humulin S 100units/ml solution for injection 3ml cartridges (Eli Lilly & Co Ltd) 5 cartridge (product),Bolus insulin
+3311611000001106,Insuman Rapid 100units/ml solution for injection 3ml cartridges (Aventis Pharma) (product),Bolus insulin
+3311711000001102,Insuman Rapid 100units/ml solution for injection 3ml cartridges (Aventis Pharma) 5 cartridge (product),Bolus insulin
+3311911000001100,Insulin soluble human 100units/ml solution for injection 10ml vials 1 vial (product),NA
+3312111000001108,Actrapid 100units/ml solution for injection 10ml vials (Novo Nordisk Pharmaceuticals Ltd) (product),Bolus insulin
+3312211000001102,Actrapid 100units/ml solution for injection 10ml vials (Novo Nordisk Pharmaceuticals Ltd) 1 vial (product),Bolus insulin
+3312411000001103,Velosulin 100units/ml solution for injection 10ml vials (Novo Nordisk Pharmaceuticals Ltd) (product),Bolus insulin
+3312511000001104,Velosulin 100units/ml solution for injection 10ml vials (Novo Nordisk Pharmaceuticals Ltd) 1 vial (product),Bolus insulin
+3312611000001100,Humulin S 100units/ml solution for injection 10ml vials (Eli Lilly & Co Ltd) (product),Bolus insulin
+3312711000001109,Humulin S 100units/ml solution for injection 10ml vials (Eli Lilly & Co Ltd) 1 vial (product),Bolus insulin
+3333111000001107,Pork Insulatard 100units/ml suspension for injection 10ml vials (Novo Nordisk Pharmaceuticals Ltd) (product),Intermediate insulin
+3333211000001101,Pork Insulatard 100units/ml suspension for injection 10ml vials (Novo Nordisk Pharmaceuticals Ltd) 1 vial (product),Intermediate insulin
+3340601000001107,Humalog 100iu/mL cartridge 3mL,Bolus insulin
+34043011000001106,Fiasp FlexTouch 100units/ml solution for injection 3ml pre-filled pens (Novo Nordisk Ltd),Bolus insulin
+34043111000001107,Fiasp FlexTouch 100units/ml solution for injection 3ml pre-filled pens (Novo Nordisk Ltd) 5 pre-filled disposable injection,Bolus insulin
+34043211000001101,Fiasp Penfill 100units/ml solution for injection 3ml cartridges (Novo Nordisk Ltd) (product),Bolus insulin
+34043311000001109,Fiasp Penfill 100units/ml solution for injection 3ml cartridges (Novo Nordisk Ltd) 5 cartridge (product),Bolus insulin
+34043411000001102,Fiasp 100units/ml solution for injection 10ml vials (Novo Nordisk Ltd) (product),Bolus insulin
+34043511000001103,Fiasp 100units/ml solution for injection 10ml vials (Novo Nordisk Ltd) 1 vial (product),Bolus insulin
+3468511000001109,Insulin aspart 100units/ml solution for injection 10ml vials (product),Bolus insulin
+3468611000001108,Insulin aspart 100 unit/ml solution for injection 3 ml cartridge,Bolus insulin
+3468711000001104,Insulin aspart 100 unit/ml solution for injection 3 ml pre-filled disposable injection,Bolus insulin
+3468811000001107,Insulin aspart (as insulin aspart protamine) 70 unit/ml and insulin aspart 30 unit/ml suspension for injection 3 ml cartridge,Bolus insulin
+3468911000001102,Insulin aspart (as insulin aspart protamine) 70 unit/ml and insulin aspart 30 unit/ml suspension for injection 3 ml pre-filled disposable injection,Bolus insulin
+3469011000001106,Insulin glargine 100units/ml solution for injection 10ml vials (product),Basal insulin
+3469111000001107,Insulin glargine 100units/ml solution for injection 3ml cartridges (product),Basal insulin
+3469211000001101,Insulin glargine 100units/ml solution for injection 3ml pre-filled disposable devices (product),Basal insulin
+3469311000001109,Insulin human (as insulin isophane human) 90 unit/ml and insulin human (as insulin soluble human) 10 unit/ml suspension for injection 1.5 ml cartridge,Intermediate insulin
+3469411000001102,Insulin human (as insulin isophane human) 90 unit/ml and insulin human (as insulin soluble human) 10 unit/ml suspension for injection 3 ml cartridge,Intermediate insulin
+3469511000001103,Insulin human (as insulin isophane human) 90 unit/ml and insulin human (as insulin soluble human) 10 unit/ml suspension for injection 3 ml pre-filled disposable injection,Intermediate insulin
+3469611000001104,Insulin human (as insulin isophane human) 85 unit/ml and insulin human (as insulin soluble human) 15 unit/ml suspension for injection 3 ml cartridge,Intermediate insulin
+3469711000001108,Insulin human (as insulin isophane human) 85 unit/ml and insulin human (as insulin soluble human) 15 unit/ml suspension for injection 3 ml pre-filled disposable injection,Intermediate insulin
+3469811000001100,Insulin human (as insulin isophane human) 85 unit/ml and insulin human (as insulin soluble human) 15 unit/ml suspension for injection 5 ml vial,Intermediate insulin
+3469911000001105,Insulin human (as insulin isophane human) 80 unit/ml and insulin human (as insulin soluble human) 20 unit/ml suspension for injection 1.5 ml cartridge,Intermediate insulin
+3470011000001109,Insulin human (as insulin isophane human) 80 unit/ml and insulin human (as insulin soluble human) 20 unit/ml suspension for injection 3 ml cartridge,Intermediate insulin
+3470111000001105,Insulin human (as insulin isophane human) 80 unit/ml and insulin human (as insulin soluble human) 20 unit/ml suspension for injection 3 ml pre-filled disposable injection,Intermediate insulin
+3470211000001104,Insulin human (as insulin isophane human) 75 unit/ml and insulin human (as insulin soluble human) 25 unit/ml suspension for injection 3 ml cartridge,Intermediate insulin
+3470311000001107,Insulin human (as insulin isophane human) 75 unit/ml and insulin human (as insulin soluble human) 25 unit/ml suspension for injection 3 ml pre-filled disposable injection,Intermediate insulin
+3470411000001100,Insulin human (as insulin isophane human) 75 unit/ml and insulin human (as insulin soluble human) 25 unit/ml suspension for injection 5 ml vial,Intermediate insulin
+3470511000001101,Insulin human (as insulin isophane human) 70 unit/ml and insulin human (as insulin soluble human) 30 unit/ml suspension for injection 1.5 ml cartridge,Intermediate insulin
+3470711000001106,Insulin human (as insulin isophane human) 70 unit/ml and insulin human (as insulin soluble human) 30 unit/ml suspension for injection 10 ml vial,Intermediate insulin
+3470911000001108,Insulin human (as insulin isophane human) 70 unit/ml and insulin human (as insulin soluble human) 30 unit/ml suspension for injection 3 ml cartridge,Intermediate insulin
+3471011000001100,Insulin human (as insulin isophane human) 70 unit/ml and insulin human (as insulin soluble human) 30 unit/ml suspension for injection 3 ml pre-filled disposable injection,Intermediate insulin
+3471111000001104,Insulin human (as insulin isophane human) 60 unit/ml and insulin human (as insulin soluble human) 40 unit/ml suspension for injection 1.5 ml cartridge,Intermediate insulin
+3471211000001105,Insulin human (as insulin isophane human) 60 unit/ml and insulin human (as insulin soluble human) 40 unit/ml suspension for injection 3 ml cartridge,Intermediate insulin
+3471311000001102,Insulin human (as insulin isophane human) 60 unit/ml and insulin human (as insulin soluble human) 40 unit/ml suspension for injection 3 ml pre-filled disposable injection,Intermediate insulin
+3471411000001109,Insulin human (as insulin isophane human) 50 unit/ml and insulin human (as insulin soluble human) 50 unit/ml suspension for injection 1.5 ml cartridge,Intermediate insulin
+3471511000001108,Insulin human (as insulin isophane human) 50 unit/ml and insulin human (as insulin soluble human) 50 unit/ml suspension for injection 10 ml vial,Intermediate insulin
+3471611000001107,Insulin human (as insulin isophane human) 50 unit/ml and insulin human (as insulin soluble human) 50 unit/ml suspension for injection 3 ml cartridge,Intermediate insulin
+3471711000001103,Insulin human (as insulin isophane human) 50 unit/ml and insulin human (as insulin soluble human) 50 unit/ml suspension for injection 3 ml pre-filled disposable injection,Intermediate insulin
+3471811000001106,Insulin human (as insulin isophane human) 50 unit/ml and insulin human (as insulin soluble human) 50 unit/ml suspension for injection 5 ml vial,Intermediate insulin
+3471911000001101,Insulin porcine (as insulin isophane porcine) 70 unit/ml and insulin porcine (as insulin soluble porcine) 30 unit/ml suspension for injection 1.5 ml cartridge,Intermediate insulin
+3472011000001108,Insulin porcine (as insulin isophane porcine) 70 unit/ml and insulin porcine (as insulin soluble porcine) 30 unit/ml suspension for injection 10 ml vial,Intermediate insulin
+3472211000001103,Insulin bovine (as insulin isophane bovine) 100 unit/ml suspension for injection 1.5 ml cartridge,Intermediate insulin
+3472311000001106,Insulin bovine (as insulin isophane bovine) 100 unit/ml suspension for injection 10 ml vial,Intermediate insulin
+3472411000001104,Insulin human (as insulin isophane human) 100 unit/ml suspension for injection 1.5 ml cartridge,Intermediate insulin
+3472511000001100,Insulin human (as insulin isophane human) 100 unit/ml suspension for injection 10 ml vial,Intermediate insulin
+3472611000001101,Insulin isophane human 100units/ml suspension for injection 3ml cartridges (product),Intermediate insulin
+3472711000001105,Insulin isophane human 100units/ml suspension for injection 3ml pre-filled disposable devices (product),Intermediate insulin
+3472811000001102,Insulin human (as insulin isophane human) 100 unit/ml suspension for injection 5 ml vial,Intermediate insulin
+3472911000001107,Insulin porcine (as insulin isophane porcine) 100 unit/ml suspension for injection 1.5 ml cartridge,Intermediate insulin
+3473011000001104,Insulin porcine (as insulin isophane porcine) 100 unit/ml suspension for injection 10 ml vial,Intermediate insulin
+3473111000001103,Insulin lispro 100units/ml solution for injection 1.5ml cartridges (product),Bolus insulin
+3473211000001109,Insulin lispro 100units/ml solution for injection 10ml vials (product),Bolus insulin
+3473311000001101,Insulin lispro 100units/ml solution for injection 3ml cartridges (product),Bolus insulin
+3473411000001108,Insulin lispro 100units/ml solution for injection 3ml pre-filled disposable devices (product),Bolus insulin
+3473511000001107,Insulin lispro (as insulin lispro protamine) 75 unit/ml and insulin lispro 25 unit/ml suspension for injection 3 ml pre-filled disposable injection,Bolus insulin
+3473611000001106,Insulin lispro (as insulin lispro protamine) 50 unit/ml and insulin lispro 50 unit/ml suspension for injection 3 ml pre-filled disposable injection,Bolus insulin
+3473711000001102,Insulin lispro (as insulin lispro protamine) 75 unit/ml and insulin lispro 25 unit/ml suspension for injection 3 ml cartridge,Bolus insulin
+3473811000001105,Insulin protamine zinc bovine 100units/ml suspension for injection 10ml vials (product),Basal insulin
+3473911000001100,Insulin soluble bovine 100units/ml solution for injection 1.5ml cartridges (product),NA
+3474011000001102,Insulin soluble bovine 100units/ml solution for injection 10ml vials (product),NA
+3474111000001101,Insulin soluble human 100units/ml solution for injection 1.5ml cartridges (product),NA
+3474211000001107,Insulin soluble human 100units/ml solution for injection 10ml vials (product),NA
+3474311000001104,Insulin soluble human 100units/ml solution for injection 3ml cartridges (product),NA
+3474411000001106,Insulin soluble human 100units/ml solution for injection 3ml pre-filled disposable devices (product),NA
+3474511000001105,Insulin soluble human 100units/ml solution for injection 5ml vials (product),NA
+3474611000001109,Insulin porcine (as insulin soluble porcine) 100 unit/ml solution for injection 1.5 ml cartridge,NA
+3474711000001100,Insulin soluble porcine 100units/ml solution for injection 10ml vials (product),NA
+3474811000001108,Insulin zinc crystalline human 100units/ml suspension for injection 10ml vials (product),Basal insulin
+3474911000001103,Insulin bovine (as Insulin zinc suspension mixed bovine) 100 unit/ml suspension for injection 10 ml vial,Basal insulin
+3475011000001103,Insulin zinc mixed human 100units/ml suspension for injection 10ml vials (product),Mix insulin
+3503401000001109,Humalog Mix25 100iu/mL cartridge,Bolus insulin
+3503501000001108,Humalog Mix25 100iu/mL cartridge 3mL,Bolus insulin
+3503601000001107,Humalog Mix25 100iu/mL prefilled pen,Bolus insulin
+3503701000001102,Humalog Mix25 100iu/mL prefilled pen 3mL,Bolus insulin
+3503801000001106,Humalog Mix25,Bolus insulin
+35202311000001108,Insulin soluble human 1unit/ml solution for infusion 50ml pre-filled syringes 60 pre-filled disposable injection (product),NA
+35202411000001101,Insulin soluble human 1unit/ml solution for infusion 50ml pre-filled syringes (Special Order) 60 pre-filled disposable injection (product),NA
+35214111000001101,Insulin human 500units/ml solution for injection 3ml pre-filled disposable devices 2 pre-filled disposable injection (product),NA
+35214211000001107,Insulin human 500units/ml solution for injection 3ml pre-filled disposable devices 5 pre-filled disposable injection (product),NA
+35214311000001104,Humulin R KwikPen 500units/ml solution for injection 3ml pre-filled pens (Imported (United States)),Bolus insulin
+35214411000001106,Humulin R KwikPen 500units/ml solution for injection 3ml pre-filled pens (Imported (United States)) 2 pre-filled disposable injection,Bolus insulin
+35214511000001105,Humulin R KwikPen 500units/ml solution for injection 3ml pre-filled pens (Imported (United States)) 5 pre-filled disposable injection,Bolus insulin
+35215111000001102,Insulin human 500 unit/ml solution for injection 3 ml pre-filled disposable injection,NA
+35216811000001101,Humalog Junior KwikPen 100units/ml solution for injection 3ml pre-filled pens (Eli Lilly and Company Ltd),Bolus insulin
+35217011000001105,Humalog Junior KwikPen 100units/ml solution for injection 3ml pre-filled pens (Eli Lilly and Company Ltd) 5 pre-filled disposable injection,Bolus insulin
+352801000001101,Human Initard 50/50 (emp) 100units/mL injection vial,Mix insulin
+353101000001102,Human Ultratard (pyr) 100iu/mL injection vial,Basal insulin
+353401000001108,Humulin Zn (prb) 100iu/mL injection vial,Basal insulin
+353987005,Insulin soluble human 100units/ml solution for injection 3ml pre-filled disposable devices,NA
+353988000,Insulin isophane human 100units/ml suspension for injection 3ml pre-filled disposable devices,Intermediate insulin
+354301000001103,Hypurin Bovine Neutral 100iu/mL injection vial,Bolus insulin
+35563111000001107,Insulin lispro 100units/ml solution for injection 3ml pre-filled pen (Sanofi Pasteur) (product),Bolus insulin
+35563211000001101,Insulin lispro 100units/ml solution for injection 3ml pre-filled pen (Sanofi Pasteur) 5 pre-filled disposable injection (product),Bolus insulin
+35563311000001109,Insulin lispro 100units/ml solution for injection 3ml cartridges (Sanofi Pasteur) (product),Bolus insulin
+35563411000001102,Insulin lispro 100units/ml solution for injection 3ml cartridges (Sanofi Pasteur) 5 cartridge (product),Bolus insulin
+35563711000001108,Insulin lispro 100units/ml solution for injection 10ml vials (Sanofi Pasteur) (product),Bolus insulin
+35563811000001100,Insulin lispro 100units/ml solution for injection 10ml vials (Sanofi Pasteur) 1 vial (product),Bolus insulin
+3561211000001107,Insulin isophane bovine (substance),Intermediate insulin
+3561311000001104,Insulin isophane human (substance),Intermediate insulin
+3561411000001106,Insulin isophane porcine (substance),Intermediate insulin
+3561511000001105,Insulin protamine zinc bovine (substance),Basal insulin
+3561611000001109,Insulin soluble bovine (substance),NA
+3561711000001100,Insulin soluble human (substance),NA
+3561811000001108,Insulin soluble porcine (substance),NA
+3561911000001103,Insulin zinc suspension crystalline human (substance),Basal insulin
+3562011000001105,Insulin zinc suspension mixed bovine (substance),Basal insulin
+3562111000001106,Insulin zinc suspension mixed human (substance),Basal insulin
+35776411000001102,Insulin lispro Sanofi 100units/ml solution for injection 10ml vials (Sanofi) (product),Bolus insulin
+35776511000001103,Insulin lispro Sanofi 100units/ml solution for injection 3ml cartridges (Sanofi) (product),Bolus insulin
+35776611000001104,Insulin lispro Sanofi 100units/ml solution for injection 10ml vials (Sanofi) 1 vial (product),Bolus insulin
+35776711000001108,Insulin lispro Sanofi 100units/ml solution for injection 3ml cartridges (Sanofi) 5 cartridge (product),Bolus insulin
+35776811000001100,Insulin lispro Sanofi 100units/ml solution for injection 3ml pre-filled pens (Sanofi),Bolus insulin
+35776911000001105,Insulin lispro Sanofi 100units/ml solution for injection 3ml pre-filled pens (Sanofi) 5 pre-filled disposable injection,Bolus insulin
+3591311000001102,Insulin aspart (substance),Bolus insulin
+3591411000001109,Insulin aspart protamine (substance),Bolus insulin
+3591611000001107,Insulin glargine (substance),Basal insulin
+3591711000001103,Insulin lispro (substance),Bolus insulin
+3591811000001106,Insulin lispro protamine (substance),Bolus insulin
+36047011000001105,Insulin aspart 100 unit/ml solution for injection 10 ml vial,Bolus insulin
+36047111000001106,Insulin glargine 100 unit/ml solution for injection 10 ml vial,Basal insulin
+36047211000001100,Insulin glulisine 100 unit/ml solution for injection 10 ml vial,Bolus insulin
+36047311000001108,Insulin human (as insulin isophane human) 100 unit/ml suspension for injection 3 ml cartridge,Intermediate insulin
+36047411000001101,Insulin human (as insulin isophane human) 100 unit/ml suspension for injection 3 ml pre-filled disposable injection,Intermediate insulin
+36047511000001102,Insulin lispro 100 unit/ml solution for injection 1.5 ml cartridge,Bolus insulin
+36047611000001103,Insulin lispro 100 unit/ml solution for injection 10 ml vial,Bolus insulin
+36047711000001107,Insulin lispro 100 unit/ml solution for injection 3 ml cartridge,Bolus insulin
+36047811000001104,Insulin lispro 100 unit/ml solution for injection 3 ml pre-filled disposable injection,Bolus insulin
+36047911000001109,Insulin bovine (as insulin protamine zinc bovine) 100 unit/ml suspension for injection 10 ml vial,Basal insulin
+36048011000001106,Insulin bovine (as insulin soluble bovine) 100 unit/ml solution for injection 1.5 ml cartridge,NA
+36048111000001107,Insulin bovine (as insulin soluble bovine) 100 unit/ml solution for injection 10 ml vial,NA
+36048211000001101,Insulin human (as insulin soluble human) 100 unit/ml solution for injection 1.5 ml cartridge,NA
+36048311000001109,Insulin human (as insulin soluble human) 100 unit/ml solution for injection 10 ml vial,NA
+36048411000001102,Insulin human (as insulin soluble human) 100 unit/ml solution for injection 3 ml cartridge,NA
+36048511000001103,Insulin human (as insulin soluble human) 100 unit/ml solution for injection 3 ml pre-filled disposable injection,NA
+36048611000001104,Insulin human (as insulin soluble human) 100 unit/ml solution for injection 5 ml vial,NA
+36048711000001108,Insulin porcine (as insulin soluble porcine) 100 unit/ml solution for injection 10 ml vial,NA
+36048811000001100,Insulin human (as insulin zinc suspension crystalline human) 100 unit/ml suspension for injection 10 ml vial,Basal insulin
+36048911000001105,Insulin human (as Insulin zinc suspension mixed human) 100 unit/ml suspension for injection 10 ml vial,Basal insulin
+36082811000001107,Semglee 100units/ml solution for injection 3ml pre-filled pens (Biosimilar Collaborations Ireland Ltd) (product),Basal insulin
+36083011000001105,Semglee 100units/ml solution for injection 3ml pre-filled pens (Biosimilar Collaborations Ireland Ltd) 5 pre-filled disposable injection (product),Basal insulin
+3621701000001101,Insulin aspart 100units/mL injection vial - product,Bolus insulin
+3621801000001105,Insulin aspart 100units/mL prefilled syringe - product,Bolus insulin
+3621901000001104,Insulin aspart 100units/mL cartridge - product,Bolus insulin
+3622001000001107,NovoRapid 100units/mL injection vial,Bolus insulin
+3622101000001108,NovoRapid NovoLet 100units/mL prefilled syringe,Bolus insulin
+3622201000001101,NovoRapid NovoLet 100units/mL prefilled syringe 3mL,Bolus insulin
+3622301000001105,NovoRapid Penfill 100units/mL cartridge,Bolus insulin
+3622401000001102,NovoRapid Penfill 100units/mL cartridge 3mL,Bolus insulin
+3622501000001103,NovoRapid,Bolus insulin
+3622601000001104,NovoRapid NovoLet,Bolus insulin
+3622701000001109,NovoRapid Penfill,Bolus insulin
+36409211000001105,Insulin lispro and insulin lispro protamine only product,Bolus insulin
+36618111000001107,Insulin glargine 100units/ml / Lixisenatide 50micrograms/ml solution for injection 3ml pre-filled disposable devices 3 pre-filled disposable injection (product),Basal insulin
+36618311000001109,Suliqua 100units/ml / 50micrograms/ml solution for injection 3ml pre-filled SoloStar pens (Sanofi),Basal insulin
+36618411000001102,Suliqua 100units/ml / 50micrograms/ml solution for injection 3ml pre-filled SoloStar pens (Sanofi) 3 pre-filled disposable injection,Basal insulin
+36620411000001109,Insulin glargine 100units/ml / Lixisenatide 33micrograms/ml solution for injection 3ml pre-filled disposable devices 3 pre-filled disposable injection (product),Basal insulin
+36620611000001107,Suliqua 100units/ml / 33micrograms/ml solution for injection 3ml pre-filled SoloStar pens (Sanofi),Basal insulin
+36620811000001106,Suliqua 100units/ml / 33micrograms/ml solution for injection 3ml pre-filled SoloStar pens (Sanofi) 3 pre-filled disposable injection,Basal insulin
+36630511000001105,Insulin glargine 100 unit/ml and lixisenatide 33 microgram/ml solution for injection 3 ml pre-filled disposable injection,Basal insulin
+36630611000001109,Insulin glargine 100 unit/ml and lixisenatide 50 microgram/ml solution for injection 3 ml pre-filled disposable injection,Basal insulin
+36630811000001108,Insulin glargine + Lixisenatide,Basal insulin
+3678901000001105,Insuman Rapid 100iu/mL injection vial,Bolus insulin
+3679001000001100,Insuman Rapid 100iu/mL injection vial 5mL,Bolus insulin
+3679101000001104,Insuman Rapid 100iu/mL injection cartridge,Bolus insulin
+3679201000001106,Insuman Rapid 100iu/mL injection cartridge 3mL,Bolus insulin
+3679401000001105,Insuman Basal 100iu/mL injection vial,Intermediate insulin
+3679501000001109,Insuman Basal 100iu/mL injection vial 5mL,Intermediate insulin
+3679601000001108,Insuman Basal 100iu/mL injection cartridge 3mL,Intermediate insulin
+3679701000001103,Insuman Basal 100iu/mL injection cartridge,Intermediate insulin
+3679801000001107,Insuman Comb 25 100iu/mL injection vial,Mix insulin
+3679901000001101,Insuman Comb 25 100iu/mL injection vial 5mL,Mix insulin
+3680001000001100,Insuman Comb 25 100iu/mL injection cartridge,Mix insulin
+3680101000001104,Insuman Comb 25 100iu/mL injection cartridge 3mL,Mix insulin
+3680201000001106,Insuman Basal,Intermediate insulin
+3680301000001102,Insuman Rapid,Bolus insulin
+3680401000001105,Insuman Comb 25,Mix insulin
+36911211000001109,Insulin glargine 300units/ml solution for injection 3ml pre-filled disposable devices 3 pre-filled disposable injection (product),Basal insulin
+36911311000001101,Toujeo 300units/ml solution for injection 3ml pre-filled DoubleStar pens (Sanofi),Basal insulin
+36911411000001108,Toujeo 300units/ml solution for injection 3ml pre-filled DoubleStar pens (Sanofi) 3 pre-filled disposable injection,Basal insulin
+36931811000001104,Insulin glargine 300 unit/ml solution for injection 3 ml pre-filled disposable injection,Basal insulin
+371418007,Insulin soluble bovine 100units/ml solution for injection 10ml vials,NA
+371419004,Insulin soluble bovine 100units/ml solution for injection 1.5ml cartridges,NA
+371430001,Insulin soluble porcine 100units/ml solution for injection 10ml vials,NA
+371483009,Insulin soluble human 100units/ml solution for injection 5ml vials,NA
+371485002,Insulin soluble human 100units/ml solution for injection 1.5ml cartridges,NA
+371496005,Insulin lispro 100units/ml solution for injection 1.5ml cartridges,Bolus insulin
+37417011000001108,Humulin I 100units/ml suspension for injection 3ml cartridges (CST Pharma Ltd),Intermediate insulin
+37417111000001109,Humulin I 100units/ml suspension for injection 3ml cartridges (CST Pharma Ltd) 5 cartridge,Intermediate insulin
+37417211000001103,Humulin M3 100units/ml suspension for injection 3ml cartridges (CST Pharma Ltd),Mix insulin
+37417311000001106,Humulin M3 100units/ml suspension for injection 3ml cartridges (CST Pharma Ltd) 5 cartridge,Mix insulin
+37419911000001100,Humulin M3 100units/ml suspension for injection 10ml vials (CST Pharma Ltd),Mix insulin
+37420011000001103,Humulin M3 100units/ml suspension for injection 10ml vials (CST Pharma Ltd) 1 vial,Mix insulin
+37420411000001107,Humulin I 100units/ml suspension for injection 10ml vials (CST Pharma Ltd),Intermediate insulin
+37420511000001106,Humulin I 100units/ml suspension for injection 10ml vials (CST Pharma Ltd) 1 vial,Intermediate insulin
+37428811000001107,Apidra 100units/ml solution for injection 3ml pre-filled SoloStar pen (CST Pharma Ltd),Bolus insulin
+37428911000001102,Apidra 100units/ml solution for injection 3ml pre-filled SoloStar pen (CST Pharma Ltd) 5 pre-filled disposable injection,Bolus insulin
+37439111000001109,Humalog KwikPen 100units/ml solution for injection 3ml pre-filled pen (CST Pharma Ltd),Bolus insulin
+37439311000001106,Humalog KwikPen 100units/ml solution for injection 3ml pre-filled pen (CST Pharma Ltd) 5 pre-filled disposable injection,Bolus insulin
+37439411000001104,Humalog Mix25 KwikPen 100units/ml suspension for injection 3ml pre-filled pen (CST Pharma Ltd),Bolus insulin
+37439511000001100,Humalog Mix25 KwikPen 100units/ml suspension for injection 3ml pre-filled pen (CST Pharma Ltd) 5 pre-filled disposable injection,Bolus insulin
+37512111000001101,Apidra 100units/ml solution for injection 3ml pre-filled SoloStar pen (Mawdsley-Brooks & Company Ltd),Bolus insulin
+37512211000001107,Apidra 100units/ml solution for injection 3ml pre-filled SoloStar pen (Mawdsley-Brooks & Company Ltd) 5 pre-filled disposable injection,Bolus insulin
+37550411000001100,Humalog Mix50 KwikPen 100units/ml suspension for injection 3ml pre-filled pen (CST Pharma Ltd),Bolus insulin
+37550611000001102,Humalog Mix50 KwikPen 100units/ml suspension for injection 3ml pre-filled pen (CST Pharma Ltd) 5 pre-filled disposable injection,Bolus insulin
+37550911000001108,Humalog Mix25 100units/ml suspension for injection 3ml cartridges (CST Pharma Ltd),Bolus insulin
+37551111000001104,Humalog Mix25 100units/ml suspension for injection 3ml cartridges (CST Pharma Ltd) 5 cartridge,Bolus insulin
+37590811000001108,Apidra 100units/ml solution for injection 3ml cartridges (CST Pharma Ltd),Bolus insulin
+37590911000001103,Apidra 100units/ml solution for injection 3ml cartridges (CST Pharma Ltd) 5 cartridge,Bolus insulin
+3766601000001103,Insulin lispro 100iu/mL prefilled pen - product,Bolus insulin
+37666211000001104,Humalog Mix25 100units/ml suspension for injection 3ml cartridges (Pilsco Ltd),Bolus insulin
+37666411000001100,Humalog Mix25 100units/ml suspension for injection 3ml cartridges (Pilsco Ltd) 5 cartridge,Bolus insulin
+3766701000001108,Humalog-Pen 100iu/mL prefilled pen,Bolus insulin
+3766801000001104,Humalog-Pen 100iu/mL prefilled pen 3mL,Bolus insulin
+3766901000001105,Humalog-Pen,Bolus insulin
+3767001000001109,Humalog Mix50 100iu/mL prefilled pen,Bolus insulin
+3767101000001105,Humalog Mix50 100iu/mL prefilled pen 3mL,Bolus insulin
+3767201000001103,Humulin I 100iu/mL prefilled pen,Intermediate insulin
+37672211000001106,Lantus 100units/ml solution for injection 3ml cartridges (Pilsco Ltd),Basal insulin
+37672311000001103,Lantus 100units/ml solution for injection 3ml cartridges (Pilsco Ltd) 5 cartridge,Basal insulin
+37672511000001109,Lantus 100units/ml solution for injection 3ml pre-filled SoloStar pen (Pilsco Ltd),Basal insulin
+37672711000001104,Lantus 100units/ml solution for injection 3ml pre-filled SoloStar pen (Pilsco Ltd) 5 pre-filled disposable injection,Basal insulin
+3767301000001107,Humulin I 100iu/mL prefilled pen 3mL,Intermediate insulin
+3767401000001104,Humalog Mix50,Bolus insulin
+37694811000001108,NovoMix 30 FlexPen 100units/ml suspension for injection 3ml pre-filled pen (Pilsco Ltd),Mix insulin
+37694911000001103,NovoMix 30 FlexPen 100units/ml suspension for injection 3ml pre-filled pen (Pilsco Ltd) 5 pre-filled disposable injection,Mix insulin
+37695011000001103,NovoMix 30 Penfill 100units/ml suspension for injection 3ml cartridges (Pilsco Ltd),Mix insulin
+37695211000001108,NovoMix 30 Penfill 100units/ml suspension for injection 3ml cartridges (Pilsco Ltd) 5 cartridge,Mix insulin
+37695311000001100,NovoRapid FlexPen 100units/ml solution for injection 3ml pre-filled pen (Pilsco Ltd),Bolus insulin
+37695511000001106,NovoRapid FlexPen 100units/ml solution for injection 3ml pre-filled pen (Pilsco Ltd) 5 pre-filled disposable injection,Bolus insulin
+37695811000001109,NovoRapid Penfill 100units/ml solution for injection 3ml cartridges (Pilsco Ltd),Bolus insulin
+37695911000001104,NovoRapid Penfill 100units/ml solution for injection 3ml cartridges (Pilsco Ltd) 5 cartridge,Bolus insulin
+377101000001108,Human Mixtard 30/70 (emp) 100units/mL injection vial,Mix insulin
+37719711000001107,Humulin M3 100units/ml suspension for injection 10ml vials (Pilsco Ltd),Mix insulin
+37719811000001104,Humulin M3 100units/ml suspension for injection 10ml vials (Pilsco Ltd) 1 vial,Mix insulin
+37750911000001109,Tresiba Penfill 100units/ml solution for injection 3ml cartridges (CST Pharma Ltd),Basal insulin
+37751011000001101,Tresiba Penfill 100units/ml solution for injection 3ml cartridges (CST Pharma Ltd) 5 cartridge,Basal insulin
+37751111000001100,Tresiba FlexTouch 200units/ml solution for injection 3ml pre-filled pen (CST Pharma Ltd),Basal insulin
+37751211000001106,Tresiba FlexTouch 200units/ml solution for injection 3ml pre-filled pen (CST Pharma Ltd) 3 pre-filled disposable injection,Basal insulin
+37971811000001102,Humalog 100units/ml solution for injection 3ml cartridges (Pharmaram Ltd),Bolus insulin
+37971911000001107,Humalog 100units/ml solution for injection 3ml cartridges (Pharmaram Ltd) 5 cartridge,Bolus insulin
+37972011000001100,Humalog 100units/ml solution for injection 10ml vials (Pharmaram Ltd),Bolus insulin
+37972111000001104,Humalog 100units/ml solution for injection 10ml vials (Pharmaram Ltd) 1 vial,Bolus insulin
+37972211000001105,Humalog Mix25 100units/ml suspension for injection 3ml cartridges (Pharmaram Ltd),Bolus insulin
+37972311000001102,Humalog Mix25 100units/ml suspension for injection 3ml cartridges (Pharmaram Ltd) 5 cartridge,Bolus insulin
+37973011000001109,NovoRapid FlexPen 100units/ml solution for injection 3ml pre-filled pen (Pharmaram Ltd),Bolus insulin
+37973111000001105,NovoRapid FlexPen 100units/ml solution for injection 3ml pre-filled pen (Pharmaram Ltd) 5 pre-filled disposable injection,Bolus insulin
+37973311000001107,NovoRapid Penfill 100units/ml solution for injection 3ml cartridges (Pharmaram Ltd),Bolus insulin
+37973411000001100,NovoRapid Penfill 100units/ml solution for injection 3ml cartridges (Pharmaram Ltd) 5 cartridge,Bolus insulin
+37992511000001104,NovoMix 30 FlexPen 100units/ml suspension for injection 3ml pre-filled pen (Pharmaram Ltd),Mix insulin
+37992611000001100,NovoMix 30 FlexPen 100units/ml suspension for injection 3ml pre-filled pen (Pharmaram Ltd) 5 pre-filled disposable injection,Mix insulin
+38067011000001105,Insulin soluble human 1unit/ml solution for infusion 30ml pre-filled syringes 1 pre-filled disposable injection,NA
+38067111000001106,Insulin soluble human 1unit/ml solution for infusion 30ml pre-filled syringes (Special Order),NA
+38067211000001100,Insulin soluble human 1unit/ml solution for infusion 30ml pre-filled syringes (Special Order) 1 pre-filled disposable injection,NA
+38067711000001107,Insulin soluble human 1unit/ml solution for infusion 30ml pre-filled syringes,NA
+38074811000001104,Tresiba FlexTouch 200units/ml solution for injection 3ml pre-filled pen (Pharmaram Ltd),Basal insulin
+38074911000001109,Tresiba FlexTouch 200units/ml solution for injection 3ml pre-filled pen (Pharmaram Ltd) 3 pre-filled disposable injection,Basal insulin
+38116611000001105,Apidra 100units/ml solution for injection 3ml pre-filled SoloStar pens (DE Pharmaceuticals),Bolus insulin
+38116711000001101,Apidra 100units/ml solution for injection 3ml pre-filled SoloStar pens (DE Pharmaceuticals) 5 pre-filled disposable injection,Bolus insulin
+3813801000001105,Insuman Comb 15 100iu/mL injection cartridge,Mix insulin
+3813901000001104,Insuman Comb 15 100iu/mL injection cartridge 3mL,Mix insulin
+38139511000001108,Humulin I 100units/ml suspension for injection 3ml cartridges (DE Pharmaceuticals),Intermediate insulin
+38139611000001107,Humulin I 100units/ml suspension for injection 3ml cartridges (DE Pharmaceuticals) 5 cartridge,Intermediate insulin
+38139711000001103,Humulin M3 100units/ml suspension for injection 3ml cartridges (DE Pharmaceuticals),Mix insulin
+38139811000001106,Humulin M3 100units/ml suspension for injection 3ml cartridges (DE Pharmaceuticals) 5 cartridge,Mix insulin
+38139911000001101,Humulin M3 100units/ml suspension for injection 10ml vials (DE Pharmaceuticals),Mix insulin
+3814001000001101,Insuman Comb 50 100iu/mL injection vial,Mix insulin
+38140011000001107,Humulin M3 100units/ml suspension for injection 10ml vials (DE Pharmaceuticals) 1 vial,Mix insulin
+3814101000001100,Insuman Comb 50 100iu/mL injection vial 5mL,Mix insulin
+3814201000001107,Insuman Comb 15,Mix insulin
+3814301000001103,Insuman Comb 50,Mix insulin
+38144911000001101,Lantus 100units/ml solution for injection 3ml cartridges (DE Pharmaceuticals),Basal insulin
+38145011000001101,Lantus 100units/ml solution for injection 3ml cartridges (DE Pharmaceuticals) 5 cartridge,Basal insulin
+38145111000001100,Lantus 100units/ml solution for injection 10ml vials (DE Pharmaceuticals),Basal insulin
+38145211000001106,Lantus 100units/ml solution for injection 10ml vials (DE Pharmaceuticals) 1 vial,Basal insulin
+38145311000001103,Lantus 100units/ml solution for injection 3ml pre-filled SoloStar pens (DE Pharmaceuticals),Basal insulin
+38145411000001105,Lantus 100units/ml solution for injection 3ml pre-filled SoloStar pens (DE Pharmaceuticals) 5 pre-filled disposable injection,Basal insulin
+38170511000001103,Toujeo 300units/ml solution for injection 1.5ml pre-filled SoloStar pens (DE Pharmaceuticals),Basal insulin
+38170611000001104,Toujeo 300units/ml solution for injection 1.5ml pre-filled SoloStar pens (DE Pharmaceuticals) 3 pre-filled disposable injection,Basal insulin
+38171211000001107,Tresiba FlexTouch 200units/ml solution for injection 3ml pre-filled pens (DE Pharmaceuticals),Basal insulin
+38171311000001104,Tresiba FlexTouch 200units/ml solution for injection 3ml pre-filled pens (DE Pharmaceuticals) 3 pre-filled disposable injection,Basal insulin
+38456111000001107,Lyumjev 100units/ml solution for injection 3ml cartridges (Eli Lilly and Company Ltd),Bolus insulin
+38456511000001103,Lyumjev 100units/ml solution for injection 3ml cartridges (Eli Lilly and Company Ltd) 5 cartridge,Bolus insulin
+38456911000001105,Lyumjev 100units/ml solution for injection 10ml vials (Eli Lilly and Company Ltd),Bolus insulin
+38457711000001106,Lyumjev 100units/ml solution for injection 10ml vials (Eli Lilly and Company Ltd) 1 vial,Bolus insulin
+38465811000001104,Lyumjev KwikPen 100units/ml solution for injection 3ml pre-filled pens (Eli Lilly and Company Ltd),Bolus insulin
+38465911000001109,Lyumjev KwikPen 100units/ml solution for injection 3ml pre-filled pens (Eli Lilly and Company Ltd) 5 pre-filled disposable injection,Bolus insulin
+38479611000001109,Lyumjev Junior KwikPen 100units/ml solution for injection 3ml pre-filled pens (Eli Lilly and Company Ltd),Bolus insulin
+38480611000001109,Lyumjev Junior KwikPen 100units/ml solution for injection 3ml pre-filled pens (Eli Lilly and Company Ltd) 5 pre-filled disposable injection,Bolus insulin
+38501011000001104,Lyumjev KwikPen 200units/ml solution for injection 3ml pre-filled pens (Eli Lilly and Company Ltd),Bolus insulin
+38501111000001103,Lyumjev KwikPen 200units/ml solution for injection 3ml pre-filled pens (Eli Lilly and Company Ltd) 5 pre-filled disposable injection,Bolus insulin
+3866401000001103,Insuman Basal OptiSet 100iu/mL prefilled pen,Intermediate insulin
+3866501000001104,Insuman Basal Optiset 100iu/mL prefilled pen 3mL,Intermediate insulin
+3866601000001100,Insuman Basal OptiSet,Intermediate insulin
+3867101000001107,Insuman Rapid OptiSet 100iu/mL prefilled pen,Bolus insulin
+3867201000001100,Insuman Rapid OptiSet,Bolus insulin
+3867301000001109,Insuman Comb 15 OptiSet 100iu/mL prefilled pen,Mix insulin
+3867401000001101,Insuman Comb 15 OptiSet 100iu/mL prefilled pen 3mL,Mix insulin
+3867501000001102,Insuman Comb 25 OptiSet 100iu/mL prefilled pen,Mix insulin
+3867601000001103,Insuman Comb 25 OptiSet 100iu/mL prefilled pen 3mL,Mix insulin
+3867701000001108,Insuman Comb 50 OptiSet 100iu/mL prefilled pen,Mix insulin
+3867801000001104,Insuman Comb 50 OptiSet 100iu/mL prefilled pen 3mL,Mix insulin
+3868201000001101,Insuman Comb 15 OptiSet,Mix insulin
+3868501000001103,Insuman Comb 25 OptiSet,Mix insulin
+3868701000001109,Insuman Comb 50 OptiSet,Mix insulin
+3875501000001101,Insuman Rapid OptiSet 100iu/mL prefilled pen 3mL,Bolus insulin
+3877301000001104,Insuman Comb 15 100iu/mL injection vial,Mix insulin
+3877401000001107,Insuman Comb 15 100iu/mL injection vial 5mL,Mix insulin
+3877501000001106,Insuman Comb 50 100iu/mL injection cartridge,Mix insulin
+3877601000001105,Insuman Comb 50 100iu/mL injection cartridge 3mL,Mix insulin
+388452006,Insulin aspart,Bolus insulin
+388454007,Insulin lispro,Bolus insulin
+38896911000001108,Insulin glargine 100units/ml solution for injection 3ml cartridges,Basal insulin
+38897011000001107,Insulin glargine 100units/ml solution for injection 3ml pre-filled disposable devices,Basal insulin
+38991411000001104,Toujeo 300units/ml solution for injection 1.5ml pre-filled SoloStar pens (Pharmaram Ltd),Basal insulin
+38991511000001100,Toujeo 300units/ml solution for injection 1.5ml pre-filled SoloStar pens (Pharmaram Ltd) 3 pre-filled disposable injection,Basal insulin
+39100511000001105,Humulin I KwikPen 100units/ml suspension for injection 3ml pre-filled pens (Pilsco Ltd),Intermediate insulin
+39100611000001109,Humulin I KwikPen 100units/ml suspension for injection 3ml pre-filled pens (Pilsco Ltd) 5 pre-filled disposable injection,Intermediate insulin
+39197611000001106,Semglee 100units/ml solution for injection 3ml pre-filled pens (CST Pharma Ltd),Basal insulin
+39197811000001105,Semglee 100units/ml solution for injection 3ml pre-filled pens (CST Pharma Ltd) 5 pre-filled disposable injection,Basal insulin
+39230711000001106,Humalog KwikPen 100units/ml solution for injection 3ml pre-filled pens (Ethigen Ltd),Bolus insulin
+39230811000001103,Humalog KwikPen 100units/ml solution for injection 3ml pre-filled pens (Ethigen Ltd) 5 pre-filled disposable injection,Bolus insulin
+39361011000001104,Toujeo 300units/ml solution for injection 1.5ml pre-filled SoloStar pens (Ethigen Ltd),Basal insulin
+39361111000001103,Toujeo 300units/ml solution for injection 1.5ml pre-filled SoloStar pens (Ethigen Ltd) 3 pre-filled disposable injection,Basal insulin
+39648511000001100,Humulin M3 100units/ml suspension for injection 3ml cartridges (Pharmaram Ltd),Mix insulin
+39648611000001101,Humulin M3 100units/ml suspension for injection 3ml cartridges (Pharmaram Ltd) 5 cartridge,Mix insulin
+3976801000001101,Insulatard InnoLet 100units/mL prefilled syringe,Intermediate insulin
+3976901000001107,Insulatard InnoLet 100units/mL prefilled syringe 3mL,Intermediate insulin
+3977001000001106,Insulatard InnoLet,Intermediate insulin
+3977101000001107,Mixtard 30 InnoLet 100units/mL prefilled syringe,Mix insulin
+3977201000001100,Mixtard 30 InnoLet 100units/mL prefilled syringe 3mL,Mix insulin
+3977301000001109,Mixtard 30 InnoLet,Mix insulin
+39820211000001106,Trurapi 100units/ml solution for injection 3ml cartridges (Sanofi),Bolus insulin
+39820311000001103,Trurapi 100units/ml solution for injection 3ml cartridges (Sanofi) 5 cartridge,Bolus insulin
+39820411000001105,Trurapi 100units/ml solution for injection 3ml pre-filled Solostar pens (Sanofi),Bolus insulin
+39820511000001109,Trurapi 100units/ml solution for injection 3ml pre-filled Solostar pens (Sanofi) 5 pre-filled disposable injection,Bolus insulin
+39939111000001104,Humulin S 100units/ml solution for injection 3ml cartridges (CST Pharma Ltd),Bolus insulin
+39939211000001105,Humulin S 100units/ml solution for injection 3ml cartridges (CST Pharma Ltd) 5 cartridge,Bolus insulin
+40031711000001108,Admelog 100 units/ml solution for injection 3ml cartridges (Sanofi),Bolus insulin
+40031911000001105,Admelog 100 units/ml solution for injection 3ml cartridges (Sanofi) 5 cartridge,Bolus insulin
+40032311000001100,Admelog 100 units/ml solution for injection 10ml vials (Sanofi),Bolus insulin
+40032411000001107,Admelog 100 units/ml solution for injection 10ml vials (Sanofi) 1 vial,Bolus insulin
+40033011000001107,Admelog 100units/ml solution for injection 3ml pre-filled pens (Sanofi),Bolus insulin
+40033111000001108,Admelog 100units/ml solution for injection 3ml pre-filled pens (Sanofi) 5 pre-filled disposable injection,Bolus insulin
+400780006,Insulin glargine 100units/ml solution for injection 3ml cartridges,Basal insulin
+400844000,Insulin zinc mixed human 100units/ml suspension for injection 10ml vials,Mix insulin
+400847007,Insulin glargine 100units/ml solution for injection 10ml vials,Basal insulin
+400877001,Insulin glargine 100units/ml solution for injection 3ml pre-filled disposable devices,Basal insulin
+40180811000001105,Trurapi 100units/ml solution for injection 10ml vials (Sanofi),Bolus insulin
+40181311000001106,Trurapi 100units/ml solution for injection 10ml vials (Sanofi) 1 vial,Bolus insulin
+4028211000001109,Insulin isophane bovine 100units/ml suspension for injection 3ml cartridges 5 cartridge (product),Intermediate insulin
+4028311000001101,Hypurin Bovine Isophane 100units/ml suspension for injection 3ml cartridges (C P Pharmaceuticals Ltd) (product),Intermediate insulin
+4028411000001108,Hypurin Bovine Isophane 100units/ml suspension for injection 3ml cartridges (C P Pharmaceuticals Ltd) 5 cartridge (product),Intermediate insulin
+4028611000001106,Insulin soluble bovine 100units/ml solution for injection 3ml cartridges 5 cartridge (product),NA
+4028811000001105,Hypurin Bovine Neutral 100units/ml solution for injection 3ml cartridges (C P Pharmaceuticals Ltd) (product),Bolus insulin
+4028911000001100,Hypurin Bovine Neutral 100units/ml solution for injection 3ml cartridges (C P Pharmaceuticals Ltd) 5 cartridge (product),Bolus insulin
+4029311000001107,Insulin isophane biphasic porcine 30/70 100units/ml suspension for injection 3ml cartridges 5 cartridge (product),Mix insulin
+4029411000001100,Hypurin Porcine 30/70 Mix 100units/ml suspension for injection 3ml cartridges (C P Pharmaceuticals Ltd),Mix insulin
+4029511000001101,Hypurin Porcine 30/70 Mix 100units/ml suspension for injection 3ml cartridges (C P Pharmaceuticals Ltd) 5 cartridge,Mix insulin
+40322211000001107,Humalog Tempo Pen 100units/ml solution for injection 3ml pre-filled pens (Eli Lilly and Company Ltd),Bolus insulin
+40322311000001104,Humalog Tempo Pen 100units/ml solution for injection 3ml pre-filled pens (Eli Lilly and Company Ltd) 5 pre-filled disposable injection,Bolus insulin
+40322411000001106,Abasaglar Tempo Pen 100units/ml solution for injection 3ml pre-filled pens (Eli Lilly and Company Ltd),Basal insulin
+40322511000001105,Abasaglar Tempo Pen 100units/ml solution for injection 3ml pre-filled pens (Eli Lilly and Company Ltd) 5 pre-filled disposable injection,Basal insulin
+40322611000001109,Lyumjev Tempo Pen 100units/ml solution for injection 3ml pre-filled pens (Eli Lilly and Company Ltd),Bolus insulin
+40322711000001100,Lyumjev Tempo Pen 100units/ml solution for injection 3ml pre-filled pens (Eli Lilly and Company Ltd) 5 pre-filled disposable injection,Bolus insulin
+4033111000001109,Insulin porcine (as insulin isophane porcine) 70 unit/ml and insulin porcine (as insulin soluble porcine) 30 unit/ml suspension for injection 3 ml cartridge,Intermediate insulin
+4033211000001103,Insulin bovine (as insulin isophane bovine) 100 unit/ml suspension for injection 3 ml cartridge,Intermediate insulin
+4033311000001106,Insulin bovine (as insulin soluble bovine) 100 unit/ml solution for injection 3 ml cartridge,NA
+4034211000001100,Insulin isophane porcine 100units/ml suspension for injection 3ml cartridges 5 cartridge (product),Intermediate insulin
+4034311000001108,Hypurin Porcine Isophane 100units/ml suspension for injection 3ml cartridges (C P Pharmaceuticals Ltd),Intermediate insulin
+4034411000001101,Hypurin Porcine Isophane 100units/ml suspension for injection 3ml cartridges (C P Pharmaceuticals Ltd) 5 cartridge,Intermediate insulin
+4034611000001103,Insulin soluble porcine 100units/ml suspension for injection 3ml cartridges 5 cartridge (product),NA
+4034911000001109,Hypurin Porcine Neutral 100units/ml solution for injection 3ml cartridges (C P Pharmaceuticals Ltd) (product),Bolus insulin
+4035111000001105,Hypurin Porcine Neutral 100units/ml solution for injection 3ml cartridges (C P Pharmaceuticals Ltd) 5 cartridge,Bolus insulin
+40439811000001106,Insulin zinc suspension mixed bovine,Basal insulin
+40444111000001104,Insulin zinc suspension mixed human,Basal insulin
+4053611000001100,Insulin porcine (as insulin isophane porcine) 100 unit/ml suspension for injection 3 ml cartridge,Intermediate insulin
+4053711000001109,Insulin porcine (as insulin soluble porcine) 100 unit/ml solution for injection 3 ml cartridge,NA
+4057301000001100,Human Velosulin (pyr) 100iu/mL injection vial,Bolus insulin
+4057401000001108,Human Velosulin (pyr) 100iu/mL injection 10mL,Bolus insulin
+40841511000001103,Toujeo 300units/ml solution for injection 1.5ml pre-filled SoloStar pens (Pilsco Ltd),Basal insulin
+40841611000001104,Toujeo 300units/ml solution for injection 1.5ml pre-filled SoloStar pens (Pilsco Ltd) 3 pre-filled disposable injection,Basal insulin
+4087001000001107,NovoMix,Mix insulin
+4087301000001105,NovoMix 30 Penfill 100units/mL injection cartridge 3mL,Mix insulin
+4090501000001103,NovoMix 30 FlexPen 100units/mL injection prefilled pen 3mL,Mix insulin
+41093211000001101,Insulin glargine 300units/ml solution for injection 1.5ml pre-filled disposable devices 5 pre-filled disposable injection,Basal insulin
+41093311000001109,Toujeo 300units/ml solution for injection 1.5ml pre-filled SoloStar pens (Sanofi) 5 pre-filled disposable injection,Basal insulin
+411532008,Insulin glulisine,Bolus insulin
+412211001,Insulin lispro biphasic,Mix insulin
+412219004,Isophane insulin,Intermediate insulin
+412448008,Insulin glulisine 100units/ml solution for injection 10ml vials,Bolus insulin
+4135401000001106,Lantus,Basal insulin
+4135501000001105,Insulin glargine 100iu/mL injection cartridge - product,Basal insulin
+4135601000001109,Insulin glargine 100iu/mL injection vial - product,Basal insulin
+4135701000001104,Insulin glargine 100iu/mL prefilled pen - product,Basal insulin
+4135801000001108,Lantus 100iu/mL injection cartridge,Basal insulin
+4135901000001102,Lantus 100iu/mL injection cartridge 3mL,Basal insulin
+4136001000001106,Lantus 100iu/mL injection vial,Basal insulin
+4136101000001107,Lantus 100iu/mL injection vial 10mL,Basal insulin
+4136201000001100,Lantus 100iu/mL OptiSet prefilled pen,Basal insulin
+4136301000001109,Lantus 100iu/mL OptiSet prefilled pen 3mL,Basal insulin
+414518007,Insulin detemir,Basal insulin
+416089000,Insulin isophane human,Intermediate insulin
+416313002,Insulin isophane bovine,Intermediate insulin
+416547003,Insulin protamine zinc bovine,Basal insulin
+4165901000001105,NovoRapid FlexPen,Bolus insulin
+4166001000001101,Insulatard FlexPen,Intermediate insulin
+4166101000001100,Insulatard FlexPen 100iu/mL prefilled pen,Intermediate insulin
+4166201000001107,Insulatard FlexPen 100iu/mL prefilled pen 3mL,Intermediate insulin
+4166301000001103,Insulin aspart 100units/mL prefilled pen - product,Bolus insulin
+4166401000001106,NovoRapid FlexPen 100units/mL prefilled pen,Bolus insulin
+4166501000001105,NovoRapid FlexPen 100units/mL prefilled pen 3mL,Bolus insulin
+416742007,Insulin isophane porcine,Intermediate insulin
+416978009,Insulin soluble bovine,NA
+417302009,Insulin isophane biphasic porcine,Mix insulin
+417423002,Insulin soluble human,NA
+417535000,Insulin isophane biphasic human,Mix insulin
+417625002,Insulin soluble porcine,NA
+420318001,Insulin isophane bovine,Intermediate insulin
+420609005,Insulin soluble human,NA
+420701003,Insulin human 1mg inhalation powder blisters,NA
+420837001,Insulin zinc suspension crystalline human,Basal insulin
+421116002,Insulin zinc suspension mixed human,Basal insulin
+421123001,Insulin zinc crystalline human,Basal insulin
+421367005,Insulin isophane human,Intermediate insulin
+421491002,Insulin zinc suspension mixed bovine,Basal insulin
+421562003,Insulin soluble porcine,NA
+421619005,Insulin soluble bovine,NA
+421884008,Insulin protamine zinc bovine,Basal insulin
+422174006,Insulin human 3mg inhalation powder blisters,NA
+423101000001107,Human Insulatard (emp) 100iu/mL injection vial,Intermediate insulin
+423301000001109,Humulin I (prb) 100iu/mL injection vial,Intermediate insulin
+423601000001103,Humulin S (prb) 100iu/mL injection vial,Bolus insulin
+42414211000001107,Humalog KwikPen 200units/ml solution for injection 3ml pre-filled pens (Pilsco Ltd),Bolus insulin
+42414311000001104,Humalog KwikPen 200units/ml solution for injection 3ml pre-filled pens (Pilsco Ltd) 5 pre-filled disposable injection,Bolus insulin
+424501000001104,Hypurin Bovine Protamine Zinc 100iu/mL injection vial,Basal insulin
+42750711000001109,Humalog 100units/ml solution for injection 3ml cartridges (Pilsco Ltd) (product),Bolus insulin
+42750811000001101,Humalog 100units/ml solution for injection 3ml cartridges (Pilsco Ltd) 5 cartridge (product),Bolus insulin
+42777311000001108,Insulin human,NA
+42886011000001101,Toujeo 300units/ml solution for injection 1.5ml pre-filled Solostar pens (Necessity Supplies Ltd),Basal insulin
+42886111000001100,Toujeo 300units/ml solution for injection 1.5ml pre-filled Solostar pens (Necessity Supplies Ltd) 3 pre-filled disposable injection,Basal insulin
+4330501000001105,Insulin glargine,Basal insulin
+44109211000001100,Insulin mixed bovine (substance),Mix insulin
+44109311000001108,Insulin zinc mixed human,Mix insulin
+4466601000001108,Hypurin Bovine Neutral 100iu/mL injection cartridge 3mL,Bolus insulin
+4466701000001103,Hypurin Porcine Neutral 100iu/mL injection cartridge 3mL,Bolus insulin
+4466801000001107,Hypurin Bovine Isophane 100iu/mL injection cartridge 3mL,Intermediate insulin
+4466901000001101,Hypurin Porcine Isophane 100iu/mL injection cartridge 3mL,Intermediate insulin
+4467001000001102,Hypurin Porcine Biphasic Isophane 30/70 injection cartridge 3mL,Mix insulin
+44734911000001107,NovoRapid FlexPen 100units/ml solution for injection 3ml pre-filled pens (Pilsco Ltd),Bolus insulin
+44735011000001107,NovoRapid FlexPen 100units/ml solution for injection 3ml pre-filled pens (Pilsco Ltd) 5 pre-filled disposable injection (product),Bolus insulin
+447401000001107,Human Velosulin (emp) 100iu/mL injection vial,Bolus insulin
+44752611000001108,NovoRapid Penfill 100units/ml solution for injection 3ml cartridges (Pilsco Ltd) (product),Bolus insulin
+44753111000001106,NovoRapid Penfill 100units/ml solution for injection 3ml cartridges (Pilsco Ltd) 5 cartridge (product),Bolus insulin
+45151411000001103,Tresiba Penfill 100units/ml solution for injection 3ml cartridges (Pharmaram Ltd),Basal insulin
+45151511000001104,Tresiba Penfill 100units/ml solution for injection 3ml cartridges (Pharmaram Ltd) 5 cartridge (product),Basal insulin
+45327411000001104,Humalog KwikPen 200units/ml solution for injection 3ml pre-filled pens (Necessity Supplies Ltd),Bolus insulin
+45327511000001100,Humalog KwikPen 200units/ml solution for injection 3ml pre-filled pens (Necessity Supplies Ltd) 5 pre-filled disposable injection (product),Bolus insulin
+45540511000001104,Insulin soluble human 1unit/ml eye drops 1 ml (product),NA
+45540611000001100,Insulin soluble human 1unit/ml eye drops (Special Order) (product),NA
+45540711000001109,Insulin soluble human 1unit/ml eye drops (Special Order) 1 ml (product),NA
+45541411000001107,Product containing precisely human insulin (as human regular insulin) 1 unit/1 milliliter conventional release eye drops (clinical drug),NA
+492801000001101,Human insulin 100units/mL injection cartridge - product,NA
+493001000001103,Humulin I (prb) 100iu/mL injection cartridge,Intermediate insulin
+493301000001100,Humulin S 100iu/mL injection cartridge,Bolus insulin
+505201000001102,Pur-In Isophane (emp) 100iu/mL injection vial,Intermediate insulin
+5201000001101,Semitard MC (porcine) 100iu/mL injection vial,Intermediate insulin
+5268311000001108,Humalog 100units/ml solution for injection 3ml cartridges (PI) (Waymade Ltd) (product),Bolus insulin
+5268411000001101,Humalog 100units/ml solution for injection 3ml cartridges (PI) (Waymade Ltd) 5 cartridge (product),Bolus insulin
+5268611000001103,Humalog Mix25 Pen 100units/ml suspension for injection 3ml pre-filled pens (Waymade Healthcare Plc),Bolus insulin
+5268811000001104,Humalog Mix25 Pen 100units/ml suspension for injection 3ml pre-filled pens (Waymade Healthcare Plc) 5 pre-filled disposable injection,Bolus insulin
+5268911000001109,Humalog Mix25 100units/ml suspension for injection 3ml cartridges (PI) (Waymade Ltd) (product),Bolus insulin
+5269011000001100,Humalog Mix25 100units/ml suspension for injection 3ml cartridges (PI) (Waymade Ltd) 5 cartridge (product),Bolus insulin
+5269111000001104,Humalog Mix50 Pen 100units/ml suspension for injection 3ml pre-filled pens (Waymade Healthcare Plc),Bolus insulin
+5269211000001105,Humalog Mix50 Pen 100units/ml suspension for injection 3ml pre-filled pens (Waymade Healthcare Plc) 5 pre-filled disposable injection,Bolus insulin
+5270511000001105,NovoRapid Penfill 100units/ml solution for injection 3ml cartridges (PI) (Waymade Ltd) (product),Bolus insulin
+5270611000001109,NovoRapid Penfill 100units/ml solution for injection 3ml cartridges (PI) (Waymade Ltd) 5 cartridge (product),Bolus insulin
+5270711000001100,NovoRapid Novolet 100units/ml solution for injection (PI) (Waymade Ltd) (product),Bolus insulin
+5270811000001108,NovoRapid Novolet 100units/ml solution for injection (PI) (Waymade Ltd) 5 pre-filled disposable injection (product),Bolus insulin
+5283711000001103,NovoMix 30 FlexPen 100units/ml suspension for injection 3ml pre-filled pens (Waymade Healthcare Plc),Mix insulin
+5283911000001101,NovoMix 30 FlexPen 100units/ml suspension for injection 3ml pre-filled pens (Waymade Healthcare Plc) 5 pre-filled disposable injection,Mix insulin
+5295811000001106,Humalog 100units/ml solution for injection 1.5ml cartridges (PI) (Dowelhurst Ltd) (product),Bolus insulin
+5295911000001101,Humalog 100units/ml solution for injection 1.5ml cartridges (PI) (Dowelhurst Ltd) 5 cartridge (product),Bolus insulin
+5296011000001109,Humalog 100units/ml solution for injection 10ml vials (PI) (Dowelhurst Ltd) (product),Bolus insulin
+5296111000001105,Humalog 100units/ml solution for injection 10ml vials (PI) (Dowelhurst Ltd) 1 vial (product),Bolus insulin
+562901000001104,Human insulin 100iu/mL injection vial - product,NA
+563101000001109,Humulin Lente (prb) 100iu/mL injection vial,Basal insulin
+564601000001102,Initard 50/50 (porcine) 100units/mL injection vial,Mix insulin
+572001000001108,Human Mixtard 10 Penfill,Mix insulin
+575201000001108,Pur-In Isophane (emp) 100iu/mL injection cartridge,Intermediate insulin
+577401000001100,Insulin zinc suspension 100units/mL injection vial - product,Basal insulin
+61101000001108,Humulin M3 30/70 (prb) 100units/mL injection vial,Mix insulin
+62801000001105,Insulin zinc crystalline human suspension 100units/mL injection vial - product,Basal insulin
+632601000001109,Human insulin zinc suspension 100units/mL injection vial - product,Basal insulin
+632801000001108,Humulin M1 10/90 (prb) 100units/mL injection vial,Mix insulin
+639801000001102,Neutral insulin 100iu/mL injection vial - product,Bolus insulin
+642301000001104,Human Mixtard 20 Penfill,Mix insulin
+651401000001104,Pork Actrapid 100iu/mL injection vial,Bolus insulin
+702901000001104,Humulin M1 10/90 (prb) 100units/mL injection cartridge,Mix insulin
+712101000001104,Human Mixtard 30 Penfill,Mix insulin
+715772001,Insulin aspart + insulin degludec,Basal insulin
+715773006,Parenteral form insulin aspart + insulin degludec,Basal insulin
+715774000,Insulin degludec,Basal insulin
+715778002,Insulin degludec + Liraglutide,Basal insulin
+750301000001106,Hypurin Bovine Isophane 100iu/mL injection vial,Intermediate insulin
+7589111000001105,Insulin detemir 100units/ml solution for injection 3ml pre-filled disposable devices 5 pre-filled disposable injection (product),Basal insulin
+7589411000001100,Levemir FlexPen 100units/ml solution for injection 3ml pre-filled pens (Novo Nordisk Ltd),Basal insulin
+7589511000001101,Levemir FlexPen 100units/ml solution for injection 3ml pre-filled pens (Novo Nordisk Ltd) 5 pre-filled disposable injection,Basal insulin
+7589711000001106,Insulin detemir 100units/ml solution for injection 3ml cartridges 5 cartridge (product),Basal insulin
+7589911000001108,Levemir Penfill 100units/ml solution for injection 3ml cartridges (Novo Nordisk Pharmaceuticals Ltd) (product),Basal insulin
+7590011000001100,Levemir Penfill 100units/ml solution for injection 3ml cartridges (Novo Nordisk Pharmaceuticals Ltd) 5 cartridge (product),Basal insulin
+7594211000001102,Insulin detemir 100 unit/ml solution for injection 3 ml pre-filled disposable injection,Basal insulin
+7596111000001101,Insulin detemir (substance),Basal insulin
+7597611000001106,Insulin detemir 100 unit/ml solution for injection 3 ml cartridge,Basal insulin
+772801000001102,Human Monotard (pyr) 100iu/mL injection vial,Basal insulin
+773101000001103,Humulin M2 20/80 (prb) 100units/mL injection vial,Mix insulin
+774501000001106,Insulatard (porcine) 100iu/mL injection vial,Intermediate insulin
+774898005,Insulin protamine zinc bovine,Basal insulin
+774899002,Insulin soluble bovine,NA
+776207001,Insulin soluble human,NA
+776208006,Insulin zinc crystalline human,Basal insulin
+776338003,Insulin aspart,Bolus insulin
+776340008,Insulin degludec,Basal insulin
+776341007,Insulin degludec + Liraglutide,Basal insulin
+776342000,Insulin detemir,Basal insulin
+776343005,Insulin glargine,Basal insulin
+776344004,Insulin glulisine,Bolus insulin
+776551009,Insulin lispro,Bolus insulin
+777260009,Insulin soluble porcine,NA
+782301000001104,Human Mixtard 40 Penfill,Mix insulin
+783801000001100,Rapitard MC 100iu/mL injection vial,Intermediate insulin
+789501000001101,Protamine zinc insulin 100units/mL injection vial - product,Basal insulin
+815001000001109,Humulin M2 20/80 (prb) 100units/mL injection cartridge,Mix insulin
+815998000,Insulin isophane bovine,Intermediate insulin
+816005000,Insulin isophane human,Intermediate insulin
+816007008,Insulin aspart biphasic,Mix insulin
+816008003,Insulin lispro biphasic,Mix insulin
+816017003,Insulin isophane porcine,Intermediate insulin
+818601000001108,Human Mixtard 50 Penfill,Mix insulin
+829401000001108,Human Actrapid (pyr) 100iu/mL injection vial,Bolus insulin
+830201000001104,Mixtard 30/70 (porcine) 100units/mL injection vial,Mix insulin
+833001000001104,Human Actrapid Penfill 100iu/mL injection cartridge,Bolus insulin
+840201000001103,Human Insulatard 100units/mL prefilled pen,Intermediate insulin
+840601000001101,Human Actrapid 100iu/mL prefilled pen,Bolus insulin
+8458801000001104,Insulin detemir,Basal insulin
+8458901000001105,Levemir Penfill 100iu/mL injection cartridge 3mL,Basal insulin
+8459001000001100,Levemir FlexPen 100iu/mL prefilled pen 3mL,Basal insulin
+8459101000001104,Insulin detemir 100iu/mL prefilled pen,Basal insulin
+8459201000001106,Insulin detemir 100iu/mL injection cartridge,Basal insulin
+8542701000001104,Levemir Penfill 100iu/mL injection cartridge,Basal insulin
+8542801000001108,Levemir,Basal insulin
+8542901000001102,Levemir FlexPen 100iu/mL prefilled pen,Basal insulin
+8661001000001106,Insulin glulisine (product),Bolus insulin
+8722701000001100,Humulin M3 100units/mL prefilled pen (substance),Mix insulin
+8727401000001105,Apidra,Bolus insulin
+8731001000001108,Lantus 100iu/mL OptiClik cartridge,Basal insulin
+8736001000001100,Insulin glulisine 100iu/mL injection cartridge (product),Bolus insulin
+8736101000001104,Insulin glulisine 100iu/mL injection vial (product),Bolus insulin
+8736201000001106,Humulin M3 100iu/mL prefilled pen 3mL (substance),Mix insulin
+8736301000001102,Lantus 100iu/mL OptiClik cartridges 3mL,Basal insulin
+8786701000001109,Apidra 100iu/mL injection vial (product),Bolus insulin
+8786801000001100,Apidra 100iu/mL injection cartridge (product),Bolus insulin
+8787301000001108,Apidra 100iu/mL injection vials 10mL (product),Bolus insulin
+8787401000001100,Apidra 100iu/mL injection cartridges 3mL (product),Bolus insulin
+8792701000001106,Insulin glulisine 100iu/mL injection prefilled pen (product),Bolus insulin
+8820701000001101,Apidra 100iu/mL OptiSet prefilled pen (product),Bolus insulin
+8822401000001109,Apidra 100iu/mL OptiSet prefilled pen 3mL (product),Bolus insulin
+8846501000001107,EXUBERA 1mg powder for inhalation,Bolus insulin
+8846601000001106,EXUBERA 3mg powder for inhalation,Bolus insulin
+8846701000001101,HUMAN INSULIN 1mg powder for inhalation,NA
+8846801000001105,HUMAN INSULIN 3mg powder for inhalation,NA
+8846901000001104,APIDRA 100iu/mL OptiClik cartridges 3mL,Bolus insulin
+8848901000001100,HUMALOG MIX50 100iu/mL cartridges 3mL,Bolus insulin
+8866101000001108,EXUBERA delivery system kit,Bolus insulin
+8866201000001101,EXUBERA INSULIN RELEASE UNITS,Bolus insulin
+8866301000001105,EXUBERA delivery system chamber,Bolus insulin
+895801000001103,Insulin 100iu/mL injection 10mL,NA
+896001000001100,Velosulin 100iu/mL injection 10mL,Bolus insulin
+896101000001104,Human Velosulin 100iu/mL injection 10mL,Bolus insulin
+896201000001106,Humulin S 100iu/mL injection 10mL,Bolus insulin
+896401000001105,Humulin S 100iu/mL cartridges 1.5mL,Bolus insulin
+896501000001109,Rapitard MC 100iu/mL injection 10mL,Intermediate insulin
+896601000001108,Lentard MC 100iu/mL injection 10mL,Basal insulin
+896701000001103,Human Monotard 100iu/mL injection 10mL,Basal insulin
+896801000001107,Human Ultratard 100iu/mL injection 10mL,Basal insulin
+896901000001101,Humulin Zn 100iu/mL injection 10mL,Basal insulin
+897001000001102,Isophane insulin 100iu/mL injection 10mL,Intermediate insulin
+897101000001101,Insulatard 100iu/mL injection 10mL,Intermediate insulin
+897201000001108,Monophane 100iu/mL injection,Intermediate insulin
+897301000001104,Initard 50/50 injection 10mL,Mix insulin
+897401000001107,Mixtard injection 10mL,Mix insulin
+897501000001106,Human Insulatard 100iu/mL injection 10mL,Intermediate insulin
+897601000001105,Human Insulatard ge 100iu/mL injection 10mL,Intermediate insulin
+897701000001100,Humulin I 100iu/mL injection 10mL,Intermediate insulin
+897801000001109,Human Actraphane injection 10mL,Mix insulin
+897901000001103,Human Mixtard injection 10mL,Mix insulin
+898001000001101,Humulin M1 injection 10mL,Mix insulin
+898101000001100,Humulin M2 injection 10mL,Mix insulin
+898201000001107,Humulin M4 injection 10mL,Mix insulin
+898301000001103,Human Insulatard Penfill 1.5mL,Intermediate insulin
+898401000001106,Pur-In Isophane 100iu/mL vials 10mL,Intermediate insulin
+898501000001105,Humulin I 100iu/mL cartridges 1.5mL,Intermediate insulin
+898601000001109,Mixtard 30/70 injection 10mL,Mix insulin
+899201000001101,Humulin M2 20/80 vials 10mL,Mix insulin
+899301000001105,Humulin M3 30/70 cartridges 1.5mL,Mix insulin
+899401000001102,Humulin M4 40/60 vials 10mL,Mix insulin
+899501000001103,Humulin M4 40/60 cartridges 1.5mL,Mix insulin
+899601000001104,Human Mixtard 30/70 injection 10mL,Mix insulin
+899701000001109,Human Initard 50/50 injection 10mL,Mix insulin
+899801000001100,Human Mixtard 10 Penfill 1.5mL,Mix insulin
+899901000001106,Human Mixtard 40 Penfill 1.5mL,Mix insulin
+9046801000001109,APIDRA 100iu/mL SoloStar prefilled pen 3mL (product),Bolus insulin
+9046901000001103,LANTUS 100iu/mL SoloStar prefilled pen 3mL,Basal insulin
+9047001000001104,INSULIN DETEMIR 100iu/mL prefilled syringe (product),Basal insulin
+9096001000001109,LEVEMIR INNOLET 100iu/mL prefilled syringe 3mL (product),Basal insulin
+9196601000001105,Actrapid (product),Bolus insulin
+9196701000001100,Actrapid NovoLet (product),Bolus insulin
+9196801000001109,Actrapid Penfill (product),Bolus insulin
+9211101000001108,Apidra (product),Bolus insulin
+9211201000001101,Apidra OptiClik (product),Bolus insulin
+9211301000001105,Apidra OptiSet (product),Bolus insulin
+9211401000001102,Apidra SoloStar (product),Bolus insulin
+9376401000001109,Ultratard (product),Basal insulin
+9381601000001109,Velosulin (product),Bolus insulin
+9427401000001104,Actrapid (qualifier value),Bolus insulin
+9429401000001109,Apidra (qualifier value),Bolus insulin
+94371000001104,Trurapi (product),Bolus insulin
+9437511000001101,Humulin M3 Pen 100units/ml suspension for injection 3ml pre-filled pens (Eli Lilly and Company Ltd),Mix insulin
+9437611000001102,Humulin M3 Pen 100units/ml suspension for injection 3ml pre-filled pens (Eli Lilly and Company Ltd) 5 pre-filled disposable injection,Mix insulin
+94441000001104,Abasaglar Tempo Pen (product),Basal insulin
+9450001000001107,Human Mixtard 20 Penfill (product),Mix insulin
+9450101000001108,Humulin I (product),Intermediate insulin
+9450501000001103,Hypurin Bovine Neutral (product),Bolus insulin
+9451401000001107,Insulatard NovoLet (product),Intermediate insulin
+94521000001105,Humalog Tempo Pen (product),Bolus insulin
+94531000001107,Lyumjev Tempo Pen,Bolus insulin
+9457401000001103,Human Actrapid penfil (product),Bolus insulin
+9459501000001107,Mixtard 30 Novolet (product),Mix insulin
+9459601000001106,Mixtard 30 Penfill (product),Mix insulin
+9459701000001101,Mixtard 50 NovoLet (product),Mix insulin
+9460201000001108,Monotard (product),Basal insulin
+9462301000001100,Human Mixtard 40 Penfill (product),Mix insulin
+9462401000001108,Humulin Lente (product),Basal insulin
+9463001000001108,Hypurin Porcine Neutral (product),Bolus insulin
+9468201000001106,Human Mixtard 10 Penfill (product),Mix insulin
+9470101000001105,Mixtard 50 Penfill (product),Mix insulin
+9471901000001100,Humulin M2 (product),Mix insulin
+9472901000001107,Insulatard Penfill (product),Intermediate insulin
+9474301000001103,Lantus (product),Basal insulin
+9481001000001105,Mixtard 30 Innolet (product),Mix insulin
+9483001000001106,NovoMix 30 Penfill (product),Mix insulin
+9483101000001107,NovoRapid PlexPen (product),Bolus insulin
+9483201000001100,Humulin M5 (product),Mix insulin
+9483601000001103,Hypurin Bovine Lente (product),Basal insulin
+9483701000001108,Hypurin Bovine Protamine Zinc (product),Basal insulin
+9483801000001104,Hypurin Porcine Isophane (product),Intermediate insulin
+9484401000001103,Insulatard (product),Intermediate insulin
+9484501000001104,Insuman Basal (product),Intermediate insulin
+9484601000001100,Insuman Comb 25 (product),Mix insulin
+9484701000001105,Insuman Comb 50 (product),Mix insulin
+9489901000001108,Humalog Mix25 (product),Bolus insulin
+9492701000001103,Mixtard 30 (product),Mix insulin
+9492801000001107,Mixtard 40 Penfill (product),Mix insulin
+9495801000001104,Insuman Rapid (product),Bolus insulin
+9497401000001108,Levemir FlexPen (product),Basal insulin
+9498401000001107,Exubera (product),Bolus insulin
+9502101000001107,HumaJect M3 (product),Mix insulin
+9502201000001100,Humalog Pen (product),Bolus insulin
+9504601000001107,Mixtard 10 Novolet (product),Mix insulin
+9506601000001102,NovoRapid Novolet (product),Bolus insulin
+9506801000001103,Human Mixtard 50 Penfill (product),Mix insulin
+9512801000001102,Humalog Mix50 (product),Bolus insulin
+9512901000001108,Human Insulatard (product),Intermediate insulin
+9515501000001107,Mixtard 10 Penfill (product),Mix insulin
+9518101000001108,NovoRapid (product),Bolus insulin
+9518301000001105,Human Mixtard 30 Penfill (product),Mix insulin
+9518601000001104,Hypurin Bovine Isophane (product),Intermediate insulin
+9519101000001100,Insulatard PlexPen (product),Intermediate insulin
+9520901000001101,Levemir Penfill (product),Basal insulin
+9527101000001103,Mixtard 20 Penfill (product),Mix insulin
+9527201000001105,Mixtard 40 NovoLet (product),Mix insulin
+9528211000001106,Insulin glulisine 100units/ml solution for injection 3ml cartridges 5 cartridge (product),Bolus insulin
+9528311000001103,Apidra 100units/ml solution for injection 3ml cartridges (sanofi-aventis) (product),Bolus insulin
+9528411000001105,Apidra 100units/ml solution for injection 3ml cartridges (sanofi-aventis) 5 cartridge (product),Bolus insulin
+9528511000001109,Insulin glulisine 100units/ml solution for injection 10ml vials 1 vial (product),Bolus insulin
+9528811000001107,Apidra 100units/ml solution for injection 10ml vials (sanofi-aventis) (product),Bolus insulin
+9528911000001102,Apidra 100units/ml solution for injection 10ml vials (sanofi-aventis) 1 vial (product),Bolus insulin
+9529901000001108,NovoMix 30 FlexPen (product),Mix insulin
+9530701000001100,Humulin M3 (product),Mix insulin
+9530801000001109,Humulin S (product),Bolus insulin
+9530901000001103,Humulin Zn (product),Basal insulin
+9532001000001103,Insulatard InnoLet (product),Intermediate insulin
+9532101000001102,Insuman Comb 15 (product),Mix insulin
+9532111000001100,Insulin glulisine 100 unit/ml solution for injection 3 ml cartridge,Bolus insulin
+9533801000001101,Levemir Innolet (product),Basal insulin
+9538601000001108,Humalog (product),Bolus insulin
+9542501000001108,NovoRapid Penfill (product),Bolus insulin
+9545101000001106,Mixtard (qualifier value),Mix insulin
+9546401000001105,Insulatard (qualifier value),Intermediate insulin
+9547301000001104,Levemir (qualifier value),Basal insulin
+9549001000001107,NovoRapid (qualifier value),Bolus insulin
+9550601000001109,NovoMix (qualifier value),Mix insulin
+9551601000001103,Humalog (qualifier value),Bolus insulin
+9583901000001103,Human Actrapid Penfill (product),Bolus insulin
+9584001000001100,Mixtard 30 InnoLet (product),Mix insulin
+9584101000001104,HumaJect S (product),Bolus insulin
+9584801000001107,Mixtard 10 NovoLet (product),Mix insulin
+9584901000001101,Mixtard 30 NovoLet (product),Mix insulin
+9585001000001101,NovoRapid FlexPen (product),Bolus insulin
+9585201000001107,Hypurin Porcine 30/70 Mix (product),Mix insulin
+9586501000001102,Insulatard FlexPen (product),Intermediate insulin
+9586601000001103,Levemir InnoLet (product),Basal insulin
+9586701000001108,Humaject M3 (product),Mix insulin
+9631501000001107,Pork Insulatard (product),Intermediate insulin
+9631601000001106,Pork Mixtard 30 (product),Mix insulin
+9635001000001101,Pork Actrapid (product),Bolus insulin
+9751601000001102,Mixtard 20 NovoLet (product),Mix insulin
+9751701000001107,Human Mixtard 50 (product),Mix insulin
+9813711000001101,Insulin detemir (product),Basal insulin
+9820711000001102,Insulin aspart biphasic (product),Mix insulin
+9820811000001105,Insulin isophane biphasic human,Mix insulin
+9820911000001100,Insulin isophane biphasic porcine (product),Mix insulin
+9821011000001108,Insulin isophane bovine (product),Intermediate insulin
+9821111000001109,Insulin isophane human (product),Intermediate insulin
+9821211000001103,Insulin isophane porcine (product),Intermediate insulin
+9821311000001106,Insulin lispro biphasic (product),Mix insulin
+9821411000001104,Insulin soluble bovine (product),NA
+9821511000001100,Insulin soluble human (product),NA
+9821611000001101,Insulin soluble porcine (product),NA
+9821711000001105,Insulin glulisine (product),Bolus insulin
+9825811000001104,Insulin protamine zinc bovine (product),Basal insulin
+9825911000001109,Insulin zinc crystalline human (product),Basal insulin
+9826011000001101,Insulin mixed bovine,Mix insulin
+9894201000001108,Humalog KwikPen,Bolus insulin
+9894301000001104,Humalog Mix25 KwikPen,Bolus insulin
+9894401000001107,Humalog Mix50 KwikPen,Bolus insulin
+9916001000001103,HUMALOG MIX25 KWIKPEN 100iu/mL prefilled pen 3mL (substance),Bolus insulin
+9916101000001102,HUMALOG MIX50 KWIKPEN 100iu/mL prefilled pen 3mL (substance),Bolus insulin
