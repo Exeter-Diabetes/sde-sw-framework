@@ -1,0 +1,115 @@
+/* Import shared base styles */
+@import url('styles.css');
+
+/* ============================================
+   DATASETS CATALOG PAGE SPECIFIC STYLES
+   ============================================ */
+
+header {
+    padding: 2rem;
+}
+
+header a.back-link {
+    color: rgba(255,255,255,0.9);
+    text-decoration: none;
+    font-size: 0.95rem;
+    display: inline-block;
+    margin-bottom: 0.5rem;
+}
+
+header a.back-link:hover {
+    text-decoration: underline;
+}
+
+header h1 {
+    font-size: 2.5rem;
+}
+
+header p {
+    font-size: 1.1rem;
+}
+
+main {
+    max-width: 1200px;
+}
+
+/* ============================================
+   SUMMARY SECTION
+   ============================================ */
+
+.summary {
+    background: white;
+    padding: 2rem;
+    border-radius: 8px;
+    margin-bottom: 3rem;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    line-height: 1.8;
+}
+
+.summary h2 {
+    color: #333;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+}
+
+/* ============================================
+   DATASET GRID & CARDS
+   ============================================ */
+
+.datasets {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.dataset-card {
+    background: white;
+    border-radius: 8px;
+    padding: 1.5rem;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    transition: all 0.3s ease;
+    text-decoration: none;
+    color: inherit;
+    display: flex;
+    flex-direction: column;
+}
+
+.dataset-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 4px 16px rgba(0,0,0,0.15);
+    background: #f8f8ff;
+}
+
+.dataset-card h3 {
+    color: #000;
+    margin-bottom: 1rem;
+    font-size: 1.25rem;
+    word-break: break-word;
+}
+
+.dataset-card p {
+    color: #666;
+    font-size: 0.95rem;
+    line-height: 1.6;
+    flex-grow: 1;
+    margin-bottom: 1rem;
+}
+
+.dataset-card .arrow {
+    color: #666;
+    font-weight: bold;
+    margin-top: auto;
+}
+
+/* ============================================
+   SECTION TITLES
+   ============================================ */
+
+.section-title {
+    color: #000;
+    font-size: 1.8rem;
+    margin: 2rem 0 1.5rem 0;
+    border-bottom: 2px solid #333;
+    padding-bottom: 0.5rem;
+}

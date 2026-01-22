@@ -64,6 +64,78 @@ def get_preview_text(md_file, max_chars=150):
         return ""
     return ""
 
+def convert_markdown_links_to_html(html_content, is_landing_page=False):
+    """Convert local markdown file links to HTML file links"""
+    import re
+    # Replace .md links with .html in href attributes
+    # Matches href="something.md" and replaces with href="something.html"
+    html_content = re.sub(r'href="([^"]+)\.md"', r'href="\1.html"', html_content)
+    
+    # For landing page, convert project README.html links to project page links
+    # projects/Project%20Name/README.html -> projects/Project%20Name.html
+    if is_landing_page:
+        html_content = re.sub(r'href="projects/([^"]+)/README\.html"', r'href="projects/\1.html"', html_content)
+    
+    return html_content
+
+
+def copy_css_files(templates_dir, output_dir):
+    """Copy CSS files from templates to output directory"""
+    log_info("Copying CSS files...")
+    css_files = list(templates_dir.glob("*.css"))
+    for css_file in css_files:
+        dest = output_dir / css_file.name
+        shutil.copy(css_file, dest)
+        log_success(f"Copied: {dest}")
+
+def copy_static_files(templates_dir, output_dir):
+    """Copy static HTML files from templates to output directory"""
+    log_info("Copying static HTML files...")
+    static_files = ["core-diabetes.html"]
+    for filename in static_files:
+        src = templates_dir / filename
+        if src.exists():
+            dest = output_dir / filename
+            shutil.copy(src, dest)
+            log_success(f"Copied: {dest}")
+
+def generate_landing_page(project_root, templates_dir, output_dir, temp_dir):
+    """Generate index.html from top-level README.md"""
+    log_info("Generating landing page from README.md...")
+    
+    readme_file = project_root / "README.md"
+    
+    if not readme_file.exists():
+        log_error(f"README.md not found at {readme_file}")
+        return False
+    
+    # Convert markdown to HTML
+    temp_html = temp_dir / "readme_converted.html"
+    markdown_to_html(str(readme_file), str(temp_html))
+    
+    # Read the generated HTML
+    with open(temp_html, 'r') as f:
+        readme_content = f.read()
+    
+    # Convert markdown links to HTML links (with special handling for project links)
+    readme_content = convert_markdown_links_to_html(readme_content, is_landing_page=True)
+    
+    # Load the index template
+    with open(templates_dir / "index.html", 'r') as f:
+        index_template = f.read()
+    
+    # Replace placeholder with README content
+    final_html = index_template.replace('{{README_CONTENT}}', readme_content)
+    
+    output_file = output_dir / "index.html"
+    with open(output_file, 'w') as f:
+        f.write(final_html)
+    
+    log_success(f"Generated: {output_file}")
+    return True
+
+
+
 def generate_dataset_pages(category_dir, category_name, templates_dir, output_dir, temp_dir):
     """Generate individual dataset pages for a category"""
     log_info(f"Generating dataset pages for category: {category_name}")
@@ -91,6 +163,9 @@ def generate_dataset_pages(category_dir, category_name, templates_dir, output_di
         with open(temp_html, 'r') as f:
             dataset_content = f.read()
         
+        # Convert markdown links to HTML links
+        dataset_content = convert_markdown_links_to_html(dataset_content)
+        
         # Check for CSV files
         code_lists_section = ""
         csv_files = list(dataset_dir.glob("*.csv"))
@@ -117,6 +192,9 @@ def generate_dataset_pages(category_dir, category_name, templates_dir, output_di
         # Create dataset page from template
         with open(templates_dir / "dataset.html", 'r') as f:
             dataset_page = f.read()
+        
+        # Update CSS reference to point to parent directory
+        dataset_page = dataset_page.replace('href="dataset.css"', 'href="../dataset.css"')
         
         dataset_page = dataset_page.replace('{{DATASET_NAME}}', dataset_name)
         dataset_page = dataset_page.replace('{{DATASET_CONTENT}}', dataset_content)
@@ -147,11 +225,11 @@ def generate_dataset_pages(category_dir, category_name, templates_dir, output_di
     return '\n'.join(dataset_cards)
 
 def generate_index_page(templates_dir, output_dir, categories_data):
-    """Generate main index page with all categories"""
-    log_info("Generating main index page...")
+    """Generate datasets catalog page with all categories"""
+    log_info("Generating datasets catalog page...")
     
-    with open(templates_dir / "index.html", 'r') as f:
-        index_template = f.read()
+    with open(templates_dir / "datasets.html", 'r') as f:
+        datasets_template = f.read()
     
     # Build category sections
     category_sections = []
@@ -165,13 +243,65 @@ def generate_index_page(templates_dir, output_dir, categories_data):
     
     # Replace placeholder with all category sections
     categories_html = ''.join(category_sections)
-    final_html = index_template.replace('<!-- CATEGORIES_PLACEHOLDER -->', categories_html)
+    final_html = datasets_template.replace('<!-- CATEGORIES_PLACEHOLDER -->', categories_html)
     
-    output_file = output_dir / "index.html"
+    output_file = output_dir / "datasets.html"
     with open(output_file, 'w') as f:
         f.write(final_html)
     
     log_success(f"Generated: {output_file}")
+
+def generate_project_pages(projects_dir, templates_dir, output_dir, temp_dir):
+    """Generate HTML pages for projects with info.md files"""
+    log_info("Generating project pages...")
+    
+    if not projects_dir.exists():
+        log_error(f"Projects directory not found at {projects_dir}")
+        return
+    
+    # Find all project directories (subdirectories with info.md)
+    projects = sorted([d for d in projects_dir.iterdir() if d.is_dir()])
+    
+    for project_dir in projects:
+        project_name = project_dir.name
+        info_file = project_dir / "info.md"
+        
+        if not info_file.exists():
+            log_info(f"No info.md found in {project_dir}, skipping")
+            continue
+        
+        log_info(f"Processing project: {project_name}")
+        
+        # Convert markdown to HTML
+        temp_html = temp_dir / f"project_{project_name}.html"
+        markdown_to_html(str(info_file), str(temp_html))
+        
+        # Read the generated HTML
+        with open(temp_html, 'r') as f:
+            project_content = f.read()
+        
+        # Convert markdown links to HTML links
+        project_content = convert_markdown_links_to_html(project_content)
+        
+        # Create project page from template
+        with open(templates_dir / "project.html", 'r') as f:
+            project_page = f.read()
+        
+        # Update CSS reference to point to parent directory
+        project_page = project_page.replace('href="project.css"', 'href="../project.css"')
+        
+        project_page = project_page.replace('{{PROJECT_NAME}}', project_name)
+        project_page = project_page.replace('{{PROJECT_CONTENT}}', project_content)
+        
+        # Create projects subdirectory in site
+        projects_output_dir = output_dir / "projects"
+        projects_output_dir.mkdir(parents=True, exist_ok=True)
+        
+        output_file = projects_output_dir / f"{project_name}.html"
+        with open(output_file, 'w') as f:
+            f.write(project_page)
+        
+        log_success(f"Generated: {output_file}")
 
 def main():
     """Main execution"""
@@ -184,6 +314,7 @@ def main():
     script_dir = Path(__file__).parent
     project_root = script_dir.parent
     code_lists_dir = project_root / "code_lists"
+    projects_dir = project_root / "projects"
     templates_dir = script_dir / "templates"
     output_dir = project_root / "site"
     
@@ -202,6 +333,18 @@ def main():
             # Create output directory
             output_dir.mkdir(exist_ok=True)
             log_success(f"Output directory ready: {output_dir}")
+            
+            # Copy CSS files to output directory
+            copy_css_files(templates_dir, output_dir)
+            
+            # Copy static HTML files to output directory
+            copy_static_files(templates_dir, output_dir)
+            
+            # Generate landing page from top-level README
+            generate_landing_page(project_root, templates_dir, output_dir, temp_dir)
+            
+            # Generate project pages from projects directory
+            generate_project_pages(projects_dir, templates_dir, output_dir, temp_dir)
             
             # Find all categories
             categories = sorted([d for d in code_lists_dir.iterdir() if d.is_dir()])
@@ -225,7 +368,7 @@ def main():
                 log_error("No datasets found with info.md files")
                 sys.exit(1)
             
-            # Generate index page
+            # Generate datasets catalog page
             generate_index_page(templates_dir, output_dir, categories_data)
             
             print()
