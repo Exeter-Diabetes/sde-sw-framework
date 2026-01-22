@@ -2,7 +2,7 @@
 
 This is a list of codes for measured HbA1c values.
 
-# Rules
+## Rules
 
 * We check to make sure the date is within the range expected given the data source and patient DOB and death dates.
 
@@ -16,6 +16,10 @@ This is a list of codes for measured HbA1c values.
 
 * In patients with diabetes, the earliest HbA1c>=48 mmol/mol is used in the algorithm to define diagnosis date - see conditions/diabetes.
 
-# Origins
+## Origins
 
 * The origin of the SNOMED codelist was the Pathology Bounded Code List (PBCL).
+
+## Data
+
+* [HbA1c SNOMED](hba1c_snomed.csv)

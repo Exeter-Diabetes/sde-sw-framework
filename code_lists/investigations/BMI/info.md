@@ -2,7 +2,7 @@
 
 This is a list of codes for measured BMI values.
 
-# Rules
+## Rules
 
 * We check to make sure the date is within the range expected given the data source and patient DOB and death dates.
 
@@ -12,7 +12,10 @@ This is a list of codes for measured BMI values.
 
 * If multiple values recorded on the same day for a patient, we take the mean.
 
-# Origins
+## Origins
 
 * The origin of the SNOMED codelist was source codelists from Andy McGovern/RCGP and the BHF; reviewed by Andy McGovern in 2021.
 
+## Data
+
+* [BMI SNOMED](bmi_snomed.csv)

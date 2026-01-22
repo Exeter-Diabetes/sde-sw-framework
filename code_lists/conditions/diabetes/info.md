@@ -2,7 +2,7 @@
 
 This is a list of codes for diabetes: type 1, type 2 and unspecified type. It does not include codes for other types of diabetes e.g. gestational, secondary, monogenic, syndromic.
 
-# Rules
+## Rules
 
 * We check to make sure the date is within the range expected given the data source and patient DOB and death dates.
 
@@ -20,7 +20,10 @@ This is a list of codes for diabetes: type 1, type 2 and unspecified type. It do
 
 * Since diabetes type is used to inform whether diabetes codes in year of birth should be excluded or not, this can create a circular problem in those with no type 1 or type 2-specific codes, where someone is classified as type 1 if diabetes codes in year of birth are included, and type 2 if diabetes medcodes in year of birth are excluded (or vice versa, if time to insulin from diagnosis is affected). These people are classed as 'unclassified', and need further investigation to establish diabetes type and date/age of diagnosis.
 
-# Origins
+## Origins
 
 * The origin of the SNOMED codelist was searching for diabetes and related codes in the SNOMED CT UK edition release 41.2.0 from NHS TRUD.
 
+## Data
+
+* [Diabetes SNOMED](all_diabetes_snomed.csv)
