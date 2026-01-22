@@ -4,7 +4,7 @@
 
 # Introduction
 
-This repository defines the core diabetes dataset, including codelists and implementation rules for deriving its components, alongside code to extract these in a reproducible way. It also contains information on related projects.
+This documentation defines the core diabetes dataset, including codelists and implementation rules for deriving its components, alongside code to extract these in a reproducible way. It also contains information on related projects.
 
 &nbsp;
 
