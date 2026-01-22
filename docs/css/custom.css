@@ -1,0 +1,9 @@
+/* Hide the left-hand table-of-contents sidebar and make main content full-width */
+.bs-sidebar {
+  display: none !important;
+}
+
+.col-md-9[role="main"] {
+  flex: 0 0 100%;
+  max-width: 100%;
+}

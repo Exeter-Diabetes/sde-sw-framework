@@ -11,13 +11,20 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Install pandoc
-        run: |
-          sudo apt-get update && sudo apt-get install -y pandoc
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
 
-      - name: Generate site
+      - name: Install MkDocs
         run: |
-          python3 html/generate-site.py
+          python -m pip install --upgrade pip
+          python -m pip install -r docs/requirements.txt
+
+      - name: Build MkDocs site
+        run: |
+          chmod +x docs/scripts/build_docs.sh
+          docs/scripts/build_docs.sh
 
       - name: Publish
         uses: peaceiris/actions-gh-pages@v3

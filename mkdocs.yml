@@ -1,0 +1,20 @@
+site_name: Core Diabetes Dataset
+site_description: Documentation for the core diabetes dataset, codelists, and related projects.
+docs_dir: docs
+use_directory_urls: false
+theme:
+  name: mkdocs
+extra_css:
+  - css/custom.css
+nav:  # Let MkDocs auto-generate navigation when omitted; keep empty to rely on file tree.
+plugins:
+  - search
+markdown_extensions:
+  - toc:
+      permalink: true
+  - tables
+  - admonition
+  - footnotes
+
+# With docs_dir: "docs" and no explicit nav tree, navigation is generated
+# automatically from the folder structure inside the docs/ directory.
