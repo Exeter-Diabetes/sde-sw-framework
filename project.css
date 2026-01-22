@@ -1,0 +1,30 @@
+/* Import shared base styles */
+@import url('styles.css');
+
+/* ============================================
+   PROJECT PAGE SPECIFIC STYLES
+   ============================================ */
+
+header {
+    padding: 2rem;
+}
+
+header a.back-link {
+    color: rgba(255,255,255,0.9);
+    text-decoration: none;
+    font-size: 0.95rem;
+    display: inline-block;
+    margin-bottom: 0.5rem;
+}
+
+header a.back-link:hover {
+    text-decoration: underline;
+}
+
+header h1 {
+    font-size: 2rem;
+}
+
+main {
+    max-width: 900px;
+}

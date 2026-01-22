@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>date of birth - Data Specification</title>
+    <link rel="stylesheet" href="../dataset.css">
+</head>
+<body>
+    <header>
+        <a href="../datasets.html" class="back-link">← Back to all data sets</a>
+        <h1>date of birth</h1>
+    </header>
+    
+    <main>
+        <div class="content">
+            <h1 id="description">Description</h1>
+<p>This is a description of how date of birth is defined when either
+date or date and month of birth are not provided.</p>
+<h1 id="rules">Rules</h1>
+<ul>
+<li>Earliest possible date of birth is defined as the 1st of the month
+(where month of birth and year of birth available) / 1st January where
+only year of birth available</li>
+<li>Patient date of birth is defined as the earliest of:
+<ul>
+<li>15th of month of birth (where month of birth and year of birth
+available) / 1st July where only year of birth available</li>
+<li>Earliest recorded code in records (excluding those before earliest
+possible date of birth)</li>
+<li>Registration start date, where available (excluding before earliest
+possible date of birth)</li>
+</ul></li>
+</ul>
+<h1 id="origins">Origins</h1>
+<p>Not applicable</p>
+
+        </div>
+        
+    </main>
+
+</body>
+</html>

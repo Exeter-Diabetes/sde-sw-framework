@@ -4,114 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Data Specification</title>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-        
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
-            line-height: 1.6;
-            color: #333;
-            background-color: #f9f9f9;
-        }
-        
-        header {
-            background: #556B7D;
-            color: white;
-            padding: 3rem 2rem;
-            text-align: center;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-        }
-        
-        header h1 {
-            font-size: 2.5rem;
-            margin-bottom: 0.5rem;
-        }
-        
-        header p {
-            font-size: 1.1rem;
-            opacity: 0.95;
-        }
-        
-        main {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 2rem;
-        }
-        
-        .summary {
-            background: white;
-            padding: 2rem;
-            border-radius: 8px;
-            margin-bottom: 3rem;
-            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
-            line-height: 1.8;
-        }
-        
-        .summary h2 {
-            color: #333;
-            margin-bottom: 1rem;
-            font-size: 1.5rem;
-        }
-        
-        .datasets {
-            display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-            gap: 2rem;
-            margin-top: 2rem;
-        }
-        
-        .dataset-card {
-            background: white;
-            border-radius: 8px;
-            padding: 1.5rem;
-            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-            transition: all 0.3s ease;
-            text-decoration: none;
-            color: inherit;
-            display: flex;
-            flex-direction: column;
-        }
-        
-        .dataset-card:hover {
-            transform: translateY(-4px);
-            box-shadow: 0 4px 16px rgba(0,0,0,0.15);
-            background: #f8f8ff;
-        }
-        
-        .dataset-card h3 {
-            color: #000;
-            margin-bottom: 1rem;
-            font-size: 1.25rem;
-            word-break: break-word;
-        }
-        
-        .dataset-card p {
-            color: #666;
-            font-size: 0.95rem;
-            line-height: 1.6;
-            flex-grow: 1;
-            margin-bottom: 1rem;
-        }
-        
-        .dataset-card .arrow {
-            color: #666;
-            font-weight: bold;
-            margin-top: auto;
-        }
-        
-        
-        .section-title {
-            color: #000;
-            font-size: 1.8rem;
-            margin: 2rem 0 1.5rem 0;
-            border-bottom: 2px solid #333;
-            padding-bottom: 0.5rem;
-        }
-    </style>
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
     <header>
@@ -120,55 +13,40 @@
     </header>
     
     <main>
-        <div class="summary">
-            <h2>Overview</h2>
-            <p>This data specification contains standardized code lists and definitions for use in research. Each dataset includes detailed descriptions of the coding rules and data sources.</p>
-            <p>The code lists are provided in multiple coding systems (SNOMED CT, ICD-10, etc.) where applicable to support diverse healthcare data sources and analytical requirements.</p>
+        <div class="content landing-content">
+            <h1 id="introduction">Introduction</h1>
+<p>This repository defines the core diabetes dataset, including
+codelists and implementation rules for deriving its components,
+alongside code to extract these in a reproducible way. It also contains
+information on related projects.</p>
+<p> </p>
+<h2 id="core-diabetes-dataset">Core diabetes dataset</h2>
+<p>The core diabetes dataset defines a standardised set of variables
+describing diabetes diagnosis, classification, treatment, and key
+outcomes, derived from routinely collected health data. It is designed
+to support consistent, reproducible analyses across studies by providing
+clear variable definitions, validated codelists, and explicit
+implementation rules for data extraction and derivation. This dataset
+was agreed by expert consensus with input from patients and the public
+as defined here [link to paper]. It was developed as part of a <a
+href="https://www.southwestsde.nhs.uk/transforming-diabetes-research-south-west-sde-leads-new-projects/">2025-2026
+NHS-funded driver project</a>.</p>
+<p>The core data set can be found here: <a
+href="projects/Core%20dataset.html">Core diabetes dataset</a></p>
+<p> </p>
+<h2 id="exeter-10000">Exeter 10,000</h2>
+<p>The Exeter 10,000 data set can be found here: <a
+href="projects/Exeter%2010,000.html">Exeter 10,000</a></p>
+<p> </p>
+<h2 id="codelists">Codelists</h2>
+<p>Codelists and algorithms for defining variables in routine primary
+and secondary care data (SNOMED, dm+d, ICD10 and OPCS4), as well as
+implementation rules, are provided for the components of the core
+diabetes dataset and other variables.</p>
+<p> </p>
+
+            <a href="datasets.html" class="view-datasets-btn">View All Datasets →</a>
         </div>
-        
-                <h2 class="section-title">Conditions</h2>
-        <div class="datasets">
-<a href="conditions/diabetes.html" class="dataset-card">
-<h3>diabetes</h3>
-<p>This is a list of codes for diabetes: type 1, type 2 and unspecified type. It does not include codes for other types of diabetes e.g. gestational, sec</p>
-<span class="arrow">View Details →</span>
-</a>
-        </div>
-
-        <h2 class="section-title">Investigations</h2>
-        <div class="datasets">
-<a href="investigations/BMI.html" class="dataset-card">
-<h3>BMI</h3>
-<p>This is a list of codes for measured BMI values.</p>
-<span class="arrow">View Details →</span>
-</a>
-
-<a href="investigations/HbA1c.html" class="dataset-card">
-<h3>HbA1c</h3>
-<p>This is a list of codes for measured HbA1c values.</p>
-<span class="arrow">View Details →</span>
-</a>
-        </div>
-
-        <h2 class="section-title">Medications</h2>
-        <div class="datasets">
-<a href="medications/diabetes.html" class="dataset-card">
-<h3>diabetes</h3>
-<p>These are lists of dm+d codes for non-insulin glucose-lowering medication and insulin.</p>
-<span class="arrow">View Details →</span>
-</a>
-        </div>
-
-        <h2 class="section-title">Sociodemographics</h2>
-        <div class="datasets">
-<a href="sociodemographics/date_of_birth.html" class="dataset-card">
-<h3>date_of_birth</h3>
-<p>This is a description of how date of birth is defined when either date or date and month of birth are not provided.</p>
-<span class="arrow">View Details →</span>
-</a>
-        </div>
-
-
     </main>
 </body>
 </html>
