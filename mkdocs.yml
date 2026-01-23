@@ -10,11 +10,6 @@ nav:  # Let MkDocs auto-generate navigation when omitted; keep empty to rely on 
 plugins:
   - search
 markdown_extensions:
-  - toc:
-      permalink: true
   - tables
-  - admonition
   - footnotes
 
-# With docs_dir: "docs" and no explicit nav tree, navigation is generated
-# automatically from the folder structure inside the docs/ directory.
