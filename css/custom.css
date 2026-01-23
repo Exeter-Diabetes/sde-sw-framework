@@ -7,3 +7,8 @@
   flex: 0 0 100%;
   max-width: 100%;
 }
+
+/* Hide the "Next" and "Previous" navigation links at the bottom of each page */
+.nav-link[rel="next"], .nav-link[rel="prev"] {
+    display: none !important;
+}
