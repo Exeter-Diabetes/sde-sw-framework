@@ -5,6 +5,7 @@ This page details the steps to produce the tables which comprise the core diabet
 &nbsp;
 
 Prerequisites:
+
 * Date of birth (at least year of birth; month and year is preferable) available for all patients; those without should be excluded.
 * Sex/gender available for all patients (male/female/indeterminate or other)
 * Additional data cleaning steps depend on data source: CPRD additional exclude those without valid registration date or aged >115 years, or from practices with anomalous mortality rates
