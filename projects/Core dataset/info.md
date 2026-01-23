@@ -13,6 +13,7 @@ Prerequisites:
 &nbsp;
 
 Additional considerations:
+
 * Earliest codes for conditions such as diabetes may be stored in 'problem' or 'observation' table depending on data source. 
 
 &nbsp;
