@@ -210,50 +210,50 @@
 <tbody>
 <tr>
 <td>1</td>
-<td>Create a table of all instances of all diabetes SNOMED codes</td>
-<td>Table with multiple rows per patient, with each valid instance of a diabetes SNOMED code including patient identifier, date of diabetes code observation, and type of diabetes code (type 1, type 2, unspecified diabetes type)</td>
-<td>Number of unique patients with diabetes SNOMED code and % of patients in dataset</td>
+<td>Create a table of all <a href="https://exeter-diabetes.github.io/sde-sw-framework/code_lists/conditions/diabetes/info.html">clean instances of all diabetes SNOMED codes</a></td>
+<td>1 table with multiple rows per patient, with each clean instance of a diabetes SNOMED code including patient identifier, date of diabetes code observation, and type of diabetes code (type 1, type 2, unspecified diabetes type)</td>
+<td>Clean diabetes code dates: min, P25, P50, P75, max, mode. Number of unique patients with clean diabetes SNOMED code and % of patients in dataset</td>
 </tr>
 <tr>
 <td>2</td>
-<td>Find earliest diabetes code per patient</td>
-<td></td>
-<td>Table with 1 row per patient and date of earliest code observation</td>
+<td>Find earliest clean diabetes code per patient</td>
+<td>1 table with 1 row per patient and date of earliest clean code observation</td>
+<td>Distribution of earliest code dates: min, P25, P50, P75, max</td>
 </tr>
 <tr>
 <td>3</td>
-<td>Create a table of all instances of measured HbA1c</td>
-<td>Table with multiple rows per patient, with each instance of a valid HbA1c SNOMED code including patient identifier, date of result, value of result, and units of value where possible</td>
-<td>N/A</td>
+<td>Create a table of all <a href="https://exeter-diabetes.github.io/sde-sw-framework/code_lists/investigations/HbA1c/info.html">clean HbA1c measurements in mmol/mol</a></td>
+<td>1 table with multiple rows per patient, with each cleaned HbA1c measurement including patient identifier, date of result and value of result. Cleaning includes combining where there are multiple values on the same day so there should not be multiple rows with the same date and patient identifier.</td>
+<td>Clean HbA1c values: min, P25, P50, P75, max, mode. Clean HbA1c dates: min, P25, P50, P75, max, mode.</td>
 </tr>
 <tr>
 <td>4</td>
-<td>Create a table of all insulin and non-insulin glucose-lowering medication prescriptions</td>
-<td>Table with multiple rows per patient, with each instance of a valid dm+d code including patient identifier, date of prescription, drug class and drug substance, and any information relating to drug substance, quantity and dose available</td>
-<td>N/A</td>
+<td>Create tables of all <a href="https://exeter-diabetes.github.io/sde-sw-framework/code_lists/medications/diabetes/info.html">clean insulin and non-insulin glucose-lowering medication prescriptions</a></td>
+<td>2 tables (1 for insulin and 1 for non-insulin glucose-lowering medications) with multiple rows per patient, with each clean instance of a dm+d code including patient identifier, date of prescription, drug class and drug substance, and any information relating to drug substance, quantity and dose available</td>
+<td>Clean insulin dates: min, P25, P50, P75, max, mode. Clean non-insulin glucose-lowering medication dates: min, P25, P50, P75, max, mode. Number of unique patients with clean insulin or non-insulin glucose-lowering medication prescription and % of patients in dataset</td>
 </tr>
 <tr>
 <td>5</td>
 <td>Find earliest HbA1c&gt;=48 mmol/mol per patient</td>
-<td>Table with 1 row per patient and date of earliest HbA1c&gt;=48 mmol/mol (NB: this relates to values after cleaning, which includes combining multiple values if on the same day</td>
-<td>Distribution of earliest code dates: min, P25, P50, P75, max</td>
+<td>1 table with 1 row per patient and date of earliest clean HbA1c&gt;=48 mmol/mol</td>
+<td>Earliest code dates: min, P25, P50, P75, max, mode. Number of unique patients with HbA1c&gt;=48 mmol/mol and % of patients in dataset</td>
 </tr>
 <tr>
 <td>6</td>
 <td>Find earliest insulin and non-insulin glucose-lowering medication prescription per patient</td>
 <td>Table with 1 row per patient and date of earliest prescription</td>
-<td>Distribution of earliest code dates: min, P25, P50, P75, max</td>
+<td>Earliest insulin code dates: min, P25, P50, P75, max, mode. Earliest non-insulin glucose-lowering medication dates: min, P25, P50, P75, max, mode.</td>
 </tr>
 <tr>
 <td>7</td>
 <td>Find diabetes diagnosis dates: earliest of diabetes code (step 2), HbA1c&gt;=48 mmol/mol (step 5) and glucose-lowering medication prescription (step 6)</td>
 <td>Table with 1 row per patient and date of earliest diabetes code, HbA1c&gt;=48 mmol/mol and glucose-lowering medication prescription, and overall earliest date of these</td>
-<td>Of patients with a diabetes code: % with any HbA1c&gt;=48mmol/mol, % with earliest HbA1c&gt;=48mmol/mol earlier than earliest diabetes code, % with any glucose-lowering medication prescription, % with earliest glucose-lowering medication prescription earlier than earliest diabetes code, % with any HbA1c&gt;=48mmol/mol or glucose-lowering medication prescription, % with earliest HbA1c&gt;=48mmol/mol or earliest glucose-lowering medication prescription earlier than earliest diabetes code</td>
+<td>Of patients with a clean diabetes code: % with any HbA1c&gt;=48mmol/mol, % with earliest HbA1c&gt;=48mmol/mol earlier than earliest diabetes code, % with any glucose-lowering medication prescription, % with earliest glucose-lowering medication prescription earlier than earliest diabetes code, % with any HbA1c&gt;=48mmol/mol or glucose-lowering medication prescription, % with earliest HbA1c&gt;=48mmol/mol or earliest glucose-lowering medication prescription earlier than earliest diabetes code</td>
 </tr>
 <tr>
 <td>8</td>
-<td>Find counts of type 1 and type 2-specific diabetes codes per patient</td>
-<td>Table with 1 row per patient and counts of type 1-specific diabetes SNOMED codes (use raw data, not cleaned) and counts of type 2-specific diabetes SNOMED codes</td>
+<td>Find counts of type 1 and type 2-specific diabetes codes per patient using clean table from step 1</td>
+<td>Table with 1 row per patient and counts of type 1-specific diabetes SNOMED codes and counts of type 2-specific diabetes SNOMED codes</td>
 <td>N/A</td>
 </tr>
 <tr>
@@ -264,9 +264,9 @@
 </tr>
 <tr>
 <td>10</td>
-<td>For each of the following variables, create a table of all instances of the relevant SNOMED codes:<ul><li>Ethnicity</li><li>BMI</li><li>Weight</li><li>Height</li><li>Systolic blood pressure (SBP)</li><li>Systolic blood pressure (DBP)</li><li>Total cholesterol</li><li>HDL cholesterol</li><li>Triglycerides</li><li>Alanine aminotransferase (ALT)</li><li>Creatinine</li><li>Urine albumin/creatinine ratio (ACR)</li><li>Urine albumin</li><li>Urine creatinine</li><li>Retinopathy</li><li>Foot complication</li><li>Amputation</li><li>Myocardial infarction</li><li>Heart failure</li><li>Stroke</li><li>Angina</li><li>Peripheral arterial disease</li><li>Peripheral arterial revascularisation</li><li>Transient ischaemic attack</li><li>Hypertension</li><li>Atrial fibrillation</li><li>Ischaemic heart disease</li><li>Coronary revascularisation</li><li>Chronic kidney disease stage 5</li><li>Diabetic ketoacidosis/hyperosmolar hyperglycaemic state</li><li>Alcohol</li><li>Smoking</li><li>CGM prescription</li><li>Lipid lowering medication prescription</li><li>Blood-pressure lowering medication prescription</li><li>Anti-platelet therapy prescription</li></ul></td>
-<td>For each variable, table with multiple rows per patient including patient identifier, date, severity of code (retinopathy, foot complication, amputation only), value of result and units where available (BMI, weight, height, SBP, DBP, total cholesterol, HDL, triglycerides, ALT, creatinine, urine albumin/creatinine/ACR only)</td>
-<td>N/A</td>
+<td>For each of the following variables, create a table of all clean instances of the relevant SNOMED codes:<ul><li>Ethnicity</li><li>BMI</li><li>Weight</li><li>Height</li><li>Systolic blood pressure (SBP)</li><li>Systolic blood pressure (DBP)</li><li>Total cholesterol</li><li>HDL cholesterol</li><li>Triglycerides</li><li>Alanine aminotransferase (ALT)</li><li>Creatinine</li><li>Urine albumin/creatinine ratio (ACR)</li><li>Urine albumin</li><li>Urine creatinine</li><li>Retinopathy</li><li>Foot complication</li><li>Amputation</li><li>Myocardial infarction</li><li>Heart failure</li><li>Stroke</li><li>Angina</li><li>Peripheral arterial disease</li><li>Peripheral arterial revascularisation</li><li>Transient ischaemic attack</li><li>Hypertension</li><li>Atrial fibrillation</li><li>Ischaemic heart disease</li><li>Coronary revascularisation</li><li>Chronic kidney disease stage 5</li><li>Diabetic ketoacidosis/hyperosmolar hyperglycaemic state</li><li>Alcohol</li><li>Smoking</li><li>CGM prescription</li><li>Lipid lowering medication prescription</li><li>Blood-pressure lowering medication prescription</li><li>Anti-platelet therapy prescription</li></ul></td>
+<td>For each variable, table with multiple rows per patient including patient identifier, date, severity of code (retinopathy, foot complication, amputation only) and value of result (BMI, weight, height, SBP, DBP, total cholesterol, HDL, triglycerides, ALT, creatinine, urine albumin/creatinine/ACR only)</td>
+<td>For all variables: clean dates: code dates: min, P25, P50, P75, max, mode. For measured values (BMI, weight, height, SBP, DBP, total cholesterol, HDL, triglycerides, ALT, creatinine, urine albumin/creatinine/ACR): clean values: min, P25, P50, P75, max, mode</td>
 </tr>
 <tr>
 <td>11</td>
