@@ -4,7 +4,7 @@ This is a list of codes for diabetes: type 1, type 2 and unspecified type. It do
 
 ## Rules
 
-* We check to make sure the date is within the range expected given the data source and patient DOB and death dates.
+* Check to make sure the date is within the range expected given the data source and patient DOB and death dates.
 
 * Presence of one of these codes may not be sufficient to define diabetes cases. In primary care data, the presence of a diabetes Quality and Outcome Framework (QOF) code is more specific for true diabetes cases. In addition, specificity can be increased by removing patients with codes for other types of diabetes mellitus (gestational, secondary etc.) or diabetes insipidus, who may erroneously have diabetes mellitus codes in their records.
 
@@ -27,3 +27,4 @@ This is a list of codes for diabetes: type 1, type 2 and unspecified type. It do
 ## Data
 
 * [Diabetes SNOMED](all_diabetes_snomed.csv)
+* [Diabetes ICD10](all_diabetes_icd10.csv)
