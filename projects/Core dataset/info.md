@@ -6,7 +6,7 @@ This page details the steps to produce the tables which comprise the core diabet
 
 Prerequisites:
 
-* Date of birth should be available for all patients (at minimum, year of birth; month and year preferred). Patients without this information should be excluded. Where the exact date of birth is unavailable, we have developed an [algorithm for defining date of birth](../../code_lists/sociodemographics/date_of_birth/info.md); however, its use may be restricted by data source–specific governance or regulatory requirements.
+* Date of birth should be available for all patients (at minimum, year of birth; month and year preferred). Patients without this information should be excluded. Where the exact date of birth is unavailable, we have developed an [algorithm for defining date of birth](../../code_lists/sociodemographics/date of birth/info.md); however, its use may be restricted by data source–specific governance or regulatory requirements.
 * Sex/gender should be available for all patients (male/female/indeterminate or other)
 * Additional data cleaning steps depend on data source: CPRD additional exclude those without valid registration date or aged >115 years, or from practices with anomalous mortality rates
 
