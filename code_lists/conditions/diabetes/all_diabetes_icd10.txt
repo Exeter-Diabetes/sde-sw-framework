@@ -1,0 +1,4 @@
+icd10	term	category
+E10	Type 1 diabetes mellitus	type 1
+E11	Type 2 diabetes mellitus	type 2
+E14	Unspecified diabetes mellitus	unspecified
