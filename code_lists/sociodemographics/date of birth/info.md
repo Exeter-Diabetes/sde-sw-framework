@@ -1,6 +1,6 @@
 # Description
 
-This is a description of how date of birth is defined when either date or date and month of birth are not provided.
+This is a description of how date of birth can be defined when either date or date and month of birth are not provided.
 
 ## Rules
 
