@@ -16,7 +16,7 @@ These are lists of dm+d codes for non-insulin glucose-lowering medication and in
 
 ## Data
 
-* [insulin_dmd](insulin_dmd.csv)
-* [insulin_names](insulin_names.csv)
-* [non_insulin_dm_meds_dmd](non_insulin_dm_meds_dmd.csv)
-* [non_insulin_dm_meds_dmd](non_insulin_dm_meds_names.csv)
+* [Insulin dm+d](insulin_dmd.csv)
+* [Insulin names](insulin_names.csv)
+* [Non-insulin glucose-lowering medications dm+d](non_insulin_dm_meds_dmd.csv)
+* [Non-insulin glucose-lowering medications names](non_insulin_dm_meds_names.csv)
