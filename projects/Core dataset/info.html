@@ -89,6 +89,16 @@
     <ul class="dropdown-menu">
             
   <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">CGM</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../code_lists/medications/CGM/info.html" class="dropdown-item">Description</a>
+</li>
+    </ul>
+  </li>
+            
+  <li class="dropdown-submenu">
     <a href="#" class="dropdown-item">Diabetes</a>
     <ul class="dropdown-menu">
             
@@ -192,8 +202,8 @@
 <p>&nbsp;</p>
 <p>Prerequisites:</p>
 <ul>
-<li>Date of birth (at least year of birth; month and year is preferable) available for all patients; those without should be excluded.</li>
-<li>Sex/gender available for all patients (male/female/indeterminate or other)</li>
+<li>Date of birth should be available for all patients (at minimum, year of birth; month and year preferred). Patients without this information should be excluded. Where the exact date of birth is unavailable, we have developed an <a href="../../code_lists/sociodemographics/date%20of%20birth/info.html">algorithm for defining date of birth</a>; however, its use may be restricted by data source–specific governance or regulatory requirements.</li>
+<li>Sex/gender should be available for all patients (male/female/indeterminate or other)</li>
 <li>Additional data cleaning steps depend on data source: CPRD additional exclude those without valid registration date or aged &gt;115 years, or from practices with anomalous mortality rates</li>
 </ul>
 <p>&nbsp;</p>
@@ -222,7 +232,7 @@
 <td>2</td>
 <td>Find earliest clean diabetes code per patient</td>
 <td>1 table with 1 row per patient and date of earliest clean code observation</td>
-<td>Distribution of earliest code dates: min, P25, P50, P75, max</td>
+<td>Distribution of earliest code dates: min, P25, P50, P75, max, mode</td>
 </tr>
 <tr>
 <td>3</td>
@@ -277,12 +287,6 @@
 <td>Define ethnicity using our algorithm</td>
 <td>Table with 1 row per patient and ethnicity</td>
 <td>% of all patients in each of 5-category and 11-category ethnicities and with missing ethnicity</td>
-</tr>
-<tr>
-<td>12</td>
-<td>Estimate date of birth (using our algorithm) if exact dates not provided</td>
-<td>Table with 1 row per patient and estimated date of birth</td>
-<td>Distribution of ages of diabetes diagnosis for each of type 1, type 2 and unclassified: min, P25, P50, P75, max</td>
 </tr>
 </tbody>
 </table></div>

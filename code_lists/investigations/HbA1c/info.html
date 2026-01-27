@@ -89,6 +89,16 @@
     <ul class="dropdown-menu">
             
   <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">CGM</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../medications/CGM/info.html" class="dropdown-item">Description</a>
+</li>
+    </ul>
+  </li>
+            
+  <li class="dropdown-submenu">
     <a href="#" class="dropdown-item">Diabetes</a>
     <ul class="dropdown-menu">
             
@@ -156,7 +166,7 @@
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a rel="next" href="../../medications/diabetes/info.html" class="nav-link">
+                                <a rel="next" href="../../medications/CGM/info.html" class="nav-link">
                                     Next <i class="fa fa-arrow-right"></i>
                                 </a>
                             </li>
@@ -204,16 +214,16 @@
 <h2 id="rules">Rules</h2>
 <ul>
 <li>
-<p>We check to make sure the date is within the range expected given the data source and patient DOB and death dates.</p>
+<p>Check to make sure the date is within the range expected given the data source and patient DOB and death dates.</p>
 </li>
 <li>
-<p>We convert all values to mmol/mol; where unit codes are not available we assume values &lt;=20 are in % and require conversion.</p>
+<p>Convert all values to mmol/mol; where unit codes are not available we assume values &lt;=20 are in % and require conversion.</p>
 </li>
 <li>
-<p>We remove mmol/mol values less than 20 and greater than 195 mmol/mol as these are implausible.</p>
+<p>Remove mmol/mol values less than 20 and greater than 195 mmol/mol as these are implausible.</p>
 </li>
 <li>
-<p>We apply additional cleaning rules based on unit codes where available.</p>
+<p>Apply additional cleaning rules based on unit codes where available.</p>
 </li>
 <li>
 <p>If multiple values recorded on the same day for a patient, we take the mean.</p>

@@ -89,6 +89,16 @@
     <ul class="dropdown-menu">
             
   <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">CGM</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../../medications/CGM/info.html" class="dropdown-item">Description</a>
+</li>
+    </ul>
+  </li>
+            
+  <li class="dropdown-submenu">
     <a href="#" class="dropdown-item">Diabetes</a>
     <ul class="dropdown-menu">
             
@@ -204,10 +214,10 @@
 <h2 id="rules">Rules</h2>
 <ul>
 <li>
-<p>We check to make sure the date is within the range expected given the data source and patient DOB and death dates.</p>
+<p>Check to make sure the date is within the range expected given the data source and patient DOB and death dates.</p>
 </li>
 <li>
-<p>Presence of one of these codes may not be sufficient to define diabetes cases. In primary care data, the presence of a diabetes Quality and Outcome Framework (QOF) code is more specific for true diabetes cases. In addition, specificity can be increased by removing patients with codes for other types of diabetes mellitus (gestational, secondary etc.) or diabetes insipidus, who may erroneously have diabetes mellitus codes in their records.</p>
+<p>Presence of one of these codes may not be sufficient to define diabetes cases. In primary care data, the presence of a diabetes Quality and Outcome Framework (QOF) code is more specific for true diabetes cases ('qof' column in <a href="all_diabetes_snomed.csv">our SNOMED codelist</a> indicates whether a code is a diabetes QOF code or not). In addition, specificity can be increased by removing patients with codes for other types of diabetes mellitus (gestational, secondary etc.) or diabetes insipidus, who may erroneously have diabetes mellitus codes in their records.</p>
 </li>
 <li>
 <p>Our algorithm for defining diabetes diagnosis date: the earliest of a code for diabetes, an HbA1c&gt;=48 mmol/mol (see investigation/HbA1c) or a prescription for a glucose-lowering medication (including insulin; see medications/diabetes). It may not be possible to determine diagnosis dates in some datasets if historical data is not available. For those with type 2 diabetes, diabetes codes within the year of birth are ignored. It may be possible to ignore other diabetes codes which clearly do not relate to diagnosis in some datasets e.g. in CPRD ignore diabetes codes with obstype=4 as these represent family history.</p>
@@ -236,6 +246,7 @@
 <h2 id="data">Data</h2>
 <ul>
 <li><a href="all_diabetes_snomed.csv">Diabetes SNOMED</a></li>
+<li><a href="all_diabetes_icd10.csv">Diabetes ICD10</a></li>
 </ul></div>
             </div>
         </div>
