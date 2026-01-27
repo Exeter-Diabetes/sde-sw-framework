@@ -12,5 +12,5 @@ These are lists of dm+d codes for continuous glucose monitoring devices (sensors
 
 ## Data
 
-* [cgm_names](cgm_names.csv)
-* [cgm_dmd](cgm_dmd.csv)
+* [CGM dm+d](cgm_dmd.csv)
+* [CGM names](cgm_names.csv)
