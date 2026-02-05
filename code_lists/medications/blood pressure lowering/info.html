@@ -67,7 +67,7 @@
     <ul class="dropdown-menu">
             
 <li>
-    <a href="info.html" class="dropdown-item active" aria-current="page">Description</a>
+    <a href="../../investigations/BMI/info.html" class="dropdown-item">Description</a>
 </li>
     </ul>
   </li>
@@ -77,7 +77,7 @@
     <ul class="dropdown-menu">
             
 <li>
-    <a href="../HbA1c/info.html" class="dropdown-item">Description</a>
+    <a href="../../investigations/HbA1c/info.html" class="dropdown-item">Description</a>
 </li>
     </ul>
   </li>
@@ -93,7 +93,7 @@
     <ul class="dropdown-menu">
             
 <li>
-    <a href="../../medications/CGM/info.html" class="dropdown-item">Description</a>
+    <a href="../CGM/info.html" class="dropdown-item">Description</a>
 </li>
     </ul>
   </li>
@@ -103,7 +103,7 @@
     <ul class="dropdown-menu">
             
 <li>
-    <a href="../../medications/antiplatelet%20medications/info.html" class="dropdown-item">Description</a>
+    <a href="../antiplatelet%20medications/info.html" class="dropdown-item">Description</a>
 </li>
     </ul>
   </li>
@@ -113,7 +113,7 @@
     <ul class="dropdown-menu">
             
 <li>
-    <a href="../../medications/blood%20pressure%20lowering/info.html" class="dropdown-item">Description</a>
+    <a href="info.html" class="dropdown-item active" aria-current="page">Description</a>
 </li>
     </ul>
   </li>
@@ -123,7 +123,7 @@
     <ul class="dropdown-menu">
             
 <li>
-    <a href="../../medications/diabetes/info.html" class="dropdown-item">Description</a>
+    <a href="../diabetes/info.html" class="dropdown-item">Description</a>
 </li>
     </ul>
   </li>
@@ -181,12 +181,12 @@
                             </a>
                         </li>
                             <li class="nav-item">
-                                <a rel="prev" href="../../conditions/diabetes/info.html" class="nav-link">
+                                <a rel="prev" href="../antiplatelet%20medications/info.html" class="nav-link">
                                     <i class="fa fa-arrow-left"></i> Previous
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a rel="next" href="../HbA1c/info.html" class="nav-link">
+                                <a rel="next" href="../diabetes/info.html" class="nav-link">
                                     Next <i class="fa fa-arrow-right"></i>
                                 </a>
                             </li>
@@ -230,29 +230,23 @@
                     <div class="col-md-9" role="main">
 
 <h1 id="description">Description</h1>
-<p>This is a list of codes for measured BMI values.</p>
+<p>These are lists of dm+d codes for blood pressure lowering (antihypertensive) medications in the following classes: ACE-inhibitors, angiotensin II receptor blockers, beta blockers, calcium channel blockers, and thiazide/thiazide-like diuretics.</p>
 <h2 id="rules">Rules</h2>
 <ul>
-<li>
-<p>Check to make sure the date is within the range expected given the data source and patient DOB and death dates.</p>
-</li>
-<li>
-<p>Remove values less than 15 and greater than 100 kg per square meter as these are implausible for adults.</p>
-</li>
-<li>
-<p>Apply additional cleaning rules based on unit codes where available.</p>
-</li>
-<li>
-<p>If multiple values recorded on the same day for a patient, we take the mean.</p>
-</li>
+<li>Check to make sure the date is within the range expected given the data source and patient DOB and death dates.</li>
 </ul>
 <h2 id="origins">Origins</h2>
 <ul>
-<li>The origin of the SNOMED codelist was source codelists from Andy McGovern/RCGP and the BHF; reviewed by Andy McGovern in 2021.</li>
+<li>The codelists were created by searching for generic and brand names (see files) in the SNOMED CT UK Drug Extension RF2 release 41.3.0 and NHSBSA dm+d Release 1.2.0 (both available from NHS TRUD).</li>
 </ul>
 <h2 id="data">Data</h2>
 <ul>
-<li><a href="bmi_snomed.csv">BMI SNOMED</a></li>
+<li><a href="acei_dmd.csv">ACE-inhibitor dm+d</a></li>
+<li><a href="arb_dmd.csv">ARB dm+d</a></li>
+<li><a href="beta_blockers_dmd.csv">Beta blockers dm+d</a></li>
+<li><a href="ca_channel_blockers_dmd.csv">Calcium channel blockers dm+d</a></li>
+<li><a href="thiazide_diuretics_dmd.csv">Thiazide/thiazide-like diuretics dm+d</a></li>
+<li><a href="blood_pressure_drug_names.csv">Blood pressure drug names</a></li>
 </ul></div>
             </div>
         </div>
