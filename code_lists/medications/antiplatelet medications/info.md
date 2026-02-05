@@ -1,7 +1,6 @@
 # Description
 
-These are lists of dm+d codes for blood pressure lowering (antihypertensive) medications in the following classes: ACE-inhibitors, angiotensin II receptor blockers, beta blockers, calcium channel blockers, and thiazide/thiazide-like diuretics.
-
+These are lists of dm+d codes for antiplatelet medications: clopidogrel, dipyridamole, prasugrel, ticagrelor, cilostazol and (low-dose) aspirin.
 ## Rules
 
 * Check to make sure the date is within the range expected given the data source and patient DOB and death dates.
@@ -12,9 +11,5 @@ These are lists of dm+d codes for blood pressure lowering (antihypertensive) med
 
 ## Data
 
-* [ACE-inhibitor dm+d](acei_dmd.csv)
-* [ARB dm+d](arb_dmd.csv)
-* [Beta blockers dm+d](beta_blockers_dmd.csv)
-* [Calcium channel blockers dm+d](ca_channel_blockers_dmd.csv)
-* [Thiazide/thiazide-like diuretics dm+d](thiazide_diuretics_dmd.csv)
-* [Blood pressure drug names](blood_pressure_drug_names.csv)
+* [Antiplatelet medications dm+d](antiplatelet_dmd.csv)
+* [Antiplatelet medication names](antiplatelet_names.csv)
