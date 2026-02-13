@@ -22,3 +22,16 @@ body::before {
 .nav-link[rel="next"], .nav-link[rel="prev"] {
     display: none !important;
 }
+
+footer hr::after {
+    content: "";
+    display: block;
+    margin: 5px;
+    width: 320px; /* Adjust as needed */
+    height: 120px;
+    background-image: url('../assets/southwestsde-nhs-uk.png');
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: contain;
+}
+
