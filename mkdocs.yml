@@ -6,6 +6,9 @@ theme:
   name: mkdocs
 extra_css:
   - css/custom.css
+repo_url: https://github.com/Exeter-Diabetes/sde-sw-framework
+repo_name: GitHub
+edit_uri: ''
 nav:  # Let MkDocs auto-generate navigation when omitted; keep empty to rely on file tree.
 plugins:
   - search

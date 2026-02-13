@@ -1,3 +1,13 @@
+body {
+  background-color: #fff;
+  background-image: none;
+}
+
+body::before {
+  background-color: #fff !important;
+  background-image: none !important;
+}
+
 /* Hide the left-hand table-of-contents sidebar and make main content full-width */
 .bs-sidebar {
   display: none !important;
