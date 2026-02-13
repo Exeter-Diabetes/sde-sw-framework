@@ -18,20 +18,38 @@ body::before {
   max-width: 100%;
 }
 
-/* Hide the "Next" and "Previous" navigation links at the bottom of each page */
-.nav-link[rel="next"], .nav-link[rel="prev"] {
-    display: none !important;
+.footer-divider {
+  border: 0;
+  border-top: 1px solid currentColor;
+  opacity: 0.25;
+  margin: 0;
 }
 
-footer hr::after {
-    content: "";
-    display: block;
-    margin: 5px;
-    width: 320px; /* Adjust as needed */
-    height: 120px;
-    background-image: url('../assets/southwestsde-nhs-uk.png');
-    background-repeat: no-repeat;
-    background-position: left center;
-    background-size: contain;
+/* Hide the "Next" and "Previous" navigation links */
+.nav-link[rel="next"],
+.nav-link[rel="prev"] {
+  display: none !important;
 }
 
+/* Hide Material's footer navigation buttons */
+.md-footer__link {
+  display: none !important;
+}
+
+.md-footer,
+.md-footer-meta {
+  background-color: #fff !important;
+  color: #000;
+}
+
+.footer-brand {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5rem 0;
+}
+
+.footer-brand img {
+  max-height: 120px;
+  width: auto;
+}

@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+
+{% block footer %}
+  <hr class="footer-divider">
+  {% if config.copyright %}
+    <p>{{ config.copyright }}</p>
+  {% endif %}
+  <div style="text-align: right; padding: 20px 16px 20px 0;">
+    <a href="https://www.southwestsde.nhs.uk">
+      <img src="{{ base_url }}/assets/southwestsde-nhs-uk.png" alt="Logo" style="height: 65px; width: auto;">
+    </a>
+  </div>
+{% endblock %}
