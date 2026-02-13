@@ -1,0 +1,28 @@
+name: Build documentation
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  build-docs:
+    name: Build MkDocs site
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Install documentation dependencies
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install -r docs/requirements.txt
+
+      - name: Build documentation
+        run: |
+          chmod +x docs/scripts/build_docs.sh
+          docs/scripts/build_docs.sh
