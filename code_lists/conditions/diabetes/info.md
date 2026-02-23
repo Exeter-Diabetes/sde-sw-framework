@@ -24,7 +24,11 @@ This is a list of codes for diabetes: type 1, type 2 and unspecified type. It do
 
 * The origin of the SNOMED codelist was searching for diabetes and related codes in the SNOMED CT UK edition release 41.2.0 from NHS TRUD.
 
+## Versions
+
+* The SNOMED codelist was updated on 23/02/2026 to remove 9 codes for specific non-type 1/non-type 2 diabetes types, and reclassify two type 1 codes to type 2.
+  
 ## Data
 
-* [Diabetes SNOMED](all_diabetes_snomed.csv)
+* [Diabetes SNOMED](all_diabetes_snomed_v2.csv)
 * [Diabetes ICD10](all_diabetes_icd10.csv)
