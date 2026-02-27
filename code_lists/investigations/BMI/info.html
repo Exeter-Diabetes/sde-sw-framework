@@ -235,20 +235,17 @@
 <h1 id="description">Description</h1>
 <p>This is a list of codes for measured BMI values.</p>
 <h2 id="rules">Rules</h2>
-<ul>
-<li>
-<p>Check to make sure the date is within the range expected given the data source and patient DOB and death dates.</p>
-</li>
-<li>
-<p>Remove values less than 15 and greater than 100 kg per square meter as these are implausible for adults.</p>
-</li>
-<li>
-<p>Apply additional cleaning rules based on unit codes where available.</p>
-</li>
+<p>To note: steps 1-3 below should be carried out in this order to produce a standardised end reult:</p>
+<ol>
+<li>Remove values less than 15 and greater than 100 kg per square meter as these are implausible for adults.</li>
+<li>Apply additional cleaning rules based on unit codes where available.</li>
 <li>
 <p>If multiple values recorded on the same day for a patient, we take the mean.</p>
 </li>
-</ul>
+<li>
+<p>Check to make sure the date is within the range expected given the data source and patient DOB and death dates.</p>
+</li>
+</ol>
 <h2 id="origins">Origins</h2>
 <ul>
 <li>The origin of the SNOMED codelist was source codelists from Andy McGovern/RCGP and the BHF; reviewed by Andy McGovern in 2021.</li>

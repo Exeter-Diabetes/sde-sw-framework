@@ -235,26 +235,21 @@
 <h1 id="description">Description</h1>
 <p>This is a list of codes for measured HbA1c values.</p>
 <h2 id="rules">Rules</h2>
-<ul>
-<li>
-<p>Check to make sure the date is within the range expected given the data source and patient DOB and death dates.</p>
-</li>
-<li>
-<p>Convert all values to mmol/mol; where unit codes are not available we assume values &lt;=20 are in % and require conversion.</p>
-</li>
-<li>
-<p>Remove mmol/mol values less than 20 and greater than 195 mmol/mol as these are implausible.</p>
-</li>
-<li>
-<p>Apply additional cleaning rules based on unit codes where available.</p>
-</li>
+<p>To note: steps 1-4 below should be carried out in this order to produce a standardised end reult:</p>
+<ol>
+<li>Convert all values to mmol/mol; where unit codes are not available we assume values &lt;=20 are in % and require conversion.</li>
+<li>Remove values less than 20 or greater than 195 mmol/mol as these are implausible.</li>
+<li>Apply additional cleaning rules based on unit codes where available.</li>
 <li>
 <p>If multiple values recorded on the same day for a patient, we take the mean.</p>
 </li>
 <li>
-<p>In patients with diabetes, the earliest HbA1c&gt;=48 mmol/mol is used in the algorithm to define diagnosis date - see conditions/diabetes.</p>
+<p>Check to make sure the date is within the range expected given the data source and patient DOB and death dates.</p>
 </li>
-</ul>
+<li>
+<p>In patients with diabetes, the earliest HbA1c&gt;=48 mmol/mol (based on clean values aggregated by patient identifier and date) is used in the algorithm to define diagnosis date - see conditions/diabetes.</p>
+</li>
+</ol>
 <h2 id="origins">Origins</h2>
 <ul>
 <li>The origin of the SNOMED codelist was the Pathology Bounded Code List (PBCL).</li>
