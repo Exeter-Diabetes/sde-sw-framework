@@ -1,4 +1,8 @@
-# Description
+---
+title: Date of birth
+---
+
+## Description
 
 This is a description of how date of birth can be defined when either date or date and month of birth are not provided.
 

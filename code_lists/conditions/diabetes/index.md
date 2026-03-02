@@ -1,4 +1,8 @@
-# Description
+---
+title: Diabetes
+---
+
+## Description
 
 This is a list of codes for diabetes: type 1, type 2 and unspecified type. It does not include codes for other types of diabetes e.g. gestational, secondary, monogenic, syndromic.
 
