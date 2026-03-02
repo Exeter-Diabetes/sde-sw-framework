@@ -1,6 +1,11 @@
-# Description
+---
+title: CGM
+---
 
-These are lists of dm+d codes for antiplatelet medications: clopidogrel, dipyridamole, prasugrel, ticagrelor, cilostazol and (low-dose) aspirin.
+## Description
+
+These are lists of dm+d codes for continuous glucose monitoring devices (sensors, transmitters, receivers)
+
 ## Rules
 
 * Check to make sure the date is within the range expected given the data source and patient DOB and death dates.
@@ -11,5 +16,5 @@ These are lists of dm+d codes for antiplatelet medications: clopidogrel, dipyrid
 
 ## Data
 
-* [Antiplatelet medications dm+d](antiplatelet_dmd.csv)
-* [Antiplatelet medication names](antiplatelet_names.csv)
+* [CGM dm+d](cgm_dmd.csv)
+* [CGM names](cgm_names.csv)

@@ -55,7 +55,7 @@ To add the a new code list data set follow the structure described below:
 The data is grouped together in categories such as conditions, sociodemographics, medications, etc., and specific datasets are defined by:
 
 * A set of code lists in CSV format.
-* A markdown document called `info.md` which contains a brief description of the condition, the rules used to generate the codelist datasets, the original data sources used and links to data sets.
+* A markdown document called `index.md` which contains a brief description of the condition, the rules used to generate the codelist datasets, the original data sources used and links to data sets.
 
 ## How to build the documentation locally
 
