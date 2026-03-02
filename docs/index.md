@@ -1,10 +1,14 @@
-# Introduction
+---
+title: ""
+---
+
+## Introduction
 
 This documentation defines the core diabetes dataset, including codelists and implementation rules for deriving its components, alongside code to extract these in a reproducible way. It also contains information on related projects.
 
 &nbsp;
 
-## Core diabetes dataset
+## Core dataset
 
 The core diabetes dataset defines a standardised set of variables describing diabetes diagnosis, classification, treatment, and key outcomes, derived from routinely collected health data. It is designed to support consistent, reproducible analyses across studies by providing clear variable definitions, validated codelists, and explicit implementation rules for data extraction and derivation. This dataset was agreed by expert consensus with input from patients and the public. It was developed as part of a [2025-2026 NHS-funded driver project](https://www.southwestsde.nhs.uk/transforming-diabetes-research-south-west-sde-leads-new-projects/).
 
