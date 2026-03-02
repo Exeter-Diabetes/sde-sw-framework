@@ -5,6 +5,8 @@ use_directory_urls: false
 theme:
   name: material
   custom_dir: docs/overrides
+  features:
+    - navigation.indexes
 extra_css:
   - css/custom.css
 repo_url: https://github.com/Exeter-Diabetes/sde-sw-framework
