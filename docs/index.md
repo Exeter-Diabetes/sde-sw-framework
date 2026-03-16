@@ -1,10 +1,16 @@
 ---
-title: ""
+title: "Introduction"
 ---
 
-## Introduction
+# Core Diabetes Dataset
 
 This documentation defines the core diabetes dataset, including codelists and implementation rules for deriving its components, alongside code to extract these in a reproducible way. It also contains information on related projects.
+
+&nbsp;
+
+## Getting started
+
+Use the navigation on the left to jump directly to the parts of the dataset you need. Start with the core dataset overview to understand variables and derivations, explore the Exeter 10,000 project for cohort-specific information, and review the codelists section for the validated clinical code groups used throughout the framework.
 
 &nbsp;
 
