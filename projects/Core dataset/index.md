@@ -1,6 +1,6 @@
 # Core diabetes dataset
 
-This page details the steps to produce the tables which comprise the core diabetes dataset in GP data. These tables can then be combined to create different diabetes cohorts. An SQL implementation currently being developed by Kent, Medway and Sussex (KMS) SDE can be found [here](../KMS%20implementation/README.md).
+This page details the steps to produce the tables which comprise the core diabetes dataset in GP data. These tables can then be combined to create different diabetes cohorts. An SQL implementation currently being developed by Kent, Medway and Sussex (KMS) SDE can be found [here](KMS%20implementation/README.md).
 
 &nbsp;
 
