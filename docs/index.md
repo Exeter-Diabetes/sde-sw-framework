@@ -1,20 +1,30 @@
-# Introduction
+---
+title: "Introduction"
+---
+
+# Core Diabetes Dataset
 
 This documentation defines the core diabetes dataset, including codelists and implementation rules for deriving its components, alongside code to extract these in a reproducible way. It also contains information on related projects.
 
 &nbsp;
 
-## Core diabetes dataset
+## Getting started
+
+Use the navigation on the left to jump directly to the parts of the dataset you need. Start with the core dataset overview to understand variables and derivations, explore the Exeter 10,000 project for cohort-specific information, and review the codelists section for the validated clinical code groups used throughout the framework.
+
+&nbsp;
+
+## Core dataset
 
 The core diabetes dataset defines a standardised set of variables describing diabetes diagnosis, classification, treatment, and key outcomes, derived from routinely collected health data. It is designed to support consistent, reproducible analyses across studies by providing clear variable definitions, validated codelists, and explicit implementation rules for data extraction and derivation. This dataset was agreed by expert consensus with input from patients and the public. It was developed as part of a [2025-2026 NHS-funded driver project](https://www.southwestsde.nhs.uk/transforming-diabetes-research-south-west-sde-leads-new-projects/).
 
-The core data set can be found here: [Core diabetes dataset](projects/Core%20dataset/info.md)
+The core data set can be found here: [Core diabetes dataset](projects/Core%20dataset/index.md)
 
 &nbsp;
 
 ## Exeter 10,000
 
-The Exeter 10,000 data set can be found here: [Exeter 10,000](projects/Exeter%2010,000/info.md)
+The Exeter 10,000 data set can be found here: [Exeter 10,000](projects/Exeter%2010,000/index.md)
 
 &nbsp;
 

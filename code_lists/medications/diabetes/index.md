@@ -1,4 +1,8 @@
-# Description
+---
+title: Diabetes
+---
+
+## Description
 
 These are lists of dm+d codes for non-insulin glucose-lowering medication and insulin.
 
