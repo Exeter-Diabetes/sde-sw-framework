@@ -102,7 +102,7 @@ C[primary_care_medications]
 ```
 
 
-## Data
+## Scripts
 
 * [1 Clean diabetes codes](step_1_clean_diabetes_codes.sql)
 * [2 Earliest clean diabetes code per patient](step_2_earliest_clean_diabetes_code_per_patient.sql)
