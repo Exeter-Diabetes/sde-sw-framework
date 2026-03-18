@@ -1398,7 +1398,7 @@
 <p>The diagram below illustrates table dependencies and processing
 steps used to construct the phenotype cohort.</p>
 <p>Any change to SQL logic should be reflected here.</p>
-<pre><code class="language-mermaid">flowchart TD
+<pre class="mermaid"><code>flowchart TD
 
 %% -------------------
 %% Source Tables
@@ -1410,7 +1410,7 @@ C[primary_care_medications]
 %% -------------------
 %% Step 1
 %% -------------------
-    subgraph Step_1[&quot;step_1_clean_diabetes_codes.sql&quot;]
+    subgraph Step_1["step_1_clean_diabetes_codes.sql"]
         D[eligible_patients]
         E[diabetes_events]
     end
@@ -1418,14 +1418,14 @@ C[primary_care_medications]
 %% -------------------
 %% Step 2
 %% -------------------
-    subgraph Step_2[&quot;step_2_earliest_clean_diabetes_code_per_patient.sql&quot;]
+    subgraph Step_2["step_2_earliest_clean_diabetes_code_per_patient.sql"]
         F[earliest_diabetes_code]
     end
 
 %% -------------------
 %% Step 3
 %% -------------------
-    subgraph Step_3[&quot;step_3_clean_hba1c_measures.sql&quot;]
+    subgraph Step_3["step_3_clean_hba1c_measures.sql"]
         G[hba1c_events_raw]
         H[hba1c_events_clean]
         I[hba1c_events_dedup] 
@@ -1434,7 +1434,7 @@ C[primary_care_medications]
 %% -------------------
 %% Step 4
 %% -------------------
-    subgraph Step_4[&quot;step_4_glucose_medication.sql&quot;]
+    subgraph Step_4["step_4_glucose_medication.sql"]
         J[insulin_medications_raw]
         K[non_insulin_medications_raw]
         L[insulin_medications_clean]
@@ -1444,14 +1444,14 @@ C[primary_care_medications]
 %% -------------------
 %% Step 5
 %% -------------------
-    subgraph Step_5[&quot;step_5_earliest_hba1c_measure.sql&quot;]
+    subgraph Step_5["step_5_earliest_hba1c_measure.sql"]
         N[earliest_hba1c_per_patient]
     end
 
 %% -------------------
 %% Step 6
 %% -------------------
-    subgraph Step_6[&quot;step_6_earliest_glucose_medication.sql&quot;]
+    subgraph Step_6["step_6_earliest_glucose_medication.sql"]
         O[earliest_insulin_per_patient]
         P[earliest_non_insulin_per_patient]
     end
@@ -1459,7 +1459,7 @@ C[primary_care_medications]
 %% -------------------
 %% Step 7
 %% -------------------
-    subgraph Step_7[&quot;step_7_diabetes_diagnosis_dates.sql&quot;]
+    subgraph Step_7["step_7_diabetes_diagnosis_dates.sql"]
         Q[earliest_glucose_med_per_patient]
         R[diabetes_diagnosis_dates]
     end
@@ -1467,7 +1467,7 @@ C[primary_care_medications]
 %% -------------------
 %% Step 8
 %% -------------------
-    subgraph Step_8[&quot;step_8_diabetes_code_counts_per_patient.sql&quot;]
+    subgraph Step_8["step_8_diabetes_code_counts_per_patient.sql"]
         S[diabetes_code_counts_per_patient]
     end
 
@@ -1490,8 +1490,7 @@ C[primary_care_medications]
     O --&gt; Q
     P --&gt; Q
     F --&gt; R
-    E --&gt; S
-</code></pre>
+    E --&gt; S</code></pre>
 <h2 id="scripts">Scripts</h2>
 <ul>
 <li><a href="step_1_clean_diabetes_codes.sql">1 Clean diabetes codes</a></li>
