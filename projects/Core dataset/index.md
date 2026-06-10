@@ -1,8 +1,51 @@
-# Core diabetes dataset
+# Diabetes Core Dataset
 
-This page details the steps to produce the tables which comprise the core diabetes dataset in GP data. These tables can then be combined to create different diabetes cohorts. An SQL implementation currently being developed by Kent, Medway and Sussex (KMS) SDE can be found [here](KMS%20implementation/README.md).
+This page details the variables included in the Diabetes Core Dataset and the steps to derive these variables from GP data. For each core variable, we recommend that the dataset produced includes all available instances for each patient (i.e. a longitudinal structure) such as repeated BMI measurements or all recorded cardiovascular disease events, to maximise flexibility for downstream research use. An SQL implementation currently being developed by Kent, Medway and Sussex (KMS) SDE can be found [here](KMS%20implementation/README.md).
 
 &nbsp;
+
+## Variables included in the Diabetes Core Dataset
+
+This dataset was agreed by expert consensus with input from patients and the public (paper TBC). 
+
+Patient identifiers required for data linkage and information describing the data source (such as start and end dates e.g. patient registration date in primary care) are considered structural requirements of the dataset and not explicitly listed below.
+
+| Domain | No. | Data item |
+|---------|-----|-----------|
+| Demographics and social determinants of health | 1 | Date of birth |
+| Demographics and social determinants of health | 2 | Sex |
+| Demographics and social determinants of health | 3 | Ethnicity |
+| Demographics and social determinants of health | 4 | Date of death |
+| Diabetes features | 5 | Age/date of diabetes diagnosis |
+| Diabetes features | 6 | Diabetes type (including remission) |
+| Clinical measurements | 7 | BMI |
+| Clinical measurements | 8 | Weight |
+| Clinical measurements | 9 | Height |
+| Clinical measurements | 10 | Blood pressure |
+| Biomarkers | 11 | HbA1c |
+| Biomarkers | 12 | Lipids: total cholesterol |
+| Biomarkers | 13 | Lipids: HDL |
+| Biomarkers | 14 | Lipids: triglycerides |
+| Biomarkers | 15 | Liver function: ALT |
+| Biomarkers | 16 | Kidney function: eGFR |
+| Biomarkers | 17 | Kidney function: urine ACR |
+| Diabetes complications | 18 | Retinopathy |
+| Diabetes complications | 19 | Foot complications (ulcer, infection, loss of sensation/pulse) |
+| Diabetes complications | 20 | Lower limb amputation (minor and major) |
+| Diabetes complications | 21 | Cardiovascular disease: overall and by subtype (including hypertension and heart failure) |
+| Diabetes complications | 22 | Chronic kidney disease stage plus transplant, dialysis |
+| Diabetes complications | 23 | Diabetic ketoacidosis (DKA) / hyperosmolar hyperglycaemic state (HHS) |
+| Lifestyle | 24 | Alcohol status |
+| Lifestyle | 25 | Smoking status |
+| Treatment of diabetes and associated conditions | 26 | Diabetes glucose-lowering medication |
+| Treatment of diabetes and associated conditions | 27 | CGM prescription |
+| Treatment of diabetes and associated conditions | 28 | Lipid-lowering medication |
+| Treatment of diabetes and associated conditions | 29 | Blood-pressure-lowering medication |
+| Treatment of diabetes and associated conditions | 30 | Anti-platelet therapy |
+
+&nbsp;
+
+# Defining variables in GP data
 
 Prerequisites:
 
