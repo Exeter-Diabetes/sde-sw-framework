@@ -4,7 +4,7 @@ title: "Introduction"
 
 # SWSDE Diabetes Data
 
-This repository contains information about diabetes datasets and tools developed by the University of Exeter, NHS and [NHS South West Secure Data Environment](https://www.southwestsde.nhs.uk/), including the Diabetes Core Dataset and Diabetes genomics database. It also contains information on related projects.
+This site contains information about diabetes datasets and tools developed by the University of Exeter, NHS and [NHS South West Secure Data Environment](https://www.southwestsde.nhs.uk/), including the Diabetes Core Dataset and Diabetes genomics database. It also contains information on related projects.
 
 &nbsp;
 
