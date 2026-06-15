@@ -22,7 +22,7 @@
     
     
       
-        <title>Core diabetes dataset - Core Diabetes Dataset</title>
+        <title>Diabetes Core Dataset - SWSDE Diabetes Data</title>
       
     
     
@@ -66,7 +66,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#core-diabetes-dataset" class="md-skip">
+        <a href="#diabetes-core-dataset" class="md-skip">
           Skip to content
         </a>
       
@@ -82,7 +82,7 @@
 
 <header class="md-header md-header--shadow" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="../../index.html" title="Core Diabetes Dataset" class="md-header__button md-logo" aria-label="Core Diabetes Dataset" data-md-component="logo">
+    <a href="../../index.html" title="SWSDE Diabetes Data" class="md-header__button md-logo" aria-label="SWSDE Diabetes Data" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
@@ -96,13 +96,13 @@
       <div class="md-header__ellipsis">
         <div class="md-header__topic">
           <span class="md-ellipsis">
-            Core Diabetes Dataset
+            SWSDE Diabetes Data
           </span>
         </div>
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Core diabetes dataset
+              Diabetes Core Dataset
             
           </span>
         </div>
@@ -189,13 +189,13 @@
 
 <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="../../index.html" title="Core Diabetes Dataset" class="md-nav__button md-logo" aria-label="Core Diabetes Dataset" data-md-component="logo">
+    <a href="../../index.html" title="SWSDE Diabetes Data" class="md-nav__button md-logo" aria-label="SWSDE Diabetes Data" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
 
     </a>
-    Core Diabetes Dataset
+    SWSDE Diabetes Data
   </label>
   
     <div class="md-nav__source">
@@ -951,8 +951,6 @@
       
         
       
-        
-      
     
     
     
@@ -1104,62 +1102,6 @@
 
               
             
-              
-                
-  
-  
-  
-  
-    
-    
-      
-        
-          
-        
-      
-    
-    
-    
-    
-    <li class="md-nav__item md-nav__item--nested">
-      
-        
-        
-        
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_2" >
-        
-          
-          
-          <div class="md-nav__link md-nav__container">
-            <a href="../Exeter%2010%2C000/index.html" class="md-nav__link ">
-              
-  
-  <span class="md-ellipsis">
-    Exeter 10,000
-  </span>
-  
-
-            </a>
-            
-          </div>
-        
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_2_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_3_2">
-            <span class="md-nav__icon md-icon"></span>
-            Exeter 10,000
-          </label>
-          <ul class="md-nav__list" data-md-scrollfix>
-            
-              
-            
-          </ul>
-        </nav>
-      
-    </li>
-  
-
-              
-            
           </ul>
         </nav>
       
@@ -1187,6 +1129,23 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#variables-included-in-the-diabetes-core-dataset" class="md-nav__link">
+    <span class="md-ellipsis">
+      Variables included in the Diabetes Core Dataset
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -1200,9 +1159,175 @@
                   
 
 
-<h1 id="core-diabetes-dataset">Core diabetes dataset</h1>
-<p>This page details the steps to produce the tables which comprise the core diabetes dataset in GP data. These tables can then be combined to create different diabetes cohorts. An SQL implementation currently being developed by Kent, Medway and Sussex (KMS) SDE can be found <a href="KMS%20implementation/index.html">here</a>.</p>
+<h1 id="diabetes-core-dataset">Diabetes Core Dataset</h1>
+<p>This page details the variables included in the Diabetes Core Dataset and the steps to derive these variables from GP data. For each core variable, we recommend that the dataset produced includes all available instances for each patient (i.e. a longitudinal structure) such as repeated BMI measurements or all recorded cardiovascular disease events, to maximise flexibility for downstream research use. An SQL implementation currently being developed by Kent, Medway and Sussex (KMS) SDE can be found <a href="KMS%20implementation/index.html">here</a>.</p>
 <p>&nbsp;</p>
+<h2 id="variables-included-in-the-diabetes-core-dataset">Variables included in the Diabetes Core Dataset</h2>
+<p>This dataset was agreed by expert consensus with input from patients and the public (paper TBC). </p>
+<p>Patient identifiers required for data linkage and information describing the data source (such as start and end dates e.g. patient registration date in primary care) are considered structural requirements of the dataset and not explicitly listed below.</p>
+<table>
+<thead>
+<tr>
+<th>Domain</th>
+<th>No.</th>
+<th>Data item</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Demographics and social determinants of health</td>
+<td>1</td>
+<td>Date of birth</td>
+</tr>
+<tr>
+<td>Demographics and social determinants of health</td>
+<td>2</td>
+<td>Sex</td>
+</tr>
+<tr>
+<td>Demographics and social determinants of health</td>
+<td>3</td>
+<td>Ethnicity</td>
+</tr>
+<tr>
+<td>Demographics and social determinants of health</td>
+<td>4</td>
+<td>Date of death</td>
+</tr>
+<tr>
+<td>Diabetes features</td>
+<td>5</td>
+<td>Age/date of diabetes diagnosis</td>
+</tr>
+<tr>
+<td>Diabetes features</td>
+<td>6</td>
+<td>Diabetes type (including remission)</td>
+</tr>
+<tr>
+<td>Clinical measurements</td>
+<td>7</td>
+<td>BMI</td>
+</tr>
+<tr>
+<td>Clinical measurements</td>
+<td>8</td>
+<td>Weight</td>
+</tr>
+<tr>
+<td>Clinical measurements</td>
+<td>9</td>
+<td>Height</td>
+</tr>
+<tr>
+<td>Clinical measurements</td>
+<td>10</td>
+<td>Blood pressure</td>
+</tr>
+<tr>
+<td>Biomarkers</td>
+<td>11</td>
+<td>HbA1c</td>
+</tr>
+<tr>
+<td>Biomarkers</td>
+<td>12</td>
+<td>Lipids: total cholesterol</td>
+</tr>
+<tr>
+<td>Biomarkers</td>
+<td>13</td>
+<td>Lipids: HDL</td>
+</tr>
+<tr>
+<td>Biomarkers</td>
+<td>14</td>
+<td>Lipids: triglycerides</td>
+</tr>
+<tr>
+<td>Biomarkers</td>
+<td>15</td>
+<td>Liver function: ALT</td>
+</tr>
+<tr>
+<td>Biomarkers</td>
+<td>16</td>
+<td>Kidney function: eGFR</td>
+</tr>
+<tr>
+<td>Biomarkers</td>
+<td>17</td>
+<td>Kidney function: urine ACR</td>
+</tr>
+<tr>
+<td>Diabetes complications</td>
+<td>18</td>
+<td>Retinopathy</td>
+</tr>
+<tr>
+<td>Diabetes complications</td>
+<td>19</td>
+<td>Foot complications (ulcer, infection, loss of sensation/pulse)</td>
+</tr>
+<tr>
+<td>Diabetes complications</td>
+<td>20</td>
+<td>Lower limb amputation (minor and major)</td>
+</tr>
+<tr>
+<td>Diabetes complications</td>
+<td>21</td>
+<td>Cardiovascular disease: overall and by subtype (including hypertension and heart failure)</td>
+</tr>
+<tr>
+<td>Diabetes complications</td>
+<td>22</td>
+<td>Chronic kidney disease stage plus transplant, dialysis</td>
+</tr>
+<tr>
+<td>Diabetes complications</td>
+<td>23</td>
+<td>Diabetic ketoacidosis (DKA) / hyperosmolar hyperglycaemic state (HHS)</td>
+</tr>
+<tr>
+<td>Lifestyle</td>
+<td>24</td>
+<td>Alcohol status</td>
+</tr>
+<tr>
+<td>Lifestyle</td>
+<td>25</td>
+<td>Smoking status</td>
+</tr>
+<tr>
+<td>Treatment of diabetes and associated conditions</td>
+<td>26</td>
+<td>Diabetes glucose-lowering medication</td>
+</tr>
+<tr>
+<td>Treatment of diabetes and associated conditions</td>
+<td>27</td>
+<td>CGM prescription</td>
+</tr>
+<tr>
+<td>Treatment of diabetes and associated conditions</td>
+<td>28</td>
+<td>Lipid-lowering medication</td>
+</tr>
+<tr>
+<td>Treatment of diabetes and associated conditions</td>
+<td>29</td>
+<td>Blood-pressure-lowering medication</td>
+</tr>
+<tr>
+<td>Treatment of diabetes and associated conditions</td>
+<td>30</td>
+<td>Anti-platelet therapy</td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>
+<h1 id="defining-variables-in-gp-data">Defining variables in GP data</h1>
 <p>Prerequisites:</p>
 <ul>
 <li>Date of birth should be available for all patients (at minimum, year of birth; month and year preferred). Patients without this information should be excluded. Where the exact date of birth is unavailable, we have developed an <a href="../../code_lists/sociodemographics/date%20of%20birth/index.html">algorithm for defining date of birth</a>; however, its use may be restricted by data source–specific governance or regulatory requirements.</li>

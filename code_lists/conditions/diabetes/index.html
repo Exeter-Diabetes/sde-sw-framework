@@ -22,7 +22,7 @@
     
     
       
-        <title>Diabetes - Core Diabetes Dataset</title>
+        <title>Diabetes - SWSDE Diabetes Data</title>
       
     
     
@@ -82,7 +82,7 @@
 
 <header class="md-header md-header--shadow" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="../../../index.html" title="Core Diabetes Dataset" class="md-header__button md-logo" aria-label="Core Diabetes Dataset" data-md-component="logo">
+    <a href="../../../index.html" title="SWSDE Diabetes Data" class="md-header__button md-logo" aria-label="SWSDE Diabetes Data" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
@@ -96,7 +96,7 @@
       <div class="md-header__ellipsis">
         <div class="md-header__topic">
           <span class="md-ellipsis">
-            Core Diabetes Dataset
+            SWSDE Diabetes Data
           </span>
         </div>
         <div class="md-header__topic" data-md-component="header-topic">
@@ -189,13 +189,13 @@
 
 <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="../../../index.html" title="Core Diabetes Dataset" class="md-nav__button md-logo" aria-label="Core Diabetes Dataset" data-md-component="logo">
+    <a href="../../../index.html" title="SWSDE Diabetes Data" class="md-nav__button md-logo" aria-label="SWSDE Diabetes Data" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
 
     </a>
-    Core Diabetes Dataset
+    SWSDE Diabetes Data
   </label>
   
     <div class="md-nav__source">
@@ -955,8 +955,6 @@
       
         
       
-        
-      
     
     
     
@@ -1106,62 +1104,6 @@
 
               
             
-              
-                
-  
-  
-  
-  
-    
-    
-      
-        
-          
-        
-      
-    
-    
-    
-    
-    <li class="md-nav__item md-nav__item--nested">
-      
-        
-        
-        
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_2" >
-        
-          
-          
-          <div class="md-nav__link md-nav__container">
-            <a href="../../../projects/Exeter%2010%2C000/index.html" class="md-nav__link ">
-              
-  
-  <span class="md-ellipsis">
-    Exeter 10,000
-  </span>
-  
-
-            </a>
-            
-          </div>
-        
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_2_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_3_2">
-            <span class="md-nav__icon md-icon"></span>
-            Exeter 10,000
-          </label>
-          <ul class="md-nav__list" data-md-scrollfix>
-            
-              
-            
-          </ul>
-        </nav>
-      
-    </li>
-  
-
-              
-            
           </ul>
         </nav>
       
@@ -1211,33 +1153,6 @@
   
 </li>
       
-        <li class="md-nav__item">
-  <a href="#origins" class="md-nav__link">
-    <span class="md-ellipsis">
-      Origins
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#versions" class="md-nav__link">
-    <span class="md-ellipsis">
-      Versions
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#data" class="md-nav__link">
-    <span class="md-ellipsis">
-      Data
-    </span>
-  </a>
-  
-</li>
-      
     </ul>
   
 </nav>
@@ -1256,47 +1171,24 @@
   <h1>Diabetes</h1>
 
 <h2 id="description">Description</h2>
-<p>This is a list of codes for diabetes: type 1, type 2 and unspecified type. It does not include codes for other types of diabetes e.g. gestational, secondary, monogenic, syndromic.</p>
+<p>A list of codes for all diabetes types. We do not provide a specific codelist but recommend using that from the <a href="https://bhf-dsc-hds.shinyapps.io/hds_phenotypes_diabetes/">Defining Diabetes HDR UK Diabetes Data Science Catalyst (DDSC) project</a>. Alternative codelists can be found on the <a href="https://phenotypes.healthdatagateway.org/">HDR UK Phenotype Library</a> and <a href="https://www.opencodelists.org/">OpenCodelists</a>.</p>
 <h2 id="rules">Rules</h2>
 <ul>
 <li>
 <p>Check to make sure the date is within the range expected given the data source and patient DOB and death dates.</p>
 </li>
 <li>
-<p>Presence of one of these codes may not be sufficient to define diabetes cases. In primary care data, the presence of a diabetes Quality and Outcome Framework (QOF) code is more specific for true diabetes cases ('qof' column in <a href="all_diabetes_snomed.csv">our SNOMED codelist</a> indicates whether a code is a diabetes QOF code or not). In addition, specificity can be increased by removing patients with codes for other types of diabetes mellitus (gestational, secondary etc.) or diabetes insipidus, who may erroneously have diabetes mellitus codes in their records.</p>
+<p>We recommended following the <a href="https://bhf-dsc-hds.shinyapps.io/hds_phenotypes_diabetes/">Defining Diabetes HDR UK Diabetes Data Science Catalyst (DDSC) algorithm</a> to define diabetes cases, diabetes diagnosis dates and diabetes type:</p>
 </li>
 <li>
-<p>Our algorithm for defining diabetes diagnosis date: the earliest of a code for diabetes, an HbA1c&gt;=48 mmol/mol (see investigation/HbA1c) or a prescription for a glucose-lowering medication (including insulin; see medications/diabetes). It may not be possible to determine diagnosis dates in some datasets if historical data is not available. For those with type 2 diabetes, diabetes codes within the year of birth are ignored. It may be possible to ignore other diabetes codes which clearly do not relate to diagnosis in some datasets e.g. in CPRD ignore diabetes codes with obstype=4 as these represent family history.</p>
+<p>Diabetes cases: (1) a diabetes diagnostic code (in primary or secondary care), (2) at least six months of insulin prescription data (see <a href="../../medications/diabetes/index.html">diabetes medications</a>), or (3) two consecutive elevated HbA1c (see <a href="../../investigations/HbA1c/index.html">HbA1c</a>) results of 48 or above.</p>
 </li>
 <li>
-<p>Our algorithm for distinguishing between type 1 and type 2 diabetes:</p>
-</li>
-<li>No insulin prescriptions: Type 2</li>
-<li>
-<p>With at least one insulin prescription:</p>
-<ul>
-<li>At least one Type 1 and no Type 2 codes: Type 1</li>
-<li>At least one Type 2 and no Type 1 codes: Type 2</li>
-<li>Mix of Type 1 and Type 2 codes: if number of Type 1 medcodes &gt;=2 x number of Type 2 medcodes, Type 1, otherwise Type 2</li>
-<li>No Type 1 or Type 2 codes: leave as 'unclassified'. If required, a probable diabetes type can be assigned as follows: where time to insulin from diagnosis available: if diagnosed &lt;35 years of age and on insulin within 1 year of diagnosis, Type 1, otherwise Type 2; if time to insulin not available: if diagnosed &lt;35 years and not currently taking a non-insulin glucose-lowering medication (no prescription for a non-insulin glucose-lowering medication within 6 months, Type 1, otherwise Type 2.</li>
-</ul>
+<p>Diabetes diagnosis dates: the earliest of (1) the first recorded diabetes code of any type, or (2) the first elevated HbA1c result from a qualifying pair (two results within two years), but only if this HbA1c occurred more than one year before the first diagnosis code. It may not be possible to determine diagnosis dates in some datasets if historical data is not available. Accuracy can be improved by a) ignoring codes within the year of birth for those with type 2 diabetes, and/or b) ignoring diabetes codes which clearly do not relate to diagnosis e.g. in CPRD ignore diabetes codes with obstype=4 as these represent family history.</p>
 </li>
 <li>
-<p>Since diabetes type is used to inform whether diabetes codes in year of birth should be excluded or not, this can create a circular problem in those with no type 1 or type 2-specific codes, where someone is classified as type 1 if diabetes codes in year of birth are included, and type 2 if diabetes medcodes in year of birth are excluded (or vice versa, if time to insulin from diagnosis is affected). These people are classed as 'unclassified', and need further investigation to establish diabetes type and date/age of diagnosis.</p>
+<p>Classifying type 1 and type 2 diabetes in those with codes for both: if not currently on insulin (no prescriptions in last 6 months) and &gt;1 year between diagnosis and earliest insulin script, categorise as type 2. If either currently on insulin or started insulin within 1 year of diagnosis, use the ratio of type 1:type 2 codes to assign type. The DDSC algorithm evaluated three approaches to assigning type 1 based on type 1:type 2 code ratios: V2.0 (Majority rule): Type 1 codes &gt; Type 2 codes; V2.1 (Klompas): Type 1 codes &gt; 0.5 × Type 2 codes; V2.2 (Exeter rule): Type 1 codes ≥ 2 × Type 2 codes. V2.0 demonstrates the best balance of specificity and sensitivity for type 1 diabetes classification based on genetic validation; V2.1 and V2.2 have greater specificity but with reduced sensitivity.</p>
 </li>
-</ul>
-<h2 id="origins">Origins</h2>
-<ul>
-<li>The origin of the SNOMED codelist was searching for diabetes and related codes in the SNOMED CT UK edition release 41.2.0 from NHS TRUD.</li>
-</ul>
-<h2 id="versions">Versions</h2>
-<ul>
-<li>The SNOMED codelist was updated on 23/02/2026 to remove 9 codes for specific non-type 1/non-type 2 diabetes types, and reclassify two type 1 codes to type 2.</li>
-</ul>
-<h2 id="data">Data</h2>
-<ul>
-<li><a href="all_diabetes_snomed_v2.csv">Diabetes SNOMED</a></li>
-<li><a href="all_diabetes_icd10.csv">Diabetes ICD10</a></li>
 </ul>
 
 
