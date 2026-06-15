@@ -1,6 +1,6 @@
 # Introduction
 
-This repository contains definitions of the Diabetes Core Dataset, including implementation rules for deriving its components, alongside code to extract these in a reproducible way. It also contains information on related projects. 
+This repository contains information about diabetes datasets and tools developed by the University of Exeter, NHS and NHS South West Secure Data Environment, including the Diabetes Core Dataset and Diabetes genomics database. It also contains information on related projects. 
 
 ## Documentation
 
@@ -9,3 +9,12 @@ The [full documentation](https://exeter-diabetes.github.io/sde-sw-framework/) is
 ## Contributing
 
 Instructions on how to contribute to this repo can be found in the [CONTRIBUTING.md](CONTRIBUTING.md) document. It also contains instructions on how to build and view the documentation locally.
+
+## Licence
+
+This repository is released under a Creative Commons Attribution-NonCommercial 4.0 International licence.
+
+## Contact
+
+For further information or queries please email Katie Young: k.young3@exeter.ac.uk.
+
