@@ -12,7 +12,7 @@ A list of codes for all diabetes types. We do not provide a specific codelist bu
 
 * We recommended following the [Defining Diabetes HDR UK Diabetes Data Science Catalyst (DDSC) algorithm](https://bhf-dsc-hds.shinyapps.io/hds_phenotypes_diabetes/) to define diabetes cases, diabetes diagnosis dates and diabetes type:
 
- - Diabetes cases: (1) a diabetes diagnostic code (in primary or secondary care), (2) at least six months of insulin prescription data (see [Insulin](conditions/medications/diabetes/index.md)), or (3) two consecutive elevated HbA1c (see HbA1c) results of 48 or above.
+ - Diabetes cases: (1) a diabetes diagnostic code (in primary or secondary care), (2) at least six months of insulin prescription data (see [diabetes medications](../../medications/diabetes/index.md)), or (3) two consecutive elevated HbA1c (see [HbA1c](../../investigations/HbA1c/index.md)) results of 48 or above.
 
  - Diabetes diagnosis dates: the earliest of (1) the first recorded diabetes code of any type, or (2) the first elevated HbA1c result from a qualifying pair (two results within two years), but only if this HbA1c occurred more than one year before the first diagnosis code. It may not be possible to determine diagnosis dates in some datasets if historical data is not available. Accuracy can be improved by a) ignoring codes within the year of birth for those with type 2 diabetes, and/or b) ignoring diabetes codes which clearly do not relate to diagnosis e.g. in CPRD ignore diabetes codes with obstype=4 as these represent family history.
  
