@@ -12,7 +12,7 @@ Instructions on how to contribute to this repo can be found in the [CONTRIBUTING
 
 ## Licence
 
-This repository is released under a Creative Commons Attribution-NonCommercial 4.0 International licence.
+This repository is released under a Creative Commons Attribution-NonCommercial 4.0 International license.
 
 ## Contact
 
