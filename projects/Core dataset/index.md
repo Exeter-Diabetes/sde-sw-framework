@@ -1,6 +1,6 @@
 # Diabetes Core Dataset
 
-This page details the variables included in the Diabetes Core Dataset and the steps to derive these variables from GP data. For each core variable, we recommend that the dataset produced includes all available instances for each patient (i.e. a longitudinal structure) such as repeated BMI measurements or all recorded cardiovascular disease events, to maximise flexibility for downstream research use. An SQL implementation currently being developed by Kent, Medway and Sussex (KMS) SDE can be found [here](KMS%20implementation/README.md).
+This page details the variables included in the Diabetes Core Dataset and the steps to derive these variables from GP data. For each core variable, we recommend that the dataset produced includes all available instances for each patient (i.e. a longitudinal structure) such as repeated BMI measurements or all recorded cardiovascular disease events, to maximise flexibility for downstream research use. An SQL implementation currently being developed by Kent, Medway and Sussex (KMS) SDE can be found [here](KMS%20implementation/README.md). The Diabetes Core Dataset is listed as a tool on the [HDR UK Health Data Research Gateway](https://healthdatagateway.org/en/tool/426).
 
 &nbsp;
 
