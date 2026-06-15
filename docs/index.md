@@ -18,6 +18,8 @@ The core data set can be found here: [Core diabetes dataset](projects/Core%20dat
 
 ## Diabetes genomics dataset
 
+Metadata developed as part of 2026 DAFNEA project (more information here: https://www.southwestsde.nhs.uk/new-1m-fund-to-accelerate-research-access-to-health-and-care-data-in-the-south-west/).
+
 &nbsp;
 
 ## Codelists
