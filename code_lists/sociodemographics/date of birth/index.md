@@ -13,12 +13,3 @@ This is a description of how date of birth can be defined when either date or da
   * 15th of month of birth (where month of birth and year of birth available) / 1st July where only year of birth available
   * Earliest recorded code in records (excluding those before earliest possible date of birth)
   * Registration start date, where available (excluding before earliest possible date of birth)
-
-## Origins
-
-Not applicable
-
-## Data
-
-Not applicable
-

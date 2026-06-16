@@ -1,10 +1,10 @@
 ---
-title: Diabetes
+title: Diabetes complications
 ---
 
 ## Description
 
-Codelists for retinopathy, foot complications, lower limb amputation, cardiovascular complications, chronic kidney disease, and diabetic ketoacidosis (DKA)/ hyperosmolar hyperglycaemic state (HHS). We do not provide specific codelists but recommend the below. Alternative codelists and algorithms can be found on the [HDR UK Phenotype Library](https://phenotypes.healthdatagateway.org/) and [OpenCodelists](https://www.opencodelists.org/).
+Defining diabetes-related complications (retinopathy, foot complications, lower limb amputation, cardiovascular complications, chronic kidney disease, and diabetic ketoacidosis (DKA)/ hyperosmolar hyperglycaemic state (HHS)) in EHR data. We recommend using codelists/algorithms from the [HDR UK Phenotype Library](https://phenotypes.healthdatagateway.org/) or [OpenCodelists](https://www.opencodelists.org/), in conjunction with the below advice.
 
 * Retinopathy can be identified using GP clinical codes and linked secondary care diagnostic and procedure codes (including retinal photocoagulation), with severity potentially inferred where coding allows.
 

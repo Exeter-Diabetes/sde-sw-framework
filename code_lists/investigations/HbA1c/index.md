@@ -4,7 +4,7 @@ title: HbA1c
 
 ## Description
 
-This is a list of codes for measured HbA1c values.
+Identifying and cleaning HbA1c values iN EHR data.
 
 ## Rules
 
@@ -17,7 +17,7 @@ To note: steps 1-4 below should be carried out in this order to produce a standa
 
 * Check to make sure the date is within the range expected given the data source and patient DOB and death dates.
 
-* In patients with diabetes, the earliest HbA1c>=48 mmol/mol (based on clean values aggregated by patient identifier and date) is used in the algorithm to define diagnosis date - see conditions/diabetes.
+* In patients with diabetes, elevated HbA1c values (>=48 mmol/mol; based on clean values aggregated by patient identifier and date) are used in the algorithm to define diagnosis date - see conditions/diabetes.
 
 ## Origins
 
