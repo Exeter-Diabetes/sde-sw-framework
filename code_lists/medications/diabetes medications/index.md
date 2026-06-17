@@ -4,7 +4,7 @@ title: Diabetes
 
 ## Description
 
-Identifying and cleaning prescriptions for non-insulin glucose-lowering medication and insulin in EHR. We recommend using codelists from the [HDR UK Phenotype Library](https://phenotypes.healthdatagateway.org/) or [OpenCodelists](https://www.opencodelists.org/), in conjunction with the below advice.
+Identifying and cleaning prescriptions for non-insulin glucose-lowering medication and insulin in EHR. We recommend using codelists from the [Defining Diabetes HDR UK Diabetes Data Science Catalyst (DDSC) project](https://bhf-dsc-hds.shinyapps.io/hds_phenotypes_diabetes/) (codelist also available at the HDR UK Phenotype Library [here](https://phenotypes.healthdatagateway.org/phenotypes/PH4062/version/9273/)). Alternative codelists can be found on the [HDR UK Phenotype Library](https://phenotypes.healthdatagateway.org/) and [OpenCodelists](https://www.opencodelists.org/).
 
 ## Rules
 
