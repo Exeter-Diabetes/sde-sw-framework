@@ -39,9 +39,9 @@ Patient identifiers required for data linkage and information describing the dat
 | Lifestyle | 25 | Smoking status |
 | Treatment of diabetes and associated conditions | 26 | Diabetes glucose-lowering medication |
 | Treatment of diabetes and associated conditions | 27 | CGM prescription |
-| Treatment of diabetes and associated conditions | 28 | Lipid-lowering medication |
-| Treatment of diabetes and associated conditions | 29 | Blood-pressure-lowering medication |
-| Treatment of diabetes and associated conditions | 30 | Anti-platelet therapy |
+| Treatment of diabetes and associated conditions | 28 | Lipid lowering medication |
+| Treatment of diabetes and associated conditions | 29 | Blood pressure lowering medication |
+| Treatment of diabetes and associated conditions | 30 | Antiplatelet therapy |
 
 &nbsp;
 
