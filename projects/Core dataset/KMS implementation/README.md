@@ -1,4 +1,9 @@
-# Phenotype Data Flow
+# SQL code for deriving Diabetes Core Dataset variables in GP data
+
+Note that this code was developed on a previous version of the steps detailed [here](https://github.com/Exeter-Diabetes/sde-sw-framework/blob/dev/projects/Core%20dataset/index.md#defining-variables-in-gp-data). Steps 1-3 remain the same; step 4 below corresponds to step 6 [here](https://github.com/Exeter-Diabetes/sde-sw-framework/blob/dev/projects/Core%20dataset/index.md#defining-variables-in-gp-data); step 5 below corresponds to step 4 [here](https://github.com/Exeter-Diabetes/sde-sw-framework/blob/dev/projects/Core%20dataset/index.md#defining-variables-in-gp-data); step 8 corresponds to step 11 [here](https://github.com/Exeter-Diabetes/sde-sw-framework/blob/dev/projects/Core%20dataset/index.md#defining-variables-in-gp-data). Steps 6 and 7 below are no longer part of the implementation.
+
+
+## Phenotype Data Flow
 
 The diagram below illustrates table dependencies and processing
 steps used to construct the phenotype cohort.
