@@ -18,13 +18,13 @@ The core data set can be found here: [Core diabetes dataset](projects/Core%20dat
 
 ## Diabetes genomics dataset
 
-Metadata developed as part of 2026 DAFNEA project (more information here: https://www.southwestsde.nhs.uk/new-1m-fund-to-accelerate-research-access-to-health-and-care-data-in-the-south-west/).
+Metadata developed as part of 2026 DAFNEA project (more information [here](https://www.southwestsde.nhs.uk/new-1m-fund-to-accelerate-research-access-to-health-and-care-data-in-the-south-west/)).
 
 &nbsp;
 
 ## Codelists
 
-Codelists and algorithms for defining variables in routine primary and secondary care data (SNOMED, dm+d, ICD10 and OPCS4), as well as implementation rules, are provided for the components of the core diabetes dataset and other variables.
+Codelists and algorithms for defining variables in electronic health records (EHR), as well as implementation rules, are provided for the components of the core diabetes dataset and other variables.
 
 &nbsp;
 
