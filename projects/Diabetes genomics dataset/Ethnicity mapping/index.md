@@ -14,7 +14,7 @@ Ethnicity was a free-text field in the original dataset; these have been mapped 
 * Some ethnicities were treated as missing if not clear
 * If a ethnicity is explicitly stated (e.g. White, Black, Asian, Arabic, Caucasian, African), this takes precedence over additional information that may indicate nationality rather than ethnicity (e.g. British, Italian)
 * Individuals were only be classified as "Mixed" if they explicitly self-identify as mixed (e.g. use the term "mixed") or if two distinct ethnicities are clearly stated. Individuals were not classified as mixed based solely on combinations that may represent nationalities rather than ethnicities.
-* Turkish included in White ethnicity
+* Turkish is included in White ethnicity unless further information to the contrary provided
 
 &nbsp;
 
