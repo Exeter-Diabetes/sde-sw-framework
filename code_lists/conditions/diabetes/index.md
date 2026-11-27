@@ -20,4 +20,43 @@ Defining diabetes in EHR data. We recommend using codelists from the [Defining D
 
 * Further work needs to be carried out to classify other diabetes types within the 'Diabetes Other' classification resulting from the algorithm, e.g. we have previously ascertained type 3c cases by requiring a record of a pancreatic condition (acute pancreatitis, chronic pancreatitis, pancreatic cancer, or haemochromatosis) prior to a diagnosis of diabetes.
 
-* Note that some patients have 'diabetes in remission' codes. These are distinct from 'diabetes resolved' codes which are sometimes used where patients have been incorrectly coded as having diabetes and have never had diabetes.
+&nbsp;
+
+## Diabetes remission and resolution
+
+Diabetes remission should be recorded separately from the underlying diabetes type. Diabetes resolved codes are distinct from remission codes and may be used where a previous diabetes diagnosis was incorrect.
+
+The following SNOMED CT codes are included in the DDSC diabetes diagnostic codelists:
+
+| SNOMED CT code | Description | Event category | Diabetes type associated with code |
+|---|---|---|---|
+| 703136005 | Diabetes mellitus in remission | Remission | Unspecified |
+| 703137001 | Type I diabetes mellitus in remission | Remission | Type 1 |
+| 703138006 | Type II diabetes mellitus in remission | Remission | Type 2 |
+| 315051004 | Diabetes resolved | Resolved | Unspecified |
+
+Sources: [DDSC type 1 diabetes codelist](https://github.com/BHFDSC/hds_phenotypes_diabetes/blob/main/hds_phenotypes_diabetes/1.%20codelists/diabetes_type1.csv), [DDSC type 2 diabetes codelist](https://github.com/BHFDSC/hds_phenotypes_diabetes/blob/main/hds_phenotypes_diabetes/1.%20codelists/diabetes_type2.csv) and [DDSC diabetes NOS codelist](https://github.com/BHFDSC/hds_phenotypes_diabetes/blob/main/hds_phenotypes_diabetes/1.%20codelists/diabetes_nos.csv).
+
+Identify these codes explicitly rather than filtering on the DDSC Remission label, which does not consistently distinguish remission from resolution or identify type-specific remission codes.
+
+### DIA-Core implementation
+
+Retain all recorded remission and resolution events in a longitudinal table:
+
+| Variable | Description |
+|---|---|
+| patient_id | Pseudonymous patient identifier |
+| event_date | Date of recorded remission or resolution |
+| clinical_code | Original SNOMED CT code |
+| event_category | Remission or resolved |
+| code_diabetes_type | Diabetes type associated with the code (type 1, type 2 or unspecified) |
+
+### Rules
+
+- Retain remission and resolution codes as separate event categories, including all recorded instances and dates.
+- Preserve the underlying diabetes type and diagnosis date derived through the diabetes cohort ascertainment algorithm.
+- Do not use a historical remission code alone to infer current remission status.
+- Do not automatically exclude individuals from the diabetes cohort solely because a diabetes resolved code is recorded.
+- The initial DIA-Core implementation captures recorded remission. Deriving remission from longitudinal HbA1c and glucose-lowering medication history, including the end of remission, is outside the scope of this initial implementation.
+
+For CPRD-specific implementations, an [Exeter remission and resolution medcode codelist](https://github.com/Exeter-Diabetes/CPRD-Codelists/blob/HEAD/Medcodes/Diabetes/exeter_medcodelist_diabetes_remission.txt) is also available; the SNOMED CT codes above are recommended for DIA-Core.
