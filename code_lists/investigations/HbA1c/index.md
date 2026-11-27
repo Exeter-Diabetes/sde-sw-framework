@@ -8,12 +8,11 @@ Identifying and cleaning HbA1c values in EHR data.
 
 ## Rules
 
-To note: steps 1-4 below should be carried out in this order to produce a standardised end result:
+To note: steps 1-3 below should be carried out in this order to produce a standardised end result:
 
-1. Convert all values to mmol/mol; where unit codes are not available we assume values <=20 are in % and require conversion.
-2. Remove values less than 20 or greater than 195 mmol/mol as these are implausible.
-3. Apply additional cleaning rules based on unit codes where available.
-4. If multiple values recorded on the same day for a patient, we take the mean.
+1. Convert all values to mmol/mol using recorded unit information where available. Where unit information is unavailable, assume values <=20 are in % and require conversion.
+2. Remove values less than 20 or greater than 195 mmol/mol as these are considered implausible.
+3. If multiple values are recorded on the same day for a patient, take the mean.
 
 * Check to make sure the date is within the range expected given the data source and patient DOB and death dates.
 
