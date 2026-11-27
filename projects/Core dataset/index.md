@@ -18,6 +18,8 @@ The Diabetes Core Dataset is also listed as a tool on the [HDR UK Health Data Re
 
 The DIA-Core implementation framework is designed to support consistent and reproducible implementation across Secure Data Environments (SDEs) and other routinely collected health data sources.
 
+The DIA-Core implementation framework is under active development as part of the HDRS Technical Transformation project. Guidance is provided for all 30 core dataset variables, although some codelists and phenotype definitions require further refinement. Implementation and evaluation within the North East and North Cumbria SDE will inform subsequent updates.
+
 Implementation involves two main stages:
 
 ### Stage 1: Diabetes cohort ascertainment and classification
