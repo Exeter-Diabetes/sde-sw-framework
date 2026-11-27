@@ -4,11 +4,11 @@ title: HbA1c
 
 ## Description
 
-Identifying and cleaning HbA1c values iN EHR data.
+Identifying and cleaning HbA1c values in EHR data.
 
 ## Rules
 
-To note: steps 1-4 below should be carried out in this order to produce a standardised end reult:
+To note: steps 1-4 below should be carried out in this order to produce a standardised end result:
 
 1. Convert all values to mmol/mol; where unit codes are not available we assume values <=20 are in % and require conversion.
 2. Remove values less than 20 or greater than 195 mmol/mol as these are implausible.
