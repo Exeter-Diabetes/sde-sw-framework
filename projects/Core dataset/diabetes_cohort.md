@@ -1,4 +1,3 @@
-
 ---
 title: Diabetes cohort ascertainment
 ---
