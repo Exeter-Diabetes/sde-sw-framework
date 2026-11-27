@@ -41,6 +41,21 @@ Hospital ethnicity codes should be mapped to the equivalent ethnicity categories
 
 &nbsp;
 
+## Recommended default classification
+
+For a single patient-level ethnicity variable, we recommend adapting the [Exeter CPRD ethnicity algorithm](https://github.com/Exeter-Diabetes/CPRD-Codelists#ethnicity) to the 16-category classification:
+
+1. Within each data source, exclude missing, unknown and not stated categories from the classification counts. Include valid ethnicity categories even where the observation date is unavailable.
+2. Assign the most frequently recorded valid ethnicity category.
+3. If multiple categories are equally frequent, select the category with the most recent dated recording among the tied categories.
+4. If the tie cannot be resolved using available dates, including where conflicting tied categories occur on the same most recent date, assign unknown.
+5. Derive ethnicity separately in primary and secondary care. Use the primary care classification preferentially, supplementing with the secondary care classification if primary care ethnicity is missing or unknown.
+6. Derive broader ethnicity groupings from the assigned 16-category classification to ensure consistency between grouping levels.
+
+Retain the source-specific counts and recency variables to support alternative classifications. The default is adapted from the Exeter approach rather than a requirement to reproduce its separate five-category and QRISK2 algorithms. Alternative frequency- and recency-based approaches have been evaluated by [Shiekh et al. (2025)](https://doi.org/10.1136/bmjopen-2025-100533).
+
+&nbsp;
+
 ## Recommended derived variables
 
 For each patient, we recommend deriving:
@@ -51,6 +66,7 @@ For each patient, we recommend deriving:
 | Most recent ethnicity | Ethnicity category of the most recently recorded valid ethnicity code |
 | Most recent ethnicity date | Date of the most recently recorded valid ethnicity code |
 | Most frequent ethnicity | Most frequently recorded valid ethnicity category |
+| Assigned ethnicity | Recommended 16-category ethnicity derived using the default classification above |
 | Ethnicity data source | Source of the derived ethnicity information |
 
 Where ethnicity is available from both primary and secondary care, these variables should be derived separately for each data source.
@@ -65,3 +81,4 @@ Where possible, retain the original longitudinal ethnicity records alongside the
 
 - [Mathur et al. (2014). Completeness and usability of ethnicity data in UK-based primary care and hospital databases. Journal of Public Health.](https://doi.org/10.1093/pubmed/fdt116)
 - [Andrews et al. (2024). Consistency, completeness and external validity of ethnicity recording in NHS primary care records: a cohort study in 25 million patients' records at source using OpenSAFELY. BMC Medicine.](https://doi.org/10.1186/s12916-024-03499-5)
+- [Shiekh SI, Williams R, Axson EL (2025). Development of an algorithm for ethnicity recording in cohorts from the UK Clinical Practice Research Datalink primary care and linked Hospital Episode Statistics databases. BMJ Open.](https://doi.org/10.1136/bmjopen-2025-100533)
