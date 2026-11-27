@@ -8,9 +8,9 @@ Defining diabetes-related complications (retinopathy, foot complications, lower 
 
 * Retinopathy can be identified using GP clinical codes and linked secondary care diagnostic and procedure codes (including retinal photocoagulation), with severity potentially inferred where coding allows.
 
-* Foot complications can be defined using GP diagnostic codes and supporting secondary care diagnostic for diabetic foot disease, including ulceration, infection, and related complications. Foot risk status can also be ascertained by [NHS Quality and Outcomes Framework (QOF) codes)](https://digital.nhs.uk/data-and-information/data-tools-and-services/data-services/general-practice-data-hub/quality-outcomes-framework-qof).
+* [Foot complications](../foot%20complications/index.md), including ulceration, infection, loss of sensation and absent foot pulses, can be identified using primary care clinical codes, QOF foot examination codes and linked secondary care data.
 
-* Lower limb amputation can be identified primarily through secondary care OPCS-4 procedure codes, distinguishing minor and major amputations.
+* [Lower limb amputation](../foot%20complications/index.md#lower-limb-amputation) can be identified primarily through secondary care OPCS-4 procedure codes, supplemented by primary care records, distinguishing minor and major amputations where coding allows.
 
 * [Cardiovascular disease](../cardiovascular%20disease/index.md) can be defined using primary care and linked secondary care and mortality records. We recommend using the BHF Data Science Centre SCORE-CVD phenotyping algorithms for identifying myocardial infarction and stroke events, alongside resources developed through the Heart Failure Phenotype Benchmarking project.
 
