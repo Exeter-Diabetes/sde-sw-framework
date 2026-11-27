@@ -4,7 +4,14 @@ title: Blood pressure
 
 ## Description
 
-Identifying and cleaning systolic and diastolic blood pressure values in EHR data. We recommend using codelists/algorithms from the [HDR UK Phenotype Library](https://phenotypes.healthdatagateway.org/) or [OpenCodelists](https://www.opencodelists.org/), in conjunction with the below advice.
+Identifying and cleaning systolic and diastolic blood pressure values in EHR data. We recommend using the SNOMED CT codelists developed by the University of Exeter.
+
+## Codelists
+
+- [Exeter systolic blood pressure SNOMED CT codelist](https://github.com/Exeter-Diabetes/CPRD-Codelists/blob/HEAD/Medcodes/Biomarkers/SNOMED%20codelists/exeter_snomed_codelist_sbp_final.csv)
+- [Exeter diastolic blood pressure SNOMED CT codelist](https://github.com/Exeter-Diabetes/CPRD-Codelists/blob/HEAD/Medcodes/Biomarkers/SNOMED%20codelists/exeter_snomed_codelist_dbp_final.csv)
+
+Extract the snomedcode field, remove trailing hash (#) characters from code identifiers and remove duplicate codes before use. The codelists include measurement concepts and other clinical findings. Use associated numerical measurement values to derive continuous blood pressure; do not infer numerical values from clinical code descriptions alone. Retain measurement context (e.g. home, ambulatory or clinic readings) where available.
 
 ## Rules
 
