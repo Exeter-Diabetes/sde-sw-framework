@@ -4,7 +4,13 @@ title: Weight
 
 ## Description
 
-Identifying and cleaning weight values in EHR data. We recommend using codelists/algorithms from the [HDR UK Phenotype Library](https://phenotypes.healthdatagateway.org/) or [OpenCodelists](https://www.opencodelists.org/), in conjunction with the below advice.
+Identifying and cleaning weight values in EHR data. We recommend using the SNOMED CT codelist developed by the University of Exeter.
+
+## Codelists
+
+- [Exeter weight SNOMED CT codelist](https://github.com/Exeter-Diabetes/CPRD-Codelists/blob/HEAD/Medcodes/Biomarkers/SNOMED%20codelists/exeter_snomed_codelist_weight_final.csv)
+
+Extract the snomedcode field, remove trailing hash (#) characters from code identifiers and remove duplicate codes before use. The codelist includes measurement concepts and other clinical findings. Use associated numerical measurement values to derive continuous weight; do not infer numerical values from clinical code descriptions alone.
 
 ## Rules
 
