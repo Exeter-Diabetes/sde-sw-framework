@@ -12,9 +12,9 @@ Identifying and cleaning measured urine ACR (albumin-creatinine ratio) values in
 
 To note: steps 1-3 below should be carried out in this order to produce a standardised end result:
 
-1. Remove values less than 0 and greater than 450 as these are implausible.
-2. Apply additional cleaning rules based on unit codes where available.
-3. If multiple values recorded on the same day for a patient, we take the mean.
+1. Standardise measured ACR values to mg/mmol using recorded unit information where available. Where ACR is calculated from separate urine albumin and creatinine measurements, ensure that the component measurements are expressed in compatible units.
+2. Remove ACR values less than 0 and greater than 450 mg/mmol as these are considered implausible.
+3. If multiple ACR values are recorded on the same day for a patient, take the mean.
 
 * Check to make sure the date is within the range expected given the data source and patient DOB and death dates.
 
