@@ -65,6 +65,7 @@ One row per recorded clinical event or measurement.
 |---|---|---|
 | patient_id | Unique patient identifier | String |
 | observation_date | Date of clinical event or measurement | Date |
+| record_date | Date on which the clinical event was recorded in the electronic health record | Date |
 | clinical_code | Code describing the clinical event or measurement | SNOMED CT |
 | numeric_value | Numeric result, where applicable | Numeric |
 | unit | Unit of measurement, where applicable | String or coded value |
@@ -82,13 +83,15 @@ Historical records coded using Read v2 or CTV3 may also be relevant and should b
 
 ## 4. Primary care medication prescriptions
 
+## 4. Primary care medication prescriptions
+
 One row per prescription record.
 
 | Variable | Description | Format / coding system |
 |---|---|---|
 | patient_id | Unique patient identifier | String |
 | prescription_date | Date of prescription | Date |
-| medication_code | Code identifying the prescribed medication or device | dm+d |
+| medication_code | Code identifying the prescribed medication or device | dm+d or BNF |
 | quantity | Quantity prescribed | Numeric |
 | quantity_unit | Unit of prescribed quantity | String or coded value |
 | dose | Prescribed dose or dosage instructions | Numeric or string |
@@ -97,6 +100,10 @@ One row per prescription record.
 Medication records are used both for identifying and classifying individuals with diabetes and for deriving longitudinal treatment histories.
 
 Relevant prescriptions include glucose-lowering medications, blood pressure lowering medications, lipid lowering medications, antiplatelet therapy and continuous glucose monitoring devices.
+
+Medication codes may be provided in either dm+d or BNF format, with dm+d preferred where available. Only one coding system is required. Where necessary, codes can be mapped between coding systems using the [NHS Business Services Authority BNF-SNOMED mapping dataset](https://www.nhsbsa.nhs.uk/prescription-data/understanding-our-data/bnf-snomed-mapping), although mappings are not always one-to-one.
+
+Some SDEs may also have access to medication dispensing data in addition to prescription records. Dispensing data are used in some phenotyping algorithms, including those developed through the BHF Data Science Centre Heart Failure Phenotype Benchmarking project. Where available, relevant variables include patient identifier, dispensing date or processing period, and medication codes.
 
 &nbsp;
 
