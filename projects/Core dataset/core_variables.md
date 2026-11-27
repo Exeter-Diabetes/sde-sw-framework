@@ -37,6 +37,17 @@ Information on diabetes remission should also be retained, where available, foll
 
 &nbsp;
 
+## General principles for cleaning clinical measurements and biomarkers
+
+- Standardise measurement units before applying plausibility thresholds.
+- Where recorded units are unavailable, use codelist-specific unit information or documented, measurement-specific rules to infer units where possible.
+- Measurements with units that cannot be reliably established should be flagged and excluded from cleaned measurement values where appropriate.
+- Apply age-appropriate plausibility thresholds, particularly when processing data from children and adolescents.
+- Retain original measurement values, units and clinical codes where possible to support quality assurance and reproducibility.
+- Document unit conversions, assumptions and any adaptations to the recommended cleaning rules.
+
+&nbsp;
+
 ## 3. Clinical measurements
 
 | Variable | Codelists and implementation guidance |
