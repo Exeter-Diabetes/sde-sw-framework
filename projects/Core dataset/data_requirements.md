@@ -83,8 +83,6 @@ Historical records coded using Read v2 or CTV3 may also be relevant and should b
 
 ## 4. Primary care medication prescriptions
 
-## 4. Primary care medication prescriptions
-
 One row per prescription record.
 
 | Variable | Description | Format / coding system |
