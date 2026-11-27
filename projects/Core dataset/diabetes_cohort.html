@@ -1,0 +1,3086 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Documentation for the core diabetes dataset, codelists, and related projects.">
+      
+      
+      
+      
+        <link rel="prev" href="data_requirements.html">
+      
+      
+        <link rel="next" href="KMS%20implementation/index.html">
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.0, mkdocs-material-9.5.0">
+    
+    
+      
+        <title>Diabetes cohort ascertainment - SWSDE Diabetes Data</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.45e1311d.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../css/custom.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#stage-1-diabetes-cohort-ascertainment-and-classification" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../../index.html" title="SWSDE Diabetes Data" class="md-header__button md-logo" aria-label="SWSDE Diabetes Data" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            SWSDE Diabetes Data
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Diabetes cohort ascertainment
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var media,input,key,value,palette=__md_get("__palette");if(palette&&palette.color){"(prefers-color-scheme)"===palette.color.media&&(media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']"),palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent"));for([key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/Exeter-Diabetes/sde-sw-framework" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../index.html" title="SWSDE Diabetes Data" class="md-nav__button md-logo" aria-label="SWSDE Diabetes Data" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    SWSDE Diabetes Data
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/Exeter-Diabetes/sde-sw-framework" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../index.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Introduction
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Code lists
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Code lists
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_1" id="__nav_2_1_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Conditions
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_1">
+            <span class="md-nav__icon md-icon"></span>
+            Conditions
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_1_1" >
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../code_lists/conditions/cardiovascular%20disease/index.html" class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    Cardiovascular disease
+  </span>
+  
+
+            </a>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_2_1_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_1_1">
+            <span class="md-nav__icon md-icon"></span>
+            Cardiovascular disease
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_1_2" >
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../code_lists/conditions/chronic%20kidney%20disease/index.html" class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    Chronic kidney disease
+  </span>
+  
+
+            </a>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_2_1_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_1_2">
+            <span class="md-nav__icon md-icon"></span>
+            Chronic kidney disease
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_1_3" >
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../code_lists/conditions/diabetes/index.html" class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    Diabetes
+  </span>
+  
+
+            </a>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_2_1_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_1_3">
+            <span class="md-nav__icon md-icon"></span>
+            Diabetes
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_1_4" >
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../code_lists/conditions/foot%20complications/index.html" class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    Foot complications
+  </span>
+  
+
+            </a>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_2_1_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_1_4">
+            <span class="md-nav__icon md-icon"></span>
+            Foot complications
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_1_5" >
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../code_lists/conditions/hyperglycaemic%20crisis/index.html" class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    Hyperglycaemic crisis
+  </span>
+  
+
+            </a>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_2_1_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_1_5">
+            <span class="md-nav__icon md-icon"></span>
+            Hyperglycaemic crisis
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_1_6" >
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../code_lists/conditions/retinopathy/index.html" class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    Retinopathy
+  </span>
+  
+
+            </a>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_2_1_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_1_6">
+            <span class="md-nav__icon md-icon"></span>
+            Retinopathy
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_2" id="__nav_2_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Investigations
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_2">
+            <span class="md-nav__icon md-icon"></span>
+            Investigations
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_2_1" >
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../code_lists/investigations/ACR/index.html" class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    ACR
+  </span>
+  
+
+            </a>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_2_2_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_2_1">
+            <span class="md-nav__icon md-icon"></span>
+            ACR
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_2_2" >
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../code_lists/investigations/ALT/index.html" class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    ALT
+  </span>
+  
+
+            </a>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_2_2_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_2_2">
+            <span class="md-nav__icon md-icon"></span>
+            ALT
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_2_3" >
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../code_lists/investigations/BMI/index.html" class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    BMI
+  </span>
+  
+
+            </a>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_2_2_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_2_3">
+            <span class="md-nav__icon md-icon"></span>
+            BMI
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_2_4" >
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../code_lists/investigations/Blood%20pressure/index.html" class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    Blood pressure
+  </span>
+  
+
+            </a>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_2_2_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_2_4">
+            <span class="md-nav__icon md-icon"></span>
+            Blood pressure
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_2_5" >
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../code_lists/investigations/HDL/index.html" class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    HDL
+  </span>
+  
+
+            </a>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_2_2_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_2_5">
+            <span class="md-nav__icon md-icon"></span>
+            HDL
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_2_6" >
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../code_lists/investigations/HbA1c/index.html" class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    HbA1c
+  </span>
+  
+
+            </a>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_2_2_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_2_6">
+            <span class="md-nav__icon md-icon"></span>
+            HbA1c
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_2_7" >
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../code_lists/investigations/Height/index.html" class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    Height
+  </span>
+  
+
+            </a>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_2_2_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_2_7">
+            <span class="md-nav__icon md-icon"></span>
+            Height
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_2_8" >
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../code_lists/investigations/Total%20cholesterol/index.html" class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    Total cholesterol
+  </span>
+  
+
+            </a>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_2_2_8_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_2_8">
+            <span class="md-nav__icon md-icon"></span>
+            Total cholesterol
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_2_9" >
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../code_lists/investigations/Triglycerides/index.html" class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    Triglycerides
+  </span>
+  
+
+            </a>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_2_2_9_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_2_9">
+            <span class="md-nav__icon md-icon"></span>
+            Triglycerides
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_2_10" >
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../code_lists/investigations/Weight/index.html" class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    Weight
+  </span>
+  
+
+            </a>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_2_2_10_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_2_10">
+            <span class="md-nav__icon md-icon"></span>
+            Weight
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_2_11" >
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../code_lists/investigations/eGFR/index.html" class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    eGFR
+  </span>
+  
+
+            </a>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_2_2_11_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_2_11">
+            <span class="md-nav__icon md-icon"></span>
+            eGFR
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_3" id="__nav_2_3_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Medications
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_3">
+            <span class="md-nav__icon md-icon"></span>
+            Medications
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_3_1" >
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../code_lists/medications/CGM/index.html" class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    CGM
+  </span>
+  
+
+            </a>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_2_3_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_3_1">
+            <span class="md-nav__icon md-icon"></span>
+            CGM
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_3_2" >
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../code_lists/medications/antiplatelet%20medications/index.html" class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    Antiplatelet medications
+  </span>
+  
+
+            </a>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_2_3_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_3_2">
+            <span class="md-nav__icon md-icon"></span>
+            Antiplatelet medications
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_3_3" >
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../code_lists/medications/blood%20pressure%20lowering%20medications/index.html" class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    Blood pressure lowering medications
+  </span>
+  
+
+            </a>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_2_3_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_3_3">
+            <span class="md-nav__icon md-icon"></span>
+            Blood pressure lowering medications
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_3_4" >
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../code_lists/medications/diabetes%20medications/index.html" class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    Diabetes medications
+  </span>
+  
+
+            </a>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_2_3_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_3_4">
+            <span class="md-nav__icon md-icon"></span>
+            Diabetes medications
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_3_5" >
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../code_lists/medications/lipid%20lowering%20medications/index.html" class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    Lipid lowering medications
+  </span>
+  
+
+            </a>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_2_3_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_3_5">
+            <span class="md-nav__icon md-icon"></span>
+            Lipid lowering medications
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_4" id="__nav_2_4_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Sociodemographics
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_4">
+            <span class="md-nav__icon md-icon"></span>
+            Sociodemographics
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_4_1" >
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../code_lists/sociodemographics/alcohol%20status/index.html" class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    Alcohol status
+  </span>
+  
+
+            </a>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_2_4_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_4_1">
+            <span class="md-nav__icon md-icon"></span>
+            Alcohol status
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_4_2" >
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../code_lists/sociodemographics/date%20of%20birth/index.html" class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    Date of birth
+  </span>
+  
+
+            </a>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_2_4_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_4_2">
+            <span class="md-nav__icon md-icon"></span>
+            Date of birth
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_4_3" >
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../code_lists/sociodemographics/ethnicity/index.html" class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    Ethnicity
+  </span>
+  
+
+            </a>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_2_4_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_4_3">
+            <span class="md-nav__icon md-icon"></span>
+            Ethnicity
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_4_4" >
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../code_lists/sociodemographics/smoking%20status/index.html" class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    Smoking status
+  </span>
+  
+
+            </a>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_2_4_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_4_4">
+            <span class="md-nav__icon md-icon"></span>
+            Smoking status
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Projects
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Projects
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_1" checked>
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="index.html" class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    Core dataset
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_3_1" id="__nav_3_1_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_1_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3_1">
+            <span class="md-nav__icon md-icon"></span>
+            Core dataset
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="core_variables.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Derivation of core variables
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="data_requirements.html" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Data requirements
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Diabetes cohort ascertainment
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="diabetes_cohort.html" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Diabetes cohort ascertainment
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#overview" class="md-nav__link">
+    <span class="md-ellipsis">
+      Overview
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#input-data-requirements" class="md-nav__link">
+    <span class="md-ellipsis">
+      Input data requirements
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#prerequisites-and-general-data-cleaning" class="md-nav__link">
+    <span class="md-ellipsis">
+      Prerequisites and general data cleaning
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#implementation-overview" class="md-nav__link">
+    <span class="md-ellipsis">
+      Implementation overview
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#a-extraction-and-cleaning-of-diabetes-related-records" class="md-nav__link">
+    <span class="md-ellipsis">
+      A. Extraction and cleaning of diabetes-related records
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="A. Extraction and cleaning of diabetes-related records">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#a1-diabetes-diagnostic-codes" class="md-nav__link">
+    <span class="md-ellipsis">
+      A1. Diabetes diagnostic codes
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#a2-hba1c-measurements" class="md-nav__link">
+    <span class="md-ellipsis">
+      A2. HbA1c measurements
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#a3-glucose-lowering-medication-prescriptions" class="md-nav__link">
+    <span class="md-ellipsis">
+      A3. Glucose-lowering medication prescriptions
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#b-identification-of-individuals-with-diabetes" class="md-nav__link">
+    <span class="md-ellipsis">
+      B. Identification of individuals with diabetes
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#c-derivation-of-diabetes-diagnosis-date-and-age" class="md-nav__link">
+    <span class="md-ellipsis">
+      C. Derivation of diabetes diagnosis date and age
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#d-classification-of-diabetes-type" class="md-nav__link">
+    <span class="md-ellipsis">
+      D. Classification of diabetes type
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#output-of-stage-1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Output of Stage 1
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#quality-assurance" class="md-nav__link">
+    <span class="md-ellipsis">
+      Quality assurance
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#previous-implementation" class="md-nav__link">
+    <span class="md-ellipsis">
+      Previous implementation
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_1_5" >
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="KMS%20implementation/index.html" class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    KMS implementation
+  </span>
+  
+
+            </a>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_3_1_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_1_5">
+            <span class="md-nav__icon md-icon"></span>
+            KMS implementation
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_2" >
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../Diabetes%20genomics%20dataset/index.html" class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    Diabetes genomics dataset
+  </span>
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_3_2" id="__nav_3_2_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_2">
+            <span class="md-nav__icon md-icon"></span>
+            Diabetes genomics dataset
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_2_2" >
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../Diabetes%20genomics%20dataset/Ethnicity%20mapping/index.html" class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    Ethnicity mapping
+  </span>
+  
+
+            </a>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_3_2_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_2_2">
+            <span class="md-nav__icon md-icon"></span>
+            Ethnicity mapping
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#overview" class="md-nav__link">
+    <span class="md-ellipsis">
+      Overview
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#input-data-requirements" class="md-nav__link">
+    <span class="md-ellipsis">
+      Input data requirements
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#prerequisites-and-general-data-cleaning" class="md-nav__link">
+    <span class="md-ellipsis">
+      Prerequisites and general data cleaning
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#implementation-overview" class="md-nav__link">
+    <span class="md-ellipsis">
+      Implementation overview
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#a-extraction-and-cleaning-of-diabetes-related-records" class="md-nav__link">
+    <span class="md-ellipsis">
+      A. Extraction and cleaning of diabetes-related records
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="A. Extraction and cleaning of diabetes-related records">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#a1-diabetes-diagnostic-codes" class="md-nav__link">
+    <span class="md-ellipsis">
+      A1. Diabetes diagnostic codes
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#a2-hba1c-measurements" class="md-nav__link">
+    <span class="md-ellipsis">
+      A2. HbA1c measurements
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#a3-glucose-lowering-medication-prescriptions" class="md-nav__link">
+    <span class="md-ellipsis">
+      A3. Glucose-lowering medication prescriptions
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#b-identification-of-individuals-with-diabetes" class="md-nav__link">
+    <span class="md-ellipsis">
+      B. Identification of individuals with diabetes
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#c-derivation-of-diabetes-diagnosis-date-and-age" class="md-nav__link">
+    <span class="md-ellipsis">
+      C. Derivation of diabetes diagnosis date and age
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#d-classification-of-diabetes-type" class="md-nav__link">
+    <span class="md-ellipsis">
+      D. Classification of diabetes type
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#output-of-stage-1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Output of Stage 1
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#quality-assurance" class="md-nav__link">
+    <span class="md-ellipsis">
+      Quality assurance
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#previous-implementation" class="md-nav__link">
+    <span class="md-ellipsis">
+      Previous implementation
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+<h1 id="stage-1-diabetes-cohort-ascertainment-and-classification">Stage 1: Diabetes cohort ascertainment and classification</h1>
+<h2 id="overview">Overview</h2>
+<p>The first stage of implementing the Diabetes Core Dataset (DIA-Core) involves identifying individuals with diabetes, determining their date and age at diagnosis, and classifying diabetes type.</p>
+<p>We recommend following the algorithms developed by the <a href="https://bhf-dsc-hds.shinyapps.io/hds_phenotypes_diabetes/">BHF HDR UK Diabetes Data Science Catalyst (DDSC) Defining Diabetes project</a>. The algorithms and associated codelists are also available via the <a href="https://phenotypes.healthdatagateway.org/phenotypes/PH4062/version/9273/">HDR UK Phenotype Library</a>.</p>
+<p>The following sections provide step-by-step implementation guidance for applying these algorithms to routinely collected primary care data.</p>
+<p>&nbsp;</p>
+<h2 id="input-data-requirements">Input data requirements</h2>
+<p>The following input data are required:</p>
+<ul>
+<li>Patient demographics.</li>
+<li>Primary care registration information.</li>
+<li>Primary care clinical observations, including diabetes diagnostic codes and HbA1c measurements.</li>
+<li>Primary care medication prescriptions, including insulin and non-insulin glucose-lowering medications.</li>
+</ul>
+<p>See the <a href="data_requirements.html">standardised input data requirements</a> for further details of the tables, variables and coding systems required.</p>
+<p>&nbsp;</p>
+<h2 id="prerequisites-and-general-data-cleaning">Prerequisites and general data cleaning</h2>
+<p>Before implementing the diabetes cohort ascertainment algorithm:</p>
+<ul>
+<li>Date of birth should be available for all patients (at minimum, year of birth; month and year preferred). Patients without this information should be excluded.</li>
+<li>Where the exact date of birth is unavailable, we have developed an <a href="../../code_lists/sociodemographics/date%20of%20birth/index.html">algorithm for defining date of birth</a>; however, its use may be restricted by data source-specific governance or regulatory requirements.</li>
+<li>Sex should be available for all patients.</li>
+<li>Additional data cleaning steps depend on the data source. For example, in CPRD we additionally exclude patients without valid registration dates, those aged over 115 years, and those from practices with anomalous mortality rates.</li>
+<li>Date of death should preferentially be obtained from national mortality registration data over primary or secondary care recorded dates, where available.</li>
+<li>Relevant historical diabetes diagnostic codes may be stored in different source tables, such as problem or observation tables.</li>
+<li>The last observable date should reflect the end of available follow-up for each patient, taking into account the data collection end date, deregistration date and date of death, where applicable.</li>
+</ul>
+<p>&nbsp;</p>
+<h2 id="implementation-overview">Implementation overview</h2>
+<p>The implementation is divided into four components:</p>
+<ol>
+<li>Extraction and cleaning of diabetes-related clinical and medication records.</li>
+<li>Identification of individuals with diabetes.</li>
+<li>Derivation of diabetes diagnosis date and age at diagnosis.</li>
+<li>Classification of diabetes type.</li>
+</ol>
+<pre class="mermaid"><code>flowchart TD
+    A[Diabetes diagnostic codes] --&gt; D[Clean and categorise diabetes codes]
+    B[HbA1c measurements] --&gt; E[Clean HbA1c measurements]
+    C[Medication prescriptions] --&gt; F[Clean glucose-lowering prescriptions]
+
+    D --&gt; G[Diabetes diagnostic code]
+    E --&gt; H[Two consecutive elevated HbA1c measurements]
+    F --&gt; I[At least six months of insulin prescription data]
+
+    G --&gt; J[Identify diabetes cases]
+    H --&gt; J
+    I --&gt; J
+
+    J --&gt; K[Derive diabetes diagnosis date and age]
+    K --&gt; L[Classify diabetes type]
+    D --&gt; L
+    F --&gt; L
+
+    L --&gt; M[Diabetes cohort]
+    M --&gt; N[Stage 2: Derive remaining DIA-Core variables]</code></pre>
+<p>&nbsp;</p>
+<h2 id="a-extraction-and-cleaning-of-diabetes-related-records">A. Extraction and cleaning of diabetes-related records</h2>
+<h3 id="a1-diabetes-diagnostic-codes">A1. Diabetes diagnostic codes</h3>
+<p>Use the <a href="../../code_lists/conditions/diabetes/index.html">diabetes diagnostic codelists</a> to extract and clean all instances of diabetes diagnostic codes.</p>
+<table>
+<thead>
+<tr>
+<th>Step</th>
+<th>Description</th>
+<th>Output</th>
+<th>Quality assurance</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>A1.1</td>
+<td>Extract and clean all diabetes diagnostic codes, categorised as type 1, type 2, other or not otherwise specified (NOS).</td>
+<td>Longitudinal table containing patient identifier, observation date and diabetes code category.</td>
+<td>Distribution of code dates. Number and percentage of patients with diabetes diagnostic codes.</td>
+</tr>
+<tr>
+<td>A1.2</td>
+<td>Identify the earliest clean diabetes diagnostic code per patient.</td>
+<td>One row per patient with earliest diabetes code date.</td>
+<td>Distribution of earliest diabetes code dates.</td>
+</tr>
+<tr>
+<td>A1.3</td>
+<td>Count type 1 and type 2-specific diabetes codes per patient.</td>
+<td>One row per patient with counts of type 1 and type 2-specific codes.</td>
+<td>Distribution of code counts and number of patients with codes for both types.</td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>
+<h3 id="a2-hba1c-measurements">A2. HbA1c measurements</h3>
+<p>Use the <a href="../../code_lists/investigations/HbA1c/index.html">HbA1c codelists and cleaning rules</a> to identify and clean all available HbA1c measurements.</p>
+<table>
+<thead>
+<tr>
+<th>Step</th>
+<th>Description</th>
+<th>Output</th>
+<th>Quality assurance</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>A2.1</td>
+<td>Extract and clean all HbA1c measurements, standardising values to mmol/mol. Combine multiple measurements on the same day according to the HbA1c cleaning rules.</td>
+<td>Longitudinal table containing patient identifier, measurement date and cleaned HbA1c value. One row per patient per date.</td>
+<td>Distribution of HbA1c values and measurement dates.</td>
+</tr>
+<tr>
+<td>A2.2</td>
+<td>Identify the earliest elevated HbA1c measurement (&gt;=48 mmol/mol) per patient.</td>
+<td>One row per patient with earliest elevated HbA1c date.</td>
+<td>Distribution of dates and number of patients with elevated HbA1c.</td>
+</tr>
+<tr>
+<td>A2.3</td>
+<td>Identify patients with two consecutive elevated HbA1c measurements (&gt;=48 mmol/mol) within two years, with no intervening non-elevated measurement. Retain the date of the first measurement in the earliest qualifying pair.</td>
+<td>One row per patient meeting this criterion, including the date of the first elevated HbA1c in the qualifying pair.</td>
+<td>Number of patients meeting the criterion.</td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>
+<h3 id="a3-glucose-lowering-medication-prescriptions">A3. Glucose-lowering medication prescriptions</h3>
+<p>Use the <a href="../../code_lists/medications/diabetes%20medications/index.html">diabetes medication codelists</a> to extract and clean insulin and non-insulin glucose-lowering medication prescriptions.</p>
+<table>
+<thead>
+<tr>
+<th>Step</th>
+<th>Description</th>
+<th>Output</th>
+<th>Quality assurance</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>A3.1</td>
+<td>Extract and clean all insulin and non-insulin glucose-lowering medication prescriptions.</td>
+<td>Longitudinal prescription tables containing patient identifier, prescription date, drug class, drug substance, and available dose and quantity information.</td>
+<td>Distribution of prescription dates. Number of patients prescribed insulin, non-insulin glucose-lowering medications, and both.</td>
+</tr>
+<tr>
+<td>A3.2</td>
+<td>Identify the earliest and latest insulin prescription dates per patient. Calculate the number of days between these dates and the number of days between the latest insulin prescription and the last observable date.</td>
+<td>One row per patient with earliest and latest insulin prescription dates, duration of recorded insulin use and time since latest prescription.</td>
+<td>Distribution of duration of recorded insulin use and time since latest insulin prescription.</td>
+</tr>
+</tbody>
+</table>
+<p>There may be multiple prescriptions for an individual on the same date. These should be retained where they represent distinct prescriptions.</p>
+<p>&nbsp;</p>
+<h2 id="b-identification-of-individuals-with-diabetes">B. Identification of individuals with diabetes</h2>
+<p>Individuals meeting at least one of the following criteria are identified as diabetes cases:</p>
+<ol>
+<li>A recorded diabetes diagnostic code.</li>
+<li>Two consecutive elevated HbA1c measurements (&gt;=48 mmol/mol) within two years.</li>
+<li>At least 183 days between the earliest and latest recorded insulin prescriptions.</li>
+</ol>
+<table>
+<thead>
+<tr>
+<th>Step</th>
+<th>Description</th>
+<th>Output</th>
+<th>Quality assurance</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>B1</td>
+<td>Combine the patient-level information derived in section A to identify individuals meeting at least one of the three diabetes ascertainment criteria.</td>
+<td>One row per patient with diabetes, including separate binary indicators for each ascertainment criterion.</td>
+<td>Total number and percentage of patients identified as diabetes cases. Number of patients meeting each criterion and each combination of criteria.</td>
+</tr>
+</tbody>
+</table>
+<p>Retaining separate indicators for the three criteria enables comparison of the relative contribution of different data sources to diabetes ascertainment.</p>
+<p>&nbsp;</p>
+<h2 id="c-derivation-of-diabetes-diagnosis-date-and-age">C. Derivation of diabetes diagnosis date and age</h2>
+<p>For individuals identified as having diabetes, use the earliest diabetes diagnostic code and elevated HbA1c measurements to estimate the date of diabetes diagnosis, following the DDSC algorithm.</p>
+<table>
+<thead>
+<tr>
+<th>Step</th>
+<th>Description</th>
+<th>Output</th>
+<th>Quality assurance</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>C1</td>
+<td>Derive diabetes diagnosis date using the earliest diabetes diagnostic code and the first elevated HbA1c measurement from the earliest qualifying pair, following the <a href="../../code_lists/conditions/diabetes/index.html">diabetes diagnosis date algorithm</a>.</td>
+<td>One row per patient with estimated diabetes diagnosis date.</td>
+<td>Distribution of diagnosis dates and number of patients with missing diagnosis dates.</td>
+</tr>
+<tr>
+<td>C2</td>
+<td>Identify diagnosis dates within -30 to +90 days (inclusive) of GP registration start date, as these may represent pre-existing diagnoses.</td>
+<td>Indicator of potentially unreliable diagnosis dates.</td>
+<td>Number and percentage of patients with diagnosis dates around registration.</td>
+</tr>
+<tr>
+<td>C3</td>
+<td>Calculate time from diabetes diagnosis to earliest insulin prescription in days. Identify patients whose earliest insulin prescription occurred more than one year before the estimated diagnosis date.</td>
+<td>Time from diagnosis to insulin initiation and indicator of potentially unreliable diagnosis dates.</td>
+<td>Distribution of time from diagnosis to insulin initiation.</td>
+</tr>
+<tr>
+<td>C4</td>
+<td>Apply diagnosis date cleaning rules and calculate age at diagnosis using patient date of birth, to one decimal point where date precision permits.</td>
+<td>Cleaned diabetes diagnosis date and age at diagnosis.</td>
+<td>Distribution of diagnosis dates and ages. Number and percentage of patients with missing diagnosis date or age.</td>
+</tr>
+</tbody>
+</table>
+<p>We recommend setting potentially unreliable diagnosis dates to missing where they occur around GP registration or where insulin initiation predates the estimated diagnosis date by more than one year. Individuals should remain in the diabetes cohort even if their diagnosis date cannot be reliably determined.</p>
+<p>See the <a href="../../code_lists/conditions/diabetes/index.html">diabetes diagnosis date rules</a> for further information.</p>
+<p>&nbsp;</p>
+<h2 id="d-classification-of-diabetes-type">D. Classification of diabetes type</h2>
+<p>Apply the <a href="https://bhf-dsc-hds.shinyapps.io/hds_phenotypes_diabetes/">DDSC diabetes classification algorithm</a> using the diabetes diagnostic codes, diagnosis information and medication prescription history derived in the preceding steps.</p>
+<table>
+<thead>
+<tr>
+<th>Step</th>
+<th>Description</th>
+<th>Output</th>
+<th>Quality assurance</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>D1</td>
+<td>Apply the DDSC diabetes type classification algorithm.</td>
+<td>One row per patient with assigned diabetes classification.</td>
+<td>Number and percentage of patients in each diabetes classification category.</td>
+</tr>
+<tr>
+<td>D2</td>
+<td>Combine diabetes classification with diabetes diagnosis date and age at diagnosis.</td>
+<td>Patient-level diabetes cohort.</td>
+<td>Distribution of age at diagnosis by diabetes type and percentage with missing diagnosis dates.</td>
+</tr>
+</tbody>
+</table>
+<p>The DDSC algorithm assigns individuals to the following categories:</p>
+<ul>
+<li>Type 1 diabetes.</li>
+<li>Type 2 diabetes.</li>
+<li>Diabetes other.</li>
+<li>Diabetes not otherwise specified (NOS).</li>
+<li>Diabetes unlikely.</li>
+</ul>
+<p>See the <a href="../../code_lists/conditions/diabetes/index.html">diabetes classification rules</a> for further information, including classification of individuals with conflicting type 1 and type 2 diabetes diagnostic codes.</p>
+<p>Diabetes remission should be recorded separately from diabetes type, where information is available.</p>
+<p>&nbsp;</p>
+<h2 id="output-of-stage-1">Output of Stage 1</h2>
+<p>The output of Stage 1 is a patient-level diabetes cohort with one row per patient.</p>
+<p>We recommend retaining the following variables to support reproducibility and quality assurance:</p>
+<table>
+<thead>
+<tr>
+<th>Variable</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>patient_id</td>
+<td>Unique pseudonymous patient identifier</td>
+</tr>
+<tr>
+<td>diabetes_code</td>
+<td>Indicator of meeting the diabetes diagnostic code criterion</td>
+</tr>
+<tr>
+<td>elevated_hba1c_pair</td>
+<td>Indicator of meeting the elevated HbA1c criterion</td>
+</tr>
+<tr>
+<td>insulin_6months</td>
+<td>Indicator of meeting the insulin prescription criterion</td>
+</tr>
+<tr>
+<td>earliest_diabetes_code_date</td>
+<td>Earliest clean diabetes diagnostic code date</td>
+</tr>
+<tr>
+<td>earliest_elevated_hba1c_date</td>
+<td>Earliest elevated HbA1c measurement date</td>
+</tr>
+<tr>
+<td>earliest_qualifying_hba1c_date</td>
+<td>First measurement date in the earliest qualifying HbA1c pair</td>
+</tr>
+<tr>
+<td>earliest_insulin_date</td>
+<td>Earliest recorded insulin prescription date</td>
+</tr>
+<tr>
+<td>latest_insulin_date</td>
+<td>Latest recorded insulin prescription date</td>
+</tr>
+<tr>
+<td>diabetes_diagnosis_date</td>
+<td>Estimated diabetes diagnosis date after cleaning</td>
+</tr>
+<tr>
+<td>diabetes_diagnosis_age</td>
+<td>Estimated age at diabetes diagnosis</td>
+</tr>
+<tr>
+<td>diagnosis_near_registration</td>
+<td>Indicator of diagnosis date around GP registration</td>
+</tr>
+<tr>
+<td>insulin_before_diagnosis</td>
+<td>Indicator of insulin initiation more than one year before estimated diagnosis</td>
+</tr>
+<tr>
+<td>time_to_insulin</td>
+<td>Time from diabetes diagnosis to earliest insulin prescription</td>
+</tr>
+<tr>
+<td>type1_code_count</td>
+<td>Number of type 1-specific diabetes codes</td>
+</tr>
+<tr>
+<td>type2_code_count</td>
+<td>Number of type 2-specific diabetes codes</td>
+</tr>
+<tr>
+<td>diabetes_type</td>
+<td>Diabetes classification derived using the DDSC algorithm</td>
+</tr>
+</tbody>
+</table>
+<p>Individuals classified as 'diabetes unlikely' should be retained in the intermediate output for quality assurance, with their inclusion or exclusion from the final diabetes cohort documented.</p>
+<p>The longitudinal tables of cleaned diabetes diagnostic codes, HbA1c measurements and glucose-lowering medication prescriptions should also be retained.</p>
+<p>The diabetes cohort can then be used to implement <a href="core_variables.html">Stage 2: Derivation of the remaining DIA-Core variables</a>.</p>
+<p>&nbsp;</p>
+<h2 id="quality-assurance">Quality assurance</h2>
+<p>For continuous variables and dates, we recommend reporting the minimum, 25th percentile, median, 75th percentile, maximum and mode, where appropriate.</p>
+<p>For categorical variables, we recommend reporting counts, percentages and missingness.</p>
+<p>Quality assurance outputs should be reviewed at each stage of the implementation to identify potential data quality issues and unexpected differences between data sources.</p>
+<p>&nbsp;</p>
+<h2 id="previous-implementation">Previous implementation</h2>
+<p>An SQL implementation developed by Kent, Medway and Sussex (KMS) SDE, based on an earlier iteration of the diabetes cohort ascertainment steps, is available <a href="KMS%20implementation/index.html">here</a>.</p>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+  <hr class="footer-divider">
+  
+  <div style="text-align: right; padding: 20px 16px 20px 0;">
+    <a href="https://www.southwestsde.nhs.uk">
+      <img src="../../assets/southwestsde-nhs-uk.png" alt="Logo" style="height: 65px; width: auto;">
+    </a>
+  </div>
+
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.indexes"], "search": "../../assets/javascripts/workers/search.f886a092.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.d7c377c4.min.js"></script>
+      
+    
+  </body>
+</html>
