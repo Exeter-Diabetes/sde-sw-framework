@@ -79,11 +79,19 @@ Cleaned HbA1c measurements derived during Stage 1 can be reused.
 | Retinopathy | [Diabetes complications](../../code_lists/conditions/diabetes%20complications/index.md) |
 | Foot complications | [Diabetes complications](../../code_lists/conditions/diabetes%20complications/index.md) |
 | Lower limb amputation | [Diabetes complications](../../code_lists/conditions/diabetes%20complications/index.md) |
-| Cardiovascular disease, including hypertension and heart failure | [Diabetes complications](../../code_lists/conditions/diabetes%20complications/index.md) |
-| Chronic kidney disease, dialysis and kidney transplantation | [Diabetes complications](../../code_lists/conditions/diabetes%20complications/index.md) |
+| Cardiovascular disease, including hypertension and heart failure | [Cardiovascular disease](../../code_lists/conditions/cardiovascular%20disease/index.md) |
+| Chronic kidney disease, dialysis and kidney transplantation | [Chronic kidney disease](../../code_lists/conditions/chronic%20kidney%20disease/index.md) |
 | Diabetic ketoacidosis (DKA) and hyperosmolar hyperglycaemic state (HHS) | [Diabetes complications](../../code_lists/conditions/diabetes%20complications/index.md) |
 
-Where available, primary care records should be supplemented with linked secondary care and mortality data.
+Where available, primary care records should be supplemented with linked secondary care and mortality data. Recorded disease history should be distinguished from acute clinical events where possible.
+
+We recommend building on existing phenotyping resources developed by the BHF Data Science Centre, including:
+
+- SCORE-CVD algorithms for identifying acute myocardial infarction and stroke events.
+- Heart Failure Phenotype Benchmarking resources for identifying heart failure.
+- Kidney Data Science Catalyst algorithm for identifying and staging chronic kidney disease.
+
+Further information, including codelists, implementation code and guidance on applying these algorithms within DIA-Core, is provided on the cardiovascular disease and chronic kidney disease pages.
 
 Output: longitudinal tables containing patient identifier, event date, complication type, subtype or severity (where applicable), and source of the clinical record.
 
