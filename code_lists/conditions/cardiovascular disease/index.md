@@ -29,7 +29,7 @@ The algorithm uses ICD-10 codes I21 and I22, incorporating information on contin
 - [SCORE-CVD MI phenotyping algorithm repository](https://github.com/BHFDSC/hds_phenotypes_score_cvd_mi)
 - [R implementation and documentation](https://github.com/BHFDSC/hds_phenotypes_score_cvd_mi/tree/HEAD/R_implementation_of%20MI_algorithm)
 - [Databricks implementation](https://github.com/BHFDSC/hds_phenotypes_score_cvd_mi/tree/HEAD/Databricks_implementation_of_MI_algorithm)
-- [Combined MI codelist](https://github.com/BHFDSC/hds_phenotypes_score_cvd_mi/blob/HEAD/Databricks_implementation_of_MI_algorithm/codelist/MI_algorithm_combined_codelist.csv)
+- [SCORE-CVD MI ICD-10 codelist](https://github.com/BHFDSC/hds_phenotypes_score_cvd_mi/blob/HEAD/Databricks_implementation_of_MI_algorithm/codelist/MI_algorithm_combined_codelist.csv)
 - [Required input variables](https://github.com/BHFDSC/hds_phenotypes_score_cvd_mi/blob/HEAD/R_implementation_of%20MI_algorithm/docs/required_columns.csv)
 
 The R implementation also includes simulated data and automated tests to support implementation in new data environments.
@@ -71,7 +71,7 @@ The algorithm incorporates information on continuous inpatient spells, diagnosis
 - [SCORE-CVD stroke phenotyping algorithm repository](https://github.com/BHFDSC/hds_phenotyping_score_cvd_stroke)
 - [R implementation and documentation](https://github.com/BHFDSC/hds_phenotyping_score_cvd_stroke/tree/HEAD/R_implementation_of_stroke_algorithm)
 - [Databricks implementation](https://github.com/BHFDSC/hds_phenotyping_score_cvd_stroke/tree/HEAD/Databricks_implementation_of_stroke_algorithm)
-- [Combined stroke codelist](https://github.com/BHFDSC/hds_phenotyping_score_cvd_stroke/blob/HEAD/Databricks_implementation_of_stroke_algorithm/codelist/combined_codelist.csv)
+- [SCORE-CVD stroke ICD-10 codelist](https://github.com/BHFDSC/hds_phenotyping_score_cvd_stroke/blob/HEAD/Databricks_implementation_of_stroke_algorithm/codelist/combined_codelist.csv)
 - [Required input variables](https://github.com/BHFDSC/hds_phenotyping_score_cvd_stroke/blob/HEAD/R_implementation_of_stroke_algorithm/docs/required_columns.csv)
 
 Simulated data and validation scripts are also provided within the R implementation.
