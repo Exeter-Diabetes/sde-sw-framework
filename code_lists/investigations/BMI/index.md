@@ -8,6 +8,8 @@ Identifying and cleaning BMI values in EHR data. We recommend using codelists/al
 
 ## Rules
 
+The plausibility thresholds below are intended for adult populations (aged 18 years and over). For children and adolescents, age-appropriate and, where relevant, sex-specific plausibility thresholds should be applied.
+
 To note: steps 1-3 below should be carried out in this order to produce a standardised end result:
 
 1. Remove values less than 15 and greater than 100 kg per square metre as these are implausible for adults.
