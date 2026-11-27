@@ -10,21 +10,23 @@ Identification of cardiovascular disease in routinely collected electronic healt
 
 We recommend deriving individual cardiovascular disease phenotypes separately to enable investigation of specific cardiovascular outcomes as well as composite outcomes.
 
-Where available, primary care records should be supplemented with linked secondary care and mortality data.
+For the ascertainment of acute cardiovascular events, we recommend using the phenotyping algorithms developed by the BHF Data Science Centre's [SCORE-CVD project](https://zenodo.org/records/8171481) (Standardising Clinical Outcome measures in Routinely collected Electronic healthcare systems data). These algorithms were developed through expert consensus to standardise cardiovascular outcome ascertainment using routinely collected health data.
+
+Primary care diagnostic codelists should also be used to capture recorded cardiovascular disease history, including events that predate the availability of linked hospital data.
 
 &nbsp;
 
 ## Myocardial infarction (MI)
 
-We recommend using the myocardial infarction phenotyping algorithm developed through the BHF Data Science Centre's [SCORE-CVD project](https://zenodo.org/records/8171481) (Standardising Clinical Outcome measures in Routinely collected Electronic healthcare systems data).
+### Acute MI events
 
-The algorithm identifies first and recurrent myocardial infarction events using Hospital Episode Statistics Admitted Patient Care (HES APC) and Office for National Statistics (ONS) mortality data.
+We recommend using the SCORE-CVD myocardial infarction phenotyping algorithm to identify first and recurrent MI events using Hospital Episode Statistics Admitted Patient Care (HES APC) and Office for National Statistics (ONS) mortality data.
 
 The algorithm uses ICD-10 codes I21 and I22, incorporating information on continuous inpatient spells, diagnosis position and timing of events to identify individual MI events and avoid double counting across data sources.
 
 ### Codelists and implementation resources
 
-- [MI phenotyping algorithm repository](https://github.com/BHFDSC/hds_phenotypes_score_cvd_mi)
+- [SCORE-CVD MI phenotyping algorithm repository](https://github.com/BHFDSC/hds_phenotypes_score_cvd_mi)
 - [R implementation and documentation](https://github.com/BHFDSC/hds_phenotypes_score_cvd_mi/tree/HEAD/R_implementation_of%20MI_algorithm)
 - [Databricks implementation](https://github.com/BHFDSC/hds_phenotypes_score_cvd_mi/tree/HEAD/Databricks_implementation_of_MI_algorithm)
 - [Combined MI codelist](https://github.com/BHFDSC/hds_phenotypes_score_cvd_mi/blob/HEAD/Databricks_implementation_of_MI_algorithm/codelist/MI_algorithm_combined_codelist.csv)
@@ -32,21 +34,29 @@ The algorithm uses ICD-10 codes I21 and I22, incorporating information on contin
 
 The R implementation also includes simulated data and automated tests to support implementation in new data environments.
 
+### Recorded history of MI
+
+Primary care diagnostic codes can provide additional information on recorded MI history.
+
+- [Exeter MI SNOMED CT codelist](https://github.com/Exeter-Diabetes/CPRD-Codelists/blob/HEAD/Medcodes/Comorbidities/SNOMED%20codelists/exeter_snomed_codelist_myocardialinfarction_final.csv)
+
 ### DIA-Core implementation
 
-Apply the SCORE-CVD MI algorithm to linked hospital and mortality records for individuals in the diabetes cohort.
+Apply the SCORE-CVD MI algorithm to linked hospital and mortality records for individuals in the diabetes cohort, where these data are available.
 
 Retain all identified MI events, including patient identifier, event date, event sequence (first or recurrent event) and source of ascertainment, where available.
 
-Primary care diagnostic codes can provide additional information on recorded MI history. This should be distinguished from events identified using the SCORE-CVD algorithm.
+Information on MI history derived from primary care diagnostic codes should be retained but distinguished from acute events identified using the SCORE-CVD algorithm.
 
 &nbsp;
 
 ## Stroke
 
-We recommend using the stroke phenotyping algorithm developed through the BHF Data Science Centre's SCORE-CVD project.
+### Acute stroke events
 
-The algorithm identifies first and recurrent stroke events using linked HES APC and ONS mortality data, distinguishing the following stroke subtypes:
+We recommend using the SCORE-CVD stroke phenotyping algorithm to identify first and recurrent stroke events using linked HES APC and ONS mortality data.
+
+The algorithm distinguishes the following stroke subtypes:
 
 | Stroke subtype | Default ICD-10 codes |
 |---|---|
@@ -58,7 +68,7 @@ The algorithm incorporates information on continuous inpatient spells, diagnosis
 
 ### Codelists and implementation resources
 
-- [Stroke phenotyping algorithm repository](https://github.com/BHFDSC/hds_phenotyping_score_cvd_stroke)
+- [SCORE-CVD stroke phenotyping algorithm repository](https://github.com/BHFDSC/hds_phenotyping_score_cvd_stroke)
 - [R implementation and documentation](https://github.com/BHFDSC/hds_phenotyping_score_cvd_stroke/tree/HEAD/R_implementation_of_stroke_algorithm)
 - [Databricks implementation](https://github.com/BHFDSC/hds_phenotyping_score_cvd_stroke/tree/HEAD/Databricks_implementation_of_stroke_algorithm)
 - [Combined stroke codelist](https://github.com/BHFDSC/hds_phenotyping_score_cvd_stroke/blob/HEAD/Databricks_implementation_of_stroke_algorithm/codelist/combined_codelist.csv)
@@ -66,15 +76,21 @@ The algorithm incorporates information on continuous inpatient spells, diagnosis
 
 Simulated data and validation scripts are also provided within the R implementation.
 
+### Recorded history of stroke
+
+Primary care diagnostic codes can provide additional information on recorded stroke history.
+
+- [Exeter stroke SNOMED CT codelist](https://github.com/Exeter-Diabetes/CPRD-Codelists/blob/HEAD/Medcodes/Comorbidities/SNOMED%20codelists/exeter_snomed_codelist_stroke_final.csv)
+
 ### DIA-Core implementation
 
-Apply the SCORE-CVD stroke algorithm to linked hospital and mortality records for individuals in the diabetes cohort.
+Apply the SCORE-CVD stroke algorithm to linked hospital and mortality records for individuals in the diabetes cohort, where these data are available.
 
 Retain all identified stroke events, including patient identifier, event date, stroke subtype, event sequence (first or recurrent event), fatal stroke status and source of ascertainment.
 
 Algorithm parameters should be selected according to the intended research application and documented.
 
-Primary care diagnostic codes can provide additional information on recorded stroke history. This should be distinguished from events identified using the SCORE-CVD algorithm.
+Information on stroke history derived from primary care diagnostic codes should be retained but distinguished from acute events identified using the SCORE-CVD algorithm.
 
 &nbsp;
 
@@ -82,7 +98,7 @@ Primary care diagnostic codes can provide additional information on recorded str
 
 The BHF Data Science Centre has undertaken a heart failure phenotype benchmarking project to compare different approaches to identifying heart failure using routinely collected electronic health records.
 
-The project provides codelists and implementation code for multiple heart failure phenotype definitions, incorporating evidence from primary care records, hospital admissions and medication prescriptions.
+The project provides codelists and implementation code for multiple heart failure phenotype definitions, incorporating evidence from primary care records, hospital admissions and medication records.
 
 ### Codelists and implementation resources
 
@@ -90,7 +106,7 @@ The project provides codelists and implementation code for multiple heart failur
 - [Heart failure phenotype codelists](https://github.com/BHFDSC/Heart-failure-phenotype-benchmarking/tree/HEAD/codelists)
 - [Phenotype definitions and supporting documentation](https://github.com/BHFDSC/Heart-failure-phenotype-benchmarking/tree/HEAD/supplementary_info)
 - [Data curation and phenotype implementation code](https://github.com/BHFDSC/Heart-failure-phenotype-benchmarking/tree/HEAD/curation_code)
-- [University of Exeter heart failure SNOMED codelist](https://github.com/Exeter-Diabetes/CPRD-Codelists/blob/HEAD/Medcodes/Comorbidities/SNOMED%20codelists/exeter_snomed_codelist_heartfailure_final.csv)
+- [Exeter heart failure SNOMED CT codelist](https://github.com/Exeter-Diabetes/CPRD-Codelists/blob/HEAD/Medcodes/Comorbidities/SNOMED%20codelists/exeter_snomed_codelist_heartfailure_final.csv)
 
 ### DIA-Core implementation
 
@@ -104,15 +120,22 @@ The choice of heart failure phenotype definition should be informed by the findi
 
 ## Other cardiovascular disease phenotypes
 
-Codelists for other cardiovascular disease phenotypes are available from the [University of Exeter CPRD codelist repository](https://github.com/Exeter-Diabetes/CPRD-Codelists), the [HDR UK Phenotype Library](https://phenotypes.healthdatagateway.org/) and [OpenCodelists](https://www.opencodelists.org/).
+Additional cardiovascular disease phenotypes can be derived using primary care diagnostic codes and linked secondary care diagnostic and procedure codes.
 
-Relevant phenotypes include:
+### Codelists
 
-- Ischaemic heart disease and angina.
-- Transient ischaemic attack.
-- Hypertension.
-- Peripheral arterial disease.
-- Coronary revascularisation.
+The following SNOMED CT codelists are available from the [University of Exeter CPRD codelist repository](https://github.com/Exeter-Diabetes/CPRD-Codelists).
+
+| Phenotype | SNOMED CT codelist |
+|---|---|
+| Ischaemic heart disease | [Exeter IHD codelist](https://github.com/Exeter-Diabetes/CPRD-Codelists/blob/HEAD/Medcodes/Comorbidities/SNOMED%20codelists/exeter_snomed_codelist_ihd_final.csv) |
+| Angina | [Exeter angina codelist](https://github.com/Exeter-Diabetes/CPRD-Codelists/blob/HEAD/Medcodes/Comorbidities/SNOMED%20codelists/exeter_snomed_codelist_angina_final.csv) |
+| Transient ischaemic attack | [Exeter TIA codelist](https://github.com/Exeter-Diabetes/CPRD-Codelists/blob/HEAD/Medcodes/Comorbidities/SNOMED%20codelists/exeter_snomed_codelist_tia_final.csv) |
+| Hypertension | [Exeter hypertension codelist](https://github.com/Exeter-Diabetes/CPRD-Codelists/blob/HEAD/Medcodes/Comorbidities/SNOMED%20codelists/exeter_snomed_codelist_hypertension_final.csv) |
+| Peripheral arterial disease | [Exeter PAD codelist](https://github.com/Exeter-Diabetes/CPRD-Codelists/blob/HEAD/Medcodes/Comorbidities/SNOMED%20codelists/exeter_snomed_codelist_pad_final.csv) |
+| Revascularisation | [Exeter revascularisation codelist](https://github.com/Exeter-Diabetes/CPRD-Codelists/blob/HEAD/Medcodes/Comorbidities/SNOMED%20codelists/exeter_snomed_codelist_revasc_final.csv) |
+
+Additional codelists are available from the [HDR UK Phenotype Library](https://phenotypes.healthdatagateway.org/) and [OpenCodelists](https://www.opencodelists.org/).
 
 &nbsp;
 
@@ -122,7 +145,8 @@ Relevant phenotypes include:
 - Retain longitudinal information on cardiovascular events and diagnoses.
 - Distinguish historical diagnostic records from acute events where possible.
 - Avoid double counting events recorded across multiple data sources.
-- Document the source, version and configuration of each phenotyping algorithm used.
+- Retain individual cardiovascular disease phenotypes to enable derivation of composite outcomes according to specific research requirements.
+- Document the source, version and configuration of each codelist and phenotyping algorithm used.
 - Document any limitations arising from unavailable or incomplete linked data.
 
 See the [standardised DIA-Core input data requirements](../../../projects/Core%20dataset/data_requirements.md) for further information on the data required to implement these phenotypes.
