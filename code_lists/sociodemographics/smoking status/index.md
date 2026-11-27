@@ -27,5 +27,10 @@ When using this codelist with SNOMED CT-coded data, extract the snomedcode and c
 - Active smokers may be further subdivided according to smoking intensity (e.g. cigarettes per day), where this information is available.
 - Retain all recorded smoking status categories and observation dates.
 - When deriving smoking status at a particular date, use the most recently recorded information on or before that date.
-- If the most recent code indicates non-smoker but the individual has previously been recorded as an active smoker, categorise as ex-smoker.
+- If non-smoker and ex-smoker are recorded on the same date, categorise that date as ex-smoker.
+- If active smoker is recorded on the same date as non-smoker or ex-smoker, look at the next most recent date. Repeat until a date with an unambiguous category is found.
+- If no unambiguous dated recording is available, assign unknown.
+- If the selected status is non-smoker but the individual has previously been recorded as an active smoker before the selected date, categorise as ex-smoker.
 - Individuals without recorded smoking status should be classified as missing or unknown.
+
+These rules are based on the [Exeter CPRD smoking algorithm](https://github.com/Exeter-Diabetes/CPRD-Codelists#smoking). Assigning unknown where no unambiguous date is available is an explicit fallback for DIA-Core.
