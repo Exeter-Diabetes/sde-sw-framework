@@ -1,4 +1,3 @@
-
 ---
 title: Derivation of core variables
 ---
