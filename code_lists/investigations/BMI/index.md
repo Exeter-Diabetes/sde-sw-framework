@@ -4,7 +4,13 @@ title: BMI
 
 ## Description
 
-Identifying and cleaning BMI values in EHR data. We recommend using codelists/algorithms from the [HDR UK Phenotype Library](https://phenotypes.healthdatagateway.org/) or [OpenCodelists](https://www.opencodelists.org/), in conjunction with the below advice.
+Identifying and cleaning BMI values in EHR data. We recommend using the BMI marker codelist developed by the BHF HDR UK Diabetes Data Science Catalyst (DDSC) Defining Diabetes project.
+
+## Codelists
+
+- [DDSC BMI markers SNOMED CT codelist](https://github.com/BHFDSC/hds_phenotypes_diabetes/blob/main/hds_phenotypes_diabetes/1.%20codelists/bmi_markers.csv)
+
+The codelist includes both BMI measurement concepts and categorical BMI findings. To derive continuous BMI, use recorded numerical measurement values; do not infer a numerical BMI from the category or range in a clinical code description alone.
 
 ## Rules
 
