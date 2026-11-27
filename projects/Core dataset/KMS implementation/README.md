@@ -1,6 +1,6 @@
 # SQL code for deriving Diabetes Core Dataset variables in GP data
 
-Note that this code was developed on a previous version of the steps for which the latest version is [here](https://github.com/Exeter-Diabetes/sde-sw-framework/blob/dev/projects/Core%20dataset/index.md#defining-variables-in-gp-data). Steps 1-3 remain the same; step 4 noe corresponds to step 6; step 5 below now to step 4; step 8 now corresponds to step 11. Steps 6 and 7 below are no longer part of the implementation.
+Note that this SQL code was developed based on an earlier iteration of the Diabetes Core Dataset implementation guidance. The latest guidance for diabetes cohort ascertainment and classification is available [here](../diabetes_cohort.md). The SQL scripts below are retained as a record of the initial implementation within the Kent, Medway and Sussex SDE.
 
 
 ## Phenotype Data Flow
