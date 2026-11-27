@@ -26,4 +26,4 @@ To note: steps 1-3 below should be carried out in this order to produce a standa
 
 * [Urine albumin-creatinine ratio SNOMED](acr_snomed.csv)
 * [Urine albumin SNOMED](albumin_urine_snomed.csv)
-* [Urine creatinine SNOMED](creatinine_snomed.csv)
+* [Urine creatinine SNOMED](creatinine_urine_snomed.csv)
