@@ -21,6 +21,8 @@ The tables described below represent logical data structures rather than a presc
 
 The input data required will depend on the DIA-Core variables being derived and the data sources available within each SDE. Where input variables or data sources are unavailable, the implications for implementation should be documented.
 
+&nbsp;
+
 ## 1. Patient demographics
 
 One row per patient.
@@ -34,6 +36,8 @@ One row per patient.
 | ethnicity | Recorded ethnicity, where available as a demographic field | Categorical |
 
 Ethnicity may alternatively be derived from coded clinical observations or linked secondary care data.
+
+&nbsp;
 
 ## 2. Primary care registration
 
@@ -50,6 +54,8 @@ One row per patient registration period.
 Information on registration and data availability is required to establish patient observation periods and distinguish potentially incident from pre-existing diabetes diagnoses.
 
 The data collection end date may alternatively be supplied at practice or dataset level.
+
+&nbsp;
 
 ## 3. Primary care clinical observations
 
@@ -72,6 +78,8 @@ Relevant information may be stored across separate observation, problem, diagnos
 
 Historical records coded using Read v2 or CTV3 may also be relevant and should be mapped or processed using appropriate codelists.
 
+&nbsp;
+
 ## 4. Primary care medication prescriptions
 
 One row per prescription record.
@@ -89,6 +97,8 @@ One row per prescription record.
 Medication records are used both for identifying and classifying individuals with diabetes and for deriving longitudinal treatment histories.
 
 Relevant prescriptions include glucose-lowering medications, blood pressure lowering medications, lipid lowering medications, antiplatelet therapy and continuous glucose monitoring devices.
+
+&nbsp;
 
 ## 5. Linked secondary care data
 
@@ -135,6 +145,8 @@ One row per recorded procedure per episode.
 
 Additional secondary care fields may be required to implement specific cardiovascular and other phenotyping algorithms.
 
+&nbsp;
+
 ## 6. Linked mortality data
 
 One row per deceased patient, with information on underlying and contributory causes of death. Contributory causes may alternatively be held in a separate table with multiple rows per patient.
@@ -147,6 +159,8 @@ One row per deceased patient, with information on underlying and contributory ca
 | contributory_cause_of_death | Other recorded causes of death | ICD-10 |
 
 Where available, national mortality registration data should be used preferentially to ascertain dates and causes of death.
+
+&nbsp;
 
 ## 7. Input data requirements for diabetes cohort ascertainment
 
@@ -169,6 +183,8 @@ Where one or more data sources are unavailable, the algorithm may be partially i
 
 Further information, including codelists and algorithms for defining diabetes cases, diagnosis dates and diabetes type, is available from the [HDR UK Phenotype Library](https://phenotypes.healthdatagateway.org/phenotypes/PH4062/version/9273/) and the [Diabetes Core Dataset implementation guidance](index.md).
 
+&nbsp;
+
 ## 8. Mapping local data to DIA-Core
 
 We recommend that each SDE maps its local data structures to the logical tables and variables described above before beginning implementation.
@@ -181,8 +197,9 @@ The mapping exercise should identify:
 - Data coverage and historical availability.
 - Missing or unavailable variables.
 - Any adaptations required to implement DIA-Core algorithms.
-- 
-This mapping should be extended to cover linked secondary care and mortality data where available.
+- This mapping should be extended to cover linked secondary care and mortality data where available.
+
+&nbsp;
 
 ## 9. General data considerations
 
