@@ -76,9 +76,9 @@ Cleaned HbA1c measurements derived during Stage 1 can be reused.
 
 | Variable | Codelists and implementation guidance |
 |---|---|
-| Retinopathy | [Diabetes complications](../../code_lists/conditions/diabetes%20complications/index.md) |
-| Foot complications | [Diabetes complications](../../code_lists/conditions/diabetes%20complications/index.md) |
-| Lower limb amputation | [Diabetes complications](../../code_lists/conditions/diabetes%20complications/index.md) |
+| Retinopathy | [Retinopathy](../../code_lists/conditions/retinopathy/index.md) |
+| Foot complications | [Foot complications](../../code_lists/conditions/foot%20complications/index.md) |
+| Lower limb amputation | [Lower limb amputation](../../code_lists/conditions/foot%20complications/index.md#lower-limb-amputation) |
 | Cardiovascular disease, including hypertension and heart failure | [Cardiovascular disease](../../code_lists/conditions/cardiovascular%20disease/index.md) |
 | Chronic kidney disease, dialysis and kidney transplantation | [Chronic kidney disease](../../code_lists/conditions/chronic%20kidney%20disease/index.md) |
 | Diabetic ketoacidosis (DKA) and hyperosmolar hyperglycaemic state (HHS) | [Diabetes complications](../../code_lists/conditions/diabetes%20complications/index.md) |
