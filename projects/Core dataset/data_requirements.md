@@ -118,10 +118,13 @@ One row per hospital episode, with information enabling episodes to be grouped i
 | patient_id | Unique patient identifier | String |
 | admission_id | Unique admission or spell identifier | String |
 | episode_id | Unique hospital episode identifier | String |
+| provider_id | Hospital provider identifier (HES PROCODE5) | String |
 | admission_date | Date of hospital admission | Date |
 | discharge_date | Date of hospital discharge | Date |
 | episode_start_date | Start date of hospital episode | Date |
 | episode_end_date | End date of hospital episode | Date |
+| episode_order | Order of episode within the hospital provider spell (HES EPIORDER) | Integer |
+| episode_status | Status of hospital episode (HES EPISTAT) | Categorical |
 | admission_method | Method of admission | NHS admission method codes |
 | admission_source | Source of admission | NHS admission source codes |
 | discharge_method | Method of discharge | NHS discharge method codes |
@@ -136,6 +139,8 @@ One row per recorded diagnosis per episode.
 | episode_id | Unique hospital episode identifier | String |
 | diagnosis_code | Hospital diagnosis code | ICD-10 |
 | diagnosis_position | Position of diagnosis within episode | Integer |
+
+All available diagnostic code positions should be retained to support implementation of the SCORE-CVD phenotyping algorithms.
 
 ### Hospital procedures
 
@@ -162,6 +167,8 @@ One row per deceased patient, with information on underlying and contributory ca
 | date_of_death | Date of death | Date |
 | underlying_cause_of_death | Underlying cause of death | ICD-10 |
 | contributory_cause_of_death | Other recorded causes of death | ICD-10 |
+
+All available contributory causes of death and their recorded positions should be retained where possible.
 
 Where available, national mortality registration data should be used preferentially to ascertain dates and causes of death.
 
