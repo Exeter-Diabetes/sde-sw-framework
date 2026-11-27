@@ -12,9 +12,14 @@ This site contains information about diabetes datasets and tools developed by th
 
 The Diabetes Core Dataset (DIA-Core) defines a standardised set of variables describing diabetes diagnosis, classification, treatment, and key outcomes, derived from routinely collected health data. It is designed to support consistent, reproducible analyses across studies by providing clear variable definitions, validated codelists, and explicit implementation rules for data extraction and derivation. This dataset was agreed by expert consensus with input from patients and the public. It was developed as part of a 2025-2026 NHS-funded driver project (press releases: [1](https://www.southwestsde.nhs.uk/transforming-diabetes-research-south-west-sde-leads-new-projects/) and [2](https://digital.nhs.uk/data-and-information/research-powered-by-data/life-saving-research/news/8-pioneering-research-projects-show-the-way-on-the-value-of-data)). A preprint version of the manuscript describing the development and content of the Diabetes Core Dataset is available [here](https://www.medrxiv.org/content/10.64898/2026.08.03.26359232v1).
 
-The core data set can be found here: [Core diabetes dataset](projects/Core%20dataset/index.md)
+The DIA-Core specification and implementation framework includes the following resources:
 
-A follow-on HDRS-funded Technical Transformation project (October 2026–March 2027) is implementing DIA-Core within the North East and North Cumbria (NENC) Secure Data Environment (SDE), building on initial pilot implementation within the Kent, Medway and Sussex SDE. The project aims to establish a validated, research-ready diabetes dataset using routinely collected primary care and linked hospital and ambulance data. Reusable open-source implementation code, codelists and technical documentation will be developed to support consistent and scalable implementation of DIA-Core across the NHS SDE Network.
+- [Diabetes Core Dataset specification](projects/Core%20dataset/index.md)
+- [Standardised input data requirements](projects/Core%20dataset/data_requirements.md)
+- [Stage 1: Diabetes cohort ascertainment and classification](projects/Core%20dataset/diabetes_cohort.md)
+- [Stage 2: Derivation of the remaining core dataset variables](projects/Core%20dataset/core_variables.md)
+
+A follow-on HDRS-funded Technical Transformation project (October 2026–March 2027) aims to implement DIA-Core within the North East and North Cumbria (NENC) Secure Data Environment (SDE), building on the initial pilot implementation within the Kent, Medway and Sussex SDE. As part of this project, we are further developing the DIA-Core implementation framework, including standardised input data requirements, streamlined phenotyping algorithms, reusable codelists and technical documentation. The project aims to establish a validated, research-ready diabetes dataset within NENC using routinely collected primary care and linked hospital and ambulance data, whilst supporting consistent and scalable implementation of DIA-Core across the wider NHS SDE Network.
 
 &nbsp;
 
