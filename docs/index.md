@@ -33,7 +33,7 @@ Metadata developed as part of 2026 DAFNEA project (more information [here](https
 
 ## Codelists
 
-Codelists and algorithms for defining variables in electronic health records (EHR), as well as implementation rules, are provided for the components of the core diabetes dataset and other variables.
+Codelists and algorithms for defining variables in electronic health records (EHR), as well as implementation rules, are provided for the components of the Diabetes Core Dataset and other variables.
 
 &nbsp;
 
